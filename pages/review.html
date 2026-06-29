@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>工作复盘 - 全部记录</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/favicon.png">
+  <link rel="icon" type="image/png" href="../assets/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../assets/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
+</head>
+<body>
+  <!-- 顶部栏 -->
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <a href="../index.html" style="text-decoration:none;display:flex;"><img src="../assets/logo.svg" alt="JY" class="top-bar-avatar"></a>
+        <div class="top-bar-info">
+          <h1 class="top-bar-name">工作复盘</h1>
+          <p class="top-bar-tagline">全部月度记录</p>
+        </div>
+      </div>
+      <nav class="top-bar-nav">
+        <a href="../index.html" class="top-nav-link">← 返回首页</a>
+        <button class="top-nav-link" id="addBtn" style="background:var(--primary);color:white;border:none;cursor:pointer;font-family:var(--font-sans);">+ 新增</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主内容 -->
+  <main class="review-page">
+    <div class="review-list" id="reviewList">
+      <!-- 由 JS 渲染 -->
+    </div>
+  </main>
+
+  <!-- 新增模态框 -->
+  <div class="modal-overlay" id="formOverlay">
+    <div class="modal" id="formModal">
+      <button class="modal-close" id="formClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon">📊</span>
+        <h2 class="modal-title" id="formTitle">新增</h2>
+      </div>
+      <div class="review-form">
+        <div class="form-row">
+          <div class="form-group form-group-half">
+            <label class="form-label">年份</label>
+            <select class="form-input" id="formYear"></select>
+          </div>
+          <div class="form-group form-group-half">
+            <label class="form-label">月份</label>
+            <select class="form-input" id="formMonthSelect"></select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">本月重点（每行一条）</label>
+          <textarea class="form-textarea" id="formHighlights" rows="4" placeholder="每行输入一条重点事项&#10;例如：&#10;P39P上市EWP阶段&#10;AI研学营工作电脑Claude"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label">详细内容（支持HTML）</label>
+          <textarea class="form-textarea form-textarea-lg" id="formContent" rows="14" placeholder="输入详细的工作复盘内容，支持HTML标签&#10;例如：&#10;<h3>第一周</h3>&#10;<p>本周主要工作内容..."></textarea>
+        </div>
+        <div class="form-actions">
+          <button class="btn-outline-dark" id="formCancel">取消</button>
+          <button class="btn-primary-dark" id="formSave">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 详情模态框 -->
+  <div class="modal-overlay" id="detailOverlay">
+    <div class="modal modal-wide" id="detailModal">
+      <button class="modal-close" id="detailClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon">📊</span>
+        <h2 class="modal-title" id="detailTitle"></h2>
+      </div>
+      <div class="detail-edit-bar">
+        <button class="weekly-edit-btn" id="detailEditBtn">✏️ 编辑</button>
+        <button class="weekly-save-btn" id="detailSaveBtn" style="display:none;">💾 保存</button>
+        <button class="detail-delete-btn" id="detailDeleteBtn">🗑️ 删除</button>
+      </div>
+      <div class="modal-body modal-body-lg" id="detailBody"></div>
+    </div>
+  </div>
+
+  <script src="../js/data/weekly.js"></script>
+  <script>
+    const STORAGE_KEY = 'weekly_user_entries';
+
+    function getUserEntries() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+      catch { return []; }
+    }
+
+    function saveUserEntries(entries) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
+    }
+
+    function getAllEntries() {
+      const userEntries = getUserEntries();
+      const deletedIds = new Set(userEntries.filter(e => e._deleted).map(e => e.id));
+      const validUser = userEntries.filter(e => !e._deleted);
+      const presetIds = new Set(WEEKLY_DATA.map(e => e.id));
+      const merged = [...validUser.filter(e => !presetIds.has(e.id)), ...WEEKLY_DATA.filter(e => !deletedIds.has(e.id))];
+      merged.sort((a, b) => b.id.localeCompare(a.id));
+      return merged;
+    }
+
+    // 提取纯文本摘要（去掉HTML标签，截取前N字）
+    function getPlainSummary(html, maxLen) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      const text = tmp.textContent || tmp.innerText || '';
+      return text.replace(/\s+/g, ' ').trim().substring(0, maxLen) + (text.length > maxLen ? '...' : '');
+    }
+
+    function renderList() {
+      const entries = getAllEntries();
+      const listEl = document.getElementById('reviewList');
+
+      listEl.innerHTML = entries.map(item => `
+        <div class="review-card" data-id="${item.id}">
+          <div class="review-card-left">
+            <span class="review-card-label">${item.label}</span>
+            <ul class="review-card-highlights">
+              ${item.highlights.map(h => `<li>${h}</li>`).join('')}
+            </ul>
+          </div>
+          <div class="review-card-right">
+            <div class="review-card-preview">${getPlainSummary(item.content, 200)}</div>
+            <div class="review-card-action">查看详情 →</div>
+          </div>
+        </div>
+      `).join('');
+
+      listEl.querySelectorAll('.review-card').forEach(card => {
+        card.addEventListener('click', () => openDetail(card.dataset.id));
+      });
+    }
+
+    // ============================================
+    // 详情查看 + 编辑
+    // ============================================
+    function openDetail(id) {
+      const entries = getAllEntries();
+      const item = entries.find(e => e.id === id);
+      if (!item) return;
+
+      document.getElementById('detailTitle').textContent = item.label;
+      const body = document.getElementById('detailBody');
+      body.innerHTML = item.content;
+      body.setAttribute('contenteditable', 'false');
+      body.style.outline = 'none';
+
+      const editBtn = document.getElementById('detailEditBtn');
+      const saveBtn = document.getElementById('detailSaveBtn');
+      editBtn.style.display = 'inline-flex';
+      saveBtn.style.display = 'none';
+
+      editBtn.onclick = () => {
+        body.setAttribute('contenteditable', 'true');
+        body.focus();
+        body.style.outline = '2px solid var(--primary)';
+        body.style.borderRadius = '6px';
+        editBtn.style.display = 'none';
+        saveBtn.style.display = 'inline-flex';
+      };
+
+      saveBtn.onclick = () => {
+        body.setAttribute('contenteditable', 'false');
+        body.style.outline = 'none';
+        editBtn.style.display = 'inline-flex';
+        saveBtn.style.display = 'none';
+        const userEntries = getUserEntries();
+        const idx = userEntries.findIndex(e => e.id === id);
+        if (idx >= 0) {
+          userEntries[idx].content = body.innerHTML;
+        } else {
+          const preset = WEEKLY_DATA.find(e => e.id === id);
+          if (preset) userEntries.push({ ...preset, content: body.innerHTML });
+        }
+        saveUserEntries(userEntries);
+        renderList();
+      };
+
+      document.getElementById('detailDeleteBtn').onclick = () => {
+        if (!confirm(`确定删除「${item.label}」吗？`)) return;
+        const userEntries = getUserEntries();
+        const idx = userEntries.findIndex(e => e.id === id);
+        if (idx >= 0) {
+          userEntries.splice(idx, 1);
+        } else {
+          userEntries.push({ id: id, _deleted: true });
+        }
+        saveUserEntries(userEntries);
+        closeDetail();
+        renderList();
+      };
+
+      document.getElementById('detailOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDetail() {
+      document.getElementById('detailOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ============================================
+    // 新增
+    // ============================================
+    function initFormSelectors() {
+      const yearSel = document.getElementById('formYear');
+      const monthSel = document.getElementById('formMonthSelect');
+      const now = new Date();
+      const curYear = now.getFullYear();
+      const curMonth = now.getMonth() + 1;
+
+      yearSel.innerHTML = '';
+      for (let y = curYear - 2; y <= curYear + 1; y++) {
+        yearSel.innerHTML += `<option value="${y}" ${y === curYear ? 'selected' : ''}>${y}年</option>`;
+      }
+
+      monthSel.innerHTML = '';
+      for (let m = 1; m <= 12; m++) {
+        monthSel.innerHTML += `<option value="${m}" ${m === curMonth ? 'selected' : ''}>${m}月</option>`;
+      }
+    }
+
+    function openForm() {
+      initFormSelectors();
+      document.getElementById('formHighlights').value = '';
+      document.getElementById('formContent').value = '';
+      document.getElementById('formOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeForm() {
+      document.getElementById('formOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function saveForm() {
+      const year = document.getElementById('formYear').value;
+      const month = document.getElementById('formMonthSelect').value;
+      const highlightsRaw = document.getElementById('formHighlights').value.trim();
+      const content = document.getElementById('formContent').value.trim();
+
+      if (!year || !month) {
+        alert('请选择年月');
+        return;
+      }
+
+      const highlights = highlightsRaw
+        ? highlightsRaw.split('\n').map(s => s.trim()).filter(Boolean)
+        : ['暂无记录'];
+
+      const monthPadded = month.toString().padStart(2, '0');
+      const id = `${year}-${monthPadded}`;
+      const label = `${year}年${parseInt(month)}月`;
+
+      const newEntry = { id, label, date: id, highlights, content: content || '<p>暂无详细内容</p>' };
+
+      const userEntries = getUserEntries();
+      const idx = userEntries.findIndex(e => e.id === id);
+      if (idx >= 0) {
+        userEntries[idx] = newEntry;
+      } else {
+        userEntries.push(newEntry);
+      }
+      const delIdx = userEntries.findIndex(e => e._deleted && e.id === id);
+      if (delIdx >= 0) userEntries.splice(delIdx, 1);
+
+      saveUserEntries(userEntries);
+      closeForm();
+      renderList();
+    }
+
+    // ============================================
+    // 事件绑定
+    // ============================================
+    document.addEventListener('DOMContentLoaded', () => {
+      renderList();
+
+      document.getElementById('addBtn').addEventListener('click', openForm);
+      document.getElementById('formClose').addEventListener('click', closeForm);
+      document.getElementById('formCancel').addEventListener('click', closeForm);
+      document.getElementById('formSave').addEventListener('click', saveForm);
+      document.getElementById('detailClose').addEventListener('click', closeDetail);
+
+      document.getElementById('formOverlay').addEventListener('click', (e) => {
+        if (e.target.id === 'formOverlay') closeForm();
+      });
+      document.getElementById('detailOverlay').addEventListener('click', (e) => {
+        if (e.target.id === 'detailOverlay') closeDetail();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          if (document.getElementById('formOverlay').classList.contains('active')) closeForm();
+          if (document.getElementById('detailOverlay').classList.contains('active')) closeDetail();
+        }
+      });
+    });
+  </script>
+
+  <style>
+    /* 页面布局 */
+    .review-page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      padding-top: calc(var(--top-bar-h) + 1.5rem);
+    }
+
+    /* 卡片列表 */
+    .review-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .review-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .review-card:hover {
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .review-card-left {
+      flex-shrink: 0;
+      width: 180px;
+    }
+
+    .review-card-label {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .review-card-highlights {
+      list-style: none;
+    }
+
+    .review-card-highlights li {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      padding: 0.1rem 0;
+      padding-left: 0.75rem;
+      position: relative;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .review-card-highlights li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--primary-light);
+    }
+
+    .review-card-right {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .review-card-preview {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+
+    .review-card-action {
+      font-size: 0.75rem;
+      color: var(--primary-light);
+      font-weight: 500;
+    }
+
+    /* 详情弹窗 - 加宽 */
+    .modal-wide {
+      max-width: 950px;
+      width: 92%;
+    }
+
+    .modal-body-lg {
+      font-size: 0.92rem;
+      line-height: 1.8;
+    }
+
+    .modal-body-lg h3 {
+      font-size: 1.15rem;
+    }
+
+    .modal-body-lg h4 {
+      font-size: 1rem;
+    }
+
+    .modal-body-lg p {
+      font-size: 0.92rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .modal-body-lg li {
+      font-size: 0.92rem;
+      margin-bottom: 0.3rem;
+    }
+
+    /* 表单样式 */
+    .review-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .form-group-half {
+      flex: 1;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .form-input,
+    .form-textarea {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 0.875rem;
+      font-size: 0.88rem;
+      color: var(--text);
+      font-family: var(--font-sans);
+      transition: var(--transition);
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-50);
+    }
+
+    .form-textarea {
+      resize: vertical;
+      line-height: 1.6;
+    }
+
+    .form-textarea-lg {
+      min-height: 280px;
+    }
+
+    .form-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+      padding-top: 0.5rem;
+    }
+
+    .btn-outline-dark {
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+    }
+
+    .btn-outline-dark:hover {
+      border-color: var(--border-hover);
+      color: var(--text);
+    }
+
+    .btn-primary-dark {
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+    }
+
+    .btn-primary-dark:hover {
+      background: var(--primary-dark);
+    }
+
+    .detail-edit-bar {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .detail-delete-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+      border: 1px solid rgba(239,68,68,0.3);
+      background: rgba(239,68,68,0.1);
+      color: #f87171;
+      margin-left: auto;
+    }
+
+    .detail-delete-btn:hover {
+      background: rgba(239,68,68,0.2);
+      border-color: rgba(239,68,68,0.5);
+    }
+
+    @media (max-width: 768px) {
+      .review-card {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .review-card-left { width: 100%; }
+      .form-row { flex-direction: column; gap: 0.75rem; }
+    }
+  </style>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Young | 个人主页</title>
+  <meta name="description" content="个人知识库、职场记录、兴趣分享与个人项目展示">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <link rel="icon" type="image/png" href="assets/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+  <!-- Hero 区域（含导航） -->
+  <section class="hero">
+    <nav class="hero-nav" id="heroNav">
+      <div class="hero-nav-left">
+        <div class="hero-nav-left-row1">
+          <img src="assets/logo.svg" alt="JY" class="hero-nav-logo">
+          <span class="hero-nav-name">John Young</span>
+        </div>
+        <span class="hero-nav-tagline">产品策划 · 项目管理 · 质量管理 · 法律 · 英语 · 不积跬步，无以至千里</span>
+      </div>
+      <div class="hero-nav-links">
+        <a href="#knowledge" class="hero-nav-link active" data-section="knowledge">📚 知识学习</a>
+        <a href="#weekly" class="hero-nav-link" data-section="weekly">📊 工作复盘</a>
+        <a href="#interests" class="hero-nav-link" data-section="interests">🎯 兴趣分享</a>
+        <a href="#projects" class="hero-nav-link" data-section="projects">🚀 个人项目</a>
+        <a href="#about" class="hero-nav-link" data-section="about">👋 关于我</a>
+        <a href="#contact" class="hero-nav-link" data-section="contact">📧 联系</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <img src="assets/logo.svg" alt="JY" class="hero-avatar">
+      <h1 class="hero-name">John Young</h1>
+      <p class="hero-tagline">产品策划 · 项目管理 · 质量管理 · 法律 · 英语 · 不积跬步，无以至千里</p>
+    </div>
+  </section>
+
+  <!-- 主内容 -->
+  <main class="main-content">
+    <!-- 四宫格 -->
+    <div class="dashboard">
+      <section class="dash-card" id="knowledge">
+        <div class="dash-card-header">
+          <h2><span class="dash-icon">📚</span> 知识学习</h2>
+          <span class="dash-badge">4 个领域</span>
+        </div>
+        <div class="dash-card-body">
+          <div class="knowledge-grid" id="knowledgeGrid"></div>
+        </div>
+      </section>
+
+      <section class="dash-card" id="weekly">
+        <div class="dash-card-header">
+          <h2><span class="dash-icon">📊</span> 工作复盘</h2>
+          <button class="dash-more-btn" id="toggleHistory">查看全部 →</button>
+        </div>
+        <div class="dash-card-body">
+          <div class="weekly-list" id="weeklyList"></div>
+        </div>
+      </section>
+
+      <section class="dash-card" id="interests">
+        <div class="dash-card-header">
+          <h2><span class="dash-icon">🎯</span> 兴趣分享</h2>
+        </div>
+        <div class="dash-card-body">
+          <div class="interests-mini-grid" id="interestsGrid"></div>
+        </div>
+      </section>
+
+      <section class="dash-card" id="projects">
+        <div class="dash-card-header">
+          <h2><span class="dash-icon">🚀</span> 个人项目</h2>
+        </div>
+        <div class="dash-card-body">
+          <div class="projects-mini-list" id="projectsGrid"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 关于我 -->
+    <section class="about-section" id="about">
+      <div class="about-card">
+        <h3 class="about-section-title">👋 关于我</h3>
+        <p class="about-intro">制造行业深耕多年，熟知海内外订单在显示制造工厂的销售、生产、服务等全流程。现任小米集团PQM，负责电视/显示器新品开发质量，包括IPD流程监控、TR评审、质量策划、NUDD排查及市场FFR监控。曾任职康冠科技PMO主管（2年）和CQE主管（4年），主导客户质量协议洽谈、审厂对接、重大质量异常分析及海外客户技术支持。擅长运用管理手段和逻辑思维推动项目落地、质量提升，带领团队服务客户。具备PMP项目管理证书、精益六西格玛绿带、ISO9001/IATF16949内审员资质，CET-6英语沟通能力。</p>
+      </div>
+      <div class="about-card about-projects-exp">
+        <h3 class="about-section-title">🚀 项目经验</h3>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">AI质量管理开发与应用</span>
+            <span class="proj-exp-tag">AI应用</span>
+            <span class="proj-exp-date">2026</span>
+          </div>
+          <p>通过Claude/Claw等智能体融合到工作流程中，实现工作效率提升、工作流标准化，进一步探索AI在质量管理领域的无限可能</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">新品开发与工厂管理</span>
+            <span class="proj-exp-tag">项目质量</span>
+            <span class="proj-exp-date">2025</span>
+          </div>
+          <p>负责电视/显示器新品开发质量，包括新品IPD开发流程监控、TR评审、质量策划以及推动早期NUDD排查、市场FFR监控，惠州TCL、四川长虹、郑州HKC、合肥BOE（越南）等工厂试产管理</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">新产品导入策划与开发</span>
+            <span class="proj-exp-tag">项目管理</span>
+            <span class="proj-exp-date">2024</span>
+          </div>
+          <p>负责天猫/海尔移动屏产品项目开发，统筹推进开发进程，协调工厂端专项试投，推进产品量产上市；编制《项目管理和KTC新产品导入流程》，作为导师负责公司新人的项目管理培训</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">北美海外客户拜访</span>
+            <span class="proj-exp-tag">海外出差</span>
+            <span class="proj-exp-date">2023</span>
+          </div>
+          <p>2个周内拜访了美国/墨西哥5个客户、4家工厂，进行当地TV市场考察，加强客户关系</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">百度/天猫创新产品质量管理</span>
+            <span class="proj-exp-tag">质量管理</span>
+            <span class="proj-exp-date">2022</span>
+          </div>
+          <p>公司战略性创新型新产品（运动镜/移动屏）大客户质量管理要求对接，搭建EWP早期失效分析流程，建立OBA专项改善小组</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">售后服务与质量管理整合</span>
+            <span class="proj-exp-tag">售后服务</span>
+            <span class="proj-exp-date">2021</span>
+          </div>
+          <p>CS与CQE合并，打通海外复杂RMA流程、索赔流程，合并质量与售后协议，编写《工作流》</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">海外客户技术支持及投诉处理</span>
+            <span class="proj-exp-tag">海外出差</span>
+            <span class="proj-exp-date">2020</span>
+          </div>
+          <p>出差俄罗斯(LGE/Philips/AOC)、印度、越南等客户工厂进行SKD/CKD订单技术支持</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">小米量产质量管理</span>
+            <span class="proj-exp-tag">质量管理</span>
+            <span class="proj-exp-date">2019</span>
+          </div>
+          <p>负责小米电视产品质量策划和客户对接，公司获得2020年小米公司颁发质量奖</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">SONOS质量实验室建立</span>
+            <span class="proj-exp-tag">质量管理</span>
+            <span class="proj-exp-date">2018</span>
+          </div>
+          <p>美国高端音响品牌SONOS电源适配器配件项目，负责与客户SQE前期沟通策划，搭建客户专用实验室</p>
+        </div>
+        <div class="proj-exp-item">
+          <div class="proj-exp-header">
+            <span class="proj-exp-title">澳大利亚打工度假</span>
+            <span class="proj-exp-tag">海外经历</span>
+            <span class="proj-exp-date">2017</span>
+          </div>
+          <p>澳洲政府对中国开放打工度假签证首批获得者，独自在澳洲生活一年，磨练品质，开阔思维方式</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 联系栏 -->
+  <footer class="contact-bar" id="contact">
+    <div class="contact-bar-inner">
+      <a href="mailto:1151557129@qq.com" class="contact-link">📧 1151557129@qq.com</a>
+      <a href="https://github.com/JohnYoung1995" target="_blank" class="contact-link">💻 GitHub</a>
+      <a href="#" class="contact-link">💬 微信: johnyoung_95</a>
+      <span class="contact-copy">© 2026 John Young</span>
+    </div>
+  </footer>
+
+  <!-- 模态框 -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon" id="modalIcon"></span>
+        <h2 class="modal-title" id="modalTitle"></h2>
+      </div>
+      <div class="modal-breadcrumb" id="modalBreadcrumb"></div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/data/knowledge.js"></script>
+  <script src="js/data/weekly.js"></script>
+  <script src="js/data/interests.js"></script>
+  <script src="js/data/projects.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
