@@ -546,12 +546,12 @@ body {
 .news-group-summary {
   font-size: 0.78rem;
   color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.6;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin-top: 0.1rem;
+  margin-top: 0.15rem;
 }
 
 .news-group:hover .news-group-title {

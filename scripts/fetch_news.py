@@ -87,7 +87,7 @@ def fetch_rss(url, max_items=30):
                     pass
             items.append({
                 "title": title,
-                "summary": desc[:200] + ("..." if len(desc) > 200 else ""),
+                "summary": desc[:250] + ("..." if len(desc) > 250 else ""),
                 "link": link,
                 "date": date_str,
                 "source": "RSS",
