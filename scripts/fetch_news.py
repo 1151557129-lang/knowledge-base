@@ -65,6 +65,8 @@ def summarize_text(text, max_len=120):
     if not text:
         return "暂无摘要"
 
+    # 去除来源前缀，如 "IT之家 6 月 30 日"、"36氪"、"财联社" 等
+    text = re.sub(r'^(IT之家|36氪|财联社|新浪科技|量子位|集微网)\s*\d+\s*月\s*\d+\s*日\s*', '', text).strip()
     # 去除来源标注，如（IT之家）、（36氪）等
     text = re.sub(r'[（(][^）)]*[）)]$', '', text).strip()
     text = re.sub(r'据[^，。]+[，。]?', '', text).strip()
