@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>资讯新闻 - 全部记录</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/favicon.png">
+  <link rel="icon" type="image/png" href="../assets/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../assets/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
+</head>
+<body>
+  <!-- 顶部栏 -->
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <a href="../index.html" style="text-decoration:none;display:flex;"><img src="../assets/logo.svg" alt="JY" class="top-bar-avatar"></a>
+        <div class="top-bar-info">
+          <h1 class="top-bar-name">📰 资讯新闻</h1>
+          <p class="top-bar-tagline">行业资讯 · 每日更新</p>
+        </div>
+      </div>
+      <nav class="top-bar-nav">
+        <a href="../index.html" class="top-nav-link">← 返回首页</a>
+        <button class="top-nav-link" id="addBtn" style="background:var(--primary);color:white;border:none;cursor:pointer;font-family:var(--font-sans);">+ 新增</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主内容 -->
+  <main class="news-page">
+    <!-- 分类 Tab -->
+    <div class="news-tabs" id="newsTabs"></div>
+    <!-- 新闻列表 -->
+    <div class="news-list-full" id="newsListFull"></div>
+  </main>
+
+  <!-- 新增模态框 -->
+  <div class="modal-overlay" id="formOverlay">
+    <div class="modal" id="formModal">
+      <button class="modal-close" id="formClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon">📰</span>
+        <h2 class="modal-title" id="formTitle">新增资讯</h2>
+      </div>
+      <div class="news-form">
+        <div class="form-row">
+          <div class="form-group form-group-half">
+            <label class="form-label">分类</label>
+            <select class="form-input" id="formCategory"></select>
+          </div>
+          <div class="form-group form-group-half">
+            <label class="form-label">日期</label>
+            <input type="date" class="form-input" id="formDate">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">标题</label>
+          <input type="text" class="form-input" id="formNewsTitle" placeholder="输入新闻标题">
+        </div>
+        <div class="form-group">
+          <label class="form-label">摘要</label>
+          <textarea class="form-textarea" id="formSummary" rows="4" placeholder="输入新闻摘要..."></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-group-half">
+            <label class="form-label">来源</label>
+            <input type="text" class="form-input" id="formSource" placeholder="如：36氪、东方财富">
+          </div>
+          <div class="form-group form-group-half">
+            <label class="form-label">原文链接（可选）</label>
+            <input type="text" class="form-input" id="formLink" placeholder="https://...">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn-outline-dark" id="formCancel">取消</button>
+          <button class="btn-primary-dark" id="formSave">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/data/news.js"></script>
+  <script>
+    const STORAGE_KEY = 'news_user_entries';
+    let currentTab = 'all';
+
+    function getUserNews() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+      catch { return []; }
+    }
+
+    function saveUserNews(entries) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
+    }
+
+    function getAllNews() {
+      const userNews = getUserNews();
+      const deletedIds = new Set(userNews.filter(e => e._deleted).map(e => e.id));
+      const validUser = userNews.filter(e => !e._deleted);
+      const presetIds = new Set(NEWS_DATA.news.map(e => e.id));
+      const merged = [...validUser.filter(e => !presetIds.has(e.id)), ...NEWS_DATA.news.filter(e => !deletedIds.has(e.id))];
+      merged.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+      return merged;
+    }
+
+    function getCategoryMap() {
+      const map = {};
+      NEWS_DATA.categories.forEach(cat => { map[cat.id] = cat; });
+      return map;
+    }
+
+    function renderTabs() {
+      const tabsEl = document.getElementById('newsTabs');
+      const catMap = getCategoryMap();
+      tabsEl.innerHTML = `
+        <button class="news-tab active" data-tab="all">全部</button>
+        ${NEWS_DATA.categories.map(cat => `
+          <button class="news-tab" data-tab="${cat.id}">${cat.icon} ${cat.title}</button>
+        `).join('')}
+      `;
+
+      tabsEl.querySelectorAll('.news-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabsEl.querySelectorAll('.news-tab').forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentTab = tab.dataset.tab;
+          renderList();
+        });
+      });
+    }
+
+    function renderList() {
+      const allNews = getAllNews();
+      const catMap = getCategoryMap();
+      const filtered = currentTab === 'all' ? allNews : allNews.filter(n => n.category === currentTab);
+      const listEl = document.getElementById('newsListFull');
+
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div style="text-align:center;padding:3rem;color:var(--text-muted);">暂无资讯</div>';
+        return;
+      }
+
+      listEl.innerHTML = filtered.map(item => {
+        const cat = catMap[item.category];
+        return `
+          <div class="news-card" data-id="${item.id}">
+            <div class="news-card-header">
+              <span class="news-card-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>
+              <span class="news-card-date">${item.date}</span>
+            </div>
+            <div class="news-card-title">${item.title}</div>
+            <div class="news-card-summary">${item.summary}</div>
+            <div class="news-card-footer">
+              <span class="news-card-source">来源：${item.source}</span>
+              ${item.link && item.link !== '#' ? `<a href="${item.link}" target="_blank" class="news-card-link" onclick="event.stopPropagation()">查看原文 ↗</a>` : ''}
+              <span class="news-card-action">详情 →</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      listEl.querySelectorAll('.news-card').forEach(card => {
+        card.addEventListener('click', () => openDetail(card.dataset.id));
+      });
+    }
+
+    function openDetail(id) {
+      const allNews = getAllNews();
+      const item = allNews.find(n => n.id === id);
+      if (!item) return;
+      const cat = getCategoryMap()[item.category];
+
+      document.getElementById('detailTitle').textContent = item.title;
+      document.getElementById('detailCategory').innerHTML = `<span class="news-card-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>`;
+      document.getElementById('detailDate').textContent = item.date;
+      document.getElementById('detailSource').textContent = '来源：' + item.source;
+      document.getElementById('detailSummary').textContent = item.summary;
+      const linkEl = document.getElementById('detailLink');
+      if (item.link && item.link !== '#') {
+        linkEl.href = item.link;
+        linkEl.style.display = 'inline-flex';
+      } else {
+        linkEl.style.display = 'none';
+      }
+
+      document.getElementById('detailOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDetail() {
+      document.getElementById('detailOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ============================================
+    // 新增
+    // ============================================
+    function initForm() {
+      const catSel = document.getElementById('formCategory');
+      catSel.innerHTML = NEWS_DATA.categories.map(cat =>
+        `<option value="${cat.id}">${cat.icon} ${cat.title}</option>`
+      ).join('');
+
+      const today = new Date().toISOString().split('T')[0];
+      document.getElementById('formDate').value = today;
+      document.getElementById('formNewsTitle').value = '';
+      document.getElementById('formSummary').value = '';
+      document.getElementById('formSource').value = '';
+      document.getElementById('formLink').value = '';
+    }
+
+    function openForm() {
+      initForm();
+      document.getElementById('formOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeForm() {
+      document.getElementById('formOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function saveForm() {
+      const category = document.getElementById('formCategory').value;
+      const date = document.getElementById('formDate').value;
+      const title = document.getElementById('formNewsTitle').value.trim();
+      const summary = document.getElementById('formSummary').value.trim();
+      const source = document.getElementById('formSource').value.trim();
+      const link = document.getElementById('formLink').value.trim();
+
+      if (!title) { alert('请输入标题'); return; }
+      if (!date) { alert('请选择日期'); return; }
+
+      const id = 'user-' + Date.now();
+      const newEntry = { id, category, date, title, summary: summary || '暂无摘要', source: source || '未知', link: link || '#' };
+
+      const userNews = getUserNews();
+      userNews.push(newEntry);
+      saveUserNews(userNews);
+      closeForm();
+      renderList();
+    }
+
+    // ============================================
+    // 事件绑定
+    // ============================================
+    document.addEventListener('DOMContentLoaded', () => {
+      renderTabs();
+      renderList();
+
+      document.getElementById('addBtn').addEventListener('click', openForm);
+      document.getElementById('formClose').addEventListener('click', closeForm);
+      document.getElementById('formCancel').addEventListener('click', closeForm);
+      document.getElementById('formSave').addEventListener('click', saveForm);
+      document.getElementById('detailClose').addEventListener('click', closeDetail);
+
+      document.getElementById('formOverlay').addEventListener('click', (e) => {
+        if (e.target.id === 'formOverlay') closeForm();
+      });
+      document.getElementById('detailOverlay').addEventListener('click', (e) => {
+        if (e.target.id === 'detailOverlay') closeDetail();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          if (document.getElementById('formOverlay').classList.contains('active')) closeForm();
+          if (document.getElementById('detailOverlay').classList.contains('active')) closeDetail();
+        }
+      });
+    });
+  </script>
+
+  <!-- 详情模态框 -->
+  <div class="modal-overlay" id="detailOverlay">
+    <div class="modal" id="detailModal">
+      <button class="modal-close" id="detailClose">&times;</button>
+      <div class="modal-header">
+        <span class="modal-icon">📰</span>
+        <h2 class="modal-title" id="detailTitle"></h2>
+      </div>
+      <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:1px solid var(--border);">
+        <span id="detailCategory"></span>
+        <span id="detailDate" style="font-size:0.82rem;color:var(--text-muted);"></span>
+        <span id="detailSource" style="font-size:0.82rem;color:var(--text-muted);margin-left:auto;"></span>
+      </div>
+      <div class="modal-body" id="detailSummary" style="font-size:0.92rem;line-height:1.8;color:var(--text-secondary);"></div>
+      <div style="margin-top:1.25rem;padding-top:0.75rem;border-top:1px solid var(--border);">
+        <a href="#" target="_blank" id="detailLink" class="btn-outline-dark" style="display:inline-flex;align-items:center;gap:0.3rem;text-decoration:none;">查看原文 ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .news-page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      padding-top: calc(var(--top-bar-h, 72px) + 1.5rem);
+    }
+
+    /* 分类 Tab */
+    .news-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .news-tab {
+      padding: 0.45rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+    }
+
+    .news-tab:hover {
+      border-color: var(--border-hover);
+      color: var(--text);
+    }
+
+    .news-tab.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    /* 新闻卡片列表 */
+    .news-list-full {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .news-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .news-card:hover {
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .news-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.6rem;
+    }
+
+    .news-card-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+    }
+
+    .news-card-date {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .news-card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+      line-height: 1.5;
+    }
+
+    .news-card-summary {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 0.6rem;
+    }
+
+    .news-card-footer {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .news-card-source {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .news-card-link {
+      font-size: 0.75rem;
+      color: var(--primary-light);
+      text-decoration: none;
+    }
+
+    .news-card-link:hover {
+      text-decoration: underline;
+    }
+
+    .news-card-action {
+      font-size: 0.75rem;
+      color: var(--primary-light);
+      font-weight: 500;
+      margin-left: auto;
+    }
+
+    /* 表单 */
+    .news-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .form-group-half { flex: 1; }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .form-input,
+    .form-textarea {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 0.875rem;
+      font-size: 0.88rem;
+      color: var(--text);
+      font-family: var(--font-sans);
+      transition: var(--transition);
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-50);
+    }
+
+    .form-textarea {
+      resize: vertical;
+      line-height: 1.6;
+    }
+
+    .form-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+      padding-top: 0.5rem;
+    }
+
+    .btn-outline-dark {
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+    }
+
+    .btn-outline-dark:hover {
+      border-color: var(--border-hover);
+      color: var(--text);
+    }
+
+    .btn-primary-dark {
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: var(--font-sans);
+    }
+
+    .btn-primary-dark:hover {
+      background: var(--primary-dark);
+    }
+
+    @media (max-width: 768px) {
+      .form-row { flex-direction: column; gap: 0.75rem; }
+      .news-tabs { gap: 0.35rem; }
+      .news-tab { font-size: 0.78rem; padding: 0.35rem 0.75rem; }
+    }
+  </style>
+</body>
+</html>

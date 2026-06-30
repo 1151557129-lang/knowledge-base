@@ -10,7 +10,7 @@ class PersonalSite {
 
   init() {
     this.renderKnowledgeCards();
-    this.renderWeekly();
+    this.renderNews();
     this.renderInterests();
     this.renderProjects();
     this.setupModal();
@@ -124,97 +124,92 @@ class PersonalSite {
   }
 
   // ============================================
-  // 工作复盘 - 月度
+  // 资讯新闻
   // ============================================
-  getWeeklyEntries() {
+  getAllNews() {
     try {
-      const userEntries = JSON.parse(localStorage.getItem('weekly_user_entries')) || [];
-      const deletedIds = new Set(userEntries.filter(e => e._deleted).map(e => e.id));
-      const validUser = userEntries.filter(e => !e._deleted);
-      const presetIds = new Set(WEEKLY_DATA.map(e => e.id));
-      const merged = [...validUser.filter(e => !presetIds.has(e.id)), ...WEEKLY_DATA.filter(e => !deletedIds.has(e.id))];
-      merged.sort((a, b) => b.id.localeCompare(a.id));
+      const userNews = JSON.parse(localStorage.getItem('news_user_entries')) || [];
+      const deletedIds = new Set(userNews.filter(e => e._deleted).map(e => e.id));
+      const validUser = userNews.filter(e => !e._deleted);
+      const presetIds = new Set(NEWS_DATA.news.map(e => e.id));
+      const merged = [...validUser.filter(e => !presetIds.has(e.id)), ...NEWS_DATA.news.filter(e => !deletedIds.has(e.id))];
+      merged.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
       return merged;
     } catch {
-      return [...WEEKLY_DATA].sort((a, b) => b.id.localeCompare(a.id));
+      return [...NEWS_DATA.news].sort((a, b) => b.date.localeCompare(a.date));
     }
   }
 
-  renderWeekly() {
-    const entries = this.getWeeklyEntries();
-    if (entries.length === 0) return;
+  renderNews() {
+    const allNews = this.getAllNews();
+    const listEl = document.getElementById('newsList');
+    if (!listEl) return;
 
-    const listEl = document.getElementById('weeklyList');
-    const items = entries.slice(0, 3);
+    // 每个板块取最新1条
+    const categoryMap = {};
+    NEWS_DATA.categories.forEach(cat => { categoryMap[cat.id] = cat; });
 
-    listEl.innerHTML = items.map(item => `
-      <div class="weekly-entry" data-id="${item.id}">
-        <div class="weekly-entry-header">
-          <span class="weekly-entry-week">${item.label}</span>
+    const latestByCategory = {};
+    allNews.forEach(item => {
+      if (!latestByCategory[item.category]) {
+        latestByCategory[item.category] = item;
+      }
+    });
+
+    const items = Object.values(latestByCategory).slice(0, 4);
+
+    listEl.innerHTML = items.map(item => {
+      const cat = categoryMap[item.category];
+      return `
+        <div class="news-entry" data-category="${item.category}">
+          <div class="news-entry-header">
+            <span class="news-entry-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>
+            <span class="news-entry-date">${item.date}</span>
+          </div>
+          <div class="news-entry-title">${item.title}</div>
+          <div class="news-entry-summary">${item.summary}</div>
         </div>
-        <ul class="weekly-highlights">
-          ${item.highlights.map(h => `<li>${h}</li>`).join('')}
-        </ul>
-      </div>
-    `).join('');
+      `;
+    }).join('');
 
-    listEl.querySelectorAll('.weekly-entry').forEach(entry => {
-      entry.addEventListener('click', () => this.openWeeklyDetail(entry.dataset.id));
+    listEl.querySelectorAll('.news-entry').forEach(entry => {
+      entry.addEventListener('click', () => this.openNewsCategory(entry.dataset.category));
     });
 
-    const toggleBtn = document.getElementById('toggleHistory');
-    toggleBtn.addEventListener('click', () => {
-      window.location.href = 'pages/review.html';
-    });
+    const toggleBtn = document.getElementById('toggleNews');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        window.location.href = 'pages/news.html';
+      });
+    }
   }
 
-  openWeeklyDetail(id) {
-    const entries = this.getWeeklyEntries();
-    const item = entries.find(e => e.id === id);
-    if (!item) return;
+  openNewsCategory(categoryId) {
+    const cat = NEWS_DATA.categories.find(c => c.id === categoryId);
+    if (!cat) return;
 
-    this.modalStack = [{ type: 'weekly', id: item.id }];
+    const allNews = this.getAllNews().filter(n => n.category === categoryId);
+
+    this.modalStack = [{ type: 'news-category', id: categoryId }];
     this.renderModalBreadcrumb();
 
-    document.getElementById('modalIcon').textContent = '📊';
-    document.getElementById('modalTitle').textContent = item.label;
+    document.getElementById('modalIcon').textContent = cat.icon;
+    document.getElementById('modalTitle').textContent = cat.title + ' - 资讯列表';
     document.getElementById('modalBody').innerHTML = `
-      <div class="weekly-edit-bar">
-        <button class="weekly-edit-btn" id="weeklyEditBtn">✏️ 编辑</button>
-        <button class="weekly-save-btn" id="weeklySaveBtn" style="display:none;">💾 保存</button>
+      <div class="news-detail-list">
+        ${allNews.map(item => `
+          <div class="news-detail-item">
+            <div class="news-detail-date">${item.date}</div>
+            <div class="news-detail-title">${item.title}</div>
+            <div class="news-detail-summary">${item.summary}</div>
+            <div class="news-detail-meta">
+              <span class="news-detail-source">来源：${item.source}</span>
+              ${item.link && item.link !== '#' ? `<a href="${item.link}" target="_blank" class="news-detail-link">查看原文 ↗</a>` : ''}
+            </div>
+          </div>
+        `).join('')}
       </div>
-      <div class="weekly-editable" id="weeklyEditable">${item.content}</div>
     `;
-
-    const editBtn = document.getElementById('weeklyEditBtn');
-    const saveBtn = document.getElementById('weeklySaveBtn');
-    const editable = document.getElementById('weeklyEditable');
-
-    editBtn.addEventListener('click', () => {
-      editable.setAttribute('contenteditable', 'true');
-      editable.focus();
-      editable.style.outline = '2px solid var(--primary)';
-      editable.style.borderRadius = '6px';
-      editBtn.style.display = 'none';
-      saveBtn.style.display = 'inline-flex';
-    });
-
-    saveBtn.addEventListener('click', () => {
-      editable.setAttribute('contenteditable', 'false');
-      editable.style.outline = 'none';
-      editBtn.style.display = 'inline-flex';
-      saveBtn.style.display = 'none';
-      // 保存到 localStorage
-      let userEntries = [];
-      try { userEntries = JSON.parse(localStorage.getItem('weekly_user_entries')) || []; } catch {}
-      const idx = userEntries.findIndex(e => e.id === id);
-      if (idx >= 0) {
-        userEntries[idx].content = editable.innerHTML;
-      } else {
-        userEntries.push({ ...item, content: editable.innerHTML });
-      }
-      localStorage.setItem('weekly_user_entries', JSON.stringify(userEntries));
-    });
 
     this.showModal();
   }
@@ -362,6 +357,8 @@ class PersonalSite {
         label = cat?.topics.find(t => t.id === item.id)?.title || item.id;
       } else if (item.type === 'weekly') {
         label = WEEKLY_DATA.find(w => w.id === item.id)?.title || item.id;
+      } else if (item.type === 'news-category') {
+        label = NEWS_DATA.categories.find(c => c.id === item.id)?.title || item.id;
       } else if (item.type === 'interest') {
         label = INTERESTS_DATA[item.id]?.title || item.id;
       } else if (item.type === 'project') {
@@ -411,7 +408,7 @@ class PersonalSite {
   // ============================================
   setupNavScroll() {
     const navLinks = document.querySelectorAll('.hero-nav-link');
-    const sections = ['knowledge', 'weekly', 'interests', 'projects', 'about', 'contact'];
+    const sections = ['knowledge', 'news', 'interests', 'projects', 'about', 'contact'];
 
     // 点击平滑滚动 + 立即高亮
     navLinks.forEach(link => {
