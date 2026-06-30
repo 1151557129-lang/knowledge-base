@@ -145,18 +145,26 @@ class PersonalSite {
     const listEl = document.getElementById('newsList');
     if (!listEl) return;
 
-    // 每个板块取最新1条
     const categoryMap = {};
     NEWS_DATA.categories.forEach(cat => { categoryMap[cat.id] = cat; });
 
+    // 每个板块取最新2条
     const latestByCategory = {};
     allNews.forEach(item => {
       if (!latestByCategory[item.category]) {
-        latestByCategory[item.category] = item;
+        latestByCategory[item.category] = [];
+      }
+      if (latestByCategory[item.category].length < 2) {
+        latestByCategory[item.category].push(item);
       }
     });
 
-    const items = Object.values(latestByCategory).slice(0, 4);
+    const items = [];
+    NEWS_DATA.categories.forEach(cat => {
+      if (latestByCategory[cat.id]) {
+        items.push(...latestByCategory[cat.id]);
+      }
+    });
 
     listEl.innerHTML = items.map(item => {
       const cat = categoryMap[item.category];

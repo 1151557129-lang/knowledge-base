@@ -232,10 +232,10 @@ def main():
         else:
             uncategorized.append(item)
 
-    # 每个分类取前5条
+    # 每个分类取前3条
     final_news = []
     for cat_id in ["xiaomi", "ai", "display", "stock"]:
-        items = classified[cat_id][:5]
+        items = classified[cat_id][:3]
         final_news.extend(items)
         print(f"  {cat_id}: {len(items)} 条")
 
@@ -264,8 +264,24 @@ def main():
         for n in cat_news[:3]:
             print(f"  • {n['title'][:50]}")
 
+    # 自动提交并推送
     print("\n" + "=" * 50)
-    print("💡 提交并推送: git add -A && git commit -m '更新资讯' && git push origin main")
+    today = datetime.now().strftime("%Y-%m-%d")
+    try:
+        subprocess.run(["git", "add", "-A"], check=True)
+        subprocess.run(
+            ["git", "commit", "-m", f"📰 自动更新资讯 {today}"],
+            check=True, capture_output=True, text=True
+        )
+        result = subprocess.run(
+            ["git", "push", "origin", "main"],
+            check=True, capture_output=True, text=True, timeout=60
+        )
+        print(f"✅ 已自动提交并推送上线")
+    except subprocess.CalledProcessError as e:
+        print(f"⚠ Git 操作失败: {e.stderr if e.stderr else e}")
+    except Exception as e:
+        print(f"⚠ 推送失败: {e}")
 
 
 if __name__ == "__main__":
