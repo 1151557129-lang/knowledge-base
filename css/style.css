@@ -498,52 +498,54 @@ body {
 /* ============================================
    资讯新闻
    ============================================ */
-.news-entry {
-  padding: 0.75rem 0;
+.news-group {
+  padding: 0.6rem 0;
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   transition: var(--transition);
 }
 
-.news-entry:last-child { border-bottom: none; }
+.news-group:last-child { border-bottom: none; }
 
-.news-entry:hover { padding-left: 0.35rem; }
+.news-group:hover { padding-left: 0.35rem; }
 
-.news-entry-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.news-group-header {
   margin-bottom: 0.35rem;
 }
 
-.news-entry-badge {
-  font-size: 0.68rem;
+.news-group-badge {
+  font-size: 0.72rem;
   font-weight: 600;
-  padding: 0.12rem 0.5rem;
+  padding: 0.15rem 0.55rem;
   border-radius: 100px;
 }
 
-.news-entry-date {
+.news-group-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.15rem 0;
+  padding-left: 0.25rem;
+}
+
+.news-group-date {
   font-size: 0.68rem;
   color: var(--text-muted);
+  flex-shrink: 0;
+  width: 2.5rem;
 }
 
-.news-entry-title {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.2rem;
-  line-height: 1.5;
-}
-
-.news-entry-summary {
-  font-size: 0.78rem;
+.news-group-title {
+  font-size: 0.82rem;
+  font-weight: 500;
   color: var(--text-secondary);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  white-space: nowrap;
   overflow: hidden;
-  line-height: 1.5;
+  text-overflow: ellipsis;
+}
+
+.news-group:hover .news-group-title {
+  color: var(--text);
 }
 
 /* 详情模态框内新闻样式 */

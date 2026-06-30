@@ -145,43 +145,35 @@ class PersonalSite {
     const listEl = document.getElementById('newsList');
     if (!listEl) return;
 
-    const categoryMap = {};
-    NEWS_DATA.categories.forEach(cat => { categoryMap[cat.id] = cat; });
-
-    // 每个板块取最新2条
-    const latestByCategory = {};
+    // 每个板块取最新2条，按板块分组
+    const grouped = {};
+    NEWS_DATA.categories.forEach(cat => { grouped[cat.id] = []; });
     allNews.forEach(item => {
-      if (!latestByCategory[item.category]) {
-        latestByCategory[item.category] = [];
-      }
-      if (latestByCategory[item.category].length < 2) {
-        latestByCategory[item.category].push(item);
+      if (grouped[item.category] && grouped[item.category].length < 2) {
+        grouped[item.category].push(item);
       }
     });
 
-    const items = [];
-    NEWS_DATA.categories.forEach(cat => {
-      if (latestByCategory[cat.id]) {
-        items.push(...latestByCategory[cat.id]);
-      }
-    });
-
-    listEl.innerHTML = items.map(item => {
-      const cat = categoryMap[item.category];
+    listEl.innerHTML = NEWS_DATA.categories.map(cat => {
+      const items = grouped[cat.id] || [];
+      if (items.length === 0) return '';
       return `
-        <div class="news-entry" data-category="${item.category}">
-          <div class="news-entry-header">
-            <span class="news-entry-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>
-            <span class="news-entry-date">${item.date}</span>
+        <div class="news-group" data-category="${cat.id}">
+          <div class="news-group-header">
+            <span class="news-group-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>
           </div>
-          <div class="news-entry-title">${item.title}</div>
-          <div class="news-entry-summary">${item.summary}</div>
+          ${items.map(item => `
+            <div class="news-group-item">
+              <span class="news-group-date">${item.date.slice(5)}</span>
+              <span class="news-group-title">${item.title}</span>
+            </div>
+          `).join('')}
         </div>
       `;
     }).join('');
 
-    listEl.querySelectorAll('.news-entry').forEach(entry => {
-      entry.addEventListener('click', () => this.openNewsCategory(entry.dataset.category));
+    listEl.querySelectorAll('.news-group').forEach(group => {
+      group.addEventListener('click', () => this.openNewsCategory(group.dataset.category));
     });
 
     const toggleBtn = document.getElementById('toggleNews');
