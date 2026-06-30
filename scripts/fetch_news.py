@@ -60,6 +60,37 @@ def clean_html(html_str):
     return text
 
 
+def summarize_text(text, max_len=120):
+    """智能摘要：提取关键信息，生成简洁摘要"""
+    if not text:
+        return "暂无摘要"
+
+    # 去除来源标注，如（IT之家）、（36氪）等
+    text = re.sub(r'[（(][^）)]*[）)]$', '', text).strip()
+    text = re.sub(r'据[^，。]+[，。]?', '', text).strip()
+    text = re.sub(r'消息[称显示]*[，。]?', '', text).strip()
+
+    # 按句号分割，取前2句
+    sentences = re.split(r'[。！？]', text)
+    sentences = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 5]
+
+    if not sentences:
+        return text[:max_len] + ("..." if len(text) > max_len else "")
+
+    # 拼接前2句，控制长度
+    summary = ""
+    for s in sentences[:2]:
+        if len(summary) + len(s) + 1 <= max_len:
+            summary += s + "。"
+        else:
+            # 如果第一句就超长，截断
+            if not summary:
+                summary = s[:max_len-1] + "..."
+            break
+
+    return summary.rstrip("。") + "。" if summary else text[:max_len] + "..."
+
+
 def fetch_rss(url, max_items=30):
     """通过 curl + feedparser 解析 RSS"""
     try:
@@ -87,7 +118,7 @@ def fetch_rss(url, max_items=30):
                     pass
             items.append({
                 "title": title,
-                "summary": desc[:250] + ("..." if len(desc) > 250 else ""),
+                "summary": summarize_text(desc),
                 "link": link,
                 "date": date_str,
                 "source": "RSS",
