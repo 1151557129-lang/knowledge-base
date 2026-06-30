@@ -510,7 +510,10 @@ body {
 .news-group:hover { padding-left: 0.35rem; }
 
 .news-group-header {
-  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .news-group-badge {
@@ -520,32 +523,39 @@ body {
   border-radius: 100px;
 }
 
-.news-group-item {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.15rem 0;
-  padding-left: 0.25rem;
+.news-group-date {
+  font-size: 0.72rem;
+  color: var(--text-muted);
 }
 
-.news-group-date {
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  flex-shrink: 0;
-  width: 2.5rem;
+.news-group-item {
+  padding: 0.2rem 0 0.35rem 0.25rem;
 }
 
 .news-group-title {
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  white-space: nowrap;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.news-group-summary {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 0.1rem;
 }
 
 .news-group:hover .news-group-title {
-  color: var(--text);
+  color: var(--primary-light);
 }
 
 /* 详情模态框内新闻样式 */

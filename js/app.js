@@ -157,15 +157,18 @@ class PersonalSite {
     listEl.innerHTML = NEWS_DATA.categories.map(cat => {
       const items = grouped[cat.id] || [];
       if (items.length === 0) return '';
+      const latestDate = items[0].date;
+      const dateStr = `${parseInt(latestDate.slice(5,7))}月${parseInt(latestDate.slice(8,10))}日`;
       return `
         <div class="news-group" data-category="${cat.id}">
           <div class="news-group-header">
             <span class="news-group-badge" style="background:${cat.color}20;color:${cat.color}">${cat.icon} ${cat.title}</span>
+            <span class="news-group-date">${dateStr}</span>
           </div>
           ${items.map(item => `
             <div class="news-group-item">
-              <span class="news-group-date">${item.date.slice(5)}</span>
               <span class="news-group-title">${item.title}</span>
+              <span class="news-group-summary">${item.summary}</span>
             </div>
           `).join('')}
         </div>
