@@ -6,6 +6,7 @@
 """
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -297,8 +298,14 @@ def main():
         for n in cat_news[:3]:
             print(f"  • {n['title'][:50]}")
 
-    # 自动提交并推送
+    # 自动提交并推送（仅本地运行时）
     print("\n" + "=" * 50)
+
+    # GitHub Actions 环境由 workflow 处理 git 操作
+    if os.environ.get("GITHUB_ACTIONS"):
+        print("✅ GitHub Actions 环境，由 workflow 处理提交推送")
+        return
+
     today = datetime.now().strftime("%Y-%m-%d")
     try:
         subprocess.run(["git", "add", "-A"], check=True)
