@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-08 04:43:22
+// 自动生成于 2026-07-09 05:34:53
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -34,78 +34,105 @@ const NEWS_DATA = {
   news: [
     {
         "id": "news-001",
-        "category": "ai",
-        "date": "2026-07-08",
-        "title": "物理 AI 第一股，自动驾驶公司 Momenta 正式挂牌港交所",
-        "summary": "2026 年 7 月 8 日（今天），Momenta 正式在香港联合交易所主板挂牌上市，股票代码为“6880.HK”。",
+        "category": "xiaomi",
+        "date": "2026-07-09",
+        "title": "小米澎程 SkyNomad 预热车内“可变大空间”：工作室、咖啡馆、会客厅、游乐场都能“变”",
+        "summary": "今天（9 日）午间，小米澎程 SkyNomad 官微继续预热旗下首款 SUV 车型，这次则是围绕车内的“可变大空间”展开。官方表示，新车“看起来 SUV，坐进去 MPV”“买到车的人很多，买到空间的人很少”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/978.htm"
+        "link": "https://www.ithome.com/0/974/465.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-07-08",
-        "title": "闪极 2026 款「苹显」磁吸充电宝发售：首创 AI 彩屏秒认 iPhone，售 199 元",
-        "summary": "闪极新一代「苹显」磁吸充电宝今日正式发售，官方定价为 239 元，首发到手价 199 元。",
+        "category": "xiaomi",
+        "date": "2026-07-09",
+        "title": "小米米家洗烘套装 Pro 超电解智投“热泵烘 10kg+10kg”预售，国补到手 5599 元",
+        "summary": "小米米家洗烘套装 Pro 超电解智投“热泵烘 10kg+10kg”今起开启预售，定价为 6587 元（IT之家注：国补到手价 5599 元）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/976.htm"
+        "link": "https://www.ithome.com/0/974/413.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-07-08",
-        "title": "深圳理工大学开实验班逐步取消大学英语：改为跨文化交流课程，AI 模仿不来人文思维",
-        "summary": "深圳理工大学教务长、澳门大学前校长赵伟表示：“2026 年如果你报考深圳理工大学的话，我们开实验班，逐步把大学英语取消，改为跨文化交流课程。",
+        "category": "xiaomi",
+        "date": "2026-07-09",
+        "title": "CounterPoint 报告 2026Q1 全球零售 Wi-Fi CPE 出货量：TP-Link 占 20%、小米占 12%",
+        "summary": "市场调查机构 CounterPoint Research 昨日（7 月 8 日）发布博文，报告称由于互联网服务提供商硬件改善，2026 年第 1 季度全球零售 Wi-Fi CPE 出货量同比下降 6%，较 2021 年峰值累计下滑近 34...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/973.htm"
+        "link": "https://www.ithome.com/0/974/407.htm"
     },
     {
         "id": "news-004",
-        "category": "display",
-        "date": "2026-07-08",
-        "title": "华硕推出 ProArt 创梦 40Gbps 移动高速硬盘盒：内嵌智能风扇，569 元",
-        "summary": "华硕今日新推出了一款 ProArt 创梦系列的 40Gbps 移动高速硬盘盒，型号为 PA40SU，京东显示为 569 元，7 月 10 日开售。",
+        "category": "ai",
+        "date": "2026-07-09",
+        "title": "大疆无人机飞上珠峰高空探大气，抵达 8861 米最高飞行海拔",
+        "summary": "大疆今日宣布，大疆首款垂直起降运载无人机 DJI EV50 飞抵 8861 米协助珠峰数字科考。在珠峰北坡，大疆首款 eVTOL 垂起飞行器 DJI EV50 抵御极寒、强风与超低气压，最终抵达 8861 米作业高度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/979.htm"
+        "link": "https://www.ithome.com/0/974/481.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-07-08",
-        "title": "阿里巴巴副总裁戚肖宁：美中印欧等全球各大公司正合作打造 RISC-V 开放标准芯片架构",
-        "summary": "阿里巴巴集团副总裁、达摩院玄铁团队负责人戚肖宁表示，尽管美中技术竞争激烈，但全球 RISC-V 芯片架构合作依然坚韧。",
+        "category": "ai",
+        "date": "2026-07-09",
+        "title": "消息称英伟达 Rosa CPU 采用台积电 A16 工艺，搭配背面供电技术",
+        "summary": "工商时报今天（7 月 9 日）发布博文，报道称英伟达下一代 Rosa CPU 有望采用台积电 A16 工艺，并搭配背面供电技术。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/977.htm"
+        "link": "https://www.ithome.com/0/974/478.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-07-08",
-        "title": "“手机斩杀线”：Omdia 称 2026Q1 全球 400 美元以下手机的存储芯片物料占比逼近 60%",
-        "summary": "市场调查机构 Omdia 昨日（7 月 7 日）发布博文，研究认为受 DRAM 内存和 NAND 闪存价格上涨影响，预估 2026 年全球售价低于 400 美元（IT之家注：现汇率约合 2721 元人民币）智能手机出货量同比下降超过 22...。",
+        "category": "ai",
+        "date": "2026-07-09",
+        "title": "毕马威调查：AI“按量计费”模式吓退企业高管，近 1/3 承认不懂经济账",
+        "summary": "“四大”会计师事务所毕马威的一项新调查显示，不少企业高管正被 AI 新的按量计费模式“吓”到。企业过去可以通过固定价格合同，让 AI 公司补贴大语言模型的使用成本。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/971.htm"
+        "link": "https://www.ithome.com/0/974/477.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-07-08",
-        "title": "腾讯公益慈善基金会启动 2000 万元备灾资金，驰援广西等地灾情",
-        "summary": "近日，广西、湖北、甘肃等地因降雨大风天气，接连发生水库溃坝、山体滑坡等灾情，造成人员伤亡和重大经济损失。",
+        "category": "display",
+        "date": "2026-07-09",
+        "title": "晶圆代工定价格局生变，AI 投资扩张推动台积电、三星涨价",
+        "summary": "随着 AI 芯片投资持续扩大，晶圆代工市场的定价格局开始改变。继去年上调先进制程价格后，台积电今年启动了新一轮调价，三星也提高了部分制程的供货价格。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/886.htm"
+        "link": "https://www.ithome.com/0/974/483.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-07-08",
-        "title": "索尼官宣 PS 光盘停产后：CEO 十时裕树减持 56.5% 持股套现 473 万美元，CSO 亦套现 52 万美元",
-        "summary": "索尼互动娱乐 7 月 1 日宣布，自 2028 年 1 月起，所有 PlayStation 平台新发售的游戏将不再生产实体蓝光光盘，仅以数字版形式发行。",
+        "category": "display",
+        "date": "2026-07-09",
+        "title": "CounterPoint：苹果 iPhone 18 Pro Max 硬件成本比上一代大涨近 300 美元，2nm A20 Pro 芯片与存储涨价成主因",
+        "summary": "Counterpoint Research 于当地时间 7 月 8 日发布了一份物料清单（BoM）成本对比报告。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/973/874.htm"
+        "link": "https://www.ithome.com/0/974/466.htm"
     },
     {
         "id": "news-009",
+        "category": "display",
+        "date": "2026-07-09",
+        "title": "支付宝客服就花呗服务问题致歉：系统升级已完成，还款有三天宽限期",
+        "summary": "有大量用户 7 月 8 日晚间反映支付宝花呗在进行还款时，还款页面无法正常打开。根点开花呗页面会出现“网络繁忙”或在账单页面显示“因机构维护，账单暂时无法查看”。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/974/471.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-07-09",
+        "title": "上市前夜｜35岁清华学霸冲港股IPO，做出手机指纹中国第二",
+        "summary": "本文约3300字，建议阅读7分钟 作者 | 彭孝秋 编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3887659913083392?f=rss"
+    },
+    {
+        "id": "news-011",
+        "category": "stock",
+        "date": "2026-07-08",
+        "title": "eVTOL 走向商业化，难点不只在“飞起来”",
+        "summary": "低空经济的热度，很多时候是从一架飞行器开始的。过去几年，eVTOL真机亮相、飞行汽车概念升温、低空航线试点、地方产业基金入场，让这个行业快速成为新兴产业里的高频词。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3886750049808389?f=rss"
+    },
+    {
+        "id": "news-012",
         "category": "stock",
         "date": "2026-07-08",
         "title": "36氪首发 | 五粮液基金领投，国产高端机床企业获数亿元融资，加速海外市场布局",
