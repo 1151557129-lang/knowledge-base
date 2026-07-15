@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-14 04:24:38
+// 自动生成于 2026-07-15 04:24:36
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,101 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-14",
-        "title": "IDC 报告 2026 年 Q2 全球智能手机出货量同比下滑 6.7%：小米跌幅最大但有意为之，三星、苹果、华为逆势上涨",
-        "summary": "根2026 年第二季度全球智能手机出货量为 2.775 亿部，同比下降 6.7%。这已是连续第二个季度出现同比下滑。",
+        "date": "2026-07-15",
+        "title": "小米推出 999 元米家智能浴霸 P1 人感版：全嵌式升降灯板，3000W 大功率升温",
+        "summary": "小米今天新上架了一款“米家智能浴霸 P1 人感版”，按惯例将于下周三开启众筹，众筹价 999 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/424.htm"
+        "link": "https://www.ithome.com/0/976/913.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-14",
-        "title": "小米推出 REDMI 儿童手表 Pro：支持无网络定位，国补价 888.25 元起",
-        "summary": "小米官方今日宣布推出 REDMI 儿童电话手表 Pro，官方定价为 1199 元，首发 1045 元起，叠加国家补贴后到手价 888.25 元起，提供活力红、元气紫双配色。",
+        "date": "2026-07-15",
+        "title": "OPPO ColorOS 七月体验升级公布：锁屏指纹自定义、景区天气等",
+        "summary": "OPPO 今日公布了 ColorOS 七月体验升级内容和适配机型，该更新已于 7 月 2 日开启分批次推送，7 月 31 日前完成推送。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/371.htm"
+        "link": "https://www.ithome.com/0/976/908.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-07-14",
-        "title": "小米汽车：新一代 SU7 少量现车开售，当天锁单最快 2 小时提车",
-        "summary": "今天（14 日）上午，小米汽车通过官微宣布：新一代 SU7 现有少量现车开售，当天锁单，最快 2 小时提车。7 月 31 日 24 点前下定，至高享 6.1 万购车权益，另外有「轻松还」和「5 年低息」两种金融方案可选。",
+        "date": "2026-07-15",
+        "title": "支付宝 OPPO 宣布达成智能体跨端互联合作，一句话充话费、买电影票、点外卖、查社保公积金",
+        "summary": "支付宝与 OPPO 宣布正式达成智能体跨端互联合作。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/315.htm"
+        "link": "https://www.ithome.com/0/976/823.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-14",
-        "title": "利民推出炫动视界 PRO 360 ARGB BLACK 液冷：可旋转冷头屏 + VRM 风扇",
-        "summary": "Thermalright（利民 / 索摩乐）本月推出了炫动视界 Dynamic Vision PRO 360 ARGB BLACK 处理器一体式 (AIO) 液冷散热器。该产品享受 5 年质保。",
+        "date": "2026-07-15",
+        "title": "路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康",
+        "summary": "路透社昨日（7 月 14 日）发布博文，报道称埃隆 · 马斯克（Elon Musk）旗下 AI 公司 xAI 位于美国田纳西州的 Colossus 2 数拉高周围社区肺部疾病发病率。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/430.htm"
+        "link": "https://www.ithome.com/0/976/897.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-14",
-        "title": "软银创始人孙正义：核聚变能源将是 AI 未来发展的关键",
-        "summary": "软银集团创始人孙正义预测，随着 AI 数核聚变将在不久的将来成为最切实可行的供电方案。孙正义认为，现阶段数不过到未来，核聚变也会占核聚变正是太阳和其他恒星释放能量的方式。",
+        "date": "2026-07-15",
+        "title": "华硕推出“小飞侠 Air”Wi-Fi 6 信号放大器：双频 1500M，首发国补价 228.6 元",
+        "summary": "华硕今日推出了一款名为“小飞侠 Air”的 Wi-Fi 6 信号放大器，型号为 RP-AX50，官方定价 299 元，首发 254 元，叠加国补后 228.6 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/403.htm"
+        "link": "https://www.ithome.com/0/976/877.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-07-14",
-        "title": "微星 Afterburner 显卡实用工具 4.6.7 Beta 4 版曝光，新增 V/F 曲线热图",
-        "summary": "科技媒体 Tom's Hardware 昨日（7 月 13 日）发布博文，报道称在尚未发布的 4.6.7 Beta 4 版 Afterburner 应用中，微星计划新增 V/F 曲线热图，用于追踪 GPU 的加速行为。",
+        "date": "2026-07-15",
+        "title": "AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9",
+        "summary": "科技媒体 Tom's Hardware 昨日（7 月 14 日）发布博文，报道称大阪公立大学研究团队开发出一种可编程热器件，其非互易因子接近 0.9，能在断电后记忆配置状态，实现近乎正向入射角下的热量定向控制。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/397.htm"
+        "link": "https://www.ithome.com/0/976/868.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-14",
-        "title": "三星 Galaxy 手机在韩独占逾 80% 份额，亦成为 78% 用户未来购机选择",
-        "summary": "民调机构韩国盖洛普 13 日发布的一份调查结果显示，当地智能手机用户中，八成以上使用三星电子的 Galaxy 系列手机。该机构面向除济州以外的全韩国 13 岁以上 1675 名手机用户进行了智能手机使用现况调查。",
+        "date": "2026-07-15",
+        "title": "上海开出脑机接口首张处方并成功手术，辅助实现手部抓握功能代偿",
+        "summary": "上海市科委通过“上海科技”公众号宣布，7 月 13 日，植入式脑机接口手部运动功能代偿系统（NEO）获批上市后的首张处方在上海开出，全球首例植入手术在复旦大学附属华山医院完成。术中测试显示，系统采集的硬膜外脑电信号稳定、质量良好。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/409.htm"
+        "link": "https://www.ithome.com/0/976/890.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-14",
-        "title": "全球首款 27 英寸 4K IJP OLED 显示器微星 PRO MAX OLED 271UPJW12 发布",
-        "summary": "微星宣布推出显示器新品 PRO MAX OLED 271UPJW12，号称为全球首款 27 英寸搭载喷墨打印（IJP）OLED 技术的 4K 显示屏，价格及上市日期暂未公布。",
+        "date": "2026-07-15",
+        "title": "晶圆代工企业 Tower 宣布 6000 亿日元光通信领域产能建设投资",
+        "summary": "以色列晶圆代工企业 Tower Semiconductor（高塔半导体）当地时间昨日宣布，计划在日本进行总价值约 6000 亿日元的产能建设投资（IT之家注：现汇率约合 250.84 亿元人民币）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/350.htm"
+        "link": "https://www.ithome.com/0/976/863.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-07-14",
-        "title": "任天堂宝可梦自《剑 / 盾》时期就曾考虑涨价，并诱导玩家同时购入双版本",
-        "summary": "CentroLeaks 放出了一份文件内容显示，该公司自《宝可梦：剑 / 盾》时期以来，便一直在内部探讨涨价的可能性。同时，该公司考虑在单版本涨价的基础上保持双版本捆绑包价格不变，从而诱导玩家同时购买双版本。",
+        "date": "2026-07-15",
+        "title": "航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市",
+        "summary": "航嘉 (Huntkey) 旗下游戏硬件 MVPLAND 在上周举行的 BW2026 上举行了 2026 品牌发布会，宣布结合自研数字集成电路和碳化硅 (SiC) 功率半导体的 PC 电源将于 2026 年 10 月上市。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/297.htm"
+        "link": "https://www.ithome.com/0/976/822.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-14",
-        "title": "A股三大指数午间休盘集体下跌，油气股走强",
-        "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.66%，深成指跌0.42%，创业板指跌0.29%；煤炭、油气、零售板块领涨，大有能源、泰山石油、中百集团涨停；互联网、电脑硬件、航天军工板块跌幅居前，中国长城、中国卫星跌停，卓易信息跌超...。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3894935460527361?f=rss"
+        "date": "2026-07-15",
+        "title": "投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓",
+        "summary": "美国投资银行 KeyBanc 在最新研报中，下调苹果公司股票评级，从“板块权重”（Sector Weight）下调至“减持”（Underweight），并给出 250 美元的目标价。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/976/938.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-14",
-        "title": "韩国拟大举放松资本交易外汇规定",
-        "summary": "韩国拟大举放松资本交易外汇规定，将强化应对韩元波动的24小时反应机制。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3894891516443905?f=rss"
+        "date": "2026-07-15",
+        "title": "IBM 股价大跌，CEO 克里希纳向投资者解释业绩未达预期原因",
+        "summary": "7 月 14 日，IBM 的股价在该公司公布第二季度初步销售额低于预期后暴跌 25%，创 1987 年以来最大单日跌幅。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/976/867.htm"
+    },
+    {
+        "id": "news-012",
+        "category": "stock",
+        "date": "2026-07-15",
+        "title": "魏建军回应长城汽车 2026 上半年净利润腰斩：更在意企业的健康发展",
+        "summary": "长城汽车 7 月 14 日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）业绩预告报告，归母净利润 23.50 亿元～26 亿元，同比下降 58.97%~62.92%。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/976/840.htm"
     }
 ]
 };
