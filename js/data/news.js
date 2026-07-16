@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-15 04:24:36
+// 自动生成于 2026-07-16 04:36:02
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-15",
-        "title": "小米推出 999 元米家智能浴霸 P1 人感版：全嵌式升降灯板，3000W 大功率升温",
-        "summary": "小米今天新上架了一款“米家智能浴霸 P1 人感版”，按惯例将于下周三开启众筹，众筹价 999 元。",
+        "date": "2026-07-16",
+        "title": "小米推出“开箱即用”机器人基座模型 Xiaomi-Robotics-1，基于 10 万小时数据训练",
+        "summary": "小米技术今天（16 日）上午宣布，小米具身基座模型 Xiaomi-Robotics-1 正式发布，基于 10 万小时真实世界操作数结合跨本体后训练，实现具身基座模型的“开箱即用”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/913.htm"
+        "link": "https://www.ithome.com/0/977/453.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-15",
-        "title": "OPPO ColorOS 七月体验升级公布：锁屏指纹自定义、景区天气等",
-        "summary": "OPPO 今日公布了 ColorOS 七月体验升级内容和适配机型，该更新已于 7 月 2 日开启分批次推送，7 月 31 日前完成推送。",
+        "date": "2026-07-16",
+        "title": "小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow，全球仅 100 余人获此殊荣",
+        "summary": "@小米技术 官方账号今天（7 月 16 日）发布博文，宣布小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/908.htm"
+        "link": "https://www.ithome.com/0/977/452.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-07-15",
-        "title": "支付宝 OPPO 宣布达成智能体跨端互联合作，一句话充话费、买电影票、点外卖、查社保公积金",
-        "summary": "支付宝与 OPPO 宣布正式达成智能体跨端互联合作。",
+        "date": "2026-07-16",
+        "title": "小米汽车：澎程系列全系 CLTC 纯电续航最长 505km，电池最大 76kWh",
+        "summary": "小米澎程官微今天发文预热旗下新车 N70、N90 的续航信息：小米澎程系列，全系最长 CLTC 纯电续航 505km，全系最大电池容量 76kWh，号称真正做到日常当纯电车开，偶尔用油也很省，长途出行不焦虑。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/823.htm"
+        "link": "https://www.ithome.com/0/977/332.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-15",
-        "title": "路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康",
-        "summary": "路透社昨日（7 月 14 日）发布博文，报道称埃隆 · 马斯克（Elon Musk）旗下 AI 公司 xAI 位于美国田纳西州的 Colossus 2 数拉高周围社区肺部疾病发病率。",
+        "date": "2026-07-16",
+        "title": "后续：Anthropic 回应 1662 万美元 AI 天价账单，计费系统 Bug 导致",
+        "summary": "Anthropic 最新回应天价 AI 账单事件，官方表示这笔异常账单并未实际扣款，是因为账户计费系统故障引发。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/897.htm"
+        "link": "https://www.ithome.com/0/977/457.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-15",
-        "title": "华硕推出“小飞侠 Air”Wi-Fi 6 信号放大器：双频 1500M，首发国补价 228.6 元",
-        "summary": "华硕今日推出了一款名为“小飞侠 Air”的 Wi-Fi 6 信号放大器，型号为 RP-AX50，官方定价 299 元，首发 254 元，叠加国补后 228.6 元。",
+        "date": "2026-07-16",
+        "title": "NVIDIA 扩展 Jetson Thor 计算机家族，新增 T3000、T2000 模组",
+        "summary": "NVIDIA（英伟达）当地时间 15 日宣布扩展其 Jetson Thor 计算机家族，在首期推出的 T5000、T4000 模组之外进一步新增 T3000、T2000 选项。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/877.htm"
+        "link": "https://www.ithome.com/0/977/455.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-07-15",
-        "title": "AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9",
-        "summary": "科技媒体 Tom's Hardware 昨日（7 月 14 日）发布博文，报道称大阪公立大学研究团队开发出一种可编程热器件，其非互易因子接近 0.9，能在断电后记忆配置状态，实现近乎正向入射角下的热量定向控制。",
+        "date": "2026-07-16",
+        "title": "集邦咨询：预估陪伴型人形机器人 2030 年产值达 11 亿美元",
+        "summary": "集邦咨询 15 日最新发布的机器人产业研究显示，陪伴型机器人已从早期的养老照护陪伴、疗愈设计，拓展至近年来的真人化互动和情感陪伴。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/868.htm"
+        "link": "https://www.ithome.com/0/977/445.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-15",
-        "title": "上海开出脑机接口首张处方并成功手术，辅助实现手部抓握功能代偿",
-        "summary": "上海市科委通过“上海科技”公众号宣布，7 月 13 日，植入式脑机接口手部运动功能代偿系统（NEO）获批上市后的首张处方在上海开出，全球首例植入手术在复旦大学附属华山医院完成。术中测试显示，系统采集的硬膜外脑电信号稳定、质量良好。",
+        "date": "2026-07-16",
+        "title": "澜起科技回应韩检方突击搜查：积极配合，目前公司运行正常",
+        "summary": "韩国检察官突袭了三家公司，其中包括向三星电子和 SK 海力士供应半导体零部件的中国澜起科技。此举旨在确认三家公司操纵零件价格的指控。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/890.htm"
+        "link": "https://www.ithome.com/0/977/435.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-15",
-        "title": "晶圆代工企业 Tower 宣布 6000 亿日元光通信领域产能建设投资",
-        "summary": "以色列晶圆代工企业 Tower Semiconductor（高塔半导体）当地时间昨日宣布，计划在日本进行总价值约 6000 亿日元的产能建设投资（IT之家注：现汇率约合 250.84 亿元人民币）。",
+        "date": "2026-07-16",
+        "title": "供应问题解决，iFixit 将恢复出售 Valve Steam Deck LCD 掌机电池",
+        "summary": "Valve 向其确认 Steam Deck LCD 官方备件合作伙伴 iFixit 计划在下周前恢复这款掌机的电池的库存。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/863.htm"
+        "link": "https://www.ithome.com/0/977/360.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-07-15",
-        "title": "航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市",
-        "summary": "航嘉 (Huntkey) 旗下游戏硬件 MVPLAND 在上周举行的 BW2026 上举行了 2026 品牌发布会，宣布结合自研数字集成电路和碳化硅 (SiC) 功率半导体的 PC 电源将于 2026 年 10 月上市。",
+        "date": "2026-07-16",
+        "title": "约 40% 降幅，DigiTimes 下调 2026 苹果 MacBook Neo 笔记本出货量预期至 600~700 万台",
+        "summary": "DigiTimes Intelligence 分析师 Henry Chang 昨日（7 月 15 日）发布博文，预估由于苹果 A18 Pro 芯片供应限制，下调 2026 年 MacBook Neo 笔记本出货量预期，降幅达到 40%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/822.htm"
+        "link": "https://www.ithome.com/0/977/357.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-15",
-        "title": "投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓",
-        "summary": "美国投资银行 KeyBanc 在最新研报中，下调苹果公司股票评级，从“板块权重”（Sector Weight）下调至“减持”（Underweight），并给出 250 美元的目标价。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/938.htm"
+        "date": "2026-07-16",
+        "title": "先正达面临推迟50亿美元香港IPO",
+        "summary": "先正达面临推迟50亿美元香港IPO。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3897778096326535?f=rss"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-15",
-        "title": "IBM 股价大跌，CEO 克里希纳向投资者解释业绩未达预期原因",
-        "summary": "7 月 14 日，IBM 的股价在该公司公布第二季度初步销售额低于预期后暴跌 25%，创 1987 年以来最大单日跌幅。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/867.htm"
+        "date": "2026-07-16",
+        "title": "A股三大指数午间休盘集体下跌，芯片股走弱",
+        "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.82%，深成指跌0.83%，创业板指跌1.73%；通信设备、半导体、能源板块领跌，移为通信跌超14%，华微电子跌超8%，恒通股份跌超4%；汽车、贵金属、地产板块走强，雪龙集团涨超6%，赤...。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3897765234558594?f=rss"
     },
     {
         "id": "news-012",
         "category": "stock",
-        "date": "2026-07-15",
-        "title": "魏建军回应长城汽车 2026 上半年净利润腰斩：更在意企业的健康发展",
-        "summary": "长城汽车 7 月 14 日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）业绩预告报告，归母净利润 23.50 亿元～26 亿元，同比下降 58.97%~62.92%。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/976/840.htm"
+        "date": "2026-07-16",
+        "title": "韩国央行行长：将上调韩国央行特别贷款计划的利率",
+        "summary": "韩国央行行长申铉松表示，将上调韩国央行特别贷款计划的利率。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3897699890366342?f=rss"
     }
 ]
 };
