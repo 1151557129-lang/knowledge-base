@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-16 04:36:02
+// 自动生成于 2026-07-17 04:38:36
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-16",
-        "title": "小米推出“开箱即用”机器人基座模型 Xiaomi-Robotics-1，基于 10 万小时数据训练",
-        "summary": "小米技术今天（16 日）上午宣布，小米具身基座模型 Xiaomi-Robotics-1 正式发布，基于 10 万小时真实世界操作数结合跨本体后训练，实现具身基座模型的“开箱即用”。",
+        "date": "2026-07-17",
+        "title": "OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售",
+        "summary": "OPPO K15 标准版手机现已在京东开启预约，新品搭载天玑 7360 Super 芯片、8000mAh 冰川电池，可选疾速白、疾风灰两种配色，售价暂未公布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/453.htm"
+        "link": "https://www.ithome.com/0/977/995.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-16",
-        "title": "小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow，全球仅 100 余人获此殊荣",
-        "summary": "@小米技术 官方账号今天（7 月 16 日）发布博文，宣布小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow。",
+        "date": "2026-07-17",
+        "title": "小米蓝牙音箱 C 新增紫色款上架预约：18W 扬声器/ IP68 防水，299 元",
+        "summary": "小米 Xiaomi 蓝牙音箱 C 新增的紫色款现已上架预约，定价为 299 元。这款音箱搭载 18 W 全频扬声器，配合内外双被动辐射器，呈现丰富细腻的音质与深沉有力的低音，带来沉浸式听觉体验。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/452.htm"
+        "link": "https://www.ithome.com/0/977/958.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-07-16",
-        "title": "小米汽车：澎程系列全系 CLTC 纯电续航最长 505km，电池最大 76kWh",
-        "summary": "小米澎程官微今天发文预热旗下新车 N70、N90 的续航信息：小米澎程系列，全系最长 CLTC 纯电续航 505km，全系最大电池容量 76kWh，号称真正做到日常当纯电车开，偶尔用油也很省，长途出行不焦虑。",
+        "category": "ai",
+        "date": "2026-07-17",
+        "title": "AI 新路径：全球最大纳米级磁振荡器同步网络验证，45 纳秒同步 10.5 万个振荡器",
+        "summary": "科技媒体 Business Standard 于 7 月 14 日发布博文，报道称科研团队通过实验证明全球最大纳米级磁振荡器同步网络，可以在 45 纳秒内同步 10.5 万个纳米振荡器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/332.htm"
+        "link": "https://www.ithome.com/0/978/008.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-16",
-        "title": "后续：Anthropic 回应 1662 万美元 AI 天价账单，计费系统 Bug 导致",
-        "summary": "Anthropic 最新回应天价 AI 账单事件，官方表示这笔异常账单并未实际扣款，是因为账户计费系统故障引发。",
+        "date": "2026-07-17",
+        "title": "新研究警告：欧盟 AI“护栏”机制过于僵化，难以适应技术变革",
+        "summary": "一份发表在《大数欧盟为监管 AI 而设立的“护栏机制”无论在政策还是实际执行方面都存在不足，且监管体系过于僵化，难以适应 AI 快速发展。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/457.htm"
+        "link": "https://www.ithome.com/0/978/007.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-16",
-        "title": "NVIDIA 扩展 Jetson Thor 计算机家族，新增 T3000、T2000 模组",
-        "summary": "NVIDIA（英伟达）当地时间 15 日宣布扩展其 Jetson Thor 计算机家族，在首期推出的 T5000、T4000 模组之外进一步新增 T3000、T2000 选项。",
+        "date": "2026-07-17",
+        "title": "曝微软 CEO 纳德拉吐槽 Anthropic 旗下 Fable 模型：内容管控过于严苛",
+        "summary": "微软 CEO 萨提亚 · 纳德拉周三在一场内部会议表示，Anthropic 的 Fable 模型在内容管控方面过于严苛。根纳德拉在与微软 AI 工程师交谈时表示：“如果你使用 Fable 就知道，它会因为各种莫名其妙的原因拒绝回答。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/455.htm"
+        "link": "https://www.ithome.com/0/978/002.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-07-16",
-        "title": "集邦咨询：预估陪伴型人形机器人 2030 年产值达 11 亿美元",
-        "summary": "集邦咨询 15 日最新发布的机器人产业研究显示，陪伴型机器人已从早期的养老照护陪伴、疗愈设计，拓展至近年来的真人化互动和情感陪伴。",
+        "category": "display",
+        "date": "2026-07-17",
+        "title": "上海海思：采用 GPMI 芯片的电视出货量已接近百万台，国内头部品牌几乎全部商用",
+        "summary": "海思技术有限公司今日发文宣布，采用 GPMI 芯片的电视出货量已接近百万台。国内头部电视品牌，几乎都已经实现了 GPMI 终端的量产商用。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/445.htm"
+        "link": "https://www.ithome.com/0/978/011.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-16",
-        "title": "澜起科技回应韩检方突击搜查：积极配合，目前公司运行正常",
-        "summary": "韩国检察官突袭了三家公司，其中包括向三星电子和 SK 海力士供应半导体零部件的中国澜起科技。此举旨在确认三家公司操纵零件价格的指控。",
+        "date": "2026-07-17",
+        "title": "前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面”",
+        "summary": "科技媒体 Tom's Hardware 昨日（7 月 16 日）发布博文，报道称前世嘉、Facebook 工程师近藤义仁（@GOROman）开发适用于苹果 macOS 的 CRT 显示器模拟器，还引入“拍打屏幕修复画面”功能。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/435.htm"
+        "link": "https://www.ithome.com/0/978/004.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-16",
-        "title": "供应问题解决，iFixit 将恢复出售 Valve Steam Deck LCD 掌机电池",
-        "summary": "Valve 向其确认 Steam Deck LCD 官方备件合作伙伴 iFixit 计划在下周前恢复这款掌机的电池的库存。",
+        "date": "2026-07-17",
+        "title": "从零造芯难度太大，塔塔电子只能用 90nm 制程生产印度首批本土晶圆",
+        "summary": "塔塔电子与力积电合作筹建了印度首座大型晶圆厂，然而，塔塔准备先用较为老旧的 90 纳米制程生产印度首批本土晶圆，而非集团原先宣称的 28 纳米制程。这一动作，反映印度从零打造芯片产业的难度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/360.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-07-16",
-        "title": "约 40% 降幅，DigiTimes 下调 2026 苹果 MacBook Neo 笔记本出货量预期至 600~700 万台",
-        "summary": "DigiTimes Intelligence 分析师 Henry Chang 昨日（7 月 15 日）发布博文，预估由于苹果 A18 Pro 芯片供应限制，下调 2026 年 MacBook Neo 笔记本出货量预期，降幅达到 40%。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/357.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-07-16",
-        "title": "先正达面临推迟50亿美元香港IPO",
-        "summary": "先正达面临推迟50亿美元香港IPO。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3897778096326535?f=rss"
-    },
-    {
-        "id": "news-011",
-        "category": "stock",
-        "date": "2026-07-16",
-        "title": "A股三大指数午间休盘集体下跌，芯片股走弱",
-        "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.82%，深成指跌0.83%，创业板指跌1.73%；通信设备、半导体、能源板块领跌，移为通信跌超14%，华微电子跌超8%，恒通股份跌超4%；汽车、贵金属、地产板块走强，雪龙集团涨超6%，赤...。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3897765234558594?f=rss"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-07-16",
-        "title": "韩国央行行长：将上调韩国央行特别贷款计划的利率",
-        "summary": "韩国央行行长申铉松表示，将上调韩国央行特别贷款计划的利率。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3897699890366342?f=rss"
+        "link": "https://www.ithome.com/0/978/003.htm"
     }
 ]
 };
