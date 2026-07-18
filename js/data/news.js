@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-17 04:38:36
+// 自动生成于 2026-07-18 04:22:53
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-17",
-        "title": "OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售",
-        "summary": "OPPO K15 标准版手机现已在京东开启预约，新品搭载天玑 7360 Super 芯片、8000mAh 冰川电池，可选疾速白、疾风灰两种配色，售价暂未公布。",
+        "date": "2026-07-18",
+        "title": "OPPO 新机 PMW110 入网，疑似归属 Find X10 系列",
+        "summary": "一款型号为 PMW110 的 OPPO 新机最近入网，博主 @数码闲聊站 认为该机疑似为 OPPO Find X10 系列，支持 N79 5G 频段。博主还在文中猜测起该系列机型的配置：“首批 2nm 天玑 9600 Pro。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/995.htm"
+        "link": "https://www.ithome.com/0/978/404.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-07-17",
-        "title": "小米蓝牙音箱 C 新增紫色款上架预约：18W 扬声器/ IP68 防水，299 元",
-        "summary": "小米 Xiaomi 蓝牙音箱 C 新增的紫色款现已上架预约，定价为 299 元。这款音箱搭载 18 W 全频扬声器，配合内外双被动辐射器，呈现丰富细腻的音质与深沉有力的低音，带来沉浸式听觉体验。",
+        "category": "ai",
+        "date": "2026-07-18",
+        "title": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3",
+        "summary": "@claudeai 官方 X 账号今天（7 月 18 日）发布推文，宣布将于 7 月 20 日开始，Max 和 Team Premium 订阅用户可以使用 Claude Fable 5 模型，限额为 50%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/977/958.htm"
+        "link": "https://www.ithome.com/0/978/440.htm"
     },
     {
         "id": "news-003",
         "category": "ai",
-        "date": "2026-07-17",
-        "title": "AI 新路径：全球最大纳米级磁振荡器同步网络验证，45 纳秒同步 10.5 万个振荡器",
-        "summary": "科技媒体 Business Standard 于 7 月 14 日发布博文，报道称科研团队通过实验证明全球最大纳米级磁振荡器同步网络，可以在 45 纳秒内同步 10.5 万个纳米振荡器。",
+        "date": "2026-07-18",
+        "title": "首款专为智能眼镜打造的原生 AI 系统：乐奇 YodaOS 亮相 WAIC 2026",
+        "summary": "2026 世界人工智能大会今天在上海举行，乐奇 Rokid 已在现场推出全球首款专为智能眼镜打造的原生 AI 操作系统 YodaOS。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/008.htm"
+        "link": "https://www.ithome.com/0/978/439.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-17",
-        "title": "新研究警告：欧盟 AI“护栏”机制过于僵化，难以适应技术变革",
-        "summary": "一份发表在《大数欧盟为监管 AI 而设立的“护栏机制”无论在政策还是实际执行方面都存在不足，且监管体系过于僵化，难以适应 AI 快速发展。",
+        "date": "2026-07-18",
+        "title": "感知系统缺陷导致车辆冲进火场，亚马逊召回 105 辆 Zoox 自动驾驶出租车",
+        "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车的软件。一次事故显示，车辆存在无法识别浓烟的风险，甚至会直接驶入被烟雾遮挡的火灾现场。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/007.htm"
+        "link": "https://www.ithome.com/0/978/427.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-07-17",
-        "title": "曝微软 CEO 纳德拉吐槽 Anthropic 旗下 Fable 模型：内容管控过于严苛",
-        "summary": "微软 CEO 萨提亚 · 纳德拉周三在一场内部会议表示，Anthropic 的 Fable 模型在内容管控方面过于严苛。根纳德拉在与微软 AI 工程师交谈时表示：“如果你使用 Fable 就知道，它会因为各种莫名其妙的原因拒绝回答。",
+        "category": "display",
+        "date": "2026-07-18",
+        "title": "Teams 新功能可显示“在办公室”引争议，微软回应称绝不监视员工",
+        "summary": "科技媒体 Windows Latest 今天（7 月 18 日）发布博文，报道称针对适用于 Microsoft Teams 中的“工作地点签到”（workplace check-in），微软强调该功能并非用于监控员工。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/002.htm"
+        "link": "https://www.ithome.com/0/978/367.htm"
     },
     {
         "id": "news-006",
         "category": "display",
-        "date": "2026-07-17",
-        "title": "上海海思：采用 GPMI 芯片的电视出货量已接近百万台，国内头部品牌几乎全部商用",
-        "summary": "海思技术有限公司今日发文宣布，采用 GPMI 芯片的电视出货量已接近百万台。国内头部电视品牌，几乎都已经实现了 GPMI 终端的量产商用。",
+        "date": "2026-07-18",
+        "title": "微软 7 月 Win11 累积更新 5 大亮点：小部件面板不再自动打开等",
+        "summary": "科技媒体 Windows Latest 昨日（7 月 17 日）发布博文，梳理了 2026 年 7 月 Windows 11 累积更新 KB5101650 内容，挖掘出其中 5 个值得关注的亮点。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/011.htm"
+        "link": "https://www.ithome.com/0/978/363.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-17",
-        "title": "前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面”",
-        "summary": "科技媒体 Tom's Hardware 昨日（7 月 16 日）发布博文，报道称前世嘉、Facebook 工程师近藤义仁（@GOROman）开发适用于苹果 macOS 的 CRT 显示器模拟器，还引入“拍打屏幕修复画面”功能。",
+        "date": "2026-07-18",
+        "title": "消息称苹果数字车钥匙即将支持长城坦克车型",
+        "summary": "苹果 Apple Wallet 应用后台代码变更显示，长城汽车旗下坦克车型即将支持数字车钥匙功能，不过具体型号、上线时间暂不明确。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/004.htm"
+        "link": "https://www.ithome.com/0/978/343.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
+        "category": "stock",
+        "date": "2026-07-18",
+        "title": "9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一；乐事回应“蓝色薯片”来源",
+        "summary": "今日热点导览 月之暗面正式推出开源模型Kimi K3 智谱ARR达到10亿美元，半年增长15倍 国际足联：世界杯冠军将有戒指，每枚均有独立编号 国内成品油价7月17日晚上调 A股存储板块龙头股遭遇两个跌停 TOP3大新闻 ofo停更5年突...。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3900449325287305?f=rss"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
         "date": "2026-07-17",
-        "title": "从零造芯难度太大，塔塔电子只能用 90nm 制程生产印度首批本土晶圆",
-        "summary": "塔塔电子与力积电合作筹建了印度首座大型晶圆厂，然而，塔塔准备先用较为老旧的 90 纳米制程生产印度首批本土晶圆，而非集团原先宣称的 28 纳米制程。这一动作，反映印度从零打造芯片产业的难度。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/003.htm"
+        "title": "震业新材完成超亿元A轮融资，招商致远、玉柴股份、海富产业基金领投｜36氪首发",
+        "summary": "36氪获悉，ADI金属材料企业震业新材近期完成超亿元A轮融资。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3898476192941697?f=rss"
     }
 ]
 };
