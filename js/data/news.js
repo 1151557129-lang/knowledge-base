@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-18 04:22:53
+// 自动生成于 2026-07-19 04:44:57
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,68 +35,86 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-18",
-        "title": "OPPO 新机 PMW110 入网，疑似归属 Find X10 系列",
-        "summary": "一款型号为 PMW110 的 OPPO 新机最近入网，博主 @数码闲聊站 认为该机疑似为 OPPO Find X10 系列，支持 N79 5G 频段。博主还在文中猜测起该系列机型的配置：“首批 2nm 天玑 9600 Pro。",
+        "date": "2026-07-19",
+        "title": "OPPO 陈希透露 ColorOS 17 没有透明化卡片设计，称可读性有挺大影响",
+        "summary": "OPPO ColorOS 设计总监陈希昨日在微博分享了 ColorOS 系统的小布建议功能，称到医院后可以自动识别医院，主动推出相关服务，用医保码非常方便。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/404.htm"
+        "link": "https://www.ithome.com/0/978/638.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-07-18",
-        "title": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3",
-        "summary": "@claudeai 官方 X 账号今天（7 月 18 日）发布推文，宣布将于 7 月 20 日开始，Max 和 Team Premium 订阅用户可以使用 Claude Fable 5 模型，限额为 50%。",
+        "category": "xiaomi",
+        "date": "2026-07-19",
+        "title": "雷军试乘小米澎程 N90 后排视频曝光，新车有望搭载智能电动门",
+        "summary": "博主 @SugarDesign 分享了一段雷军亲自试乘小米澎程 N90 后排视频。从画面来看，雷军上车前车门自动打开，上车后车门也随之关闭，并且未见雷军进行其他操作。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/440.htm"
+        "link": "https://www.ithome.com/0/978/626.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-07-18",
-        "title": "首款专为智能眼镜打造的原生 AI 系统：乐奇 YodaOS 亮相 WAIC 2026",
-        "summary": "2026 世界人工智能大会今天在上海举行，乐奇 Rokid 已在现场推出全球首款专为智能眼镜打造的原生 AI 操作系统 YodaOS。",
+        "category": "xiaomi",
+        "date": "2026-07-19",
+        "title": "小米汽车回应澎程为何要用 76kWh 大电池，称源于做增程产品的底层理念「纯电长续航」",
+        "summary": "小米汽车官方昨日发布了答网友问（第 261 集），针对小米澎程为什么要用 76kWh 的大电池、澎程系列 CLTC 最高纯电续航 505 km 日常开能跑多少等问题进行了解答。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/439.htm"
+        "link": "https://www.ithome.com/0/978/618.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-18",
-        "title": "感知系统缺陷导致车辆冲进火场，亚马逊召回 105 辆 Zoox 自动驾驶出租车",
-        "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车的软件。一次事故显示，车辆存在无法识别浓烟的风险，甚至会直接驶入被烟雾遮挡的火灾现场。",
+        "date": "2026-07-19",
+        "title": "蚂蚁数科发布商业智能体超级工厂核心平台 Agentar2.0，预置 200 个岗位级数字专家模板",
+        "summary": "今日，在 2026 世界人工智能大会，蚂蚁数科正式发布商业智能体超级工厂核心平台“Agentar2.0”。Agentar2.0 首批预置 200 个岗位级数字专家模板，并提供数百个可订阅的 Skills 级开箱可用的智能体工具。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/427.htm"
+        "link": "https://www.ithome.com/0/978/684.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-07-18",
-        "title": "Teams 新功能可显示“在办公室”引争议，微软回应称绝不监视员工",
-        "summary": "科技媒体 Windows Latest 今天（7 月 18 日）发布博文，报道称针对适用于 Microsoft Teams 中的“工作地点签到”（workplace check-in），微软强调该功能并非用于监控员工。",
+        "category": "ai",
+        "date": "2026-07-19",
+        "title": "全国首个具身智能实训场样板点发布",
+        "summary": "在今日上午举行的 2026 WAIC 人形机器人与具身智能创新发展论坛上，国家地方共建人形机器人创新中心携手华为打造的全国首个具身智能实训场样板点发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/367.htm"
+        "link": "https://www.ithome.com/0/978/673.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-07-18",
-        "title": "微软 7 月 Win11 累积更新 5 大亮点：小部件面板不再自动打开等",
-        "summary": "科技媒体 Windows Latest 昨日（7 月 17 日）发布博文，梳理了 2026 年 7 月 Windows 11 累积更新 KB5101650 内容，挖掘出其中 5 个值得关注的亮点。",
+        "category": "ai",
+        "date": "2026-07-19",
+        "title": "月之暗面 Kimi K3 大模型登顶全球榜单后，彭博社称美国 AI 领先中国固有认知被打破",
+        "summary": "月之暗面 Kimi K3 大模型于周四重磅上线，拥有 2.8 万亿参数，100 万 Tokens 上下文。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/363.htm"
+        "link": "https://www.ithome.com/0/978/670.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-18",
-        "title": "消息称苹果数字车钥匙即将支持长城坦克车型",
-        "summary": "苹果 Apple Wallet 应用后台代码变更显示，长城汽车旗下坦克车型即将支持数字车钥匙功能，不过具体型号、上线时间暂不明确。",
+        "date": "2026-07-19",
+        "title": "SK 集团会长崔泰源：内存应该降价，如果一直高价消费电子行业可能受到冲击",
+        "summary": "SK 集团会长、大韩商工会议所会长崔泰源表示，目前持续高企的内存价格并不正常。过高的半导体价格不仅会抑制市场需求，未来还可能引发地缘政治层面的矛盾。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/978/343.htm"
+        "link": "https://www.ithome.com/0/978/683.htm"
     },
     {
         "id": "news-008",
+        "category": "display",
+        "date": "2026-07-18",
+        "title": "三星 Galaxy Watch 9 手表宣发图片曝光：骁龙 Wear Elite 芯片、支持睡眠呼吸暂停检测",
+        "summary": "人士 Evan Blass 昨天放出三星 Galaxy Watch 9 手表的官方宣发素材，显示该产品将配备高通骁龙平台，并在健康方面有诸多升级。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/978/608.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
+        "date": "2026-07-18",
+        "title": "IT早报 0719：曝 Kimi 最快 6 个月内赴港上市；广汽埃安就部分搭 177Ah 电池车故障致歉；苹果 Music 订阅全球多地涨价；鸿蒙智行称问界 M9 直播挑战为商品车...",
+        "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 19 日星期日，今天的重要科技资讯有：1、月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市Kimi 已通知投资者调整公司架构，筹备赴港 IPO，最快可能 6...。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/978/610.htm"
+    },
+    {
+        "id": "news-010",
         "category": "stock",
         "date": "2026-07-18",
         "title": "9点1氪丨ofo停更5年突然发文，运营主体仍处存续状态；苹果市值重返全球第一；乐事回应“蓝色薯片”来源",
@@ -105,7 +123,7 @@ const NEWS_DATA = {
         "link": "https://36kr.com/p/3900449325287305?f=rss"
     },
     {
-        "id": "news-009",
+        "id": "news-011",
         "category": "stock",
         "date": "2026-07-17",
         "title": "震业新材完成超亿元A轮融资，招商致远、玉柴股份、海富产业基金领投｜36氪首发",
