@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-21 04:43:57
+// 自动生成于 2026-07-22 04:43:59
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,101 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-21",
-        "title": "小米平板 9 通过 3C 认证：9720mAh 大电池 + 45W 快充头，骁龙 8 系处理器",
-        "summary": "小米有一款型号为 M656BA 的平板电脑于 7 月 17 日通过国家 3C 认证，@数码闲聊站 称其为小米平板 9。这款平板电脑由西安比亚迪电子有限公司集贤分公司代工，标配 45W 快充头（数码闲聊站称其 55W，疑似笔误）。",
+        "date": "2026-07-22",
+        "title": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
+        "summary": "小米首款新国标移动电源小米充电宝自带线 20000 22.5W 今日全渠道开售（部分渠道早在 6 月已经开售），售价 149 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/455.htm"
+        "link": "https://www.ithome.com/0/979/937.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-21",
-        "title": "小米 349 元米家智能冲牙器 Pro 开售：第二代可旋转多效喷嘴，配彩屏支持 App 智连",
-        "summary": "小米官方今日宣布“米家智能冲牙器 Pro”正式开售，定价为 399 元，首发价 349 元，京东叠加九折券后 303.11 元。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/420.htm"
+        "date": "2026-07-22",
+        "title": "小米旗下瀚星创投入股星利行新能源科技公司",
+        "summary": "36氪获悉，天眼查App显示，近日，浙江星利行新能源科技有限公司发生工商变更，新增小米旗下瀚星创业投资有限公司为股东，同时，注册资本由1亿人民币增至1.3亿人民币。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3906278408934531?f=rss"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-07-21",
-        "title": "佳明无屏幕智能手环 CIRQA 渲染图曝光",
-        "summary": "科技媒体 Android Authority 昨日（7 月 20 日）发布博文，报道称佳明（Garmin）智能手环 CIRQA 售价可能为 199.99 美元（IT之家注：现汇率约合 1356 元人民币）。",
+        "category": "ai",
+        "date": "2026-07-22",
+        "title": "中国工程院院士李骏：自动驾驶汽车上路必须保证全生命周期安全",
+        "summary": "在今天（22 日）的 2026 中国汽车论坛上，中国工程院院士、清华大学车辆与运载学院教授李骏表示，安全第一是自动驾驶汽车进入道路的先决条件，且必须保证全生命周期安全。李俊认为，自动驾驶汽车投入市场运行后面临多重压力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/385.htm"
+        "link": "https://www.ithome.com/0/979/995.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-21",
-        "title": "小鹏集团发布 TuringViT，宣称重构视觉大模型训练范式",
-        "summary": "小鹏集团今日发布 TuringViT 高效视觉编码器，面向 VLM / VLA 时代系统性重构视觉编码器的架构设计、数小鹏集团表示，TuringViT 将全面支撑智能驾驶、智能座舱、IRON 人形机器人三大业务场景，同时为行业提供了一条可...。",
+        "date": "2026-07-22",
+        "title": "三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+        "summary": "德国科技媒体 WinFuture 昨日（7 月 21 日）发布博文，报道称在 Galaxy Unpacked 活动中，三星将会公布其首款 AI 智能眼镜细节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/451.htm"
+        "link": "https://www.ithome.com/0/979/993.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-21",
-        "title": "CuspAI 推出“AI 材料工厂”计划，NVIDIA、Meta、三星均为创始成员",
-        "summary": "英国人工智能新材料发现初创企业 CuspAI 当地时间 20 日宣布推出 \"AI Materials Foundry\" 计划。该计划汇集了全球材料科技能力网络，构建了由单一智能体协调的平台。",
+        "date": "2026-07-22",
+        "title": "微软 Win11 RP 预览版文件管理器新增 Copilot 按钮，AI 分析 / 摘要文件",
+        "summary": "科技媒体 NeoWin 昨日（7 月 21 日）发布博文，报道称在 Release Preview 频道最新 Windows 11 预览版中，在文件管理器 Home 主页中，微软新增了专属的 Copilot AI 按钮。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/446.htm"
+        "link": "https://www.ithome.com/0/979/968.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-07-21",
-        "title": "腾讯混元发布科学发现智能体 Hyra，能够递归自我改进",
-        "summary": "腾讯混元今日推出 Hyra-1.0，这是 Hyra（Hunyuan Research Agent）的首个版本：一个能够递归自我改进、专为性能导向的研究与工程任务打造的智能体。",
+        "category": "display",
+        "date": "2026-07-22",
+        "title": "初探微软 Win11 26H1 新小工具面板：减少信息干扰，可精简至仅天气卡片",
+        "summary": "科技媒体 NeoWin 昨日（7 月 21 日）发布博文，报道称在 Windows 11 26H1 Release Preview Build 28000.2597 预览版中，微软重点改进了小工具（Widgets）体验。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/440.htm"
+        "link": "https://www.ithome.com/0/979/952.htm"
     },
     {
         "id": "news-007",
         "category": "display",
         "date": "2026-07-21",
-        "title": "华硕推出 420Hz FHD Fast IPS 显示器 ROG Strix XG259QNSR Ace",
-        "summary": "华硕 (ASUS) 现已在官网列出 ROG Strix XG259QNSR Ace 显示器。这一型号采用 24.5\" Fast IPS 面板，提供标准黑色与可选的白色 -W 版本。",
+        "title": "微软发布 Win11 Experimental 频道 Build 28120.2546 预览版：优化盲文显示、新增语音访问支持语种",
+        "summary": "微软昨天（7 月 21 日）发布博文，邀请 Experimental 频道的 Windows Insider 项目成员，测试适用于 Windows 11 26H1 的预览版更新，用户安装后版本号升至 Build 28120.2546。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/450.htm"
+        "link": "https://www.ithome.com/0/979/808.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-21",
-        "title": "LG Display 首席技术官：Tandem OLED 显示面板将扩展到所有产品类别",
-        "summary": "LG Display 首席技术官崔荣锡（최영석）当地时间今日在韩国首尔 Display Business Forum 2026 论坛上表示，Tandem OLED 显示面板将扩展到所有产品类别。",
+        "date": "2026-07-22",
+        "title": "全新深蓝 S05 官宣，激光雷达、智驾小蓝灯上车",
+        "summary": "今天上午，长安深蓝汽车宣布：全新深蓝 S05 即将登场。新车定位“全球时尚激光智能 SUV”，预告图显示，新车将配备激光雷达、智驾小蓝灯，智能辅助驾驶预计将迎来明显升级。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/378.htm"
+        "link": "https://www.ithome.com/0/979/912.htm"
     },
     {
         "id": "news-009",
-        "category": "display",
-        "date": "2026-07-21",
-        "title": "LG 间接承认通过 Win11 更新，向其显示器用户推广 McAfee",
-        "summary": "科技媒体 Windows Latest 今天（7 月 21 日）发布博文，报道称在 LG 通过更新日志，间接承认通过 Windows Update 方式，为 LG 显示器用户推送 McAfee 广告。",
+        "category": "stock",
+        "date": "2026-07-22",
+        "title": "小红书回应 IPO 因前员工举报而受阻传闻：相关信息均不属实",
+        "summary": "近日有较多传言称“小红书已于 6 月底前秘密提交 IPO 申请”，但因前员工举报其“上市合规”问题而受阻。7 月 22 日，小红书方面该媒体回应称，目前流传的 IPO 相关信息均不属实。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/320.htm"
+        "link": "https://www.ithome.com/0/979/965.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-21",
-        "title": "字节跳动创始人张一鸣再捐 3 亿元，支持家乡福建龙岩教育和医疗发展",
-        "summary": "龙岩市教育局发文，2026 年 7 月 21 日，字节跳动创始人张一鸣向芳梅教育发展基金追加捐赠 2 亿元，用于支持家乡福建省龙岩市天文科普教育、学生兴趣培养、教育信息化建设，以及改善永定区和上杭县部分学校的基础设施等。",
+        "date": "2026-07-22",
+        "title": "光模块龙头中际旭创启动 H 股招股：最高发行价 1010 港元预计募资 545 亿港元或成港股年内最大 IPO，拟 7 月 30 日上市",
+        "summary": "光模块龙头企业中际旭创今日发布公告，宣布正式启动招股，公司拟全球发售约 5450 万股 H 股（视乎超额配售权行使与否而定），预期将于 7 月 30 日在港交所主板挂牌上市。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/979/454.htm"
+        "link": "https://www.ithome.com/0/979/850.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
         "date": "2026-07-21",
-        "title": "欧林生物：重庆啤酒的痛，市场还没忘记",
-        "summary": "作者 | 黄绎达 编辑 | 张帆 欧林生物是国内疫苗领域的龙头企业，依托极具稀缺性的超级细菌创新疫苗管线与稳健发展的破伤风疫苗，其A股股价自2024年开启了一轮强势上涨行情，区间最大涨幅超过500%。",
+        "title": "8点1氪丨怡颗莓回应“检出致癌物”；美团否认上线“本科专送”“硕士优送”等配送服务；美方喊话三星电子、SK海力士分享超额利润",
+        "summary": "今日热点导览 字节XR业务PICO创始人周宏伟将卸任，李晓凯成为新任业务负责人 ZARA客服回应“阔腿裤存安全隐患”：专员正在核实处理 SpaceX将于8月4日发布上市后首份财报 恋与深空多平台账号停更 美国发布全球安全警示 TOP3大新...。",
         "source": "36氪",
-        "link": "https://36kr.com/p/3904814486718342?f=rss"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-07-21",
-        "title": "上市前夜 | 一季度净利是去年全年近三倍，深圳存储公司再闯港股IPO",
-        "summary": "本文约3100字，建议阅读7分钟 作者 | 彭孝秋 编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。",
-        "source": "36氪",
-        "link": "https://36kr.com/p/3904785488136070?f=rss"
+        "link": "https://36kr.com/p/3906043683296648?f=rss"
     }
 ]
 };
