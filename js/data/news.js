@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-29 04:43:47
+// 自动生成于 2026-07-30 04:29:56
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-29",
-        "title": "小米米家智能浴霸 P1 人感版预售：国补后 1099.05 元",
-        "summary": "开启众筹还不到一周，小米旗下“米家智能浴霸 P1 人感版”现已上架京东并开放全款预售，叠加国补后到手价 1099.05 元，将于 8 月 4 日发货。",
+        "date": "2026-07-30",
+        "title": "OriginOS 7 开启 Beta 内测招募：首批支持 vivo X300 Pro、Fold6、iQOO15 等机型",
+        "summary": "OriginOS 7 Beta 即日开启体验官招募，首批覆盖以下 5 款机型（每个机型 500 名，共 2500 名）：vivo X300 Provivo X Fold 6iQOO15vivo Pad6 ProiQOO Pad 6 Pro...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/013.htm"
+        "link": "https://www.ithome.com/0/983/497.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-29",
-        "title": "理想汽车 CEO 李想欢迎雷军加入增程赛道：预祝小米澎程大卖",
-        "summary": "小米创办人、董事长兼 CEO 雷军今天（29 日）发长文，详细回应了“小米澎程为什么要做增程”和“现在进入是不是太晚”两个问题，其中提到理想新一代 L6 新上市销量持续走高。",
+        "date": "2026-07-30",
+        "title": "小米米家定时燃气灶 3 今日开售：5.2kW 大火力 + 烟灶联动，国补 989.1 元起",
+        "summary": "小米米家定时燃气灶 3 将于今晚 20:00 开售，提供白色与灰色可选，叠加国补后，白色款活动到手价为 1199 元，灰色款为 989.1 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/978.htm"
+        "link": "https://www.ithome.com/0/983/466.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-07-29",
-        "title": "雷军：小米现在出增程车“并不晚”，例如理想新一代 L6 销量持续走高",
-        "summary": "小米创办人、董事长兼 CEO 雷军今天（29 日）发长文，详细回应了“小米澎程为什么要做增程”和“现在进入是不是太晚”两个问题。",
+        "date": "2026-07-30",
+        "title": "荣耀 MagicBook 14/16 新增 16GB 内存版开售：首销 6999 元起",
+        "summary": "荣耀官方今日宣布，全新 MagicBook14、MagicBook16 的 16GB 内存版开售。新机搭载英特尔酷睿 Ultra 5 336H 处理器，配备 16GB 内存 + 1TB 固态硬盘，售价 6999 元起。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/973.htm"
+        "link": "https://www.ithome.com/0/983/457.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-29",
-        "title": "DoorDash CEO 徐迅：AI 编程还不足以大幅提高工程师的生产力",
-        "summary": "DoorDash 联合创始人兼首席执行官徐迅表示，氛围编程在完整的软件工程体系中只占很小一部分，不能代表工程工作的全部。徐迅说：“软件工程师每天只有一部分时间用于写代码，现有模型能够代为完成编程，当然很有价值。",
+        "date": "2026-07-30",
+        "title": "扎克伯格：Instagram 会把所有公开帖子喂给大模型，再用分析结果训练算法",
+        "summary": "当地时间 29 日，Meta CEO 马克 · 扎克伯格和 CFO 苏珊 · 李出席 Meta 第二季度财报电话会议，分别谈到了推荐算法带来的用户使用增长，以及青少年诉讼可能造成的财务损失。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/014.htm"
+        "link": "https://www.ithome.com/0/983/471.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-29",
-        "title": "面向多卡工作站：酷冷至尊上线 V Platinum 3000 Workstation 电源",
-        "summary": "CoolerMaster（酷码 / 酷冷至尊）现已在官网上线 V Platinum 3000 Workstation 电源。正如其名，此 202mm 长度产品是一款专为极限工作站和 AI 计算打造的电源供应器。",
+        "date": "2026-07-30",
+        "title": "联想新款 IdeaCentre AIO 一体机渲染图曝光，6 种颜色",
+        "summary": "科技媒体 Windows Latest 昨日（7 月 29 日）发布博文，分享了一组渲染图，展示了联想全新 IdeaCentre AIO 一体机，共有 6 种颜色。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/001.htm"
+        "link": "https://www.ithome.com/0/983/470.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-07-29",
-        "title": "7999 元起，华硕灵耀 14/16 Air 笔记本电脑新增 16GB 内存型号",
-        "summary": "华硕近半个月来陆续上架了多款搭载 16GB 内存的笔记本电脑，还有 8GB 内存的无双 7X 台式机和破晓迷你主机。",
+        "date": "2026-07-30",
+        "title": "Win10/Win11 经典版微软 Outlook 将整合 Copilot：配更大按钮，AI 感知上下文",
+        "summary": "科技媒体 Windows Latest 今天（7 月 30 日）发布博文，报道称微软在推进 Windows 10、Windows 11 用户迁移到新版 Outlook 的同时，也在经典版 Outlook 中整合 Copilot 体验，并配...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/993.htm"
+        "link": "https://www.ithome.com/0/983/468.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-29",
-        "title": "三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片",
-        "summary": "科技媒体 Android Headline 昨日（7 月 28 日）发布博文，报道称三星 Galaxy S26 FE 手机通过 UL Demko 认证，确认该手机支持 45W 充电。",
+        "date": "2026-07-30",
+        "title": "NECPC 推出 LAVIE Tab T1 平板电脑：天玑 6400 + LCD，支持数字笔",
+        "summary": "NECPC 日本当地时间今日宣布推出 LAVIE Tab T1 平板电脑。这一型号基于联发科天玑 6400 处理器，搭载 12.1\" 2560×1600 90Hz LCD 显示面板，支持 4096 级压感数字笔。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/991.htm"
+        "link": "https://www.ithome.com/0/983/476.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-29",
-        "title": "理想汽车李昕旸回应网传 i6 自动泊车频繁调整仍失败：车后有电动自行车占位，将优化泊车受阻提醒",
-        "summary": "有网友 7 月 27 日发布视频显示，一辆理想汽车在地下停车场多次尝试自动泊车失败，频繁调整却始终无法入库，致后方车辆无法前行，引发网络热议。",
+        "date": "2026-07-30",
+        "title": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
+        "summary": "（12:08 更新，加入京东链接）IT之家 7 月 30 日华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/984.htm"
+        "link": "https://www.ithome.com/0/983/409.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-07-29",
-        "title": "台积电：日本地震未对 JASM 熊本晶圆厂人员与建筑安全造成影响",
-        "summary": "日本九州岛昨日下午发生 6.8 级地震，震源深度 10km，震中位于该国熊本县境内。台积电控股的在日合资晶圆制造企业 JASM 的厂区所在地即位于熊本县菊阳町。",
+        "date": "2026-07-30",
+        "title": "国产抗日 FPS《抵抗者》发布全新实机预告，确认参展 2026 ChinaJoy 并将开放试玩",
+        "summary": "国产抗日题材第一人称射击游戏《抵抗者》今日通过B站“游先看”频道发布了最新实机预告，展示了游戏画面、战斗场景及过场动画。公开报道显示，《抵抗者》由杭州浩汤科技开发，是一款以 1940 年代中国抗日战争为背景的 FPS 游戏。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/980.htm"
+        "link": "https://www.ithome.com/0/983/469.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-29",
-        "title": "实体游戏时代退潮：卡普空 2026 财年 Q1 数字版销量占比超 93%，营业利润同比增长 66.9% 至 410 亿日元",
-        "summary": "卡普空昨日公布了其 2026 财年第一季度（2026 年 4 月 1 日至 6 月 30 日）的财务数据。数公司游戏销量中数字版占比达到 93.3%，实体版销量仅占 6.7%，数字发行已成为卡普空玩家购买游戏的主要方式。",
+        "date": "2026-07-30",
+        "title": "Arm 2027 财年第一财季归母净利润 2.7 亿美元，同比增长 107.69%",
+        "summary": "Arm 今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）第一财季（2026 年 4 月 1 日～2026 年 6 月 30 日）报告：营业总收入： 12.89 亿美元（IT之家注：现汇率约合 87....。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/936.htm"
+        "link": "https://www.ithome.com/0/983/440.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-28",
-        "title": "希捷 2026 财年年报归母净利润 31.84 亿美元，同比增长 116.75%",
-        "summary": "希捷今日发布 2026 财年（2025 年 6 月 28 日～2026 年 7 月 3 日）年报及第四财季（2026 年 4 月 4 日～2026 年 7 月 3 日）报告：2026 财年年报营业总收入：121.95 亿美元（现汇率约合 ...。",
+        "date": "2026-07-30",
+        "title": "希捷：机械硬盘供应缺口进一步扩大，单碟超 5TB 平台 2027 年末认证出货",
+        "summary": "Seagate（希捷）在 FY2026Q4 财报电话会议上表示，机械硬盘 (HDD) 的供应缺口正进一步扩大，这意味着按容量计单价的上升正进一步加速。希捷 FY2026Q4 出货容量达 218EB；其中数环比增长 11%、同比增长 49%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/790.htm"
+        "link": "https://www.ithome.com/0/983/430.htm"
     },
     {
         "id": "news-012",
         "category": "stock",
-        "date": "2026-07-29",
-        "title": "康宁 2026 财年第二财季归母净利润 5.59 亿美元，同比增长 19%",
-        "summary": "康宁今日发布 2026 财年（2025 年 8 月 31 日～2026 年 8 月 30 日）第二财季（2026 年 4 月 1 日～2026 年 6 月 30 日）报告：营业总收入：45.05 亿美元（IT之家注：现汇率约合 305.3...。",
+        "date": "2026-07-30",
+        "title": "空客 2026 财年上半年归母净利润 22.43 亿欧元，同比增长 47%",
+        "summary": "空客今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入： 331.76 亿欧元（IT之家注：现汇率约合 2567.18 亿元人民币），同比增长 12...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/982/840.htm"
+        "link": "https://www.ithome.com/0/983/420.htm"
     }
 ]
 };
