@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-30 04:29:56
+// 自动生成于 2026-07-31 04:55:58
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-30",
-        "title": "OriginOS 7 开启 Beta 内测招募：首批支持 vivo X300 Pro、Fold6、iQOO15 等机型",
-        "summary": "OriginOS 7 Beta 即日开启体验官招募，首批覆盖以下 5 款机型（每个机型 500 名，共 2500 名）：vivo X300 Provivo X Fold 6iQOO15vivo Pad6 ProiQOO Pad 6 Pro...。",
+        "date": "2026-07-31",
+        "title": "集煮茶、即热和消毒于一身：小米米家智能茶吧机 Pro 立式开启预售，1299 元",
+        "summary": "小米米家智能茶吧机 Pro 立式现已在京东开启预售，新品主打即热、煮茶、消毒一机多用，售价 1299 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/497.htm"
+        "link": "https://www.ithome.com/0/983/980.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-30",
-        "title": "小米米家定时燃气灶 3 今日开售：5.2kW 大火力 + 烟灶联动，国补 989.1 元起",
-        "summary": "小米米家定时燃气灶 3 将于今晚 20:00 开售，提供白色与灰色可选，叠加国补后，白色款活动到手价为 1199 元，灰色款为 989.1 元。",
+        "date": "2026-07-31",
+        "title": "小米 REDMI K100 Pro Max 手机“赤霞珠红”配色亮相：6.9 英寸直屏，全新悬浮灯环设计",
+        "summary": "小米 REDMI K100 Pro 系列手机双旗舰将于 8 月 11 日正式发布，官方今日提前公开了 REDMI K100 Pro Max 手机的“赤霞珠红”配色。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/466.htm"
+        "link": "https://www.ithome.com/0/983/973.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-07-30",
-        "title": "荣耀 MagicBook 14/16 新增 16GB 内存版开售：首销 6999 元起",
-        "summary": "荣耀官方今日宣布，全新 MagicBook14、MagicBook16 的 16GB 内存版开售。新机搭载英特尔酷睿 Ultra 5 336H 处理器，配备 16GB 内存 + 1TB 固态硬盘，售价 6999 元起。",
+        "date": "2026-07-31",
+        "title": "继小米汽车 / 长城坦克后，代码显示长城哈弗将兼容苹果 Car Key 数字车钥匙",
+        "summary": "科技媒体 9to5Mac 今天（7 月 31 日）发布博文，报道称继小米汽车、长城坦克之后，长城哈弗（Haval）将会新增兼容苹果的 Car Key 数字车钥匙。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/457.htm"
+        "link": "https://www.ithome.com/0/983/959.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-30",
-        "title": "扎克伯格：Instagram 会把所有公开帖子喂给大模型，再用分析结果训练算法",
-        "summary": "当地时间 29 日，Meta CEO 马克 · 扎克伯格和 CFO 苏珊 · 李出席 Meta 第二季度财报电话会议，分别谈到了推荐算法带来的用户使用增长，以及青少年诉讼可能造成的财务损失。",
+        "date": "2026-07-31",
+        "title": "字节跳动推出 Seedance 2.5 视频 AI 模型：单次生成时长 30 秒、突破长叙事能力",
+        "summary": "字节跳动今天（7 月 31 日）发布公告，宣布推出 Seedance 2.5 视频生成模型，可单次生成 30 秒高质量视频片段，陆续上线即梦 AI 与豆包专业版，API 服务也将于近期接入火山方舟。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/471.htm"
+        "link": "https://www.ithome.com/0/984/104.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-30",
-        "title": "联想新款 IdeaCentre AIO 一体机渲染图曝光，6 种颜色",
-        "summary": "科技媒体 Windows Latest 昨日（7 月 29 日）发布博文，分享了一组渲染图，展示了联想全新 IdeaCentre AIO 一体机，共有 6 种颜色。",
+        "date": "2026-07-31",
+        "title": "黄仁勋回应为何 2026 年才开通 X 平台账号：其实我很内向",
+        "summary": "英伟达创始人兼 CEO 黄仁勋本周（7 月 27 日）出席 Y Combinator 播客节目，谈及自己的 AI 理念、人生观。聊完 Waymo 自动驾驶汽车后，主持人表示：“我想借这个机会稍稍停一下。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/470.htm"
+        "link": "https://www.ithome.com/0/984/077.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-07-30",
-        "title": "Win10/Win11 经典版微软 Outlook 将整合 Copilot：配更大按钮，AI 感知上下文",
-        "summary": "科技媒体 Windows Latest 今天（7 月 30 日）发布博文，报道称微软在推进 Windows 10、Windows 11 用户迁移到新版 Outlook 的同时，也在经典版 Outlook 中整合 Copilot 体验，并配...。",
+        "date": "2026-07-31",
+        "title": "阿里发布 Qwen-Audio-3.0-ASR-Flash 语音识别大模型，让 AI 更好听懂专业词汇",
+        "summary": "阿里巴巴今日发布语音识别大模型 Qwen-Audio-3.0-ASR-Flash。简单来说，就是让 AI 更好地听懂专业词汇。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/468.htm"
+        "link": "https://www.ithome.com/0/984/044.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-30",
-        "title": "NECPC 推出 LAVIE Tab T1 平板电脑：天玑 6400 + LCD，支持数字笔",
-        "summary": "NECPC 日本当地时间今日宣布推出 LAVIE Tab T1 平板电脑。这一型号基于联发科天玑 6400 处理器，搭载 12.1\" 2560×1600 90Hz LCD 显示面板，支持 4096 级压感数字笔。",
+        "date": "2026-07-31",
+        "title": "LG 25G590B 显示器国行上架：原生 1000Hz FHD，首发价 7999 元",
+        "summary": "LG 电子原生 1000Hz FHD 显示器新品 LG UltraGear 25G590B-B 现已上架国内电商平台，首发尊享价 7999 元。这一型号搭载 24.5\" IPS LCD 显示面板，可超频至 1100Hz。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/476.htm"
+        "link": "https://www.ithome.com/0/984/054.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-30",
-        "title": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
-        "summary": "（12:08 更新，加入京东链接）IT之家 7 月 30 日华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
+        "date": "2026-07-31",
+        "title": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
+        "summary": "科技媒体 The Information 昨日（7 月 30 日）发布博文，报道称台积电（TSMC）正与景硕科技（Kinsus Interconnect）开发类 EMIB（嵌入式多芯片互连桥）先进封装方案。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/409.htm"
+        "link": "https://www.ithome.com/0/984/002.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-07-30",
-        "title": "国产抗日 FPS《抵抗者》发布全新实机预告，确认参展 2026 ChinaJoy 并将开放试玩",
-        "summary": "国产抗日题材第一人称射击游戏《抵抗者》今日通过B站“游先看”频道发布了最新实机预告，展示了游戏画面、战斗场景及过场动画。公开报道显示，《抵抗者》由杭州浩汤科技开发，是一款以 1940 年代中国抗日战争为背景的 FPS 游戏。",
+        "date": "2026-07-31",
+        "title": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
+        "summary": "澜起科技 (Montage) 今日宣布率先在业界试产 CXL 3.2 MXC（内存扩展控制器）芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/469.htm"
+        "link": "https://www.ithome.com/0/983/965.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-30",
-        "title": "Arm 2027 财年第一财季归母净利润 2.7 亿美元，同比增长 107.69%",
-        "summary": "Arm 今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）第一财季（2026 年 4 月 1 日～2026 年 6 月 30 日）报告：营业总收入： 12.89 亿美元（IT之家注：现汇率约合 87....。",
+        "date": "2026-07-31",
+        "title": "索尼 2027 财年第一财季归母净利润 3421.61 亿日元，同比增长 32.1%",
+        "summary": "索尼今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）第一财季（2026 年 4 月 1 日～2026 年 6 月 30 日）业绩快报报告：营业总收入： 2.84 万亿日元（IT之家注：现汇率约合 1...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/440.htm"
+        "link": "https://www.ithome.com/0/984/061.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-30",
-        "title": "希捷：机械硬盘供应缺口进一步扩大，单碟超 5TB 平台 2027 年末认证出货",
-        "summary": "Seagate（希捷）在 FY2026Q4 财报电话会议上表示，机械硬盘 (HDD) 的供应缺口正进一步扩大，这意味着按容量计单价的上升正进一步加速。希捷 FY2026Q4 出货容量达 218EB；其中数环比增长 11%、同比增长 49%。",
+        "date": "2026-07-31",
+        "title": "纳德拉称微软积极推进 Win11 改造：聚焦最卓越质量、完善基础体验",
+        "summary": "科技媒体 Windows Latest 今天（7 月 31 日）发布博文，报道称在最新财报电话会议上，微软首席执行官萨提亚 · 纳德拉（Satya Nadella）表示，将重点提升 Windows 11 系统的基础功能。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/430.htm"
+        "link": "https://www.ithome.com/0/983/970.htm"
     },
     {
         "id": "news-012",
         "category": "stock",
-        "date": "2026-07-30",
-        "title": "空客 2026 财年上半年归母净利润 22.43 亿欧元，同比增长 47%",
-        "summary": "空客今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入： 331.76 亿欧元（IT之家注：现汇率约合 2567.18 亿元人民币），同比增长 12...。",
+        "date": "2026-07-31",
+        "title": "宇树科技 8 月 10 日申购：171 名高管和员工掏 2.7 亿认购 IPO，王兴兴自掏 1500 万",
+        "summary": "宇树科技 7 月 30 日晚在首次公开发行股票并在科创板上市发行安排及初步询价公告披露，公司高级管理人员与核心员工拟通过资产管理计划参与本次发行战略配售，分别为宇树科技员工 1 号资管计划和宇树科技员工 2 号资管计划。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/420.htm"
+        "link": "https://www.ithome.com/0/983/955.htm"
     }
 ]
 };
