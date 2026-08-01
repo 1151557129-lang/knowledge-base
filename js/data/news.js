@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-07-31 04:55:58
+// 自动生成于 2026-08-01 04:49:01
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,101 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-07-31",
-        "title": "集煮茶、即热和消毒于一身：小米米家智能茶吧机 Pro 立式开启预售，1299 元",
-        "summary": "小米米家智能茶吧机 Pro 立式现已在京东开启预售，新品主打即热、煮茶、消毒一机多用，售价 1299 元。",
+        "date": "2026-08-01",
+        "title": "谷歌 Pixel 11 Pro Fold 折叠手机和 Pixel Watch 5 智能手表系统截图曝光",
+        "summary": "科技媒体 macobserver 昨日（7 月 31 日）发布博文，分享了一组谷歌 Pixel 11 Pro、Pixel 11 Pro Fold 两款手机以及 Pixel Watch 5 智能手表系统截图。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/980.htm"
+        "link": "https://www.ithome.com/0/984/469.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-07-31",
-        "title": "小米 REDMI K100 Pro Max 手机“赤霞珠红”配色亮相：6.9 英寸直屏，全新悬浮灯环设计",
-        "summary": "小米 REDMI K100 Pro 系列手机双旗舰将于 8 月 11 日正式发布，官方今日提前公开了 REDMI K100 Pro Max 手机的“赤霞珠红”配色。",
+        "date": "2026-08-01",
+        "title": "小米官宣 8 月服务周升级“服务月”，超百款机型电池服务 47.2 元起",
+        "summary": "根8 月服务周升级为“服务月”，超百款机型电池服务 47.2 元起，4 类省心服务 5 折起，活动时间为 8 月 1 日 10 时至 8 月 31 日 23 时 59 分。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/973.htm"
+        "link": "https://www.ithome.com/0/984/456.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-07-31",
-        "title": "继小米汽车 / 长城坦克后，代码显示长城哈弗将兼容苹果 Car Key 数字车钥匙",
-        "summary": "科技媒体 9to5Mac 今天（7 月 31 日）发布博文，报道称继小米汽车、长城坦克之后，长城哈弗（Haval）将会新增兼容苹果的 Car Key 数字车钥匙。",
+        "date": "2026-08-01",
+        "title": "小米 REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片，8 月 11 日发布",
+        "summary": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今天在微博发文称，REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/959.htm"
+        "link": "https://www.ithome.com/0/984/445.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-07-31",
-        "title": "字节跳动推出 Seedance 2.5 视频 AI 模型：单次生成时长 30 秒、突破长叙事能力",
-        "summary": "字节跳动今天（7 月 31 日）发布公告，宣布推出 Seedance 2.5 视频生成模型，可单次生成 30 秒高质量视频片段，陆续上线即梦 AI 与豆包专业版，API 服务也将于近期接入火山方舟。",
+        "date": "2026-08-01",
+        "title": "石头 P30 Pro 自清洁扫拖机器人 8 月 14 日上市，主打超薄热活水洗地",
+        "summary": "石头科技今天宣布 P30 Pro 自清洁扫拖机器人将于 8 月 14 日上市，号称“至薄至净无界畅达”。这款产品主打超薄热活水洗地。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/104.htm"
+        "link": "https://www.ithome.com/0/984/463.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-07-31",
-        "title": "黄仁勋回应为何 2026 年才开通 X 平台账号：其实我很内向",
-        "summary": "英伟达创始人兼 CEO 黄仁勋本周（7 月 27 日）出席 Y Combinator 播客节目，谈及自己的 AI 理念、人生观。聊完 Waymo 自动驾驶汽车后，主持人表示：“我想借这个机会稍稍停一下。",
+        "date": "2026-08-01",
+        "title": "ChatGPT 被柬埔寨诈骗网络利用，OpenAI 出手封禁",
+        "summary": "OpenAI 官方昨日在官网发文称，公司成功打击一起位于柬埔寨的诈骗网络，这些诈骗人士利用 ChatGPT，进行投资、恋爱、赌博诈骗。IT之家从 OpenAI 官方获悉，本起案件发生在今年早些时候，最初由 WhatsApp 方面提供线索。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/077.htm"
+        "link": "https://www.ithome.com/0/984/451.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-07-31",
-        "title": "阿里发布 Qwen-Audio-3.0-ASR-Flash 语音识别大模型，让 AI 更好听懂专业词汇",
-        "summary": "阿里巴巴今日发布语音识别大模型 Qwen-Audio-3.0-ASR-Flash。简单来说，就是让 AI 更好地听懂专业词汇。",
+        "date": "2026-08-01",
+        "title": "亚马逊提前兑现对 OpenAI 投资 500 亿美元承诺，当前持股约 5%",
+        "summary": "参考《金融时报》报道，根这家企业已提前完成对 OpenAI 的 350 亿美元后续投资，使得投资总额达到 500 亿美元（IT之家注：现汇率约合 3382.45 亿元人民币）。Amazon 当前在 OpenAI 的持股比例约为 5%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/044.htm"
+        "link": "https://www.ithome.com/0/984/449.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-07-31",
-        "title": "LG 25G590B 显示器国行上架：原生 1000Hz FHD，首发价 7999 元",
-        "summary": "LG 电子原生 1000Hz FHD 显示器新品 LG UltraGear 25G590B-B 现已上架国内电商平台，首发尊享价 7999 元。这一型号搭载 24.5\" IPS LCD 显示面板，可超频至 1100Hz。",
+        "date": "2026-08-01",
+        "title": "LG 回应其显示器连 Win11 推广 McAfee 事件：不自动安装、不收集隐私信息",
+        "summary": "科技媒体 Windows Central 今天（8 月 1 日）发布博文，报道称针对“LG 显示器连接 Windows 11 PC 后跳出 McAfee 推广内容”事件，LG 发布最新回应声明。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/054.htm"
+        "link": "https://www.ithome.com/0/984/458.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-07-31",
-        "title": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
-        "summary": "科技媒体 The Information 昨日（7 月 30 日）发布博文，报道称台积电（TSMC）正与景硕科技（Kinsus Interconnect）开发类 EMIB（嵌入式多芯片互连桥）先进封装方案。",
+        "date": "2026-08-01",
+        "title": "Omdia 预测：半导体营收 2026 年增长 94.1%，存储 IC 占总额过半",
+        "summary": "Omdia 在英国当地时间 7 月 30 日的最新新闻稿中预测中将半导体行业在今年的整体收入规模增幅上调至同比 +94.1%，总额则将超过 1.6 万亿美元（IT之家注：现汇率约合 10.82 万亿元人民币）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/002.htm"
+        "link": "https://www.ithome.com/0/984/434.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-07-31",
-        "title": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
-        "summary": "澜起科技 (Montage) 今日宣布率先在业界试产 CXL 3.2 MXC（内存扩展控制器）芯片。",
+        "date": "2026-08-01",
+        "title": "62.51% 涨幅：iFixit 重上架 Steam Deck LCD 电池零件，售 129.99 美元",
+        "summary": "科技媒体 TechPowerUp 昨日（7 月 31 日）发布博文，报道称 iFixit 网站恢复 Steam Deck LCD 电池供货，不过价格从售罄前的 79.99 美元（IT之家注：现汇率约合 541.1 元人民币）涨至 129....。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/965.htm"
+        "link": "https://www.ithome.com/0/984/426.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
         "date": "2026-07-31",
-        "title": "索尼 2027 财年第一财季归母净利润 3421.61 亿日元，同比增长 32.1%",
-        "summary": "索尼今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）第一财季（2026 年 4 月 1 日～2026 年 6 月 30 日）业绩快报报告：营业总收入： 2.84 万亿日元（IT之家注：现汇率约合 1...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/061.htm"
+        "title": "开云的转折：在中国，做一个AI乐观派",
+        "summary": "作者 | 谢芸子 黄绎达 编辑 | 张帆 开云的转型初见成效。7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3919225763540611?f=rss"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-31",
-        "title": "纳德拉称微软积极推进 Win11 改造：聚焦最卓越质量、完善基础体验",
-        "summary": "科技媒体 Windows Latest 今天（7 月 31 日）发布博文，报道称在最新财报电话会议上，微软首席执行官萨提亚 · 纳德拉（Satya Nadella）表示，将重点提升 Windows 11 系统的基础功能。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/970.htm"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-07-31",
-        "title": "宇树科技 8 月 10 日申购：171 名高管和员工掏 2.7 亿认购 IPO，王兴兴自掏 1500 万",
-        "summary": "宇树科技 7 月 30 日晚在首次公开发行股票并在科创板上市发行安排及初步询价公告披露，公司高级管理人员与核心员工拟通过资产管理计划参与本次发行战略配售，分别为宇树科技员工 1 号资管计划和宇树科技员工 2 号资管计划。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/983/955.htm"
+        "date": "2026-08-01",
+        "title": "2026年中期分红方案密集落地 45家公司拟派现逾370亿元",
+        "summary": "Wind数7月以来已有45家上市公司披露2026年度中期分红方案（含半年报、一季报），合计拟派发现金红利374.43亿元。其中，紫金矿业拟派现111.36亿元，暂居首位；宁德时代、海康威视、东鹏饮料等紧随其后，拟现金分红金额均超过10亿元。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3920308533423497?f=rss"
     }
 ]
 };
