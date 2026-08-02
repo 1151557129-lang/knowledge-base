@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-01 04:49:01
+// 自动生成于 2026-08-02 04:51:35
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,101 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-01",
-        "title": "谷歌 Pixel 11 Pro Fold 折叠手机和 Pixel Watch 5 智能手表系统截图曝光",
-        "summary": "科技媒体 macobserver 昨日（7 月 31 日）发布博文，分享了一组谷歌 Pixel 11 Pro、Pixel 11 Pro Fold 两款手机以及 Pixel Watch 5 智能手表系统截图。",
+        "date": "2026-08-02",
+        "title": "小米 REDMI K100 Pro Max 手机搭载 9070mAh 电池，胡馨心称续航同比增幅 40%",
+        "summary": "小米 REDMI K100 Pro Max 手机已现身第二十三届中国国际数码互动娱乐展览会。新机采用 6.9 英寸超窄边直屏，四曲包裹式金属中框，还有一体化金属 DECO，并搭载了 9070mAh 电池。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/469.htm"
+        "link": "https://www.ithome.com/0/984/714.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-01",
-        "title": "小米官宣 8 月服务周升级“服务月”，超百款机型电池服务 47.2 元起",
-        "summary": "根8 月服务周升级为“服务月”，超百款机型电池服务 47.2 元起，4 类省心服务 5 折起，活动时间为 8 月 1 日 10 时至 8 月 31 日 23 时 59 分。",
+        "date": "2026-08-02",
+        "title": "OPPO A7 Pro Max 手机官宣搭载“A 系列史上最强超清影像”，内置爆闪智能闪光灯",
+        "summary": "OPPO 官方今日继续预热旗下首个万级大电池新机 —— OPPO A7 Pro Max。此次介绍了新机的影像部分。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/456.htm"
+        "link": "https://www.ithome.com/0/984/708.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
         "date": "2026-08-01",
-        "title": "小米 REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片，8 月 11 日发布",
-        "summary": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今天在微博发文称，REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片。",
+        "title": "小米汽车：澎程配备低速慢行灯，夜晚车辆时速低于 10km/h 自动打开",
+        "summary": "小米汽车昨晚发布了答网友问（第 265 集），针对澎程系列新车的滑轨和座椅旋转与市面其他车的区别、澎程驾驶起来体验如何、小米龙甲电池 55 摄氏度热失控无热蔓延是什么意思等问题进行了解答。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/445.htm"
+        "link": "https://www.ithome.com/0/984/648.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-01",
-        "title": "石头 P30 Pro 自清洁扫拖机器人 8 月 14 日上市，主打超薄热活水洗地",
-        "summary": "石头科技今天宣布 P30 Pro 自清洁扫拖机器人将于 8 月 14 日上市，号称“至薄至净无界畅达”。这款产品主打超薄热活水洗地。",
+        "date": "2026-08-02",
+        "title": "前 DeepMind 研究员蒂博爆料：谷歌曾在 ChatGPT 发布一年前做出类似产品，但最终被雪藏",
+        "summary": "OpenAI Codex 工程负责人蒂博 · 索蒂奥（Thibault Sottiaux）曾在谷歌 DeepMind 人工智能实验室工作六年，研究过 AI 基础设施、机器学习工程等项目。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/463.htm"
+        "link": "https://www.ithome.com/0/984/716.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-01",
-        "title": "ChatGPT 被柬埔寨诈骗网络利用，OpenAI 出手封禁",
-        "summary": "OpenAI 官方昨日在官网发文称，公司成功打击一起位于柬埔寨的诈骗网络，这些诈骗人士利用 ChatGPT，进行投资、恋爱、赌博诈骗。IT之家从 OpenAI 官方获悉，本起案件发生在今年早些时候，最初由 WhatsApp 方面提供线索。",
+        "date": "2026-08-02",
+        "title": "2026 年科技行业裁员潮加剧：前七个月裁员人数已超 2025 全年，AI 投资却持续狂飙",
+        "summary": "2026 年前七个月全球科技行业裁员人数已超 12.4 万人，超过 2025 年全年总量的 12.2 万人。与此同时，各大科技巨头却在不断加强 AI 投资。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/451.htm"
+        "link": "https://www.ithome.com/0/984/712.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-01",
-        "title": "亚马逊提前兑现对 OpenAI 投资 500 亿美元承诺，当前持股约 5%",
-        "summary": "参考《金融时报》报道，根这家企业已提前完成对 OpenAI 的 350 亿美元后续投资，使得投资总额达到 500 亿美元（IT之家注：现汇率约合 3382.45 亿元人民币）。Amazon 当前在 OpenAI 的持股比例约为 5%。",
+        "date": "2026-08-02",
+        "title": "山东：力争 3 年内集聚万名人工智能 OPC（一人公司）创新人才",
+        "summary": "山东省工信厅等 12 部门近日联合印发《关于支持人工智能 OPC 创新发展的行动方案》，培育壮大人工智能 OPC（One Person Company，一人公司）新型市场主体，推动“AI+ 超级个体”新型创业模式加速落地。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/449.htm"
+        "link": "https://www.ithome.com/0/984/711.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-01",
-        "title": "LG 回应其显示器连 Win11 推广 McAfee 事件：不自动安装、不收集隐私信息",
-        "summary": "科技媒体 Windows Central 今天（8 月 1 日）发布博文，报道称针对“LG 显示器连接 Windows 11 PC 后跳出 McAfee 推广内容”事件，LG 发布最新回应声明。",
+        "date": "2026-08-02",
+        "title": "消息称英特尔发放加班费以加速俄亥俄晶圆厂建设，EMIB-T 封装良率逼近 90%",
+        "summary": "英特尔目前似乎正全力推动其俄亥俄州晶圆厂综合体建设，并计划在 2031 年实现全面运营。为了达成这一长期目标，公司愿意提供丰厚奖金以激励员工加快进度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/458.htm"
+        "link": "https://www.ithome.com/0/984/675.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-01",
-        "title": "Omdia 预测：半导体营收 2026 年增长 94.1%，存储 IC 占总额过半",
-        "summary": "Omdia 在英国当地时间 7 月 30 日的最新新闻稿中预测中将半导体行业在今年的整体收入规模增幅上调至同比 +94.1%，总额则将超过 1.6 万亿美元（IT之家注：现汇率约合 10.82 万亿元人民币）。",
+        "date": "2026-08-02",
+        "title": "中国气象局：超强厄尔尼诺事件正在形成，或为 150 年来最强",
+        "summary": "中国气象局信息显示，目前，太平洋上持续增强的厄尔尼诺气候现象，或将成为 150 年来最强的一次。IT之家注：厄尔尼诺是地球最强大的气候模式之一，通常每 2 至 7 年发生一次，持续约 9 至 12 个月。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/434.htm"
+        "link": "https://www.ithome.com/0/984/668.htm"
     },
     {
         "id": "news-009",
         "category": "display",
         "date": "2026-08-01",
-        "title": "62.51% 涨幅：iFixit 重上架 Steam Deck LCD 电池零件，售 129.99 美元",
-        "summary": "科技媒体 TechPowerUp 昨日（7 月 31 日）发布博文，报道称 iFixit 网站恢复 Steam Deck LCD 电池供货，不过价格从售罄前的 79.99 美元（IT之家注：现汇率约合 541.1 元人民币）涨至 129....。",
+        "title": "半导体传奇人物、力积电董事长黄崇仁因心肺衰竭逝世：享年 76 岁，公司曾负债 1200 亿逆风翻盘",
+        "summary": "晶圆代工厂力积电 7 月 31 日发布重大公告，董事长暨创办人黄崇仁因心肺衰竭，于当日中午在家里睡梦中安详辞世，享年 76 岁。公开资料显示，黄崇仁（1949 年 —2026 年 7 月 31 日）是中国台湾地区半导体产业传奇人物。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/426.htm"
+        "link": "https://www.ithome.com/0/984/637.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-07-31",
-        "title": "开云的转折：在中国，做一个AI乐观派",
-        "summary": "作者 | 谢芸子 黄绎达 编辑 | 张帆 开云的转型初见成效。7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%。",
-        "source": "36氪",
-        "link": "https://36kr.com/p/3919225763540611?f=rss"
+        "date": "2026-08-02",
+        "title": "SpaceX 上市后首次财报电话会将至，散户投资者问题五花八门",
+        "summary": "SpaceX 作为上市公司后的首次财报电话会议预计重点将围绕人工智能投入以及旗下星链卫星通信网络带来的利润展开，但许多散户投资者显然更关心其他话题。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/984/706.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-08-01",
-        "title": "2026年中期分红方案密集落地 45家公司拟派现逾370亿元",
-        "summary": "Wind数7月以来已有45家上市公司披露2026年度中期分红方案（含半年报、一季报），合计拟派发现金红利374.43亿元。其中，紫金矿业拟派现111.36亿元，暂居首位；宁德时代、海康威视、东鹏饮料等紧随其后，拟现金分红金额均超过10亿元。",
-        "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3920308533423497?f=rss"
+        "date": "2026-08-02",
+        "title": "戴尔创始人迈克尔 · 戴尔分享 42 年前公司首份季度财报：“这一页改变了我的人生”",
+        "summary": "迈克尔 · 戴尔（Michael Dell）是戴尔科技（Dell Technologies）的创始人，近日他分享了自己公司 1984 年 7 月 31 日发布的季度财报，并表示：“这一页改变了我的人生。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/984/673.htm"
+    },
+    {
+        "id": "news-012",
+        "category": "stock",
+        "date": "2026-08-02",
+        "title": "苹果称 MacBook Neo 正助力美国学校替换 Windows 和 Chromebook",
+        "summary": "苹果在 2026 财年第三季度财报电话会议中透露，MacBook Neo 笔记本在 K-12 教育市场表现出色，正在快速取代 Windows 笔记本和谷歌 Chromebook。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/984/665.htm"
     }
 ]
 };
