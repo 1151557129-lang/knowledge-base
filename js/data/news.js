@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-02 04:51:35
+// 自动生成于 2026-08-03 05:00:52
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-02",
-        "title": "小米 REDMI K100 Pro Max 手机搭载 9070mAh 电池，胡馨心称续航同比增幅 40%",
-        "summary": "小米 REDMI K100 Pro Max 手机已现身第二十三届中国国际数码互动娱乐展览会。新机采用 6.9 英寸超窄边直屏，四曲包裹式金属中框，还有一体化金属 DECO，并搭载了 9070mAh 电池。",
+        "date": "2026-08-03",
+        "title": "小米推出米家便携电动剃须刀 Pro：环抱锁须结构、60 天续航，首发价 296.65 元",
+        "summary": "小米现已在有品上架一款米家便携电动剃须刀 Pro（点此访问），其主打环抱锁须结构，定价为 349 元，首发价 296.65 元，将于明天 10 点开启预售。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/714.htm"
+        "link": "https://www.ithome.com/0/984/959.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-02",
-        "title": "OPPO A7 Pro Max 手机官宣搭载“A 系列史上最强超清影像”，内置爆闪智能闪光灯",
-        "summary": "OPPO 官方今日继续预热旗下首个万级大电池新机 —— OPPO A7 Pro Max。此次介绍了新机的影像部分。",
+        "date": "2026-08-03",
+        "title": "荣耀手环 11 系列预售：新品价 229 元起，提供独立 GPS 版本",
+        "summary": "荣耀手环 11 系列现已开启预售，搭载专业羽毛球模式等专业运动模式，荣耀手环 11 Pro 更支持独立 GPS 定位。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/708.htm"
+        "link": "https://www.ithome.com/0/984/943.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-01",
-        "title": "小米汽车：澎程配备低速慢行灯，夜晚车辆时速低于 10km/h 自动打开",
-        "summary": "小米汽车昨晚发布了答网友问（第 265 集），针对澎程系列新车的滑轨和座椅旋转与市面其他车的区别、澎程驾驶起来体验如何、小米龙甲电池 55 摄氏度热失控无热蔓延是什么意思等问题进行了解答。",
+        "date": "2026-08-03",
+        "title": "小米 REDMI K100 Pro 系列手机首发 M11 发光材料，更清晰、功耗更低",
+        "summary": "小米 REDMI K100 Pro 系列手机将于 8 月 11 日晚 7 点发布，官方今日继续对新机进行预热。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/648.htm"
+        "link": "https://www.ithome.com/0/984/881.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-02",
-        "title": "前 DeepMind 研究员蒂博爆料：谷歌曾在 ChatGPT 发布一年前做出类似产品，但最终被雪藏",
-        "summary": "OpenAI Codex 工程负责人蒂博 · 索蒂奥（Thibault Sottiaux）曾在谷歌 DeepMind 人工智能实验室工作六年，研究过 AI 基础设施、机器学习工程等项目。",
+        "date": "2026-08-03",
+        "title": "年薪 50 万美元都招不到人，AI 安全行业陷入人才短缺困境",
+        "summary": "人工智能行业最具影响力的监督者之一贝丝 · 巴恩斯（Beth Barnes），如今正面临着诸多担忧。这位前 OpenAI 研究员曾通过研究证明，AI 能力正以几乎按月增长的速度快速提升。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/716.htm"
+        "link": "https://www.ithome.com/0/984/977.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-02",
-        "title": "2026 年科技行业裁员潮加剧：前七个月裁员人数已超 2025 全年，AI 投资却持续狂飙",
-        "summary": "2026 年前七个月全球科技行业裁员人数已超 12.4 万人，超过 2025 年全年总量的 12.2 万人。与此同时，各大科技巨头却在不断加强 AI 投资。",
+        "date": "2026-08-03",
+        "title": "自变量机器人发布 HOST 框架并开源，让机器人看视频学会新技能",
+        "summary": "自变量机器人今日发布 HOST 框架（Human-to-robot One-Shot Skill AcquisiTion，人类到机器人单样本技能获取）并开源，号称“能让机器人仅观察一段数十秒的人类视频就学会新技能，同时保留已掌握的技能。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/712.htm"
+        "link": "https://www.ithome.com/0/984/958.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-02",
-        "title": "山东：力争 3 年内集聚万名人工智能 OPC（一人公司）创新人才",
-        "summary": "山东省工信厅等 12 部门近日联合印发《关于支持人工智能 OPC 创新发展的行动方案》，培育壮大人工智能 OPC（One Person Company，一人公司）新型市场主体，推动“AI+ 超级个体”新型创业模式加速落地。",
+        "date": "2026-08-03",
+        "title": "消息称索尼考虑在《GTA 6》发售前，再次对旗下 PS5 游戏机实行涨价",
+        "summary": "外媒 gamegpu 发文，称由于零部件生产成本走高、内存芯片价格持续上涨以及缺乏与供应商长期合同的压力，索尼 SIE 正考虑在《GTA 6》发售前，再次提高旗下游戏主机和配件的建议零售价，以此弥补当前的财务亏损。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/711.htm"
+        "link": "https://www.ithome.com/0/984/957.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-02",
-        "title": "消息称英特尔发放加班费以加速俄亥俄晶圆厂建设，EMIB-T 封装良率逼近 90%",
-        "summary": "英特尔目前似乎正全力推动其俄亥俄州晶圆厂综合体建设，并计划在 2031 年实现全面运营。为了达成这一长期目标，公司愿意提供丰厚奖金以激励员工加快进度。",
+        "date": "2026-08-03",
+        "title": "雷鸟推出新款“25Q6A Pro”24.5 英寸显示器：2K 360Hz Mini LED，1699 元",
+        "summary": "雷鸟旗下新款“25Q6A Pro”24.5 英寸显示器现已在京东发售，该机主打 2K 360Hz Mini LED，定价为 1699 元，部分地区国补后低至 1304 元。提供 3 年质保。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/675.htm"
+        "link": "https://www.ithome.com/0/984/974.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-02",
-        "title": "中国气象局：超强厄尔尼诺事件正在形成，或为 150 年来最强",
-        "summary": "中国气象局信息显示，目前，太平洋上持续增强的厄尔尼诺气候现象，或将成为 150 年来最强的一次。IT之家注：厄尔尼诺是地球最强大的气候模式之一，通常每 2 至 7 年发生一次，持续约 9 至 12 个月。",
+        "date": "2026-08-03",
+        "title": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
+        "summary": "全球最火内存 ETF——Roundhill Memory ETF（DRAM）于 7 月底完成调仓，再度纳入 A 股公司长鑫科技，权重为 2.52%，位列该 ETF 第八大重仓股。兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/668.htm"
+        "link": "https://www.ithome.com/0/984/918.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-01",
-        "title": "半导体传奇人物、力积电董事长黄崇仁因心肺衰竭逝世：享年 76 岁，公司曾负债 1200 亿逆风翻盘",
-        "summary": "晶圆代工厂力积电 7 月 31 日发布重大公告，董事长暨创办人黄崇仁因心肺衰竭，于当日中午在家里睡梦中安详辞世，享年 76 岁。公开资料显示，黄崇仁（1949 年 —2026 年 7 月 31 日）是中国台湾地区半导体产业传奇人物。",
+        "date": "2026-08-03",
+        "title": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
+        "summary": "Android 测试版出现 Bug 本来就是意料之中的事情，毕竟测试版的目的就是找出各种问题，并在正式版本发布前尽可能修复它们。通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/637.htm"
+        "link": "https://www.ithome.com/0/984/911.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-08-02",
-        "title": "SpaceX 上市后首次财报电话会将至，散户投资者问题五花八门",
-        "summary": "SpaceX 作为上市公司后的首次财报电话会议预计重点将围绕人工智能投入以及旗下星链卫星通信网络带来的利润展开，但许多散户投资者显然更关心其他话题。",
+        "date": "2026-08-03",
+        "title": "奇瑞将向韩国车企 KG Mobility 投资 7500 万美元，深化海外市场布局",
+        "summary": "奇瑞汽车已同意通过可转换债券方式向韩国汽车制造商 KG Mobility Corp 投资 7500 万美元（IT之家注：现汇率约合 5.07 亿元人民币）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/706.htm"
+        "link": "https://www.ithome.com/0/984/872.htm"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-08-02",
-        "title": "戴尔创始人迈克尔 · 戴尔分享 42 年前公司首份季度财报：“这一页改变了我的人生”",
-        "summary": "迈克尔 · 戴尔（Michael Dell）是戴尔科技（Dell Technologies）的创始人，近日他分享了自己公司 1984 年 7 月 31 日发布的季度财报，并表示：“这一页改变了我的人生。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/673.htm"
+        "date": "2026-07-31",
+        "title": "开云的转折：在中国，做一个AI乐观派",
+        "summary": "作者 | 谢芸子 黄绎达 编辑 | 张帆 开云的转型初见成效。7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3919225763540611?f=rss"
     },
     {
         "id": "news-012",
         "category": "stock",
-        "date": "2026-08-02",
-        "title": "苹果称 MacBook Neo 正助力美国学校替换 Windows 和 Chromebook",
-        "summary": "苹果在 2026 财年第三季度财报电话会议中透露，MacBook Neo 笔记本在 K-12 教育市场表现出色，正在快速取代 Windows 笔记本和谷歌 Chromebook。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/665.htm"
+        "date": "2026-08-03",
+        "title": "机构：第二季度全球智能手机营收逆势增长7%，达到创纪录的1090亿美元",
+        "summary": "36氪获悉，根2026 年第二季度全球智能手机市场营收同比增长7%，达到创纪录的1090亿美元。尽管同期全球智能手机出货量有所下滑，但市场营收仍创下历史第二季度新高。",
+        "source": "36氪",
+        "link": "https://36kr.com/newsflashes/3923331730386568?f=rss"
     }
 ]
 };
