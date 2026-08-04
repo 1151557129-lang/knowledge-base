@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-03 05:00:52
+// 自动生成于 2026-08-04 04:40:22
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-03",
-        "title": "小米推出米家便携电动剃须刀 Pro：环抱锁须结构、60 天续航，首发价 296.65 元",
-        "summary": "小米现已在有品上架一款米家便携电动剃须刀 Pro（点此访问），其主打环抱锁须结构，定价为 349 元，首发价 296.65 元，将于明天 10 点开启预售。",
+        "date": "2026-08-04",
+        "title": "小米 REDMI 17 5G 手机渲染图曝光：橙 / 黑 / 蓝三色，6.9 英寸 LCD 屏幕、7500mAh 电池",
+        "summary": "科技媒体 91Mobile 昨日（8 月 3 日）发布博文，分享了一组渲染图，展示了橙色、黑色和蓝色 3 种颜色的小米 REDMI 17 5G 手机。颜色方面，其中比较特别的是橙色版，采用素皮材质，相比较蓝色和黑色会有更优秀的握持体验。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/959.htm"
+        "link": "https://www.ithome.com/0/985/440.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-03",
-        "title": "荣耀手环 11 系列预售：新品价 229 元起，提供独立 GPS 版本",
-        "summary": "荣耀手环 11 系列现已开启预售，搭载专业羽毛球模式等专业运动模式，荣耀手环 11 Pro 更支持独立 GPS 定位。",
+        "date": "2026-08-04",
+        "title": "小米 REDMI K100 Pro 将首批搭载第五代骁龙 8 至尊版 V Series 处理器，综合跑分超 409 万",
+        "summary": "REDMI 今日宣布，REDMI K100 Pro 手机搭载第五代骁龙 8 至尊版 V Series (SM8850-1-AB) 全新骁龙旗舰平台，实验室综合跑分超 409 万分。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/943.htm"
+        "link": "https://www.ithome.com/0/985/439.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-03",
-        "title": "小米 REDMI K100 Pro 系列手机首发 M11 发光材料，更清晰、功耗更低",
-        "summary": "小米 REDMI K100 Pro 系列手机将于 8 月 11 日晚 7 点发布，官方今日继续对新机进行预热。",
+        "date": "2026-08-04",
+        "title": "小米之家将开启“夏日冰爽搭子”活动：8 月 6 日至 9 日到店可领元气森林气泡水",
+        "summary": "小米之家宣布将于 8 月 6 日至 8 月 9 日开启“夏日冰爽搭子”门店活动，到店体验米家冰箱 Pro 至尊版 508L，并添加企微，可领元气森林气泡水。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/881.htm"
+        "link": "https://www.ithome.com/0/985/388.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-03",
-        "title": "年薪 50 万美元都招不到人，AI 安全行业陷入人才短缺困境",
-        "summary": "人工智能行业最具影响力的监督者之一贝丝 · 巴恩斯（Beth Barnes），如今正面临着诸多担忧。这位前 OpenAI 研究员曾通过研究证明，AI 能力正以几乎按月增长的速度快速提升。",
+        "date": "2026-08-04",
+        "title": "我军三型无人机成体系应用首次公开",
+        "summary": "我军三型无人机成体系应用首次公开。报道称，无人作战正在深刻改变战争面貌，颠覆传统作战模式，从态势感知到精确打击，逐渐走向作战体系的最前沿。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/977.htm"
+        "link": "https://www.ithome.com/0/985/437.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-03",
-        "title": "自变量机器人发布 HOST 框架并开源，让机器人看视频学会新技能",
-        "summary": "自变量机器人今日发布 HOST 框架（Human-to-robot One-Shot Skill AcquisiTion，人类到机器人单样本技能获取）并开源，号称“能让机器人仅观察一段数十秒的人类视频就学会新技能，同时保留已掌握的技能。",
+        "date": "2026-08-04",
+        "title": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
+        "summary": "科技媒体 Tom's Hardware 昨日（8 月 3 日）发布博文，报道称全球最小 GPU 芯片 TinyGPU v2.0 通过实机测试。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/958.htm"
+        "link": "https://www.ithome.com/0/985/434.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-03",
-        "title": "消息称索尼考虑在《GTA 6》发售前，再次对旗下 PS5 游戏机实行涨价",
-        "summary": "外媒 gamegpu 发文，称由于零部件生产成本走高、内存芯片价格持续上涨以及缺乏与供应商长期合同的压力，索尼 SIE 正考虑在《GTA 6》发售前，再次提高旗下游戏主机和配件的建议零售价，以此弥补当前的财务亏损。",
+        "date": "2026-08-04",
+        "title": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
+        "summary": "美国得克萨斯州州长 Greg Abbott 当地时间 3 日指示该州公共事业委员会 (PUCT) 与电力可靠性委员会 (ERCOT) 对所有正处于 ERCOT 并网流程的数Greg Abbott 表示：保障得州人民的安全和生活质量是我们的...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/957.htm"
+        "link": "https://www.ithome.com/0/985/415.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-03",
-        "title": "雷鸟推出新款“25Q6A Pro”24.5 英寸显示器：2K 360Hz Mini LED，1699 元",
-        "summary": "雷鸟旗下新款“25Q6A Pro”24.5 英寸显示器现已在京东发售，该机主打 2K 360Hz Mini LED，定价为 1699 元，部分地区国补后低至 1304 元。提供 3 年质保。",
+        "date": "2026-08-04",
+        "title": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
+        "summary": "源埃文 · 布拉斯（Evan Blass）昨日（8 月 4 日）在 substack 平台发布帖子，分享了谷歌 Pixel 11 Pro XL 手机的渲染图。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/974.htm"
+        "link": "https://www.ithome.com/0/985/438.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-03",
-        "title": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
-        "summary": "全球最火内存 ETF——Roundhill Memory ETF（DRAM）于 7 月底完成调仓，再度纳入 A 股公司长鑫科技，权重为 2.52%，位列该 ETF 第八大重仓股。兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
+        "date": "2026-08-04",
+        "title": "美国宇航局公示地球引力图：凹凸不平的“土豆”",
+        "summary": "美国宇航局（NASA）最新公布的高精度引力模型显示，地球形状并非完美球体，从引力视角切入实际更像是凹凸不平的“土豆”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/918.htm"
+        "link": "https://www.ithome.com/0/985/408.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-03",
-        "title": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
-        "summary": "Android 测试版出现 Bug 本来就是意料之中的事情，毕竟测试版的目的就是找出各种问题，并在正式版本发布前尽可能修复它们。通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
+        "date": "2026-08-04",
+        "title": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
+        "summary": "惠科 (HKC) 在 2026 ChinaJoy 上展示了全球 5K RGB Mini LED 显示面板。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/911.htm"
+        "link": "https://www.ithome.com/0/985/399.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
         "date": "2026-08-03",
-        "title": "奇瑞将向韩国车企 KG Mobility 投资 7500 万美元，深化海外市场布局",
-        "summary": "奇瑞汽车已同意通过可转换债券方式向韩国汽车制造商 KG Mobility Corp 投资 7500 万美元（IT之家注：现汇率约合 5.07 亿元人民币）。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/984/872.htm"
+        "title": "德明利今日跌超9%，36氪企业全情报提前捕捉到这一市场信号",
+        "summary": "图片1 今日A股收盘数-0.59% 深证成指：13448.29 点，-0.96% 创业板指：3302.55 点，-1.24% 德明利8月3日下跌9.56% 349.00 -36.90 -9.56% 当日开盘价373.94；交易量27.21...。",
+        "source": "36氪",
+        "link": "https://36kr.com/p/3923603053686151?f=rss"
     },
     {
         "id": "news-011",
         "category": "stock",
-        "date": "2026-07-31",
-        "title": "开云的转折：在中国，做一个AI乐观派",
-        "summary": "作者 | 谢芸子 黄绎达 编辑 | 张帆 开云的转型初见成效。7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%。",
+        "date": "2026-08-03",
+        "title": "36氪专访 | 对话大疆系Ebike公司：卖4万一辆的高端车，营收突破10亿，今年要翻四倍",
+        "summary": "文｜张子怡 编辑｜袁斯来 从大疆走出的 Ebike 公司 Amflow 进入赛道的时机谈不上好，那一年，不少中国Ebike厂商已选择战略性放弃或者转向美国市场。没人想到，它能将6499欧元起的高端Ebike卖出3万辆。",
         "source": "36氪",
-        "link": "https://36kr.com/p/3919225763540611?f=rss"
+        "link": "https://36kr.com/p/3923367465266824?f=rss"
     },
     {
         "id": "news-012",
         "category": "stock",
-        "date": "2026-08-03",
-        "title": "机构：第二季度全球智能手机营收逆势增长7%，达到创纪录的1090亿美元",
-        "summary": "36氪获悉，根2026 年第二季度全球智能手机市场营收同比增长7%，达到创纪录的1090亿美元。尽管同期全球智能手机出货量有所下滑，但市场营收仍创下历史第二季度新高。",
+        "date": "2026-08-04",
+        "title": "汇丰控股：上半年收入377.42亿美元，同比增11%",
+        "summary": "36氪获悉，汇丰控股公告，2026年上半年列账基准除税前利润195.22亿美元，较2025年上半年的158.1亿美元增加37亿美元，增幅为23%。除税后利润153.21亿美元，同比增23%。",
         "source": "36氪",
-        "link": "https://36kr.com/newsflashes/3923331730386568?f=rss"
+        "link": "https://36kr.com/newsflashes/3924712384674184?f=rss"
     }
 ]
 };
