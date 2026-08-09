@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-08 03:07:17
+// 自动生成于 2026-08-09 03:14:00
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-08",
-        "title": "消息称小米平板 9/9 Pro 搭载 11.2 英寸 LCD 超高刷大屏、骁龙 8 系平台",
-        "summary": "博主 @数码闲聊站 今日爆料，小米平板 9/9 Pro 屏幕物理尺寸为 11.16 英寸，大概率是一块标称 11.2 英寸 3.2K LCD 超高刷大屏，电池是 9720mAh，标准版支持 45W 快充，Pro 版支持 67W 快充，骁龙...。",
+        "date": "2026-08-09",
+        "title": "消息称小米成立具身智能与应用部，前字节 Seed 具身负责人孔涛挂帅",
+        "summary": "小米机器人事业部大调整：内部新成立具身智能与应用部，由前字节 Seed Robotics 具身智能负责人孔涛挂帅。按照调整方案，这个新部门已将陈龙的 VLA 团队、蔡锐的机器人具身部等一并收拢。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/267.htm"
+        "link": "https://www.ithome.com/0/987/488.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-08",
-        "title": "2026 全球智能制造与电子产品博览会 12 月广州举办，特斯拉、蔚来、荣耀、OPPO、vivo 等参展",
-        "summary": "8 月 7 日，2026 全球智能制造与电子产品博览会（AIE 电子展）新闻发布会在广州举行。",
+        "date": "2026-08-09",
+        "title": "小米汽车：澎程 N90 Max 四门可选智能电动门，支持开门杀预警和避障",
+        "summary": "小米汽车昨晚发布答网友问（第 272 集），对于小米澎程的车门设计、对坐模式等进行了详解。小米澎程全系后门都可实现近 90 度开合。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/238.htm"
+        "link": "https://www.ithome.com/0/987/479.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-07",
-        "title": "荣耀 MagicOS 10 系统 8 月版本第二批机型开推，覆盖 Magic7、WIN 等系列",
-        "summary": "荣耀 MagicOS 官方微博今日宣布，MagicOS 10 系统 8 月版本推送第二批机型：荣耀 Magic7 系列、荣耀 Magic V5、荣耀 500 系列、荣耀 WIN、荣耀 WIN RT、荣耀 GT ProIT之家整理 Magi...。",
+        "date": "2026-08-08",
+        "title": "IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...",
+        "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 9 日星期日，今天的重要科技资讯有：1、约 20 年降价进程数月内被逆转：研究称 2026 年内存每 GB 价格回到 2007 年水平加拿大魁北克大学（TELUQ）计算机科学教授，软...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/208.htm"
+        "link": "https://www.ithome.com/0/987/472.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-08",
-        "title": "消息称英伟达拟向电力基础设施开发商 Lancium 投资至多 30 亿美元",
-        "summary": "英伟达拟向电力基础设施开发商 Lancium 投资至多 30 亿美元（现汇率约合 202.79 亿元人民币）。",
+        "date": "2026-08-09",
+        "title": "技嘉推出钛金雕 1600PG5 AI TOP 钛金电源：1600W 功率、搭全彩 LCD 屏",
+        "summary": "技嘉科技宣布正式发布钛金雕 1600PG5 AI TOP 钛金电源（AP1600TM PG5 AI TOP），国行将于近期上市。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/266.htm"
+        "link": "https://www.ithome.com/0/987/498.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-08",
-        "title": "内存占用约 35MB：网友 AI 自制开源工具，避免华硕 RTX 5080 和 5090 显卡烧熔",
-        "summary": "科技媒体 NeoWin 昨日（8 月 7 日）发布博文，报道称网友在 AI 编程辅助下，针对华硕的 ROG Astral RTX 5090/5080 显卡，推出了一款开源工具，避免显卡出现过热烧熔情况。",
+        "date": "2026-08-09",
+        "title": "国家统计局：人工智能推动消费电子产品迭代升级，需求增加、价格上涨，平板电脑、计算机和移动电话机分别上涨 11.3%、5.5% 和 1.0%",
+        "summary": "国家统计局今日公布数据，7 月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降 0.1%，同比上涨 0.5%，扣除食品和能源价格的核心 CPI 环比上涨 0.3%，同比上涨 0.9%，CPI 总体保持温和上涨。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/262.htm"
+        "link": "https://www.ithome.com/0/987/497.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-08",
-        "title": "Claude Code v2.1.224 现支持 AI 跨会话消息传递",
-        "summary": "Anthropic 旗下官方账号 @ClaudeDevs 今天（8 月 8 日）在 X 平台发布推文，宣布从 Claude Code v2.1.224 开始，会话之间可以互相发送根自该版本 Claude Code 开始，不同的会话可以互相...。",
+        "date": "2026-08-09",
+        "title": "Meta CTO：AI 省下的时间，不是用来休假的",
+        "summary": "AI 赋能的科技工作者生产力大幅提升后，是否应该获得更多休假时间。Meta 首席技术官 Andrew Bosworth 给出的答案是否定的。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/256.htm"
+        "link": "https://www.ithome.com/0/987/495.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-08",
-        "title": "发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱",
-        "summary": "科技媒体 MacRumors 今天（8 月 8 日）发布博文，在 iOS 26 系统正式发布 326 天（2025 年 9 月 15 日发布）后，终于迎来了首次越狱，不过仅限于搭载 A12/A13 芯片机型。",
+        "date": "2026-08-09",
+        "title": "消息称三星美国泰勒晶圆厂启动实习生招聘，为年底投产储备人才",
+        "summary": "三星电子将为其位于得克萨斯州的先进晶圆代工（半导体代工制造）工厂启动首批实习生招聘工作，该工厂定于今年年底开始运营。三星电子近日启动了美国泰勒晶圆厂明年夏季实习生的招聘工作。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/260.htm"
+        "link": "https://www.ithome.com/0/987/511.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-08",
-        "title": "降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品",
-        "summary": "源 9to5Mac 昨日（8 月 7 日）发布博文，报道称苹果美国官网扩充翻新产品阵容，新增多款 Mac、Apple TV 4K、Studio Display XDR 显示器，以及部分 Apple Watch 和 iPhone 机型，降幅...。",
+        "date": "2026-08-09",
+        "title": "联想推出来酷平板 Mini：8 英寸面板、支持 4G 通信，899 元",
+        "summary": "联想现已在京东上架来酷平板 Mini，该产品配备一块 8 英寸面板，支持 4G 通信上网，定价为 899 元，部分地区国补后低至 679.2 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/253.htm"
+        "link": "https://www.ithome.com/0/987/491.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-08",
-        "title": "全球首款 5K Mini LED 镜面双模式游戏显示器：微星 MPG 271KRAW18 被曝已无限期搁置",
-        "summary": "科技媒体 @TFTCentral 昨日（8 月 7 日）发布博文，报道称因“技术可行性”问题，微星（MSI）已“无限期”搁置 MPG 271KRAW18 27 英寸 5K Mini LED 游戏显示器。",
+        "date": "2026-08-09",
+        "title": "海备思推出墨水屏数显 NVMe 固态硬盘盒：配备超级电容技术、10Gbps 速率，首发价 219 元",
+        "summary": "制造商海备思宣布推出一款墨水屏数显 NVMe 固态硬盘盒，该产品配备墨水屏面板，同时采用了超级电容技术，定价为 282 元，首发价 219 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/239.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-08-07",
-        "title": "Take-Two CEO 称《GTA6》定价“超划算”，因为原本可以定得更高",
-        "summary": "在今日举行的 2027 财年第一财季财报电话会议上，Take-Two 首席执行官 Strauss Zelnick 谈到了《侠盗猎车手 VI》相关内容，他表示 79.99 美元（IT之家注：现汇率约合 541 元人民币）的售价对玩家而言“简...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/216.htm"
+        "link": "https://www.ithome.com/0/987/489.htm"
     }
 ]
 };
