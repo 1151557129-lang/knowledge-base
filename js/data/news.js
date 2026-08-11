@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-10 03:24:46
+// 自动生成于 2026-08-11 03:16:54
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-10",
-        "title": "OPPO Watch X3 Mini 智能手表推出全新配色「粉黛海」，8 月 14 日开售",
-        "summary": "今日，OPPO Watch X3 Mini 智能手表推出全新配色「粉黛海」，将于 8 月 14 日正式开售。",
+        "date": "2026-08-11",
+        "title": "小米 REDMI 投影仪 5 标准版发售：1080P 400 CVIA 流明，999 元",
+        "summary": "小米 REDMI 投影仪 5 标准版现已在有品（点此访问）发售，标准价 1299 元，首发价 999 元。该投影仪延续米家产品线简约现代风格，整体造型圆润，配备了一体式金属云台，支持 360° 调节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/757.htm"
+        "link": "https://www.ithome.com/0/988/225.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-10",
-        "title": "OPPO Enco Clip2 耳夹耳机推出「晨雾白」配色，8 月 14 日开售",
-        "summary": "OPPO Enco Clip2 耳夹耳机今日官宣推出「晨雾白」配色，将于 8 月 14 日开售。IT之家注意到。",
+        "date": "2026-08-11",
+        "title": "荣耀畅玩 80 手机上架：搭载天玑 6300 处理器，1029 元起",
+        "summary": "荣耀现已在京东上架畅玩 80 手机，系列手机于今年 4 月发布，但当时仅有 Pro 版本发售，目前其中标准版本已在京东发售，其搭载联发科天玑 6300 处理器，定价为 1049 元起，首发价 1029 元起，IT之家整理价格如下：4GB ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/753.htm"
+        "link": "https://www.ithome.com/0/988/134.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-08-10",
-        "title": "小米米家高速水离子吹风机 Pro 预售：双恒温吹护技术、高速无刷马达，705 元",
-        "summary": "小米旗下米家高速水离子吹风机 Pro 现已在京东开启预售，该产品配备双恒温吹护技术，搭载 12 万转 / 分钟高速无刷马达，首发价 705 元，部分地区国补后低至 539.32 元。",
+        "category": "ai",
+        "date": "2026-08-11",
+        "title": "消息称 Anthropic 与云计算公司 Riot Platforms 达成 91 亿美元算力协议",
+        "summary": "知情人士透露，人工智能公司 Anthropic 已与比特币挖矿企业 Riot Platforms 达成一项价值 91 亿美元（IT之家注：现汇率约合 614.74 亿元人民币）的协议。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/748.htm"
+        "link": "https://www.ithome.com/0/988/216.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-10",
-        "title": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
-        "summary": "飞傲宣布旗下流媒体功放 AIR AMP 现已在京东发售，提供黑银双色可选，定价为 1799 元。",
+        "date": "2026-08-11",
+        "title": "联想拯救者官宣 Y700 无极平板电脑 8 月 25 日 19:00 发布",
+        "summary": "联想 (Lenovo) 拯救者 (Legion) 官方稍早前正式宣布，联想 AI 平板拯救者 Y700 无极将于 8 月 25 日 19:00 发布。从此前预热节奏来看，联想拯救者云游戏掌机 C700 届时也有望同场亮相。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/721.htm"
+        "link": "https://www.ithome.com/0/988/165.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-10",
-        "title": "阿里千问开放平台上线，租房租车、寄快递等服务可对话办理",
-        "summary": "今日，千问开放平台上线，面向生态伙伴和开发者开放手机、PC 和 AI 眼镜三类终端的服务接入，首批伙伴覆盖物流运输、房产居住、本地生活、理财、汽车等十多个领域。",
+        "date": "2026-08-11",
+        "title": "DeepSeek 被曝偷偷给用户取外号，AI 回应称只是临时“打标签”、不会记忆",
+        "summary": "有网友 8 月 10 日在社交平台发文称，DeepSeek 在深度思考模式里会偷偷给人取外号，比如“墨墨”，相关话题冲上热搜。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/720.htm"
+        "link": "https://www.ithome.com/0/988/136.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-08-10",
-        "title": "现代汽车在韩国启动首个公寓楼泊车机器人试点",
-        "summary": "现代汽车集团将在韩国启动首个公寓楼泊车机器人试点项目。",
+        "category": "display",
+        "date": "2026-08-11",
+        "title": "九州风神推出 LCD 版 CH690 机箱：集成 7\" 1024×600 LCD，899 元",
+        "summary": "九州风神 (DeepCool) 此前曾推出过 DIGITAL 数显版 CH690 机箱，现在这家企业又带来了 LCD 屏显版本。新的 CH690 LCD 机箱售价 899 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/686.htm"
+        "link": "https://www.ithome.com/0/988/226.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-10",
-        "title": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
-        "summary": "戴尔近日面向小型会议室推出整合式会议显示器解决方案 Dell Pro P 43 4K Huddle 会议显示器 - P4326QEB。该产品目前在戴尔中国官网标价 8998.99 元。",
+        "date": "2026-08-11",
+        "title": "铠侠第一大股东易主：东芝减持放弃宝座，SK 海力士关联投资实体成“新王”",
+        "summary": "日本半导体存储器制造商铠侠控股 8 月 10 日发布公告称，公司向关东财务局提交报告，确认第一大股东（系其主要股东之一）发生变更。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/744.htm"
+        "link": "https://www.ithome.com/0/988/202.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-10",
-        "title": "中兴 TOPFLOW“直播神器”便携聚合网络设备发售：高通 X75 芯片、支持自插卡使用，2999 元起",
-        "summary": "中兴 TOPFLOW“直播神器”便携聚合网络设备现已在京东发售，标准版定价为 2999 元，液冷版定价 3399 元。",
+        "date": "2026-08-11",
+        "title": "HKC 推出“猎鹰 27Q200”27 英寸显示器：2K 200Hz / 720P 400Hz 双模，849 元",
+        "summary": "HKC 现已在京东上架一款型号为“猎鹰 27Q200”的 27 英寸显示器，该机主打 2K 200Hz / HD 400Hz 双模，定价为 899 元，首发价 849 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/734.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-08-10",
-        "title": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
-        "summary": "索尼集团（Sony Group）与台积电（TSMC）计划最早于 2029 年在日本西南部熊本县开始量产下一代图像传感器半导体。相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/987/730.htm"
+        "link": "https://www.ithome.com/0/988/163.htm"
     }
 ]
 };
