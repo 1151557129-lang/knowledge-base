@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-14 03:36:28
+// 自动生成于 2026-08-15 02:31:17
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-14",
-        "title": "工信部点名表扬 vivo 小米 OPPO 应用商店、应用宝，批评百度、微博、钉钉等人工客服电话未能接通",
-        "summary": "工信部 8 月 13 日通告 2026 年第二季度电信服务质量情况，从电信服务重点工作情况、电信用户投诉申诉情况、工作要求及服务提示等三方面，对 2026 年第二季度电信服务质量有关情况进行了介绍。",
+        "date": "2026-08-15",
+        "title": "小米 3 台迭代新平板更多信息曝光，有望归属 Pad 9 系列",
+        "summary": "小米 3 台迭代新平板更多信息公示：M656BA——11.2 英寸 +45W 快充2612CRPFFC——12.5 英寸 +67W 快充M367FC——13.3 英寸 +120W 快充博主“建议”三台平板命名为小米平板 9、小米平板 9 ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/626.htm"
+        "link": "https://www.ithome.com/0/990/004.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-14",
-        "title": "《人形机器人试验方法》系列国家标准启动会在武汉举行，宇树科技、小米机器人参会",
-        "summary": "8 月 13 日，《人形机器人试验方法》系列国家标准启动会在武汉光谷举行。会上，总则、环境感知、决策规划、运动控制等 7 项标准同步启动编制。",
+        "date": "2026-08-15",
+        "title": "“虾虾大脑”升级：荣耀 YOYO Claw 官宣接入智谱最新发布的 GLM-5.3 大模型",
+        "summary": "荣耀全场景软件主理人 @荣耀席迎军 昨晚宣布，荣耀 YOYO Claw 正式接入智谱最新发布的 GLM-5.3 大模型，“虾虾大脑”全新升级。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/619.htm"
+        "link": "https://www.ithome.com/0/989/989.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
         "date": "2026-08-14",
-        "title": "荣耀和抖音成立基础体验联合实验室，围绕智慧互联、AI 创新等领域合作",
-        "summary": "荣耀MagicOS 今日宣布，荣耀和抖音正式成立基础体验联合实验室，围绕用户基础体验、智慧互联与 AI 创新等领域展开深度合作。目前尚不清楚双方合作的具体内容。",
+        "title": "小米澎湃 OS：“超级小爱灵感球” 9 月内上线 Beta 版，“取餐码上岛”不晚于 8 月底上线 Beta 版",
+        "summary": "昨晚，小米澎湃 OS 回答了“超级小爱 2.0”“超级小爱灵感球”“取餐码上岛”等相关问题。小米澎湃 OS 官方透露，“超级小爱 2.0”处于内测阶段，为了集中开发资源快速改善体验，部分新功能将分批开放测试。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/613.htm"
+        "link": "https://www.ithome.com/0/989/981.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-14",
-        "title": "中际旭创 17.47 亿元入股算力散热龙头中石科技，后者股价应声涨停",
-        "summary": "高速光模块龙头中际旭创 8 月 13 日晚发布公告，宣布斥资超 17.47 亿元现金协议受让算力散热龙头中石科技 10.47% 股权。",
+        "date": "2026-08-15",
+        "title": "阿里千问开放 AI 眼镜生态，支持自建导游、教练、巡检等多种 skill",
+        "summary": "阿里千问开放平台于 8 月 10 日上线，同时支持 App、PC 和 AI 眼镜三端。在眼镜端，千问提供技能平台和行业定制两大模块。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/609.htm"
+        "link": "https://www.ithome.com/0/990/003.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-14",
-        "title": "摄影师抓拍红牛翼装飞行穿越日全食：筹备 9 个月、拍摄窗口 84 秒",
-        "summary": "科技媒体 PetaPixel 昨日（8 月 13 日）发布博文，报道称摄影师诺亚 · 韦策尔（Noah Wetzel）携手红牛 Red Bull Air Force 运动员迈克 · 布鲁尔（Mike Brewer），准备约 9 个月时间，...。",
+        "date": "2026-08-15",
+        "title": "DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网，可一站式完成部署开发",
+        "summary": "8 月 14 日，国家超算互联网宣布上线 DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813），以及智能体框架 DeepSeek Harness。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/569.htm"
+        "link": "https://www.ithome.com/0/990/002.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-14",
-        "title": "SpaceXAI 已建成“全球最强 AI 训练集群”，马斯克称明年规模再扩大约 10 倍",
-        "summary": "科技媒体 Tom's Hardware 昨日（8 月 13 日）发布博文，报道称全球首富埃隆 · 马斯克（Elon Musk）在 SpaceX 员工会议上，预估 SpaceXAI（原名 xAI）数达到 10GW。",
+        "date": "2026-08-15",
+        "title": "谷歌 Gemini 将推新选项：关闭 AI 生成图片 / 视频 / 音乐的可见水印",
+        "summary": "谷歌昨日（8 月 14 日）在 X 平台发布推文，预告将会在未来几天为 Gemini 新增 Media Watermark 设置，让用户可关闭图像、视频和音乐作品的可见水印。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/537.htm"
+        "link": "https://www.ithome.com/0/989/997.htm"
     },
     {
         "id": "news-007",
-        "category": "display",
+        "category": "stock",
         "date": "2026-08-14",
-        "title": "LG Display 2026 财年半年报归母净亏损 9753.32 亿韩元，同比由盈转亏",
-        "summary": "LG Display 今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入：11.15 万亿韩元（IT之家注：现汇率约合 531.78 亿元人民币），...。",
+        "title": "上市近 70 年来首次年度亏损后，曝本田搁置 3 款纯电汽车项目",
+        "summary": "汽车媒体 CarBuzz 昨日（8 月 14 日）发布博文，报道称本田（Honda）今年 5 月遭遇自 1957 年在东京证券交易所上市以来首次净亏损后，近期决定搁置 3 款接近上市的纯电动车项目。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/610.htm"
+        "link": "https://www.ithome.com/0/989/980.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-08-14",
-        "title": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
-        "summary": "Omdia 今日发布的最新研究显示，iPhone 用户在微短剧应用上的消费比安卓用户高出约 40%，这一发现颠覆了外界对这一快速增长的娱乐形态用户消费习惯和付费意愿的普遍认知。",
+        "category": "ai",
+        "date": "2026-08-15",
+        "title": "微软 Win11/Win10 版 Word 加入文本定位链接，协作跳转不必手动滚动",
+        "summary": "科技媒体 Neowin 昨日（8 月 14 日）发布博文，报道称微软升级 Windows 10/Windows 11 以及 macOS 版 Microsoft Word 应用，新增“复制位置链接”功能。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/597.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-08-14",
-        "title": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
-        "summary": "Google（谷歌）硬件副总裁彭昱钧昨日确认，本周早些时候发布的 Pixel 11 系列智能手机所搭载的 Tensor G6 芯片采用台积电最新改良 3nm 制程。这意味着此前“Tensor G6 移动端首发台积电 2nm”的传闻不实。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/551.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-08-14",
-        "title": "消息称谷歌 DeepMind 团队不再追逐前沿模型研发工作，或迎大规模裁员",
-        "summary": "谷歌 DeepMind 团队将不再追逐前沿模型的研发工作，而是聚焦到性价比更高的 Flash 级别模型上。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/614.htm"
-    },
-    {
-        "id": "news-011",
-        "category": "stock",
-        "date": "2026-08-14",
-        "title": "闪迪预计 2028~2030 财年实现年均中高十位数百分比营收增长",
-        "summary": "Sandisk（闪迪）当地时间 13 日在其 In Focus 2026 投资者日活动上预测，其 2028~2030 财年可实现年均中高十位数百分比的营收增长，这一增幅与其按容量计的 NAND 出货规模增长保持一致。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/612.htm"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-08-14",
-        "title": "京东 CEO 许冉：今年二季度外卖总投入实现同比减亏超 50%，单均补贴在明显下降",
-        "summary": "京东集团昨日发布 2026 年二季度及半年业绩。2026 上半年营业总收入 6,620.95 亿元，同比增长 0.7%；毛利润 1,123.34 亿元，同比增长 7.51%；归母净利润 122.31 亿元，同比下降 28.34%。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/534.htm"
+        "link": "https://www.ithome.com/0/990/007.htm"
     }
 ]
 };
