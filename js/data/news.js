@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-15 02:31:17
+// 自动生成于 2026-08-16 02:39:33
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-15",
-        "title": "小米 3 台迭代新平板更多信息曝光，有望归属 Pad 9 系列",
-        "summary": "小米 3 台迭代新平板更多信息公示：M656BA——11.2 英寸 +45W 快充2612CRPFFC——12.5 英寸 +67W 快充M367FC——13.3 英寸 +120W 快充博主“建议”三台平板命名为小米平板 9、小米平板 9 ...。",
+        "date": "2026-08-16",
+        "title": "卢伟冰发文庆祝小米手机 15 周岁生日，称未来全面拥抱 AI",
+        "summary": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰刚刚发文庆祝小米手机 15 周岁生日。从“为发烧而生”到“让全球每个人都能享受科技带来的美好生活”；从应用创新，到目标成为全球硬核科技领导者；从中国到全球；未来全面拥抱 AI。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/990/004.htm"
+        "link": "https://www.ithome.com/0/990/250.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-15",
-        "title": "“虾虾大脑”升级：荣耀 YOYO Claw 官宣接入智谱最新发布的 GLM-5.3 大模型",
-        "summary": "荣耀全场景软件主理人 @荣耀席迎军 昨晚宣布，荣耀 YOYO Claw 正式接入智谱最新发布的 GLM-5.3 大模型，“虾虾大脑”全新升级。",
+        "date": "2026-08-16",
+        "title": "王晓雁庆祝小米手机迎来 15 周岁生日：2011 年 8 月 16 日初代机型发布",
+        "summary": "小米集团高级副总裁、中国区总裁王晓雁今日发文表示：“今天是小米手机的生日，一起祝小米手机 15 岁生日快乐。”公开信息显示，北京小米科技有限公司于 2010 年 4 月 6 日正式成立，最初办公地点位于银谷大厦。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/989.htm"
+        "link": "https://www.ithome.com/0/990/241.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-14",
-        "title": "小米澎湃 OS：“超级小爱灵感球” 9 月内上线 Beta 版，“取餐码上岛”不晚于 8 月底上线 Beta 版",
-        "summary": "昨晚，小米澎湃 OS 回答了“超级小爱 2.0”“超级小爱灵感球”“取餐码上岛”等相关问题。小米澎湃 OS 官方透露，“超级小爱 2.0”处于内测阶段，为了集中开发资源快速改善体验，部分新功能将分批开放测试。",
+        "date": "2026-08-16",
+        "title": "小米详解澎程为何标配 9 个碰撞传感器：核心不是追求数量，而是希望把碰撞感知覆盖得更全面",
+        "summary": "小米汽车今日凌晨发布了答网友问（第 278 集），针对小米澎程的龙甲电池热安全测试条件为何设置为 55℃ 高温 / 满电、澎程 N90 Max 的 12 个安全气囊布置思考，以及澎程为什么全系标配 9 个碰撞传感器等问题进行了集中解答。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/981.htm"
+        "link": "https://www.ithome.com/0/990/232.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-15",
-        "title": "阿里千问开放 AI 眼镜生态，支持自建导游、教练、巡检等多种 skill",
-        "summary": "阿里千问开放平台于 8 月 10 日上线，同时支持 App、PC 和 AI 眼镜三端。在眼镜端，千问提供技能平台和行业定制两大模块。",
+        "date": "2026-08-16",
+        "title": "广汽启境 GT7 今晚面向 L3 级架构全球首拆，华为靳玉志现场见证",
+        "summary": "广汽集团今日宣布，启境 GT7 车型面向 L3 级有条件自动驾驶架构的全球首拆今晚 19:00 直播举行。本次活动由启境汽车 CEO 刘嘉铭、华为公司高级副总裁兼引望公司 CEO 靳玉志共同见证。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/990/003.htm"
+        "link": "https://www.ithome.com/0/990/247.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-15",
-        "title": "DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网，可一站式完成部署开发",
-        "summary": "8 月 14 日，国家超算互联网宣布上线 DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813），以及智能体框架 DeepSeek Harness。",
+        "date": "2026-08-16",
+        "title": "黑暗奇幻动作 RPG《黎明行者之血》开启预购：游戏国区 298 元起，9 月 3 日发售",
+        "summary": "由 Rebel Wolves 开发、万代南梦宫（Bandai Namco）发行的开放世界黑暗奇幻动作 RPG《黎明行者之血（The Blood of Dawnwalker）》将于 2026 年 9 月 3 日发售，登陆 PlayStati...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/990/002.htm"
+        "link": "https://www.ithome.com/0/990/245.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-15",
-        "title": "谷歌 Gemini 将推新选项：关闭 AI 生成图片 / 视频 / 音乐的可见水印",
-        "summary": "谷歌昨日（8 月 14 日）在 X 平台发布推文，预告将会在未来几天为 Gemini 新增 Media Watermark 设置，让用户可关闭图像、视频和音乐作品的可见水印。",
+        "date": "2026-08-16",
+        "title": "撤离冒险射击游戏《ARC Raiders》全球销量已达到 1630 万份，累计收入超过 880 亿日元",
+        "summary": "发行商 NEXON 在财报中透露，由瑞典 Embark Studios 开发的科幻题材第三人称 PvPvE 撤离射击游戏《ARC Raiders（弧光猎人）》在 PlayStation 5、XBOX Series X|S、以及 PC 平台...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/997.htm"
+        "link": "https://www.ithome.com/0/990/242.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-08-14",
-        "title": "上市近 70 年来首次年度亏损后，曝本田搁置 3 款纯电汽车项目",
-        "summary": "汽车媒体 CarBuzz 昨日（8 月 14 日）发布博文，报道称本田（Honda）今年 5 月遭遇自 1957 年在东京证券交易所上市以来首次净亏损后，近期决定搁置 3 款接近上市的纯电动车项目。",
+        "category": "display",
+        "date": "2026-08-16",
+        "title": "网友吐槽 SK 海力士 SSD 故障无法换新，厂商只同意按原价退款",
+        "summary": "SK 海力士虽是知名存储芯片厂商，主打内存颗粒业务，但也推出过不少高品质消费级固态硬盘。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/989/980.htm"
+        "link": "https://www.ithome.com/0/990/244.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-08-15",
-        "title": "微软 Win11/Win10 版 Word 加入文本定位链接，协作跳转不必手动滚动",
-        "summary": "科技媒体 Neowin 昨日（8 月 14 日）发布博文，报道称微软升级 Windows 10/Windows 11 以及 macOS 版 Microsoft Word 应用，新增“复制位置链接”功能。",
+        "category": "display",
+        "date": "2026-08-16",
+        "title": "iFixit 再次上调 Steam Deck LCD 版替换电池价格：至 180 美元，较原价高 125%",
+        "summary": "上月，有 Valve 可能停产初代 Steam Deck 的维修配件，随后维修平台 iFixit 的 Steam Deck LCD 版替换电池重新补货上架。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/990/007.htm"
+        "link": "https://www.ithome.com/0/990/231.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "display",
+        "date": "2026-08-15",
+        "title": "酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元",
+        "summary": "酷比魔方掌玩 mini 4 标准版平板现已在京东发售，该机搭载紫光展锐 T7300 处理器，匹配 8GB RAM 和 128GB 存储空间，提供国内版和国际版，定价为 999 元。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/0/990/215.htm"
     }
 ]
 };
