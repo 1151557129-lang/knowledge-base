@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-19 02:36:40
+// 自动生成于 2026-08-20 02:35:39
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-19",
-        "title": "消息称一加 16 首发新一代东方屏，行业首个支持全局 165Hz 超高刷",
-        "summary": "博主 @数码闲聊站 今日爆料，一加 16 首发新一代东方屏，行业首个支持全局 165Hz 超高刷的屏幕。新机出厂预装 ColorOS 17，支持全新系统级动效。",
+        "date": "2026-08-20",
+        "title": "小米 REDMI Watch 6 活力版智能手表发布：1.85 英寸方屏，349 元",
+        "summary": "小米 REDMI Watch 6 活力版智能手表今日发布并开售，新品搭载 1.85 英寸方屏，建议零售价 349 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/449.htm"
+        "link": "https://www.ithome.com/0/991/945.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-19",
-        "title": "小米米家轻享保温杯 2 开售：316L 不锈钢内胆，89 元",
-        "summary": "小米米家轻享保温杯 2 开售，官方建议零售价 99 元，京东平台售价 89 元。",
+        "date": "2026-08-20",
+        "title": "OPPO 新一代屏幕双产线技术发布，号称“色彩无限接近真实世界”",
+        "summary": "OPPO 今日官宣新一代屏幕双产线技术正式发布，从基材定制到像素级校准，实现全链路显示升级。RGB 三色发光材料全面换新，光谱深度优化，BT.2020 色域覆盖率达行业新高，色彩无限接近真实世界。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/447.htm"
+        "link": "https://www.ithome.com/0/991/942.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-19",
-        "title": "小米 Xiaomi 蓝牙音箱磁吸版发售：重约 95g、可当手机支架，132 元",
-        "summary": "小米旗下 Xiaomi 蓝牙音箱磁吸版现已在小米有品（点此前往）发售，定价 199 元，首发价 132 元。",
+        "date": "2026-08-20",
+        "title": "《DOTA2》2026 年国际邀请赛主赛事启动，8 队争夺最终冠军",
+        "summary": "《DOTA2》2026 年国际邀请赛 (TI2026 / TI15) 最终的主赛事阶段现已启动。8 支从小组赛的特别瑞士轮 + 特别淘汰赛中脱颖而出的战队将在中国上海的浦发银行东方体育中心争夺捧起本年度冠军之神盾的荣耀。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/445.htm"
+        "link": "https://www.ithome.com/0/991/936.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-19",
-        "title": "HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头",
-        "summary": "源 smashx_60 发文，曝光了 HMD 旗下诺基亚 125 4G 2nd Edition 功能机，该机规格与 HMD 此前推出的诺基亚 210 4G AI 手机大致相同。",
+        "date": "2026-08-20",
+        "title": "Counterpoint：2026 上半年全球人形机器人出货量同比增长近 300%，智元、宇树霸榜",
+        "summary": "全球人形机器人行业目前正处于大规模商业化落地的关键阶段。根2026 年上半年全球人形机器人出货量突破 2.2 万台，同比增长近 300%，保持强劲增长势头。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/441.htm"
+        "link": "https://www.ithome.com/0/991/939.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-19",
-        "title": "保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装",
-        "summary": "CORSAIR（海盗船）美国加州当地时间 18 日宣布推出捆绑新一代 RMe 系列 ATX 电源和 ThermalProtect 600W 线缆的套装，这一组合旨在为用户提供安全的 12V-2×6 供电。",
+        "date": "2026-08-20",
+        "title": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
+        "summary": "科技媒体 AppleInsider 昨日（8 月 19 日）发布博文，汇总梳理了 iOS 27 版相机（Camera）应用变化，主要新增 Siri 模式，支持 RAW 9，并整合 AI 参考图像模式等。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/428.htm"
+        "link": "https://www.ithome.com/0/991/943.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-19",
-        "title": "A 股人形机器人第一股宇树科技今日上市：开盘大涨 629.44%，单签收益达 47 万元",
-        "summary": "A 股人形机器人第一股宇树科技今日上市，开盘大涨 629.44%，股价现报 1100 元，总市值达 4449 亿。发行价为 150.80 元 / 股，单签收益为 47.46 万元。",
+        "date": "2026-08-20",
+        "title": "宇树科技王兴兴：目前人形机器人的效能相对较低，技术精进后会大规模推广",
+        "summary": "8 月 20 日上午2026 世界机器人大会（WRC 2026）期间，宇树科技创始人、董事长发布主题演讲。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/426.htm"
+        "link": "https://www.ithome.com/0/991/924.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-19",
-        "title": "三星最强平板 Galaxy Tab S12 Ultra 渲染图曝光：天玑 9500 芯片",
-        "summary": "科技媒体 Android Headline 昨日（8 月 18 日）发布博文，分享了一组宣传图片，展示了三星最强平板 Galaxy Tab S12 Ultra。",
+        "date": "2026-08-20",
+        "title": "飞利浦 24.5\" FHD 1000Hz 显示器 25M4P5200T 上架，到手价不高于 7999 元",
+        "summary": "Philips（飞利浦）显示器现已在电商平台上线新品 Evnia 25M4P5200T。这一型号采用 24.5\" Fast IPS 面板，支持 FHD 1000Hz，号称“行业首款护眼原生千帧电竞”显示器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/439.htm"
+        "link": "https://www.ithome.com/0/991/911.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-19",
-        "title": "三星 Galaxy S26 FE 手机宣传图曝光：7 年安卓系统更新、4900mAh 电池、Exynos 2500 芯片",
-        "summary": "科技媒体 Android Headline 昨日（8 月 18 日）发布博文，分享了一组宣传图，展示了三星 Galaxy S26 FE 手机。",
+        "date": "2026-08-20",
+        "title": "微星 MAG VIEW XPANDER 12 多功能显示器上市，699 元",
+        "summary": "微星 (MSI) 现已在电商平台销售 MAG VIEW XPANDER 12 这款多功能显示器。其基于 12.3\" 1920×720 60Hz 350nits 规格 IPS LCD 面板，可用于系统监控、内容显示、第二屏幕场景。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/432.htm"
+        "link": "https://www.ithome.com/0/991/906.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-19",
-        "title": "Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC",
-        "summary": "日本芯片设计服务企业 Socionext（索喜）当地时间 18 日宣布，将利用英特尔代工的 Intel 18A-P 制程工艺节点开发一系列定制 SoC，以满足数IT之家了解到，Socionext 将在这一系列项目中结合自身 ASIC 专业...。",
+        "date": "2026-08-20",
+        "title": "前理想总裁沈亚楠二次创业，智能住宅企业“栖息地”再获 7 亿元融资",
+        "summary": "智能住宅企业栖息地已完成 A 轮融资，本轮融资资金规模 7 亿元人民币，由常州新北区科创基金领投。▲ 图源沈亚楠官方微博公开资料显示，栖息地品牌由前理想汽车联合创始人、总裁沈亚楠创立，定位生活智能科技公司。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/424.htm"
+        "link": "https://www.ithome.com/0/991/903.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-08-19",
-        "title": "宇树科技王兴兴身家超千亿元，成 90 后新首富",
-        "summary": "宇树科技今日登陆科创板正式挂牌交易，开盘大涨最高 629.44%，股价最高报 1,100 元。截至IT之家发文，宇树科技股价涨近 500%，市值超 3,600 亿元。",
+        "date": "2026-08-20",
+        "title": "CounterPoint 称智能眼镜、智能戒指和智能吊坠将成可穿戴设备增长最快品类",
+        "summary": "市场调查机构 CounterPoint Research 昨日（8 月 19 日）发布博文，预估 2026~2032 年全球消费级可穿戴设备累计营收将超过 1 万亿美元（IT之家注：现汇率约合 6.75 万亿元人民币），营收年复合增长率为...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/443.htm"
-    },
-    {
-        "id": "news-011",
-        "category": "stock",
-        "date": "2026-08-19",
-        "title": "长江存储 IPO 辅导状态变更为“辅导验收”",
-        "summary": "长江存储控股股份有限公司 IPO 辅导状态变更为“辅导验收”，辅导券商为中信证券和中信建投。辅导验收是 A 股 IPO 注册制流程里，上市辅导阶段的收尾环节。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/425.htm"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-08-19",
-        "title": "美国 29 州起诉 Meta 案开庭，后者否认刻意诱导儿童沉迷社交平台",
-        "summary": "Meta Platforms 在一场可能改变全球部分热门社交应用运营方式的审判开始之际，否认美国各州提出的指控，称公司并没有为了追求利润而故意让儿童沉迷 Facebook 和 Instagram。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/419.htm"
+        "link": "https://www.ithome.com/0/991/889.htm"
     }
 ]
 };
