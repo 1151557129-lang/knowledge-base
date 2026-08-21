@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-20 02:35:39
+// 自动生成于 2026-08-21 02:41:56
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-20",
-        "title": "小米 REDMI Watch 6 活力版智能手表发布：1.85 英寸方屏，349 元",
-        "summary": "小米 REDMI Watch 6 活力版智能手表今日发布并开售，新品搭载 1.85 英寸方屏，建议零售价 349 元。",
+        "date": "2026-08-21",
+        "title": "小米智能门锁 5C 预售：直插式 C 级锁芯，到手价 659 元",
+        "summary": "小米智能门锁 5C 今日预售，新品到手价 659 元。小米智能门锁 5C 提供多种开锁方式，包含 AI 指纹、固定密码、周期 / 一次性密码、机械钥匙、米家 App 蓝牙、小米手机 / 手表 / 手环 NFC、NFC 门卡。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/945.htm"
+        "link": "https://www.ithome.com/0/992/482.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-20",
-        "title": "OPPO 新一代屏幕双产线技术发布，号称“色彩无限接近真实世界”",
-        "summary": "OPPO 今日官宣新一代屏幕双产线技术正式发布，从基材定制到像素级校准，实现全链路显示升级。RGB 三色发光材料全面换新，光谱深度优化，BT.2020 色域覆盖率达行业新高，色彩无限接近真实世界。",
+        "date": "2026-08-21",
+        "title": "荣耀 Robot Phone 手机维修备件价格公布：主摄 3079 元，主板 4599 元起",
+        "summary": "荣耀 Robot Phone 手机于 8 月 12 日发布、8 月 18 日开售，售价 9,999 元起：12GB + 512GB：9,999 元16GB + 1TB ：12,999 元目前这款新机的维修备件价格已经在官网公布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/942.htm"
+        "link": "https://www.ithome.com/0/992/433.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-08-20",
-        "title": "《DOTA2》2026 年国际邀请赛主赛事启动，8 队争夺最终冠军",
-        "summary": "《DOTA2》2026 年国际邀请赛 (TI2026 / TI15) 最终的主赛事阶段现已启动。8 支从小组赛的特别瑞士轮 + 特别淘汰赛中脱颖而出的战队将在中国上海的浦发银行东方体育中心争夺捧起本年度冠军之神盾的荣耀。",
+        "category": "ai",
+        "date": "2026-08-21",
+        "title": "消息称 Anthropic 计划调整数据留存策略：客户可选择在自有设施保存",
+        "summary": "彭博社当地时间 20 日援引人士的话报道称，Anthropic 计划调整此前为保障网络安全实施的数这一安全系统预计将在今年晚些时候正式上线。先进人工智能模型在网络安全领域展现了强大的攻击能力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/936.htm"
+        "link": "https://www.ithome.com/0/992/462.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-20",
-        "title": "Counterpoint：2026 上半年全球人形机器人出货量同比增长近 300%，智元、宇树霸榜",
-        "summary": "全球人形机器人行业目前正处于大规模商业化落地的关键阶段。根2026 年上半年全球人形机器人出货量突破 2.2 万台，同比增长近 300%，保持强劲增长势头。",
+        "date": "2026-08-21",
+        "title": "小鹏 GX 上市 2 个月交付超 1.5 万台，在阿联酋等区域已斩获超 2000 台订单",
+        "summary": "小鹏汽车官方今日宣布，今年是小鹏发力 AI 智驾和高端旗舰的关键年。随着第二代 VLA 正式发布，小鹏史上最强「旗舰双王」—— 小鹏 GX 与 G9L 相继登场，AI 智驾与高端旗舰双线提速。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/939.htm"
+        "link": "https://www.ithome.com/0/992/457.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-20",
-        "title": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
-        "summary": "科技媒体 AppleInsider 昨日（8 月 19 日）发布博文，汇总梳理了 iOS 27 版相机（Camera）应用变化，主要新增 Siri 模式，支持 RAW 9，并整合 AI 参考图像模式等。",
+        "date": "2026-08-21",
+        "title": "鸿蒙智行问界儿童车预售：350W 电机、20km 续航、前后双 1080P 摄像头，到手价 1.48 万元",
+        "summary": "鸿蒙智行问界儿童车现已开启预售，将于 8 月 30 日正式上市，售价 15,800 元。目前在“AITO 问界车生活商城”小程序可领 1,000 元无门槛优惠券，实际到手价 1.48 万元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/943.htm"
+        "link": "https://www.ithome.com/0/992/456.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-08-20",
-        "title": "宇树科技王兴兴：目前人形机器人的效能相对较低，技术精进后会大规模推广",
-        "summary": "8 月 20 日上午2026 世界机器人大会（WRC 2026）期间，宇树科技创始人、董事长发布主题演讲。",
+        "category": "display",
+        "date": "2026-08-21",
+        "title": "井芯微 RapidIO 交换芯片 SR1820、RapidIO - PCIe 桥接芯片 ST0420 成功点亮",
+        "summary": "井芯微电子 (sdichips) 昨日宣布，其自主研制的 RapidIO 3.2 交换芯片 SR1820、RapidIO 3.2 - PCIe 4.0 桥接芯片 ST0420 于 8 月 18 日回片并成功点亮，用时不到 1hr 即打通全...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/924.htm"
+        "link": "https://www.ithome.com/0/992/489.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-20",
-        "title": "飞利浦 24.5\" FHD 1000Hz 显示器 25M4P5200T 上架，到手价不高于 7999 元",
-        "summary": "Philips（飞利浦）显示器现已在电商平台上线新品 Evnia 25M4P5200T。这一型号采用 24.5\" Fast IPS 面板，支持 FHD 1000Hz，号称“行业首款护眼原生千帧电竞”显示器。",
+        "date": "2026-08-21",
+        "title": "高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版",
+        "summary": "高通今年将带来两款旗舰芯片已经不是什么秘密，博主 @数码闲聊站 今日曝光骁龙 2nm 芯片正式命名：SM8950—Snapdragon 8 Elite Gen6—— 第六代骁龙 8 至尊版SM8975——Snapdragon 8 Elit...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/911.htm"
+        "link": "https://www.ithome.com/0/992/452.htm"
     },
     {
         "id": "news-008",
         "category": "display",
         "date": "2026-08-20",
-        "title": "微星 MAG VIEW XPANDER 12 多功能显示器上市，699 元",
-        "summary": "微星 (MSI) 现已在电商平台销售 MAG VIEW XPANDER 12 这款多功能显示器。其基于 12.3\" 1920×720 60Hz 350nits 规格 IPS LCD 面板，可用于系统监控、内容显示、第二屏幕场景。",
+        "title": "韩国企业首次：消息称 SK 海力士拟在日本建设存储芯片工厂，投资规模预计达数十万亿韩元",
+        "summary": "SK 海力士正在推进一项方案，计划斥资数十万亿韩元在日本东北部的宫城县建设存储芯片工厂。韩国半导体企业在日本大规模投资设立本地生产基地，此举尚属首例。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/906.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-08-20",
-        "title": "前理想总裁沈亚楠二次创业，智能住宅企业“栖息地”再获 7 亿元融资",
-        "summary": "智能住宅企业栖息地已完成 A 轮融资，本轮融资资金规模 7 亿元人民币，由常州新北区科创基金领投。▲ 图源沈亚楠官方微博公开资料显示，栖息地品牌由前理想汽车联合创始人、总裁沈亚楠创立，定位生活智能科技公司。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/903.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-08-20",
-        "title": "CounterPoint 称智能眼镜、智能戒指和智能吊坠将成可穿戴设备增长最快品类",
-        "summary": "市场调查机构 CounterPoint Research 昨日（8 月 19 日）发布博文，预估 2026~2032 年全球消费级可穿戴设备累计营收将超过 1 万亿美元（IT之家注：现汇率约合 6.75 万亿元人民币），营收年复合增长率为...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/991/889.htm"
+        "link": "https://www.ithome.com/0/992/425.htm"
     }
 ]
 };
