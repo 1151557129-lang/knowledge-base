@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-29 08:02:56
+// 自动生成于 2026-08-30 07:00:49
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-29",
-        "title": "雷军：超过 2600 位车主将自己的小米汽车开到了 10 万公里",
-        "summary": "雷军援引小米汽车微博，透露截至 2026 年 8 月，已经有超过 2600 位车主将自己的小米汽车开到了 10 万公里。",
+        "date": "2026-08-30",
+        "title": "华硕 Vivobook 15 笔记本海外发布：英特尔 WCL 平台、16GB 内存",
+        "summary": "华硕现已在加拿大市场推出 Vivobook 15（X1504）笔记本，新品搭载英特尔 Wildcat Lake 平台，最高提供 16GB 内存和 512GB 固态硬盘。这款笔记本首发搭载英特尔酷睿 7 350 处理器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/909.htm"
+        "link": "https://www.ithome.com/0/996/131.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-29",
-        "title": "消息称某厂 13 英寸旗舰新平板提供柔光屏版本，预计小米旗下",
-        "summary": "博主 @数码闲聊站 今日曝光某厂 13 英寸旗舰新平板部分信息，预计为小米旗下新品。",
+        "date": "2026-08-30",
+        "title": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
+        "summary": "小米昨日官宣，Xiaomi 18 Fold 全球首发长鑫 LPDDR6 内存，9 月见。IT之家注意到，央视新闻官方微博昨日发文报道“从“芯”到“存”，从单点技术突破到产业链协同发力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/908.htm"
+        "link": "https://www.ithome.com/0/996/099.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-29",
-        "title": "小米 18 Fold 手机全球首发长鑫 LPDDR6 内存，9 月见",
-        "summary": "小米今日官宣，Xiaomi 18 Fold 全球首发长鑫 LPDDR6 内存，9 月见。小米创办人、董事长兼 CEO 雷军发文称：祝贺长鑫实现 LPDDR6 内存量产，非常了不起。",
+        "date": "2026-08-30",
+        "title": "小米 18 Pro 系列手机有望首发：防窥屏界面曝光，支付 / 转账等 4 类敏感场景自动开启",
+        "summary": "源 @kacskrz 于 8 月 28 日在 X 平台发布推文，分享了 1 段视频和 3 张图片，从国际版 ROM 固件中挖掘发现小米防窥屏相关信息。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/869.htm"
+        "link": "https://www.ithome.com/0/996/093.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-29",
-        "title": "2025 年我国智能体专利授权量超过 3400 件，增速是上一年两倍以上",
-        "summary": "国家数智能体应用带动词元服务加速发展。2025 年，我国智能体专利授权量超过 3400 件，增速是上一年的两倍以上，创新步伐明显加快。",
+        "date": "2026-08-30",
+        "title": "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元",
+        "summary": "大我 BIGME 今日宣布，彩墨屏 AI 阅读器 B6 Pro 国内即将开启预售，9 月 1 日 20:00 - 9 月 22 日 10:00 支付定金，9 月 22 日 10:30 起支付尾款，B6 Pro（8GB+256GB）预售到手...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/928.htm"
+        "link": "https://www.ithome.com/0/996/133.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-29",
-        "title": "消息称空客有意出售美国航天业务：聚焦欧洲卫星制造，应对 SpaceX 与中国对手竞争",
-        "summary": "《金融时报》今日报道称，空中客车（Airbus）正探索出售其美国航天业务部门。与此同时，这家法德合资的飞机制造商正致力于通过三方合并打造一家泛欧洲卫星领域的龙头企业。",
+        "date": "2026-08-30",
+        "title": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
+        "summary": "Rockstar Games 表示，《侠盗猎车手 6》（GTA 6）在今年 11 月发售时不会加入微交易或生成式 AI。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/927.htm"
+        "link": "https://www.ithome.com/0/996/132.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-29",
-        "title": "行业首个量子增强型大模型“玄幂 Xenomi”发布：深度融合 AI 与量子计算",
-        "summary": "国光量超人工智能研究团队将相关量子技术引入大语言模型的决策与推理过程，并面向科研和学术领域，推出玄幂（Xenomi）· 大模型家族。",
+        "date": "2026-08-30",
+        "title": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
+        "summary": "英国长期韧性中心（CLTR）于 8 月 28 日发布报告，称其“失控观察站”在 2026 年 7 月共记录 306 起 AI 安全事件，比 6 月（158 起）增涨 93.67%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/921.htm"
+        "link": "https://www.ithome.com/0/996/124.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-29",
-        "title": "蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起",
-        "summary": "蓝狐 Aura A1 手机今天发布，新品主打 4.7 寸小屏，可选粉、白、黑三种配色，首发售价 1399 元起。",
+        "date": "2026-08-30",
+        "title": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
+        "summary": "科技媒体 NotebookCheck 昨日（8 月 29 日）发布博文，报道称德国 MNT Research 在 Crowd Supply 上线 MNT Station 迷你电脑众筹项目。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/920.htm"
+        "link": "https://www.ithome.com/0/996/113.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-29",
-        "title": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元",
-        "summary": "华硕旗下 ROG “PG27UCWM”27 英寸显示器目前已在京东上架，该机采用 RGB 条纹子像素排列，支持 UHD 240Hz / FHD 480Hz 双模切换，国行定价 7499 元，将于 8 月 31 日发售。",
+        "date": "2026-08-30",
+        "title": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
+        "summary": "科技媒体 NotebookCheck 昨日（8 月 29 日）发布博文，测试苹果 2026 款 M5 Max 芯片 16 英寸 MacBook Pro，发现随附的 140W 电源适配器可能无法覆盖整机峰值需求。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/904.htm"
+        "link": "https://www.ithome.com/0/996/111.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-29",
-        "title": "全球首例：武汉大学人民医院实现眼球植入半侵入式视网膜脑机接口，患者重见光明",
-        "summary": "因视网膜色素变性，60 岁的邱先生已彻底失明 4 年。今年 7 月 8 日，武汉大学人民医院（湖北省人民医院）眼耳鼻喉医院院长肖璇教授团队，在不穿透他眼球的前提下，将一枚刺激芯片植入了他的眼白（巩膜）。",
+        "date": "2026-08-30",
+        "title": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
+        "summary": "近日，有多名网友晒出苹果入职五周年纪念牌，其中部分采用了新任 CEO 约翰 · 特努斯的签名，这也意味着蒂姆 · 库克卸任进入倒计时。官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/995/870.htm"
+        "link": "https://www.ithome.com/0/996/094.htm"
     }
 ]
 };
