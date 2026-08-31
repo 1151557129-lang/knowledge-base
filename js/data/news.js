@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-08-30 07:00:49
+// 自动生成于 2026-08-31 07:16:20
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-08-30",
-        "title": "华硕 Vivobook 15 笔记本海外发布：英特尔 WCL 平台、16GB 内存",
-        "summary": "华硕现已在加拿大市场推出 Vivobook 15（X1504）笔记本，新品搭载英特尔 Wildcat Lake 平台，最高提供 16GB 内存和 512GB 固态硬盘。这款笔记本首发搭载英特尔酷睿 7 350 处理器。",
+        "date": "2026-08-31",
+        "title": "消息称某厂万级大电池新机搭载超高刷直屏、3D 超声波指纹，预计为小米 REDMI K100 系列",
+        "summary": "博主 @数码闲聊站 今日曝光某厂子系第一台万级大电池新机部分规格，评论区网友猜测为小米 REDMI K100 系列。该机工程机采用超高刷直屏，搭载双芯性能平台，配备对称双扬、相对大尺寸马达、3D 超声波指纹，支持 IP68 级防尘防水。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/131.htm"
+        "link": "https://www.ithome.com/0/996/450.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-08-30",
-        "title": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
-        "summary": "小米昨日官宣，Xiaomi 18 Fold 全球首发长鑫 LPDDR6 内存，9 月见。IT之家注意到，央视新闻官方微博昨日发文报道“从“芯”到“存”，从单点技术突破到产业链协同发力。",
+        "date": "2026-08-31",
+        "title": "小米推出米家 LED 智能灯泡蓝牙 Mesh 版：500lm 亮度、可调节亮度色温，29.9 元",
+        "summary": "小米现已在京东上架米家 LED 灯泡蓝牙 Mesh 版，官方称该产品升级节能灯珠，提供 500lm 亮度、支持自由调整亮度色温，定价为 29.9 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/099.htm"
+        "link": "https://www.ithome.com/0/996/420.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-08-30",
-        "title": "小米 18 Pro 系列手机有望首发：防窥屏界面曝光，支付 / 转账等 4 类敏感场景自动开启",
-        "summary": "源 @kacskrz 于 8 月 28 日在 X 平台发布推文，分享了 1 段视频和 3 张图片，从国际版 ROM 固件中挖掘发现小米防窥屏相关信息。",
+        "date": "2026-08-31",
+        "title": "小米穿戴 8 月更新内容公布，小米手环 9 等迎多项优化",
+        "summary": "今日，小米集团手机部副总裁、可穿戴部总经理张雷分享了小米穿戴 8 月的更新内容。本月多款设备都推送了 OTA 更新，小米手环 9、小米手环 10、REDMI Watch 5、REDMI Watch6 等设备都有不同程度的体验优化。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/093.htm"
+        "link": "https://www.ithome.com/0/996/412.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-08-30",
-        "title": "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元",
-        "summary": "大我 BIGME 今日宣布，彩墨屏 AI 阅读器 B6 Pro 国内即将开启预售，9 月 1 日 20:00 - 9 月 22 日 10:00 支付定金，9 月 22 日 10:30 起支付尾款，B6 Pro（8GB+256GB）预售到手...。",
+        "date": "2026-08-31",
+        "title": "马斯克提出新计划：靠 AI 卫星让地球在未来大约 10 亿年内保持宜居",
+        "summary": "埃隆 · 马斯克在周末描述了一项旨在让地球在未来大约 10 亿年内保持宜居的计划，而这一计划的起点，是一批能够自主思考的卫星。马斯克在 X 平台发文称，仅仅用太阳能和风能取代化石燃料，并不足以让人类躲过他所说的“极其严重的灭绝事件”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/133.htm"
+        "link": "https://www.ithome.com/0/996/490.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-08-30",
-        "title": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
-        "summary": "Rockstar Games 表示，《侠盗猎车手 6》（GTA 6）在今年 11 月发售时不会加入微交易或生成式 AI。",
+        "date": "2026-08-31",
+        "title": "问界汽车详解共光路舱内激光雷达与双光路图像级激光雷达区别：技术架构、能力边界不同",
+        "summary": "AITO 汽车官方今日发布问界 M6 答网友问，针对共光路激光雷达和双光路图像级激光雷达有什么区别、搭载共光路舱内激光雷达的问界 M6 为何能在大雨情况下使用辅助驾驶系统等问题进行了集中解答。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/132.htm"
+        "link": "https://www.ithome.com/0/996/487.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-08-30",
-        "title": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
-        "summary": "英国长期韧性中心（CLTR）于 8 月 28 日发布报告，称其“失控观察站”在 2026 年 7 月共记录 306 起 AI 安全事件，比 6 月（158 起）增涨 93.67%。",
+        "date": "2026-08-31",
+        "title": "消息称三星电子正为英伟达开发定制 8Hi HBM：17~18Gbps 高速设计",
+        "summary": "韩媒《首尔经济日报》当地时间 28 日报道称，三星电子正为 NVIDIA（英伟达）开发一款定制的 HBM 内存产品。其采用 8 层低堆叠设计，同时支持 17~18Gbps 的高引脚速率。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/124.htm"
+        "link": "https://www.ithome.com/0/996/486.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-08-30",
-        "title": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
-        "summary": "科技媒体 NotebookCheck 昨日（8 月 29 日）发布博文，报道称德国 MNT Research 在 Crowd Supply 上线 MNT Station 迷你电脑众筹项目。",
+        "date": "2026-08-31",
+        "title": "华为 Pura X View 阔直板手机线下展出，三方软件显示搭载麒麟 9030S 处理器",
+        "summary": "华为 Pura X View 阔直板手机已在线下门店展出，并开启预订。根新机将在 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上正式发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/113.htm"
+        "link": "https://www.ithome.com/0/996/468.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-08-30",
-        "title": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
-        "summary": "科技媒体 NotebookCheck 昨日（8 月 29 日）发布博文，测试苹果 2026 款 M5 Max 芯片 16 英寸 MacBook Pro，发现随附的 140W 电源适配器可能无法覆盖整机峰值需求。",
+        "date": "2026-08-31",
+        "title": "掌阅预热 Tango2S 电纸书：为 5.84 英寸小屏首次引入 300PPI Carta 1300 黑白墨水面板",
+        "summary": "掌阅宣布将推出一款 Tango2S 黑白墨水屏手机造型电纸书，该机主要在 Tango2 的基础上进一步缩小尺寸，号称首度为 5.84 英寸机型引入 300PPI Carta 1300 面板，主打清晰度体验。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/111.htm"
+        "link": "https://www.ithome.com/0/996/432.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-08-30",
-        "title": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
-        "summary": "近日，有多名网友晒出苹果入职五周年纪念牌，其中部分采用了新任 CEO 约翰 · 特努斯的签名，这也意味着蒂姆 · 库克卸任进入倒计时。官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
+        "date": "2026-08-31",
+        "title": "一加 16 手机屏幕核心新特性曝光：BOE 独家定制的发光材料 X4、行业首个全局 165Hz 超高刷",
+        "summary": "博主 @数码闲聊站 今日曝光了一加 16 手机的屏幕核心新特性：BOE 独家定制的发光材料 X4行业首个全局 165Hz 超高刷全新工艺的自研显示芯片行业唯一逐片三次校准OPPO 最新明眸护眼技术子系唯一极窄四等边博主表示，一加 16 还...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/996/094.htm"
+        "link": "https://www.ithome.com/0/996/390.htm"
     }
 ]
 };
