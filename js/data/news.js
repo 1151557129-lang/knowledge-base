@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-04 06:13:47
+// 自动生成于 2026-09-05 06:02:13
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,101 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-04",
-        "title": "系列最贵：谷歌推出斯蒂芬 · 库里版 Pixel Watch 5 智能手表，配专属运动表带",
-        "summary": "科技媒体 Android Headline 昨日（9 月 3 日）发布博文，报道称谷歌为 Pixel Watch 5 智能手表推出斯蒂芬 · 库里（Stephen Curry）特别版，售价为 579.99 美元（IT之家注：现汇率约合 3...。",
+        "date": "2026-09-05",
+        "title": "索尼被曝将发布三款 E 卡口新镜头：600mm F6.3 与 400mm F4.5 均低于 1kg",
+        "summary": "Fredmiranda 论坛上有人泄露了索尼的发布会信息，该已经过 SonyAlphaRumors 确认。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/385.htm"
+        "link": "https://www.ithome.com/0/998/692.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-04",
-        "title": "荣耀 Play11 手机规格曝光：骁龙 4 Gen4 处理器、6.87 英寸 120Hz LCD 屏",
-        "summary": "博主 @完美编排数码 现已曝光了荣耀 Play11 手机海报及规格信息，该机主打 IP69K 认证、8300mAh 电池，将在本月上市。",
+        "date": "2026-09-05",
+        "title": "小米服务：针对福建地区受台风“沙德尔”影响造成损坏 / 故障的小米产品，提供免费检测、免费维修服务",
+        "summary": "小米服务今日发文，针对福建地区（福州、厦门、泉州、宁德、莆田、漳州、龙岩等地）受台风“沙德尔”影响造成损坏 / 故障的小米产品，提供免费检测、维修服务。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/380.htm"
+        "link": "https://www.ithome.com/0/998/691.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-04",
-        "title": "小米澎程 N90 Max 已试驾体验：是一台好开的大车",
-        "summary": "这段时间小伙伴们都在关注的小米澎程 N90 Max，前几天小编已经提前摸过实车了。不过受保密期限制，动态画面暂时还放不出来，今天咱们就先简单聊聊目前的体验，给大家解解馋。",
+        "date": "2026-09-05",
+        "title": "小米表格结构化数据大模型 TabLDM 发布开源：四大基准评测第一梯队，回归能力登顶 OpenML-CTR23",
+        "summary": "小米今日正式发布通用表格数该模型以单一预训练模型、统一默认配置直接适配不同表格数无需针对每个任务重新训练、调参或后置集成，即可完成分类与回归预测。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/375.htm"
+        "link": "https://www.ithome.com/0/998/683.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-04",
-        "title": "服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒",
-        "summary": "当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能语音助手将逐步退出历史舞台，由新一代 AI 助手 Gemini 全面接棒。",
+        "date": "2026-09-05",
+        "title": "上海警方破获《三角洲行动》OBS / OBX-AI 外挂案，腾讯安全团队协助抓获 2 名犯罪嫌疑人",
+        "summary": "腾讯昨日发文宣布，在《三角洲行动》及腾讯游戏安全团队协助下，上海警方赴辽宁丹东开展收网行动，成功抓获 OBS / OBX-AI 两款游戏外挂的开发作者及总代理，现场查获外挂源代码。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/393.htm"
+        "link": "https://www.ithome.com/0/998/725.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-04",
-        "title": "联想 ThinkBook 14x Gen 2 发布：搭载英特尔酷睿 7 处理器，仅重 990g",
-        "summary": "当地时间 9 月 3 日，联想在 IFA 2026 期间发布了一系列商用产品组合，包括开创全新品类的 ThinkCentre X Ultra AI 台式机与 ThinkCentre M75 系列新品、面向移动办公的 ThinkBook 1...。",
+        "date": "2026-09-05",
+        "title": "微软预告 Excel 新增 AI 画布，打造可视化交互式数据看板",
+        "summary": "科技媒体 Windows Latest 昨日（9 月 4 日）发布博文，报道称微软计划为 Excel 推出 Copilot Canvas 功能，可将工作簿中的图表、关键指标和分析洞察整合为交互式视图，并在底层数根Copilot Canva...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/390.htm"
+        "link": "https://www.ithome.com/0/998/693.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-04",
-        "title": "机械革命 2026 款翼龙 15 Air 笔记本新增 R7 H 449 版本：搭 24G + 1T + RTX5060 售 13999 元（国补后 9999 元）",
-        "summary": "机械革命现已为旗下 2026 款翼龙 15 Air 笔记本新增 AMD 锐龙 7 H 449 处理器版本，该机搭载 24GB RAM 和 1TB SSD，匹配 RTX5060 Laptop 显卡，定价为 13999 元，将于 9 月 10...。",
+        "date": "2026-09-05",
+        "title": "七彩虹灵创 K16 游戏本新增 128G + 4T 版本：锐龙 AI Max+ 395 配 Radeon 8060S 核显，39999 元",
+        "summary": "七彩虹现已为旗下灵创 K16 游戏本新增 128GB RAM + 4TB SSD 版本，该机搭载锐龙 AI Max+ 395 处理器，定价为 39999 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/382.htm"
+        "link": "https://www.ithome.com/0/998/686.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-04",
-        "title": "消息称华硕 ProArt P14/P16 笔记本采用液态金属散热方案",
-        "summary": "科技媒体 NotebookCheck 昨日（9 月 3 日）发布博文，分享了华硕 ProArt P14 和 ProArt P16 笔记本的内部细节，显示芯片散热部分采用液态金属方案。",
+        "date": "2026-09-05",
+        "title": "Switch 2 版《塞尔达传说：时之笛》重制版游戏预估 11 月 12 日发行，将推典藏版",
+        "summary": "科技媒体 NotebookCheck 昨日（9 月 4 日）发布博文，报道称瑞典零售商 Retrospelbutiken 已上架 Switch 2 版《塞尔达传说：时之笛》重制版页面，显示该游戏于 2026 年 11 月 12 日发行，标...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/392.htm"
+        "link": "https://www.ithome.com/0/998/738.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-04",
-        "title": "宏碁发布三屏便携显示器 PD163Q-P3，售价 349 欧元",
-        "summary": "宏碁今日发布了 PD163Q-P3 便携显示器，该产品拥有 3 块独立的 IPS 面板。",
+        "date": "2026-09-05",
+        "title": "雷神推出“Z527F165L”27 英寸显示器：5K 165Hz / 2K 330Hz 双模，3599 元（国补后 2999 元）",
+        "summary": "雷神现已在京东上架“Z527F165L”27 英寸显示器，该机支持 5K 165Hz/2K 330Hz 双模，定价为 3599 元，国补后低至 2999 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/384.htm"
+        "link": "https://www.ithome.com/0/998/737.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-04",
-        "title": "增速最快：长鑫存储 Q2 拿下全球 DRAM 市场 10% 份额，同比增长 150% 坐稳全球第四",
-        "summary": "市场研究机构 Counterpoint Research 当地时间 9 月 2 日最新发布的最新报告显示，长鑫存储在今年第二季度按营收计算已占这一数字较去年同期的 4% 增长了 150%，较上一季度的 8% 环比增长 25%。",
+        "date": "2026-09-05",
+        "title": "三星 Galaxy S27 手机首发：Exynos 2700 芯片跑分曝光，10 核 CPU 设计",
+        "summary": "科技媒体 sammyfans 昨日（9 月 4 日）发布博文，报道称三星 Exynos 2,700 工程样片 GeekBench 跑分曝光，6.7.1 版本单核成绩为 4,328 分，多核成绩为 14,700 分。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/299.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-09-04",
-        "title": "李斌称市场低估了蔚来：我们不仅是车企，更是 AI 与能源公司",
-        "summary": "9 月 4 日午间在蔚来二季度业绩沟通会上，蔚来创始人、董事长、CEO 李斌回应财报发布后股价波动，他谈到，“资本市场定价就是一个市场价格，里面综合了很多东西，2021 年我们市值很高，但我们公司现在肯定比那个时候更健康，汽车行业现在还是...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/369.htm"
-    },
-    {
-        "id": "news-011",
-        "category": "stock",
-        "date": "2026-09-04",
-        "title": "蔚来李斌：高质量增长不能简单看销量，7 月平均成交价已全面超越 BBA，乐道有战略性新车型",
-        "summary": "9 月 4 日下午在蔚来二季度业绩沟通会上，蔚来创始人、董事长、CEO 李斌表示，“去年我们进入高质量发展的第三阶段，但在越来越竞争激烈的市场，只追求表面增长不重要，追求有质量的增长越来越重要。”什么是真正高质量的增长。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/368.htm"
+        "link": "https://www.ithome.com/0/998/735.htm"
     }
 ]
 };
