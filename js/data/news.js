@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-05 06:02:13
+// 自动生成于 2026-09-06 06:14:43
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-05",
-        "title": "索尼被曝将发布三款 E 卡口新镜头：600mm F6.3 与 400mm F4.5 均低于 1kg",
-        "summary": "Fredmiranda 论坛上有人泄露了索尼的发布会信息，该已经过 SonyAlphaRumors 确认。",
+        "date": "2026-09-06",
+        "title": "小米智能表盘 2 亮相：连贯完整大屏设计可实现“转头”、适配 SU7 / YU7 / 澎程全系车型",
+        "summary": "小米汽车现已公布了“小米智能表盘 2”车载外设，将于 9 月 7 日（明日）上市，兼容小米澎程、小米 SU7 / SU7 Ultra / YU7 全系列车型。该产品的一大亮点是采用了连贯的完整大屏设计，替代了上一代的双表盘方案。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/692.htm"
+        "link": "https://www.ithome.com/0/998/919.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-05",
-        "title": "小米服务：针对福建地区受台风“沙德尔”影响造成损坏 / 故障的小米产品，提供免费检测、免费维修服务",
-        "summary": "小米服务今日发文，针对福建地区（福州、厦门、泉州、宁德、莆田、漳州、龙岩等地）受台风“沙德尔”影响造成损坏 / 故障的小米产品，提供免费检测、维修服务。",
+        "date": "2026-09-06",
+        "title": "比亚迪、理想、北汽集团等多家车企预祝小米澎程上市成功",
+        "summary": "比亚迪、理想汽车、深蓝汽车、长安汽车、凯迪拉克、北汽集团等车企今日纷纷在微博发文，预祝小米澎程上市成功。参考IT之家此前报道，小米秋季旗舰新品发布会已官宣定档 9 月 7 日（下周一）晚 7 点。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/691.htm"
+        "link": "https://www.ithome.com/0/998/916.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-05",
-        "title": "小米表格结构化数据大模型 TabLDM 发布开源：四大基准评测第一梯队，回归能力登顶 OpenML-CTR23",
-        "summary": "小米今日正式发布通用表格数该模型以单一预训练模型、统一默认配置直接适配不同表格数无需针对每个任务重新训练、调参或后置集成，即可完成分类与回归预测。",
+        "date": "2026-09-06",
+        "title": "小米澎程新车官宣全系搭载澎湃智能座舱，支持超级小爱语音交互、一句话完成场景切换等",
+        "summary": "小米澎程官方今日宣布，澎程全系新车搭载小米澎湃智能座舱，支持超级小爱语音交互、一句话完成场景切换等。小米澎程官方预热视频显示，小米澎湃智能座舱支持驻车桌面、场景自定义、车机系统流畅体验、HUD 自定义、可变空间智能切换等功能特性。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/683.htm"
+        "link": "https://www.ithome.com/0/998/912.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-05",
-        "title": "上海警方破获《三角洲行动》OBS / OBX-AI 外挂案，腾讯安全团队协助抓获 2 名犯罪嫌疑人",
-        "summary": "腾讯昨日发文宣布，在《三角洲行动》及腾讯游戏安全团队协助下，上海警方赴辽宁丹东开展收网行动，成功抓获 OBS / OBX-AI 两款游戏外挂的开发作者及总代理，现场查获外挂源代码。",
+        "date": "2026-09-06",
+        "title": "“随时能问、随手可查”的反诈智能助手“国家反诈 AI”App 上线，微信、支付宝小程序也同步开放",
+        "summary": "公安部今日宣布，为进一步提升防范电信网络诈骗工作的信息化、智能化水平，帮助群众有效识诈防诈，近日，公安部刑侦局指导，上海市公安局自主研发的“国家反诈 AI”App 正式上线。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/725.htm"
+        "link": "https://www.ithome.com/0/998/922.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-05",
-        "title": "微软预告 Excel 新增 AI 画布，打造可视化交互式数据看板",
-        "summary": "科技媒体 Windows Latest 昨日（9 月 4 日）发布博文，报道称微软计划为 Excel 推出 Copilot Canvas 功能，可将工作簿中的图表、关键指标和分析洞察整合为交互式视图，并在底层数根Copilot Canva...。",
+        "date": "2026-09-06",
+        "title": "B站首届 AI 创造公开赛收官，《猫娘计划 Project N.E.K.O.》获得一等奖拿下百万奖金",
+        "summary": "B站宣布旗下首届“build in bilibili·AI 创造公开赛”正式落幕，本届大赛总奖金池达 143 万元，其中 UP 主 W 博士与 AI 猫娘凭《猫娘计划 Project N.E.K.O.》获得一等奖，独享 100 万奖金。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/693.htm"
+        "link": "https://www.ithome.com/0/998/921.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-05",
-        "title": "七彩虹灵创 K16 游戏本新增 128G + 4T 版本：锐龙 AI Max+ 395 配 Radeon 8060S 核显，39999 元",
-        "summary": "七彩虹现已为旗下灵创 K16 游戏本新增 128GB RAM + 4TB SSD 版本，该机搭载锐龙 AI Max+ 395 处理器，定价为 39999 元。",
+        "date": "2026-09-06",
+        "title": "无界动力 CEO 张玉峰预判：具身智能 5 年后有望对标成年人劳动能力",
+        "summary": "无界动力创始人兼 CEO 张玉峰近日在 2026 年亚布力论坛夏季年会透露，如果将具身智能与智驾行业做类比，当前的具身智能大约处于 2019 年前后的自动驾驶阶段。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/686.htm"
+        "link": "https://www.ithome.com/0/998/901.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-05",
-        "title": "Switch 2 版《塞尔达传说：时之笛》重制版游戏预估 11 月 12 日发行，将推典藏版",
-        "summary": "科技媒体 NotebookCheck 昨日（9 月 4 日）发布博文，报道称瑞典零售商 Retrospelbutiken 已上架 Switch 2 版《塞尔达传说：时之笛》重制版页面，显示该游戏于 2026 年 11 月 12 日发行，标...。",
+        "date": "2026-09-06",
+        "title": "TCL 华星展示全球首款 IJP OLED 可折叠便携显示器：三折叠设计，16~28\" 变化",
+        "summary": "TCL 华星在 IFA 2026 上展示了一系列 IJP（喷墨打印）OLED 显示解决方案，其中就包括全球首款 IJP OLED 可折叠便携显示器 (28\")。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/738.htm"
+        "link": "https://www.ithome.com/0/998/885.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-05",
-        "title": "雷神推出“Z527F165L”27 英寸显示器：5K 165Hz / 2K 330Hz 双模，3599 元（国补后 2999 元）",
-        "summary": "雷神现已在京东上架“Z527F165L”27 英寸显示器，该机支持 5K 165Hz/2K 330Hz 双模，定价为 3599 元，国补后低至 2999 元。",
+        "date": "2026-09-06",
+        "title": "蚂蚁电竞推出“ANT27DZQE Pro”27 英寸显示器：2K 480Hz、DP 2.1 接口，4979 元",
+        "summary": "蚂蚁电竞现已在京东上架“ANT27DZQE Pro”27 英寸显示器，该机主打 2K 480Hz + 满血 DP 2.1 接口，定价为 4999 元，首发价 4979 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/737.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-09-05",
-        "title": "三星 Galaxy S27 手机首发：Exynos 2700 芯片跑分曝光，10 核 CPU 设计",
-        "summary": "科技媒体 sammyfans 昨日（9 月 4 日）发布博文，报道称三星 Exynos 2,700 工程样片 GeekBench 跑分曝光，6.7.1 版本单核成绩为 4,328 分，多核成绩为 14,700 分。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/0/998/735.htm"
+        "link": "https://www.ithome.com/0/998/871.htm"
     }
 ]
 };
