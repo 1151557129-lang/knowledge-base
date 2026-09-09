@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-08 06:12:24
+// 自动生成于 2026-09-09 06:18:23
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-08",
-        "title": "OPPO Find X10 Pro Max 手机更多影像规格揭秘，搭载全球首个三 2 亿镜头群",
-        "summary": "OPPO Find 系列产品负责人卓世杰今日发布视频，介绍了 Find X10 Pro Max 手机更多影像规格。新机搭载全球首个三 2 亿镜头群，宣称“按下录制键就是全焦段 8K 电影机”。",
+        "date": "2026-09-09",
+        "title": "安卓手机跨品牌碰一碰分享正式落地：荣耀 MagicOS 11 将支持，Magic9 手机首发搭载",
+        "summary": "荣耀今日宣布其主导制定《碰一碰互传技术标准》正式落地，联合国内主流安卓阵营，实现跨品牌“一碰即传，轻松分享”。荣耀 MagicOS 11 全面落地跨品牌碰一碰分享功能，荣耀 Magic9 全系首发搭载。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/660.htm"
+        "link": "https://www.ithome.com/1/000/160.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-08",
-        "title": "vivo V80 手机被爆 10 月发布：3x 光学变焦、10x 人像模式变焦",
-        "summary": "科技媒体 smartprix 昨日（9 月 7 日）发布博文，报道称 vivo 计划 10 月第一周发布 V80 手机，配备 5000 万像素蔡司夜景长焦（ZEISS Night Telephoto）镜头，支持 3 倍光学变焦、10 倍人...。",
+        "date": "2026-09-09",
+        "title": "IDC：2026 年二季度全球腕戴设备市场同比下滑 4.3%，华为、小米、苹果份额前三",
+        "summary": "国际数2026 年第二季度全球腕戴设备市场出货量为 4801 万台，同比下滑 4.3%。腕戴设备市场包含智能手表和手环产品。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/659.htm"
+        "link": "https://www.ithome.com/1/000/153.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-08",
-        "title": "小米推出米家扫拖机器人 6 Max 白色系列：水箱版国补价 4799 元起，薄嵌上下水 5099 元起",
-        "summary": "小米推出了新一代的米家扫拖机器人 6 Max 白色版本，水箱版 5645 元（叠加国补后 4799 元），薄嵌上下水版本 5998 元（叠加国补后 5099 元），9 月 9 日 10 点开售，下单赠送价值 359 元配件礼包。",
+        "date": "2026-09-09",
+        "title": "小米 18 Fold 中折叠手机相机玩法公开：两种形态，多种视角",
+        "summary": "小米相机部的产品经理 @Bao_小李 今日分享了小米 18 Fold 中折叠手机的相机玩法，可以简单概括为“两种形态 + 多种视角”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/647.htm"
+        "link": "https://www.ithome.com/1/000/140.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-08",
-        "title": "Mistral AI 完成 30 亿欧元 D 轮融资：投后估值超 210 亿欧元，三星电子领投",
-        "summary": "法国人工智能初创企业 Mistral AI 当地时间今日宣布完成 D 轮融资，以超 210 亿欧元（IT之家注：现汇率约合 1,640.75 亿元人民币）的投后估值筹集了 30 亿欧元（现汇率约合 234.39 亿元人民币）。",
+        "date": "2026-09-09",
+        "title": "“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
+        "summary": "源 @earlyappleleaks 昨日（9 月 8 日）在 X 平台发布推文，爆料称苹果公司调整 iPhone 18 标准版机型，让主打超薄的 iPhone Air 2 直接以 iPhone 18 的名称销售，在美国售价维持 999 ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/657.htm"
+        "link": "https://www.ithome.com/1/000/176.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-08",
-        "title": "安卓最强 2nm 芯片：高通第六代骁龙 8 超级至尊版实物图曝光",
-        "summary": "源 @LaidBackDev_ 于 9 月 6 日在 X 平台发布推文，分享了一张安卓最强 2nm 芯片高通第六代骁龙 8 超级至尊版（Snapdragon 8 Elite Extreme Gen 6，型号 SM8975）的芯片实物图。",
+        "date": "2026-09-09",
+        "title": "拿铁熊猫发布高性能 x86 计算模块 Mu Ultra，基于英特尔 \"Lunar Lake\" 处理器",
+        "summary": "智位机器人 (DFRobot) 旗下拿铁熊猫 (LattePanda) 团队近日发布高性能 x86 计算模块（核心板）产品 Mu Ultra。其基于英特尔酷睿 Ultra 200V \"Lunar Lake\" 处理器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/649.htm"
+        "link": "https://www.ithome.com/1/000/175.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-08",
-        "title": "联发科官宣天玑旗舰芯首款 Pro 来了：先进制程里程碑式突破、AI 深度融合的 GPU 图形渲染技术等",
-        "summary": "联发科技官方微博刚刚宣布，天玑旗舰芯首款的 Pro 来了。",
+        "date": "2026-09-09",
+        "title": "中国联通与魅族合作发布“小魔方”AI 手机：4 英寸小方屏，主打全语音交互与端云协同",
+        "summary": "中国联通今日发布“小魔方”AI 原生终端。该产品由中国联通与魅族合作研发，搭载云智 OS，采用 4 英寸小方屏设计，整机重量 99 克，主打全语音操控、AI 智能服务、智能通话及端云协同。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/622.htm"
+        "link": "https://www.ithome.com/1/000/174.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-08",
-        "title": "消息称一加在做自研电竞芯片：提升触控、网络、显示效果，一加 16 机型首发落地",
-        "summary": "博主 @数码闲聊站 今日发文透露，一加在做自研电竞芯片，超级显示芯片 P4、电竞网络芯片 G3、灵犀触控芯片 T3，这 3 颗芯片都是全栈自研，将由一加 16 首发落地。",
+        "date": "2026-09-09",
+        "title": "AOC 带来行业首款 HDR 校色 OLED 显示器 AG277QSD，QHD 320Hz",
+        "summary": "AOC 今日推出行业首款 HDR 校色 OLED 显示器 AGON AG277QSD。其基于 27\" QHD 320Hz QD-OLED Penta Tandem 面板，HDR 模式下色偏 ΔE＜2，支持 6 轴色调、6 轴饱和度调节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/664.htm"
+        "link": "https://www.ithome.com/1/000/097.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-08",
-        "title": "HKC 神盾 25Q360B 电竞显示器发布：2K 360Hz QD-MiniLED，预售价 1999 元",
-        "summary": "HKC 于今日正式发布神盾 25Q360B 电竞显示器，定价为 2599 元，预售到手价 1999 元。",
+        "date": "2026-09-09",
+        "title": "微信新增私密朋友圈发表入口，iOS 和安卓端灰度测试",
+        "summary": "有网友近日发现微信朋友圈新增发表私密朋友圈入口。发布后的朋友圈显示“已设为私密”，也可选择转换至公开。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/645.htm"
+        "link": "https://www.ithome.com/1/000/074.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-08",
-        "title": "让 Win11 实现“灵动岛”：Notchify 迄今最大更新，匹配高刷显示器切换 60~240Hz",
-        "summary": "科技媒体 Windows Central 昨日（9 月 7 日）发布博文，报道称 Notchify 更新 5.0 版本，这款应用可以让 Windows 11 PC 实现类似苹果“灵动岛”效果，是其迄今最大一次更新。",
+        "date": "2026-09-09",
+        "title": "鸿蒙智行展示智界 RX 轿跑 SUV 防撞制动功能：手动关闭后，车辆重启将自动打开",
+        "summary": "鸿蒙智行官方今日发布视频，展示了智界 RX 轿跑 SUV 的防撞制动功能。画面显示，智界 RX 在面对极窄拱门场景时，会触发防撞制动功能，同时仪表盘将弹出“请立即刹车”的提醒。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/616.htm"
+        "link": "https://www.ithome.com/1/000/068.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-09-08",
-        "title": "众泰汽车股价涨停，工作人员称计划今年内上新车",
-        "summary": "众泰汽车今日（9 月 8 日）开盘后涨停，报 1.84 元 / 股，总市值 92.78 亿元。面上，众泰汽车昨日召开 2026 年第四次临时股东会，审议通过选举出 3 位非独立董事。",
+        "date": "2026-09-09",
+        "title": "雷诺 2026 上半年归母净利润 7.05 亿欧元，同比扭亏为盈",
+        "summary": "雷诺今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入：302.52 亿欧元（IT之家注：现汇率约合 2363.65 亿元人民币），同比增长 9.5...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/0/999/623.htm"
+        "link": "https://www.ithome.com/1/000/062.htm"
     }
 ]
 };
