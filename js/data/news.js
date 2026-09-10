@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-09 06:18:23
+// 自动生成于 2026-09-10 06:17:28
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-09",
-        "title": "安卓手机跨品牌碰一碰分享正式落地：荣耀 MagicOS 11 将支持，Magic9 手机首发搭载",
-        "summary": "荣耀今日宣布其主导制定《碰一碰互传技术标准》正式落地，联合国内主流安卓阵营，实现跨品牌“一碰即传，轻松分享”。荣耀 MagicOS 11 全面落地跨品牌碰一碰分享功能，荣耀 Magic9 全系首发搭载。",
+        "date": "2026-09-10",
+        "title": "荣耀 Magic9 系列手机官宣支持阿莱色彩科学，含完整阿莱官方全套 Look 等",
+        "summary": "荣耀官方今日宣布，荣耀 Magic9 系列手机将支持阿莱色彩科学，包括：AWG3 广色域、阿莱官方全套 Look、APV 无损编码、阿莱 LogC3 视频管线等。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/160.htm"
+        "link": "https://www.ithome.com/1/000/696.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-09",
-        "title": "IDC：2026 年二季度全球腕戴设备市场同比下滑 4.3%，华为、小米、苹果份额前三",
-        "summary": "国际数2026 年第二季度全球腕戴设备市场出货量为 4801 万台，同比下滑 4.3%。腕戴设备市场包含智能手表和手环产品。",
+        "date": "2026-09-10",
+        "title": "OPPO ColorOS 16 九月体验升级发布：钱包新增快捷展码、流体云红绿灯巡航适配百度地图等",
+        "summary": "OPPO 官方今日发布了 ColorOS 16 的九月体验升级。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/153.htm"
+        "link": "https://www.ithome.com/1/000/684.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-09",
-        "title": "小米 18 Fold 中折叠手机相机玩法公开：两种形态，多种视角",
-        "summary": "小米相机部的产品经理 @Bao_小李 今日分享了小米 18 Fold 中折叠手机的相机玩法，可以简单概括为“两种形态 + 多种视角”。",
+        "date": "2026-09-10",
+        "title": "Find 系列首次：OPPO Find X10 手机官宣实现「0.99mm 极窄四等边」",
+        "summary": "OPPO Find 系列产品负责人卓世杰今日发文，介绍了 Find X10 的正面设计，并宣布 Find X10 这次的「0.99mm 极窄四等边」，是 Find 系列第一次把边框压到 1mm 以内。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/140.htm"
+        "link": "https://www.ithome.com/1/000/643.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-09",
-        "title": "“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
-        "summary": "源 @earlyappleleaks 昨日（9 月 8 日）在 X 平台发布推文，爆料称苹果公司调整 iPhone 18 标准版机型，让主打超薄的 iPhone Air 2 直接以 iPhone 18 的名称销售，在美国售价维持 999 ...。",
+        "date": "2026-09-10",
+        "title": "JPR 报告 2026Q2 全球 PC AIB 显卡出货量 1250 万块：环比增 10%、同比增 6.6%",
+        "summary": "市场调查机构 Jon Peddie Research 昨日（9 月 9 日）发布博文，报告称 2026 年第二季度全球 PC 图形附加板（AIB）市场出货量达到 1,250 万块，环比增长 10%、同比增长 6.6%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/176.htm"
+        "link": "https://www.ithome.com/1/000/717.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-09",
-        "title": "拿铁熊猫发布高性能 x86 计算模块 Mu Ultra，基于英特尔 \"Lunar Lake\" 处理器",
-        "summary": "智位机器人 (DFRobot) 旗下拿铁熊猫 (LattePanda) 团队近日发布高性能 x86 计算模块（核心板）产品 Mu Ultra。其基于英特尔酷睿 Ultra 200V \"Lunar Lake\" 处理器。",
+        "date": "2026-09-10",
+        "title": "中国科学技术大学陆朝阳：有些公司号称量子计算可以用来养猪，简直匪夷所思",
+        "summary": "9 月 10 日，中国科学技术大学上海研究院执行院长、世界青年科学家联合会理事长陆朝阳在 2026 Inclusion· 外滩大会上表示，量子计算不是能加速一切的超级 GPU，只对特定问题有加速效果。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/175.htm"
+        "link": "https://www.ithome.com/1/000/713.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-09",
-        "title": "中国联通与魅族合作发布“小魔方”AI 手机：4 英寸小方屏，主打全语音交互与端云协同",
-        "summary": "中国联通今日发布“小魔方”AI 原生终端。该产品由中国联通与魅族合作研发，搭载云智 OS，采用 4 英寸小方屏设计，整机重量 99 克，主打全语音操控、AI 智能服务、智能通话及端云协同。",
+        "date": "2026-09-10",
+        "title": "阿里千问新款 AI 眼镜“保密式”展出：首次支持虹膜识别，不带显示屏",
+        "summary": "9 月 10 日千问新款 AI 眼镜现身 2026 年外滩大会 AI 支付展区，该款眼镜被黑色遮蔽材料大面积包裹，暂时无法判断更多功能及硬件细节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/174.htm"
+        "link": "https://www.ithome.com/1/000/708.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-09",
-        "title": "AOC 带来行业首款 HDR 校色 OLED 显示器 AG277QSD，QHD 320Hz",
-        "summary": "AOC 今日推出行业首款 HDR 校色 OLED 显示器 AGON AG277QSD。其基于 27\" QHD 320Hz QD-OLED Penta Tandem 面板，HDR 模式下色偏 ΔE＜2，支持 6 轴色调、6 轴饱和度调节。",
+        "date": "2026-09-10",
+        "title": "台积电 2026 年 8 月营收 5148.06 亿新台币，同比增长 53.3%",
+        "summary": "台积电今日公布 2026 年 8 月营收报告。按合并报表，8 月净营收约为 5,148.06 亿元新台币（现汇率约合 1,097.05 亿元人民币），较 2026 年 7 月增长 10.1%，较 2025 年 8 月同比增长 53.3%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/097.htm"
+        "link": "https://www.ithome.com/1/000/714.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-09",
-        "title": "微信新增私密朋友圈发表入口，iOS 和安卓端灰度测试",
-        "summary": "有网友近日发现微信朋友圈新增发表私密朋友圈入口。发布后的朋友圈显示“已设为私密”，也可选择转换至公开。",
+        "date": "2026-09-10",
+        "title": "JAPANNEXT 推出 15.6\" UHD 60Hz IPS 便携屏，要价 35,980 日元",
+        "summary": "日本显示器制造商 JAPANNEXT 今日宣布推出便携显示器 JN-MD-i156U。这一型号采用 15.6\" IPS 面板，支持 UHD (3840×2160) 分辨率、60Hz 刷新率。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/074.htm"
+        "link": "https://www.ithome.com/1/000/675.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-09",
-        "title": "鸿蒙智行展示智界 RX 轿跑 SUV 防撞制动功能：手动关闭后，车辆重启将自动打开",
-        "summary": "鸿蒙智行官方今日发布视频，展示了智界 RX 轿跑 SUV 的防撞制动功能。画面显示，智界 RX 在面对极窄拱门场景时，会触发防撞制动功能，同时仪表盘将弹出“请立即刹车”的提醒。",
+        "date": "2026-09-10",
+        "title": "谷歌目前唯一平板电脑 Pixel Tablet 停产，已从官网下架",
+        "summary": "Pixel Tablet 平板电脑已经正式停产，谷歌官方商店已将其下架。谷歌于 2023 年推出了 Pixel Tablet，是一款安卓平板和 Nest Hub 智能显示屏的混合体，搭载可拆卸底座。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/068.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-09-09",
-        "title": "雷诺 2026 上半年归母净利润 7.05 亿欧元，同比扭亏为盈",
-        "summary": "雷诺今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入：302.52 亿欧元（IT之家注：现汇率约合 2363.65 亿元人民币），同比增长 9.5...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/062.htm"
+        "link": "https://www.ithome.com/1/000/633.htm"
     }
 ]
 };
