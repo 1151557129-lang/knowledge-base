@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-10 06:17:28
+// 自动生成于 2026-09-11 06:21:04
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-10",
-        "title": "荣耀 Magic9 系列手机官宣支持阿莱色彩科学，含完整阿莱官方全套 Look 等",
-        "summary": "荣耀官方今日宣布，荣耀 Magic9 系列手机将支持阿莱色彩科学，包括：AWG3 广色域、阿莱官方全套 Look、APV 无损编码、阿莱 LogC3 视频管线等。",
+        "date": "2026-09-11",
+        "title": "小米推出米家便携充气宝：240g 重量、号称 60s 充满一条自行车空胎，199 元",
+        "summary": "小米现已在京东上架米家便携充气宝，该产品主要用于自行车、电动车、摩托车及球类等产品的充气，在应急情况下也可为汽车轮胎进行补气，定价为 199 元。该产品整机重量为 240g，表面采用 IML 工艺和哑光质感设计，具备耐磨耐刮的特性。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/696.htm"
+        "link": "https://www.ithome.com/1/001/244.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-10",
-        "title": "OPPO ColorOS 16 九月体验升级发布：钱包新增快捷展码、流体云红绿灯巡航适配百度地图等",
-        "summary": "OPPO 官方今日发布了 ColorOS 16 的九月体验升级。",
+        "date": "2026-09-11",
+        "title": "OPPO Find N6 及 X9 系列、一加 15、真我 GT8 Pro 等机型开启 ColorOS 17 内测招募",
+        "summary": "ColorOS 官方今日宣布，OPPO Find N6 系列、OPPO Find X9 系列、一加 15、真我 GT8 Pro 等三批共 49 款机型开启 ColorOS 17 内测招募，9 月 11 日首批招募机型：OPPO Find ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/684.htm"
+        "link": "https://www.ithome.com/1/001/131.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-09-10",
-        "title": "Find 系列首次：OPPO Find X10 手机官宣实现「0.99mm 极窄四等边」",
-        "summary": "OPPO Find 系列产品负责人卓世杰今日发文，介绍了 Find X10 的正面设计，并宣布 Find X10 这次的「0.99mm 极窄四等边」，是 Find 系列第一次把边框压到 1mm 以内。",
+        "category": "ai",
+        "date": "2026-09-11",
+        "title": "NS 方程争议发酵：数学家联名抗议，OpenAI 宣布退出数学黑客马拉松赞助",
+        "summary": "北京时间 9 月 11 日，OpenAI 眼下试图解决的最新数学难题，是一群愤怒的数学家。OpenAI 一名研究员周四表示，该公司不再赞助加州理工学院的“数学黑客马拉松”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/643.htm"
+        "link": "https://www.ithome.com/1/001/247.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-10",
-        "title": "JPR 报告 2026Q2 全球 PC AIB 显卡出货量 1250 万块：环比增 10%、同比增 6.6%",
-        "summary": "市场调查机构 Jon Peddie Research 昨日（9 月 9 日）发布博文，报告称 2026 年第二季度全球 PC 图形附加板（AIB）市场出货量达到 1,250 万块，环比增长 10%、同比增长 6.6%。",
+        "date": "2026-09-11",
+        "title": "达尔优推出 A950SE 双模电竞鼠标：自带彩屏智显底座、AIM-WL 传感器，189 元",
+        "summary": "达尔优现已在京东上架 A950SE 双模电竞鼠标，该产品匹配自带彩屏的智显底座，定价为 189 元。该鼠标外壳采用 ABS 材质，单只重量为 64g，机身整体尺寸为 123x64x39mm。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/717.htm"
+        "link": "https://www.ithome.com/1/001/242.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-10",
-        "title": "中国科学技术大学陆朝阳：有些公司号称量子计算可以用来养猪，简直匪夷所思",
-        "summary": "9 月 10 日，中国科学技术大学上海研究院执行院长、世界青年科学家联合会理事长陆朝阳在 2026 Inclusion· 外滩大会上表示，量子计算不是能加速一切的超级 GPU，只对特定问题有加速效果。",
+        "date": "2026-09-11",
+        "title": "单日最长 8 小时：英国男孩因长期在腹部上用电脑，患“烤焦皮肤综合征”",
+        "summary": "科技媒体 Ars Technica 昨日（9 月 10 日）发布博文，报道称一名男孩因长期将笔记本电脑置于腹部学习，被诊断为火激红斑（erythema ab igne，EAI）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/713.htm"
+        "link": "https://www.ithome.com/1/001/240.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-09-10",
-        "title": "阿里千问新款 AI 眼镜“保密式”展出：首次支持虹膜识别，不带显示屏",
-        "summary": "9 月 10 日千问新款 AI 眼镜现身 2026 年外滩大会 AI 支付展区，该款眼镜被黑色遮蔽材料大面积包裹，暂时无法判断更多功能及硬件细节。",
+        "category": "display",
+        "date": "2026-09-11",
+        "title": "大眼橙推出 R3 Ultra Max 投影仪：1080P 1800CVIA、搭 MT9681 芯片，3999 元",
+        "summary": "大眼橙现已在京东上架 R3 Ultra Max 投影仪，该产品主打 1080P 1800CVIA 流明，定价为 3999 元，部分地区国补后低至 2799 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/708.htm"
+        "link": "https://www.ithome.com/1/001/249.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-10",
-        "title": "台积电 2026 年 8 月营收 5148.06 亿新台币，同比增长 53.3%",
-        "summary": "台积电今日公布 2026 年 8 月营收报告。按合并报表，8 月净营收约为 5,148.06 亿元新台币（现汇率约合 1,097.05 亿元人民币），较 2026 年 7 月增长 10.1%，较 2025 年 8 月同比增长 53.3%。",
+        "date": "2026-09-11",
+        "title": "提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产",
+        "summary": "科技媒体 Wccftech 昨日（9 月 10 日）发布博文，报道称台积电位于台中的 1.4nm 半导体工厂计划于 2027 年 4 月启动试产，量产目标为 2027 年下半年，较原定 2028 年量产时间提前约 1 年。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/714.htm"
+        "link": "https://www.ithome.com/1/001/245.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-10",
-        "title": "JAPANNEXT 推出 15.6\" UHD 60Hz IPS 便携屏，要价 35,980 日元",
-        "summary": "日本显示器制造商 JAPANNEXT 今日宣布推出便携显示器 JN-MD-i156U。这一型号采用 15.6\" IPS 面板，支持 UHD (3840×2160) 分辨率、60Hz 刷新率。",
+        "date": "2026-09-11",
+        "title": "近年来首次：国产芯片包揽中直机关笔记本采购，英特尔 AMD 未入围",
+        "summary": "中国政府采购网 9 月 9 日发布《中直机关、全国人大机关 2026 年便携式计算机框架协议采购项目入围结果公告》，全部 10 个采购包被兆芯、飞腾、龙芯、海光、鲲鹏五大国产芯片平台拿下，英特尔、AMD 等国际平台没有入围。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/675.htm"
+        "link": "https://www.ithome.com/1/001/228.htm"
     },
     {
         "id": "news-009",
-        "category": "display",
-        "date": "2026-09-10",
-        "title": "谷歌目前唯一平板电脑 Pixel Tablet 停产，已从官网下架",
-        "summary": "Pixel Tablet 平板电脑已经正式停产，谷歌官方商店已将其下架。谷歌于 2023 年推出了 Pixel Tablet，是一款安卓平板和 Nest Hub 智能显示屏的混合体，搭载可拆卸底座。",
+        "category": "stock",
+        "date": "2026-09-11",
+        "title": "龙芯中科：预计明年上半年可以向存储厂商供货逻辑硅片，用于 HBM 内存生产",
+        "summary": "龙芯中科今日举行 2026 年半年度业绩说明会，上半年营业总收入 2.72 亿元，同比增长 11.64%；归母净亏损 2.24 亿元。有投资者提问：5 月 27 日公司表示公司已联合其他厂商开展 HBM 逻辑硅片研发，请问研发进展如何。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/000/633.htm"
+        "link": "https://www.ithome.com/1/001/135.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-09-11",
+        "title": "“国产 GPU 四小龙”之一燧原科技今日科创板上市，股价最高涨超 200%",
+        "summary": "“国产 GPU 四小龙”之一燧原科技今日（9 月 11 日）正式在上海证券交易所科创板上市，开盘股价最高涨到 460 元 / 股，涨幅超 220%。截至IT之家发文，燧原科技股价涨超 190%，总市值 1,777 亿元。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/001/132.htm"
     }
 ]
 };
