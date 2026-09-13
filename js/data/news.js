@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-12 06:07:44
+// 自动生成于 2026-09-13 06:30:02
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-12",
-        "title": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
-        "summary": "荣耀现已在京东上架荣耀亲选 DigaCite AI 相册管家，该产品可以看作是一款平板电脑，定价 1199 元，首发价 999 元。",
+        "date": "2026-09-13",
+        "title": "小米澎程迎来上海首批车主，雷军亲自为 30 位车主及家人交付新车",
+        "summary": "小米汽车刚刚宣布，小米澎程迎来了上海首批车主，小米创办人、董事长兼 CEO 雷军亲自为首批 30 位车主及家人交付新车。小米澎程已正式开启交付，覆盖全国 75 个城市。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/557.htm"
+        "link": "https://www.ithome.com/1/001/743.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-12",
-        "title": "徐洁云确认，试驾小米澎程汽车误将油门当刹车的用户已锁单",
-        "summary": "一段试驾用户误操作小米澎程汽车的视频近日引发关注。试驾用户已于近日下单并锁单。",
+        "date": "2026-09-13",
+        "title": "时隔多年苹果再拿华为做对比，Apple Watch 心率准确性研究将 HUAWEI WATCH 5 列为“唯一的例外”",
+        "summary": "苹果在 9 月 10 日正式发布了 Apple Watch Series 12 智能手表，搭载更强的健康传感器和全新的 Apple 芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/526.htm"
+        "link": "https://www.ithome.com/1/001/740.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-09-12",
-        "title": "阿里千问办公上架麒麟软件商店，已原生适配全部主流操作系统",
-        "summary": "阿里宣布旗下企业级通用 Agent 智能体产品千问办公已上架麒麟软件商店，即日起，银河麒麟操作系统用户在软件商店搜索千问办公，即可一键下载安装体验。",
+        "category": "xiaomi",
+        "date": "2026-09-13",
+        "title": "荣耀 Play11 手机发售：骁龙 4 Gen4、AI 一键关广告弹窗，1399 元起",
+        "summary": "荣耀旗下 Play11 手机现已在荣耀商城发售（点此访问），该机主打 IP69K 认证、8300mAh 电池，定价为 1399 元起，部分地区国补后低至 1189.15 元起。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/562.htm"
+        "link": "https://www.ithome.com/1/001/731.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-12",
-        "title": "25 位菲尔兹奖得主联合警告“AI 在数学领域严重错位”，邓煜调侃要退休回家写百合小说",
-        "summary": "当地时间 9 月 11 日，陶哲轩、邓煜、彼得 · 舒尔茨（Peter Scholze）等 25 位菲尔兹奖得主作为最初签署人，联合发表声明《人工智能在数学中的严重错位》（A Severe Misalignment of AI in Ma...。",
+        "date": "2026-09-13",
+        "title": "图灵量子发布 TuringQ Gen3 第三代光量子计算机：标准 IDC 机柜形态，采用自研 XLink 低延迟互联架构",
+        "summary": "图灵量子今日正式发布“TuringQ Gen3 大规模芯片级可扩展光量子计算机”。该产品采用标准 IDC 机柜形态，拥有全芯片化、模块化、可扩展的整机架构和全栈软硬件体系，支持量子算力节点按需扩展。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/554.htm"
+        "link": "https://www.ithome.com/1/001/752.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-12",
-        "title": "英伟达 DLSS 5 混合精度 Mod 测试：RTX 50 系列显卡性能仅提升 1% 至 2%",
-        "summary": "在英伟达 DLSS 5 神经渲染 DLL 文件流出后，各路民间大神纷纷下场进行调试和优化，还有 Mod 开发者尝试通过降低模型推理成本以提升游戏性能。",
+        "date": "2026-09-13",
+        "title": "苹果 iPadOS 27 系统带来两项专属特性：外置 SSD 传输速度最高提升 5 倍，截图视觉智能提升",
+        "summary": "苹果 iPadOS 27 系统将带来两项专属特性：外置硬盘文件传输速度最高提升 5 倍、截图视觉智能体验提升。苹果在官网中写道，iPadOS 27 的外置磁盘文件传输速度最高提升 5 倍。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/524.htm"
+        "link": "https://www.ithome.com/1/001/719.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-09-12",
-        "title": "机械革命推出“P2714FA”27 英寸显示器：1080P 144Hz，569 元",
-        "summary": "机械革命现已在京东上架“P2714FA”27 英寸显示器，该机主打 1080P 144Hz，定价为 569 元。",
+        "category": "ai",
+        "date": "2026-09-13",
+        "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
+        "summary": "曜越 (Thermaltake) 近日宣布推出 AI 工作站机箱 AX1000。这一系列采用左右双系统设计，两侧均支持到 XL-ATX / SSI-EEB 主板，也都提供了 10 条扩展槽。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/523.htm"
+        "link": "https://www.ithome.com/1/001/715.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-12",
-        "title": "19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥",
-        "summary": "华为 Mate XT 2 非凡大师全新展翼三折叠手机将于今天 10:08 开启首销，售价 19999 元起，IT之家整理价格如下：16GB + 256GB：19999 元16GB + 512GB：21999 元16GB + 1TB：239...。",
+        "date": "2026-09-13",
+        "title": "雷神科技升级售后服务体系：笔记本、显示器、迷你主机全型号免费上门取送机，全流程可视化",
+        "summary": "雷神科技宣布升级售后服务体系，为旗下笔记本、显示器、迷你主机三大品类实现“全型号免费上门取送机、全流程可视化、全年无休在线”服务。雷神表示，符合保修期内的雷神用户，在中国大陆地区（港澳台暂不支持）可申请免费上门取送机服务。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/511.htm"
+        "link": "https://www.ithome.com/1/001/748.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-12",
-        "title": "英伟达为 G-Sync Pulsar 显示器推送 1.1.10 固件，240Hz 下 MPRT 响应速度可降至 0.97ms",
-        "summary": "英伟达近日为 G-Sync Pulsar 显示器推送 1.1.10 版固件更新，进一步提升动态画面清晰度。",
+        "date": "2026-09-13",
+        "title": "优派带来 VX27G81-2K-9 显示器：27\" QHD 240Hz Fast IPS",
+        "summary": "ViewSonic（优派）本月 11 日宣布正式推出 VX27G81-2K-9 显示器。这一型号采用 27\" Fast IPS 面板，支持 QHD (2560×1440) 分辨率，原生刷新率 200Hz、超频刷新率 240Hz。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/502.htm"
+        "link": "https://www.ithome.com/1/001/739.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "display",
+        "date": "2026-09-13",
+        "title": "AOC 推出“Q27G40HE”27 英寸显示器：2K 210Hz，879 元",
+        "summary": "AOC 现已在京东上架“Q27G40HE”27 英寸显示器，该机主打 2K 210Hz，定价为 879 元。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/001/730.htm"
     }
 ]
 };
