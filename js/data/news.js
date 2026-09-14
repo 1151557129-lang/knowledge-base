@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-13 06:30:02
+// 自动生成于 2026-09-14 06:40:23
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-13",
-        "title": "小米澎程迎来上海首批车主，雷军亲自为 30 位车主及家人交付新车",
-        "summary": "小米汽车刚刚宣布，小米澎程迎来了上海首批车主，小米创办人、董事长兼 CEO 雷军亲自为首批 30 位车主及家人交付新车。小米澎程已正式开启交付，覆盖全国 75 个城市。",
+        "date": "2026-09-14",
+        "title": "OPPO ColorOS 17 全新主题壁纸亮相，Find X10 系列手机首发搭载",
+        "summary": "OPPO 官方刚刚公开了 ColorOS 17 全新主题壁纸，采用流体设计，并融入系统界面，宣称设计为流畅而生，主打点亮屏幕的丝滑视觉享受，由 Find X10 系列手机首发搭载。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/743.htm"
+        "link": "https://www.ithome.com/1/002/061.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-13",
-        "title": "时隔多年苹果再拿华为做对比，Apple Watch 心率准确性研究将 HUAWEI WATCH 5 列为“唯一的例外”",
-        "summary": "苹果在 9 月 10 日正式发布了 Apple Watch Series 12 智能手表，搭载更强的健康传感器和全新的 Apple 芯片。",
+        "date": "2026-09-14",
+        "title": "小米米家智能窗帘 3 上架：配备隐藏式无刷电机、采用拼接直轨设计，705 元",
+        "summary": "小米现已在京东上架米家智能窗帘 3，该产品提供多种控制方式，配备隐藏式无刷电机，定价 705 元，部分地区国补后低至 599 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/740.htm"
+        "link": "https://www.ithome.com/1/002/030.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-13",
-        "title": "荣耀 Play11 手机发售：骁龙 4 Gen4、AI 一键关广告弹窗，1399 元起",
-        "summary": "荣耀旗下 Play11 手机现已在荣耀商城发售（点此访问），该机主打 IP69K 认证、8300mAh 电池，定价为 1399 元起，部分地区国补后低至 1189.15 元起。",
+        "date": "2026-09-14",
+        "title": "荣耀 Magic9/Pro Max 手机规格曝光：大 R 角极窄四等边设计、至高搭载第六代骁龙 8 超级至尊版处理器",
+        "summary": "荣耀 Magic 盛典暨荣耀 Magic9 系列新品发布会将于 9 月 28 日在北京举行，目前博主 @数码闲聊站 已曝光荣耀 Magic9 和 Magic9 Pro Max 两款手机规格信息，IT之家整理如下：Magic9该机提供 IP...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/731.htm"
+        "link": "https://www.ithome.com/1/002/027.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-13",
-        "title": "图灵量子发布 TuringQ Gen3 第三代光量子计算机：标准 IDC 机柜形态，采用自研 XLink 低延迟互联架构",
-        "summary": "图灵量子今日正式发布“TuringQ Gen3 大规模芯片级可扩展光量子计算机”。该产品采用标准 IDC 机柜形态，拥有全芯片化、模块化、可扩展的整机架构和全栈软硬件体系，支持量子算力节点按需扩展。",
+        "date": "2026-09-14",
+        "title": "美国总统科技顾问委员会主席炮轰 OpenAI、Anthropic：别借放缓之名寻求监管保护",
+        "summary": "美国总统科学技术顾问委员会联合主席戴维 · 奥利弗 · 萨克斯（IT之家注：David Oliver Sacks）今日发文，就 OpenAI、Anthropic 近日“放缓前沿 AI 研发”论调发表个人看法：达里奥表示，我们需要放缓前沿 ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/752.htm"
+        "link": "https://www.ithome.com/1/002/063.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-13",
-        "title": "苹果 iPadOS 27 系统带来两项专属特性：外置 SSD 传输速度最高提升 5 倍，截图视觉智能提升",
-        "summary": "苹果 iPadOS 27 系统将带来两项专属特性：外置硬盘文件传输速度最高提升 5 倍、截图视觉智能体验提升。苹果在官网中写道，iPadOS 27 的外置磁盘文件传输速度最高提升 5 倍。",
+        "date": "2026-09-14",
+        "title": "RTS 游戏《英雄连：决定版》延期至 2027 年初发售，定价 29.99 美元",
+        "summary": "Relic Entertainment 上周宣布，经典二战题材 RTS 游戏《英雄连》重置之作《英雄连：决定版》的发售时间从原定的 2026 年秋季延期至 2027 年初。创作团队还需要一段时间对游戏进行打磨。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/719.htm"
+        "link": "https://www.ithome.com/1/002/058.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-13",
-        "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
-        "summary": "曜越 (Thermaltake) 近日宣布推出 AI 工作站机箱 AX1000。这一系列采用左右双系统设计，两侧均支持到 XL-ATX / SSI-EEB 主板，也都提供了 10 条扩展槽。",
+        "date": "2026-09-14",
+        "title": "华为智能门锁 M2 上架：支持 AI 指纹解锁、配备 EAL5+ 安全芯片，799 元",
+        "summary": "华为智能门锁 M2 现已在京东上架，该产品配备 EAL5+ 安全芯片，使用指纹解锁，定价为 799 元，部分地区国补后低至 679.15 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/715.htm"
+        "link": "https://www.ithome.com/1/002/056.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-13",
-        "title": "雷神科技升级售后服务体系：笔记本、显示器、迷你主机全型号免费上门取送机，全流程可视化",
-        "summary": "雷神科技宣布升级售后服务体系，为旗下笔记本、显示器、迷你主机三大品类实现“全型号免费上门取送机、全流程可视化、全年无休在线”服务。雷神表示，符合保修期内的雷神用户，在中国大陆地区（港澳台暂不支持）可申请免费上门取送机服务。",
+        "date": "2026-09-14",
+        "title": "消息称华为阔直板手机 Pura X View“卖爆”，销量突破 30 万台",
+        "summary": "博主 @数码闲聊站 今日发文透露，华为阔直板手机 —— Pura X View 已卖爆。渠道信息显示，该机 9 月 9 日开售至 9 月 13 日，销量已突破 30 万台。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/748.htm"
+        "link": "https://www.ithome.com/1/002/042.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-13",
-        "title": "优派带来 VX27G81-2K-9 显示器：27\" QHD 240Hz Fast IPS",
-        "summary": "ViewSonic（优派）本月 11 日宣布正式推出 VX27G81-2K-9 显示器。这一型号采用 27\" Fast IPS 面板，支持 QHD (2560×1440) 分辨率，原生刷新率 200Hz、超频刷新率 240Hz。",
+        "date": "2026-09-14",
+        "title": "UBI Research 预测：显示器 OLED 面板市场未来 5 年年均增长 32.5%",
+        "summary": "韩国光电显示产业研究机构 UBI Research 本月 9 日预测称，显示器 OLED 面板市场规模将从今年的 15.2 亿美元（IT之家注：现汇率约合 102.08 亿元人民币）迅速增长至 2030 年的 46.9 亿美元（现汇率约合...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/739.htm"
+        "link": "https://www.ithome.com/1/002/041.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-13",
-        "title": "AOC 推出“Q27G40HE”27 英寸显示器：2K 210Hz，879 元",
-        "summary": "AOC 现已在京东上架“Q27G40HE”27 英寸显示器，该机主打 2K 210Hz，定价为 879 元。",
+        "date": "2026-09-14",
+        "title": "芯片新创 Kepler 亮相：利用 FeRAM 与 3D 堆叠突破 AI 内存瓶颈",
+        "summary": "成立于 2018 年的芯片初创企业 Kepler Computing 当地时间本月 10 日正式宣布亮相。该企业的目标是化解 AI 半导体领域当前存在的内存能耗与带宽、产能与成本瓶颈。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/001/730.htm"
+        "link": "https://www.ithome.com/1/002/036.htm"
     }
 ]
 };
