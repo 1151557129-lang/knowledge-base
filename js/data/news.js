@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-16 06:21:50
+// 自动生成于 2026-09-17 06:23:16
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-16",
-        "title": "小米澎湃 OS 4 Beta 第三批机型开启招募：含 REDMI K80、MIX Flip 2、Pad 7 Ultra 等机型",
-        "summary": "小米澎湃 OS 4 Beta 版第三批机型招募今日正式开启，用户可前往小米社区内测中心报名。",
+        "date": "2026-09-17",
+        "title": "消息称某厂迭代数字工程机后置 1.72 英寸背屏，预计为荣耀 700 系列",
+        "summary": "博主 @数码闲聊站 今日爆料，某厂迭代数字工程机配备 6.57 英寸 1.5K 极窄四等边直屏，后置一块 1.72 英寸背屏，主打 2 亿新影像。结合该博主的爆料习惯，评论区网友推测为荣耀 700 系列。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/054.htm"
+        "link": "https://www.ithome.com/1/003/569.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-16",
-        "title": "OPPO SUPERVOOC 80W 小方瓶 Mini 氮化镓充电器上架，支持 45W PD、55W PPS",
-        "summary": "OPPO SUPERVOOC 80W 小方瓶 Mini 超级闪充氮化镓充电器现已上架电商平台，将于 9 月 22 日 19:00 正式发布，价格暂未公布。",
+        "date": "2026-09-17",
+        "title": "小米直播训练 MiMo-V2.6 模型，罗福莉称沉寂半年钻研一件事",
+        "summary": "小米 MiMo 大模型负责人罗福莉今日发文，自 4 月份开源 MiMo-v2.5 后，小米沉寂了近半年，花时间研究了一件事 —— 强化学习究竟能扩展到多远。MiMo-V2.6 目前正处于强化学习中间阶段。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/040.htm"
+        "link": "https://www.ithome.com/1/003/555.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-16",
-        "title": "荣耀 Magic9 系列手机官宣搭载自研影像芯片荣耀驭光 H1：RAW 域视频无损降噪、信噪比提升 8dB，6nm 工艺",
-        "summary": "荣耀 Magic 盛典暨荣耀 Magic9 系列新品发布会定档 9 月 28 日在北京举行。荣耀官方今日宣布，荣耀 Magic9 系列手机搭载自研影像芯片荣耀驭光 H1，采用 6nm 工艺，支持 RAW 域视频无损降噪，信噪比提升 8dB。",
+        "date": "2026-09-17",
+        "title": "一加 16 官宣首次实现「全局 165Hz 超高刷」，首发搭载 ColorOS 17",
+        "summary": "一加中国区总裁李杰今日宣布，一加 16 首发搭载 ColorOS 17，并且还将首次实现「全局 165Hz 超高刷」。IT之家注意到，博主 @数码闲聊站 今日曝光一加 16 手机 165Hz 超高刷设置界面，直接在系统设置里就能开。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/002/986.htm"
+        "link": "https://www.ithome.com/1/003/446.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-16",
-        "title": "联想 YOGA Pro 15 RTX Spark 预热：搭载 RTX Spark N1X 超级芯片",
-        "summary": "联想今年 9 月 3 日在 IFA 2026 上正式推出了其基于英伟达 RTX Spark 超级芯片的笔记本电脑产品，即 15 英寸 Yoga Pro 9n 和 16 英寸二合一翻转本 Yoga 9n 2-in-1。",
+        "date": "2026-09-17",
+        "title": "莱迪思推出 FPGA 开发 AI 辅助工具 Prompt、安全控制 FPGA 新品 Mach-N2",
+        "summary": "低功耗 FPGA 企业 Lattice（莱迪思）当地时间昨日宣布推出 FPGA 开发 AI 辅助工具 Radiant、安全控制 FPGA 新品系列 Mach-N2。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/027.htm"
+        "link": "https://www.ithome.com/1/003/574.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-16",
-        "title": "SiFive 与 AMD 合作，优化 ROCm 在 RISC-V 数据中心处理器上的表现",
-        "summary": "SiFive、AMD 当地时间昨日在 AI Infra Summit 上联合展示了 RISC-V 处理器 + AMD Radeon AI PRO R9700 显卡系统利用 ROCm 10.0 运行 Google Gemma4-E2B 模型...。",
+        "date": "2026-09-17",
+        "title": "格里费：英伟达驱动支持是 Valve 首要任务之一，SteamOS 已能点亮部分 GPU",
+        "summary": "在接受游戏媒体 IGN 采访时，Valve 软件开发人员皮埃尔-卢普 · 格里费（Pierre-Loup Griffais）表示已在 SteamOS 主开发树中启用英伟达驱动程序，部分 GPU 型号可初始化并显示图像。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/026.htm"
+        "link": "https://www.ithome.com/1/003/572.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-16",
-        "title": "香港将推动全民 AI 培训、推进跨境自动驾驶发展、助力国产飞机打进世界市场",
-        "summary": "香港特区行政长官李家超今日（16 日）公布《香港特别行政区经济和社会发展第一个五年规划（2026—2030 年）》（《香港第一个五年规划》），并随之发表《行政长官 2026 年施政报告》（《施政报告》）。",
+        "date": "2026-09-17",
+        "title": "网友 AI 开发工具：让笔记本 RTX 5090 显卡冲上 250W，最高功耗增幅 42.9%",
+        "summary": "网友 u/Ecstatic_Hamster2208 昨日（9 月 16 日）在 Reddit 社区发帖，分享了 1.8.0 版 NvpwrControl 工具，可以将笔记本 RTX 5090 最高调校到 250W。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/019.htm"
+        "link": "https://www.ithome.com/1/003/566.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-16",
-        "title": "传闻 SK 海力士、英特尔讨论历史性在美存储器芯片制造合作",
-        "summary": "路透社当地时间今日报道称 SK 海力士与英特尔正就历史性的存储器芯片制造合作展开谈判。如果最终达成协议，SK 海力士或首次在美国建设存储器芯片前端产能。",
+        "date": "2026-09-17",
+        "title": "微星 MEG X 电竞显示器上架：AI 加持第五代 QD-OLED 面板，9599 元",
+        "summary": "微星 (MSI) 现已在电商平台上架 MEG X 电竞显示器。这一型号采用三星显示的 RGB 子像素条纹排列 QD-OLED Penta Tandem 显示面板，支持多项 AI 技术，标价 9599 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/056.htm"
+        "link": "https://www.ithome.com/1/003/563.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-16",
-        "title": "地平线 CEO 余凯：智驾以后 80% 会是供应商做，20% 是车企自研",
-        "summary": "地平线于 9 月 15 日在上海临港地平线科技园举办“地平线智驾芯片量产突破 1,500 万见证仪式”。地平线创始人兼 CEO 余凯宣布，第 1,500 万颗征程芯片将搭载在一汽-大众全新合作车型 ——ID. AURA T6 上。",
+        "date": "2026-09-17",
+        "title": "戴尔推出 FHD 165Hz 办公显示器 S24/2726HS：899/999 元，TÜV 眼部舒适度四星认证",
+        "summary": "戴尔推出全新家用办公显示器 S2426HS 与 S2726HS，分别配备 23.8 英寸和 27 英寸 IPS 面板，均支持 1080P 分辨率与 165Hz 刷新率，价格分别为 899 元和 999 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/025.htm"
+        "link": "https://www.ithome.com/1/003/562.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-16",
-        "title": "华为智慧屏 Mate TV 2 将于 9 月 23 日开启预售，支持隔空艺语双控投屏等功能",
-        "summary": "华为商城显示，华为智慧屏 Mate TV 2 将于 9 月 23 日 10:08 开启预售。官方预热信息确认，这款新品延续灵犀悬浮触控、灵犀指向遥控和灵犀手写笔配件。",
+        "date": "2026-09-17",
+        "title": "安森美推出嵌入式电源平台：硅晶圆载板封装，实现 3~5 倍功率密度",
+        "summary": "onsemi（安森美）当地时间昨日宣布推出嵌入式电源平台 (EPP)。其直接以 12 英寸硅晶圆为封装载体，将多个裸片 (Die) 集成到单一硅器件中，可实现现有解决方案 3~5 倍的功率密度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/002/985.htm"
+        "link": "https://www.ithome.com/1/003/558.htm"
     }
 ]
 };
