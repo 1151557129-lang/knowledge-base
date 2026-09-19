@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-18 06:15:19
+// 自动生成于 2026-09-19 06:14:02
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-18",
-        "title": "荣耀发布行业解决方案品牌荣耀天工，多款硬件亮相",
-        "summary": "荣耀 (HONOR) 在本月 15 日进行的 2026 HGDC 荣耀全球开发者大会上发布了其行业解决方案品牌荣耀天工。IT之家了解到，荣耀天工覆盖软硬件两大维度，提供一系列行业解决方案和通用业务解决方案。",
+        "date": "2026-09-19",
+        "title": "佳明战术智能手表 Tactix 9 踪迹曝光，预估 2027 年 2 月发布",
+        "summary": "科技媒体 the5krunner 昨日（9 月 18 日）发布博文，报道称在俄罗斯监管文件中，发现了佳明 (Garmin) 战术智能手表 Tactix 9 的踪迹。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/037.htm"
+        "link": "https://www.ithome.com/1/004/425.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-09-18",
-        "title": "小米推出“米家智能洗碗机嵌入式 20 套”：全嵌设计、支持 115°C 蒸腾热烘，4704 元（国补后 3999 元）",
-        "summary": "小米现已在京东上架“米家智能洗碗机嵌入式 20 套”，该产品集洗涤、烘干、除菌与长效存储功能于一体，主打 115°C 蒸腾热烘、240 小时智能新风。定价为 4704 元，部分地区国补后 3999 元。",
+        "category": "ai",
+        "date": "2026-09-19",
+        "title": "OpenAI 示警：先进 AI 可在 2 台相邻物理隔离 PC 间“对话”",
+        "summary": "科技媒体 Wccftech 昨日（9 月 18 日）发布博文，报道称在先进 AI 模型交互方面，物理隔离电脑未必能完全阻断两台相邻计算机间的信息交换。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/991.htm"
+        "link": "https://www.ithome.com/1/004/430.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-09-18",
-        "title": "小米 69 元米家夜灯 4 上架：支持磁吸 / 悬挂 / 粘贴 + 8 个月长续航",
-        "summary": "小米上周才开启众筹的米家夜灯 4 现已直接上架京东，将于 9 月 22 日开售，首发到手价 69 元起，支持晒单返 500 京豆（9 月 22 日-10 月 22 日）。",
+        "category": "ai",
+        "date": "2026-09-19",
+        "title": "OpenAI 研究员示警：AI 能力越强，越容易“隐藏内心想法”",
+        "summary": "OpenAI 研究员诺姆 · 布朗（Noam Brown）最新表示，伴随着 AI 模型能力越来越强，模型的思维链可监测性正逐渐下降，未来开发者可能无法有效、可靠地发现、解释并约束 AI 的风险行为。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/003/949.htm"
+        "link": "https://www.ithome.com/1/004/429.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-18",
-        "title": "苹果 / 三星等卷入音频专利纠纷，恐影响 AirPods 5 等产品在美国销售",
-        "summary": "科技媒体 Android Authority 今天（9 月 18 日）发布博文，报道称美国国际贸易委员会（USITC）已于 9 月 16 日启动编号 337-TA-1521 的 337 调查，涉及苹果、三星和谷歌相关音频技术电子设备。",
+        "date": "2026-09-19",
+        "title": "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼",
+        "summary": "美国加利福尼亚州北区联邦法院当地时间 9 月 18 日受理了一宗诉讼案，原告指控 Anthropic、OpenAI、SpaceXAI 和谷歌四大 AI 巨头共同非法协调以限制 AI 发展速度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/078.htm"
+        "link": "https://www.ithome.com/1/004/423.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-09-18",
-        "title": "因 AI 信息前后矛盾 / 影响家庭关系，男子起诉平台要求赔礼道歉",
-        "summary": "浙江嘉兴市新闻传媒中心《小新说事》栏目于 9 月 15 日发布博文，报道称史先生为其母亲处理后事时，因为 AI 信息前后矛盾，且影响家庭关系，起诉 AI 平台。",
+        "category": "display",
+        "date": "2026-09-19",
+        "title": "问卷调查显示华为正在评估无屏幕健康手环产品",
+        "summary": "科技媒体 the5krunner 昨日（9 月 18 日）发布博文，报道称基于最新问卷调查，华为可能会推出无屏幕的健康手环，在上市后可能会和 Whoop 等产品竞争。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/074.htm"
+        "link": "https://www.ithome.com/1/004/426.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-09-18",
-        "title": "PrismML 再出手：Bonsai 2 27B 以 1/9 内存占用保留 Qwen3.8 27B 98.2% 性能",
-        "summary": "人工智能实验室 PrismML 今年早些时候推出了微调模型 Bonsai 27B，以显著更低的内存占用实现了 Qwen3.6 27B 基础模型 95% 的性能。",
+        "category": "display",
+        "date": "2026-09-19",
+        "title": "B 社《辐射 76》正式为 XBOX Series X|S、PS5 版本提供原生支持",
+        "summary": "B 社宣布正式为《辐射 76》引入 XBOX Series X|S、PS5 原生支持，在兼容的电视或显示器上以最高 4K 分辨率和 60fps 运行。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/072.htm"
+        "link": "https://www.ithome.com/1/004/421.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-18",
-        "title": "华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元",
-        "summary": "华硕 ROG 雷神 3 代 EVO 钛金氮化镓电源（ROG-THOR-1600T3-GAMING-EVO）现已在京东发售，提供 10 年质保，定价为 5999 元。",
+        "date": "2026-09-19",
+        "title": "联想旗下摩托罗拉预热 Signature 27 旗舰手机：后置 2 亿像素主摄、有望搭载第六代骁龙 8 系列芯片",
+        "summary": "联想旗下摩托罗拉现已开始预热旗下旗舰手机 Signature 27，官方透露将于 9 月 22 日公布更多信息。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/073.htm"
+        "link": "https://www.ithome.com/1/004/400.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-09-18",
-        "title": "熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元",
-        "summary": "熊猫现已在京东上架型号为“MX34U6S”的 34 英寸带鱼屏显示器，该机主打 1440P 200Hz，定价为 1149 元，部分地区国补后低至 1034.1 元。",
+        "category": "ai",
+        "date": "2026-09-19",
+        "title": "HKC 隐刃 L1 拉伸手机游戏手柄新增“冰川蓝”配色：霍尔摇杆、1KHz 回报率，169 元",
+        "summary": "HKC 现已为旗下隐刃 L1 拉伸手机游戏手柄新增“冰川蓝”配色，该产品采用 USB-C 接口，定价为 169 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/069.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "stock",
-        "date": "2026-09-18",
-        "title": "网易《逆水寒：新世界》联动盗墓笔记内容公开：南派三叔亲自执笔剧情，独家番外故事",
-        "summary": "网易《逆水寒：新世界》将于下周四（9 月 24 日）开启“黄金周”版本，喊上好友团圆，双方都有奶茶基金可领，还有真奶茶掉落；开风云宝箱，有机会开出现实里的真黄金；更有白发加速 300 次、免费全新时装与坐骑……此外，逆水寒 x 盗墓笔记联...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/077.htm"
+        "link": "https://www.ithome.com/1/004/435.htm"
     }
 ]
 };
