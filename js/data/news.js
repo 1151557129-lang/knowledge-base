@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-19 06:14:02
+// 自动生成于 2026-09-20 06:37:06
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-19",
-        "title": "佳明战术智能手表 Tactix 9 踪迹曝光，预估 2027 年 2 月发布",
-        "summary": "科技媒体 the5krunner 昨日（9 月 18 日）发布博文，报道称在俄罗斯监管文件中，发现了佳明 (Garmin) 战术智能手表 Tactix 9 的踪迹。",
+        "date": "2026-09-20",
+        "title": "卢伟冰：真正意义上的 AI 手机，离走进我们生活，还有不少距离",
+        "summary": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今日发文，详细介绍了小米 18 Pro 系列手机的升级点，他表示：“这是小米数字旗舰系列，升级幅度最大的一次。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/425.htm"
+        "link": "https://www.ithome.com/1/004/782.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-09-19",
-        "title": "OpenAI 示警：先进 AI 可在 2 台相邻物理隔离 PC 间“对话”",
-        "summary": "科技媒体 Wccftech 昨日（9 月 18 日）发布博文，报道称在先进 AI 模型交互方面，物理隔离电脑未必能完全阻断两台相邻计算机间的信息交换。",
+        "category": "xiaomi",
+        "date": "2026-09-20",
+        "title": "小米 18 Pro 系列手机「星河蓝」配色亮相：纯平一体式设计背屏、0.99mm 窄边屏，9 月 23 日发布",
+        "summary": "小米手机官方刚刚发布了小米 18 Pro 系列手机的官图。全新小米 18 Pro 系列手机配备全新百变背屏，辅以纯平一体式设计；采用大微弧四曲中框，手感提升；搭载 0.99mm 窄边屏幕，视野更清爽。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/430.htm"
+        "link": "https://www.ithome.com/1/004/770.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-09-19",
-        "title": "OpenAI 研究员示警：AI 能力越强，越容易“隐藏内心想法”",
-        "summary": "OpenAI 研究员诺姆 · 布朗（Noam Brown）最新表示，伴随着 AI 模型能力越来越强，模型的思维链可监测性正逐渐下降，未来开发者可能无法有效、可靠地发现、解释并约束 AI 的风险行为。",
+        "category": "xiaomi",
+        "date": "2026-09-20",
+        "title": "不少黑科技将至：曝各家手机厂商会上更多狠活拔高骁龙 8 Elite Gen5 处理器性能上限",
+        "summary": "博主 @数码闲聊站 今日发文透露，今年子系品牌（IT之家注：如 REDMI、iQOO、一加等）N-1 迭代线新机，骁龙 8 Elite Gen5 处理器依然是主流选择。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/429.htm"
+        "link": "https://www.ithome.com/1/004/747.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-19",
-        "title": "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼",
-        "summary": "美国加利福尼亚州北区联邦法院当地时间 9 月 18 日受理了一宗诉讼案，原告指控 Anthropic、OpenAI、SpaceXAI 和谷歌四大 AI 巨头共同非法协调以限制 AI 发展速度。",
+        "date": "2026-09-20",
+        "title": "雷神首款 AI 移动工作站 AI Master M7000 明日开售：锐龙 AI Max+ 395 处理器，1.99 万元",
+        "summary": "雷神官方今天宣布，雷神首款人工智能移动工作站 AI Master M7000 将于明日 10:00 开售，号称可运行 120B 参数的端侧 AI 大模型，适配创作、开发、科研、涉密四大领域，首发 + 国补价格 1.99 万元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/423.htm"
+        "link": "https://www.ithome.com/1/004/801.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-09-19",
-        "title": "问卷调查显示华为正在评估无屏幕健康手环产品",
-        "summary": "科技媒体 the5krunner 昨日（9 月 18 日）发布博文，报道称基于最新问卷调查，华为可能会推出无屏幕的健康手环，在上市后可能会和 Whoop 等产品竞争。",
+        "category": "ai",
+        "date": "2026-09-20",
+        "title": "更大的换热面积：机械大师公布 KLEIN 系列双冷排 AIO 液冷",
+        "summary": "方糖机械大师 (Mechanic Master) 现已在其官网公布了“3D 结构分体水冷”KLEIN AIO。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/426.htm"
+        "link": "https://www.ithome.com/1/004/746.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-09-19",
-        "title": "B 社《辐射 76》正式为 XBOX Series X|S、PS5 版本提供原生支持",
-        "summary": "B 社宣布正式为《辐射 76》引入 XBOX Series X|S、PS5 原生支持，在兼容的电视或显示器上以最高 4K 分辨率和 60fps 运行。",
+        "category": "ai",
+        "date": "2026-09-20",
+        "title": "市场监管总局：“十五五”时期将运用大数据、AI 等规范网络销售、直播带货，建设消费信用体系",
+        "summary": "国务院新闻办公室于 2026 年 9 月 20 日（星期日）上午 10 时举行“开局起步‘十五五’”系列主题新闻发布会，请市场监管总局新闻发言人、副局长束为，国家药监局副局长杨胜，市场监管总局规划和财务司司长王国伟，市场监管总局网络交易监...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/421.htm"
+        "link": "https://www.ithome.com/1/004/745.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-19",
-        "title": "联想旗下摩托罗拉预热 Signature 27 旗舰手机：后置 2 亿像素主摄、有望搭载第六代骁龙 8 系列芯片",
-        "summary": "联想旗下摩托罗拉现已开始预热旗下旗舰手机 Signature 27，官方透露将于 9 月 22 日公布更多信息。",
+        "date": "2026-09-20",
+        "title": "联想公布便携显示器新品 L16a：低色域 16\" 1920×1200 60Hz IPS LCD",
+        "summary": "联想 (Lenovo) 现已在其产品规格参考 (PSREF) 网站列出便携显示器新品 L16a。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/400.htm"
+        "link": "https://www.ithome.com/1/004/723.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-09-19",
-        "title": "HKC 隐刃 L1 拉伸手机游戏手柄新增“冰川蓝”配色：霍尔摇杆、1KHz 回报率，169 元",
-        "summary": "HKC 现已为旗下隐刃 L1 拉伸手机游戏手柄新增“冰川蓝”配色，该产品采用 USB-C 接口，定价为 169 元。",
+        "category": "display",
+        "date": "2026-09-20",
+        "title": "消息称京东方、TCL 华星、惠科近期均上调 LCD 电视显示面板价格",
+        "summary": "韩媒 THE ELEC 当地时间 18 日报道称，京东方 (BOE)、TCL 华星 (TCL CSOT)、惠科 (HKC) 三家企业近期均向客户发函，宣布上调 LCD 电视显示面板的价格。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/435.htm"
+        "link": "https://www.ithome.com/1/004/706.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "display",
+        "date": "2026-09-20",
+        "title": "IDC：上半年中国 PC 显示器出货同比下滑 2.2%，AOC、联想、HKC 惠科份额前三，华为份额大涨 3.2%",
+        "summary": "国际数2026 年上半年，中国 PC 显示器市场出货量 1430 万台，同比下滑 2.2%；其中商用市场出货量 770 万台，同比增长 5.7%，消费市场出货量 660 万台，同比下滑 10.1%。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/004/703.htm"
     }
 ]
 };
