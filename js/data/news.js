@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-20 06:37:06
+// 自动生成于 2026-09-21 06:43:47
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-20",
-        "title": "卢伟冰：真正意义上的 AI 手机，离走进我们生活，还有不少距离",
-        "summary": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今日发文，详细介绍了小米 18 Pro 系列手机的升级点，他表示：“这是小米数字旗舰系列，升级幅度最大的一次。",
+        "date": "2026-09-21",
+        "title": "小米 18 Pro 系列手机全新智能防窥屏亮点公布，支持应用自定义、规则设定等",
+        "summary": "小米手机今日宣布，小米 18 Pro 系列的超级像素屏幕迈入 2.0 时代，同时拥有“旗舰画质与原生硬件级防窥”。小米官方宣称，这是面向未来的全新屏幕解决方案。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/782.htm"
+        "link": "https://www.ithome.com/1/005/167.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-20",
-        "title": "小米 18 Pro 系列手机「星河蓝」配色亮相：纯平一体式设计背屏、0.99mm 窄边屏，9 月 23 日发布",
-        "summary": "小米手机官方刚刚发布了小米 18 Pro 系列手机的官图。全新小米 18 Pro 系列手机配备全新百变背屏，辅以纯平一体式设计；采用大微弧四曲中框，手感提升；搭载 0.99mm 窄边屏幕，视野更清爽。",
+        "date": "2026-09-21",
+        "title": "小米徐洁云澄清 CCTV 12《天网》节目夸 SU7 操控好、安全性高：这个图的确是假的",
+        "summary": "今日，关于 CCTV 12 社会与法频道《天网》节目夸赞小米 SU7 操控好、安全性高的截图在各大平台传播。小米集团董事长特别助理、战略市场部副总经理徐洁云随后转发了相关截图，并澄清：“这个图，的确是假的。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/770.htm"
+        "link": "https://www.ithome.com/1/005/156.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-20",
-        "title": "不少黑科技将至：曝各家手机厂商会上更多狠活拔高骁龙 8 Elite Gen5 处理器性能上限",
-        "summary": "博主 @数码闲聊站 今日发文透露，今年子系品牌（IT之家注：如 REDMI、iQOO、一加等）N-1 迭代线新机，骁龙 8 Elite Gen5 处理器依然是主流选择。",
+        "date": "2026-09-21",
+        "title": "OPPO Find X10 Pro Max 官宣三颗 2 亿镜头均支持 Open Gate 全画幅录制",
+        "summary": "OPPO 官方今日宣布，Find X10 Pro Max 支持全焦段 8K Log 视频录制，可保留更多画面细节与调色空间。新机三颗 2 亿镜头均支持 Open Gate 全画幅录制，横竖构图自由切换，后期空间更大。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/747.htm"
+        "link": "https://www.ithome.com/1/005/151.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-20",
-        "title": "雷神首款 AI 移动工作站 AI Master M7000 明日开售：锐龙 AI Max+ 395 处理器，1.99 万元",
-        "summary": "雷神官方今天宣布，雷神首款人工智能移动工作站 AI Master M7000 将于明日 10:00 开售，号称可运行 120B 参数的端侧 AI 大模型，适配创作、开发、科研、涉密四大领域，首发 + 国补价格 1.99 万元。",
+        "date": "2026-09-21",
+        "title": "华硕 ASUS LC 360 ARGB 处理器 AIO 液冷上市，549 元",
+        "summary": "华硕处理器一体式 (AIO) 液冷散热器新品 ASUS LC 360 ARGB 现已上市。其定价 549 元，支持 FCLGA1851、FCLGA1700 与 AM5、AM4 平台，享受 5 年质保。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/801.htm"
+        "link": "https://www.ithome.com/1/005/200.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-20",
-        "title": "更大的换热面积：机械大师公布 KLEIN 系列双冷排 AIO 液冷",
-        "summary": "方糖机械大师 (Mechanic Master) 现已在其官网公布了“3D 结构分体水冷”KLEIN AIO。",
+        "date": "2026-09-21",
+        "title": "致态 Ti600s QLC 固态硬盘新增 512GB 款，749 元",
+        "summary": "长江存储 (YMTC) 致态 (ZHITAI) 今年 8 月推出了 Ti600s 固态硬盘。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/746.htm"
+        "link": "https://www.ithome.com/1/005/169.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-20",
-        "title": "市场监管总局：“十五五”时期将运用大数据、AI 等规范网络销售、直播带货，建设消费信用体系",
-        "summary": "国务院新闻办公室于 2026 年 9 月 20 日（星期日）上午 10 时举行“开局起步‘十五五’”系列主题新闻发布会，请市场监管总局新闻发言人、副局长束为，国家药监局副局长杨胜，市场监管总局规划和财务司司长王国伟，市场监管总局网络交易监...。",
+        "date": "2026-09-21",
+        "title": "铭凡推出新款 N5 Air NAS，锐龙 5 7640HS 处理器",
+        "summary": "铭凡现已在海外市场推出新款 N5 Air NAS，采用锐龙 5 7640HS 处理器，保留万兆网口、OCuLink 接口等。该产品将原有版本的 AMD 锐龙 7 255 更换为锐龙 5 7640HS。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/745.htm"
+        "link": "https://www.ithome.com/1/005/165.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-20",
-        "title": "联想公布便携显示器新品 L16a：低色域 16\" 1920×1200 60Hz IPS LCD",
-        "summary": "联想 (Lenovo) 现已在其产品规格参考 (PSREF) 网站列出便携显示器新品 L16a。",
+        "date": "2026-09-21",
+        "title": "Omdia：2026 年全球智能手机市场将萎缩 12%，市场结构向高价位段倾斜",
+        "summary": "Omdia 最新研究显示，全球智能手机市场预计将在 2026 年同比下降 12%，出货量降至 10.97 亿部。这主要是由于入门级设备需求疲软以及新兴市场面临的购买力挑战拖累了出货量。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/723.htm"
+        "link": "https://www.ithome.com/1/005/216.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-20",
-        "title": "消息称京东方、TCL 华星、惠科近期均上调 LCD 电视显示面板价格",
-        "summary": "韩媒 THE ELEC 当地时间 18 日报道称，京东方 (BOE)、TCL 华星 (TCL CSOT)、惠科 (HKC) 三家企业近期均向客户发函，宣布上调 LCD 电视显示面板的价格。",
+        "date": "2026-09-21",
+        "title": "消息称三星将停售 QLED 与 Neo QLED 电视，全面转向 Mini LED",
+        "summary": "三星电子正大幅缩减 QLED（量子点发光二极管）电视产量，未来三星这类电视产品有可能停售。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/706.htm"
+        "link": "https://www.ithome.com/1/005/183.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-20",
-        "title": "IDC：上半年中国 PC 显示器出货同比下滑 2.2%，AOC、联想、HKC 惠科份额前三，华为份额大涨 3.2%",
-        "summary": "国际数2026 年上半年，中国 PC 显示器市场出货量 1430 万台，同比下滑 2.2%；其中商用市场出货量 770 万台，同比增长 5.7%，消费市场出货量 660 万台，同比下滑 10.1%。",
+        "date": "2026-09-21",
+        "title": "达音科“首款圈铁 MEMS 混合耳机”PRS6 发售：冰晶纹纯钛金属面板工艺，1680 元",
+        "summary": "达音科“首款圈铁 MEMS 混合耳机”PRS6 现已在京东发售，定价为 1680 元。这款耳机采用冰晶纹纯钛金属面板，经高温烧灼、慢速冷却与酸洗处理呈现结晶纹理。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/004/703.htm"
+        "link": "https://www.ithome.com/1/005/149.htm"
     }
 ]
 };
