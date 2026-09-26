@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-25 06:20:53
+// 自动生成于 2026-09-26 06:21:06
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-25",
-        "title": "iQOO 16 手机官宣升级 5000 万像素 1/1.3\" 主摄，采用蓝厂 vivo 旗舰同款算法",
-        "summary": "iQOO 16 新机将于 9 月 29 日 19:00 发布并开售。iQOO 手机官方今日宣布，iQOO 16 升级 5000 万超感光 1/1.3\" 大底主摄，相比 iQOO 15 进光量提升 79%。",
+        "date": "2026-09-26",
+        "title": "荣耀 HONOR Life 高速吹风机 2 Pro 上架：可视化彩屏、支持一键倒吹自清洁，339 元",
+        "summary": "荣耀京东自营旗舰店现已上架 HONOR Life 高速吹风机 2 Pro，定价为 359 元，首发价 339 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/093.htm"
+        "link": "https://www.ithome.com/1/007/349.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-25",
-        "title": "【IT之家开箱】小米 Watch S5 41mm 智能手表图赏：莹白陶瓷表圈 + 24 道精雕表冠，主打精致佩戴",
-        "summary": "在 9 月 23 日晚间举行的小米秋季新品发布会上，小米 Watch S5 41mm 智能手表正式发布，首发搭载表端澎湃 OS 4，并升级了表端微信 App，售价 1299 元起。",
+        "date": "2026-09-26",
+        "title": "vivo S2 FE 手机曝光：联发科天玑 7300e 芯片、10000mAh 容量电池",
+        "summary": "科技媒体 gizmochina 昨日（9 月 25 日）发布博文，报道称 vivo S2 FE 手机曝光，预估配联发科天玑 7300e 芯片，以及 10000mAh 容量电池，预估 10 月 6 日发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/088.htm"
+        "link": "https://www.ithome.com/1/007/346.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-25",
-        "title": "vivo 推出 Y600i 手机：第二代骁龙 4、电池 8000mAh，售价 1699 元起",
-        "summary": "vivo 今日宣布推出 Y600i 手机，将于 9 月 30 日正式开售，售价 1699 元起：6GB+128GB：1699 元6GB+256GB：1999 元这款手机搭载第二代骁龙 4 移动平台，电池容量 8000mAh，支持 44W ...。",
+        "date": "2026-09-26",
+        "title": "OPPO Find X10 Pro Max 手机体验：3 颗两亿镜头，就是这么豪横",
+        "summary": "9 月 22 日，OPPO 举办了新品发布会，正式发布了全新 OPPO Find X10 系列旗舰新机。其中，系列顶配的 Find X10 Pro Max，无疑是本次发布会大家最关注的核心产品。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/076.htm"
+        "link": "https://www.ithome.com/1/007/317.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-25",
-        "title": "谷歌网页版 Gmail 星标和“重要”标签默认设为蓝色，用户抱怨导致收件箱杂乱无章",
-        "summary": "科技媒体 Android Authority 今天（9 月 25 日）发布博文，报道称谷歌调整网页版 Gmail 的星标和“重要”标记，默认统一变成蓝色，这引发了用户的广泛抱怨。",
+        "date": "2026-09-26",
+        "title": "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力",
+        "summary": "美团旗下 LongCat API 开放平台于 9 月 25 日上线新一代大模型 LongCat-2.5-Preview，主打“长程任务”与多模态能力，并同步开放 API 与网页端体验入口。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/131.htm"
+        "link": "https://www.ithome.com/1/007/356.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-25",
-        "title": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
-        "summary": "康宁公司于 9 月 24 日宣布，将扩大 Polarcor 玻璃偏振片的制造产能，以应对 AI 数此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。该类产品广泛应用于光隔离器及其他激光光学器件，是先进光学和光子系统的重要组成部分。",
+        "date": "2026-09-26",
+        "title": "赛豆科技首款量产车 AIVA ME7 官宣 9 月 28 日亮相法国巴黎",
+        "summary": "赛豆 AIVA 汽车今日宣布，旗下首款量产车 AIVA ME7 将于今年 9 月 28 日在法国巴黎・尚普拉特勒城堡亮相。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/130.htm"
+        "link": "https://www.ithome.com/1/007/351.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-25",
-        "title": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
-        "summary": "macOS 安全研究员、Objective-See Foundation 创始人 Patrick Wardle 发现，Meta 面向 macOS 用户推出的 Muse 存在一项严重的零日漏洞，攻击者可借助一个隐藏配置项劫持用户的 Muse...。",
+        "date": "2026-09-26",
+        "title": "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB",
+        "summary": "微星 (MSI) 本月 23 日宣布推出 MS-C9ZA。这款边缘 AI 盒子可在端侧执行 AI 推理与计算机视觉处理，协助降低云端依赖、带宽使用与网络延迟，面向机器人、智能制造等场景。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/126.htm"
+        "link": "https://www.ithome.com/1/007/344.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-25",
-        "title": "Nothing Headphone（1）Pro 耳机渲染图曝光：支持主动降噪、满电续航 60 小时",
-        "summary": "德国科技媒体 WinFuture 昨日（9 月 24 日）发布博文，分享了一组渲染图，展示了 Nothing Headphone（1）Pro，并透露称这款高端耳机将于 2027 年 9 月 29 日发布（原文显示为明年，可能是笔误，此前今...。",
+        "date": "2026-09-26",
+        "title": "联想 Googlebook 二合一平板电脑曝光：预估配联发科 Kompanio Ultra 910 芯片",
+        "summary": "源 Evan Blass 昨日（9 月 25 日）在 X 平台发布推文，分享了两张图片，展示了联想尚未发布的 Googlebook 二合一平板电脑。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/127.htm"
+        "link": "https://www.ithome.com/1/007/350.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-09-25",
-        "title": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
-        "summary": "科技媒体 GSMArena 今天（9 月 25 日）发布博文，报道称 HMD 于今年 5 月发布 Vibe2 智能手机后，计划于 9 月 29 日推出 Vibe2 Pro 版手机，搭载联发科天玑 6400 芯片，最高 8GB 内存和 12...。",
+        "date": "2026-09-26",
+        "title": "KTC 推出“大师 25M5”白色版显示器：2K 260Hz Mini LED 配吸光植绒遮光板，1887 元",
+        "summary": "KTC 现已在京东上架“大师 25M5”白色版显示器，该机主打 2K 260Hz，定价为 1887 元，部分地区国补后低至 1671.3 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/125.htm"
+        "link": "https://www.ithome.com/1/007/333.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-09-25",
-        "title": "京东方 TSF 超广色域 OLED 技术升级，色域覆盖 98.7% BT.2020",
-        "summary": "近日，京东方 TSF（TADF-Sensitized Fluorescence 热活化敏化荧光）超广色域 OLED 技术实现再升级。",
+        "date": "2026-09-26",
+        "title": "微星推出 PRO MAX 271QPX14G 显示器：26.5\" WQHD 144Hz 雾面 QD-OLED",
+        "summary": "微星 (MSI) 现已推出 PRO MAX 271QPX14G 显示器。这一型号采用 26.5\" QD-OLED Penta Tandem 面板，表面为抗眩光雾面，分辨率 WQHD (2560×1440)，刷新率为 144Hz。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/124.htm"
+        "link": "https://www.ithome.com/1/007/327.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-09-26",
+        "title": "系列最快：Alinea 称《生化危机：安魂曲》游戏全球营收破 5 亿美元",
+        "summary": "市场调查机构 Alinea Analytics 昨日（9 月 25 日）发布博文，预估《生化危机：安魂曲》（Resident Evil Requiem）游戏全球营收已突破 5 亿美元（IT之家注：现汇率约合 33.62 亿元人民币），成为...。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/007/342.htm"
     }
 ]
 };
