@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-26 06:21:06
+// 自动生成于 2026-09-27 06:49:46
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-26",
-        "title": "荣耀 HONOR Life 高速吹风机 2 Pro 上架：可视化彩屏、支持一键倒吹自清洁，339 元",
-        "summary": "荣耀京东自营旗舰店现已上架 HONOR Life 高速吹风机 2 Pro，定价为 359 元，首发价 339 元。",
+        "date": "2026-09-27",
+        "title": "菲斯曼冷凝燃气壁挂炉接入米家 App，支持小米澎湃智联、超级小爱控制",
+        "summary": "菲斯曼冷凝燃气壁挂炉已接入米家 App，支持小米澎湃智联、超级小爱控制等。菲斯曼冷凝燃气壁挂炉绑定流程：打开米家 App，点击“添加设备”，连接三方平台，绑定菲斯曼互联，同步设备到米家。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/349.htm"
+        "link": "https://www.ithome.com/1/007/516.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-26",
-        "title": "vivo S2 FE 手机曝光：联发科天玑 7300e 芯片、10000mAh 容量电池",
-        "summary": "科技媒体 gizmochina 昨日（9 月 25 日）发布博文，报道称 vivo S2 FE 手机曝光，预估配联发科天玑 7300e 芯片，以及 10000mAh 容量电池，预估 10 月 6 日发布。",
+        "date": "2026-09-27",
+        "title": "四卡双待：荣耀 Magic9 Pro Max 手机将支持双实体卡 + 双 eSIM",
+        "summary": "荣耀官方今天宣布，荣耀 Magic9 Pro Max 手机将支持「双实体卡 + 双 eSIM」融合架构，支持四卡随心切换、双号随时在线，等于说这台手机支持安装四张 SIM 卡，可以两张卡同时待机。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/346.htm"
+        "link": "https://www.ithome.com/1/007/496.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-26",
-        "title": "OPPO Find X10 Pro Max 手机体验：3 颗两亿镜头，就是这么豪横",
-        "summary": "9 月 22 日，OPPO 举办了新品发布会，正式发布了全新 OPPO Find X10 系列旗舰新机。其中，系列顶配的 Find X10 Pro Max，无疑是本次发布会大家最关注的核心产品。",
+        "date": "2026-09-27",
+        "title": "小米 18 Pro 系列手机「传奇一瞬」功能详解，原片数据可在相册上传云端无损处理",
+        "summary": "小米 18 Pro 系列手机已于 9 月 23 日晚正式发布，搭载第六代骁龙 8 至尊版系列移动平台，后置徕卡 2 亿大底主摄 + 2 亿大底长焦，首发「传奇一瞬」大模型影像，售价 5999 元起。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/317.htm"
+        "link": "https://www.ithome.com/1/007/474.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-26",
-        "title": "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力",
-        "summary": "美团旗下 LongCat API 开放平台于 9 月 25 日上线新一代大模型 LongCat-2.5-Preview，主打“长程任务”与多模态能力，并同步开放 API 与网页端体验入口。",
+        "date": "2026-09-27",
+        "title": "亿道首发 JX200 双卡液冷 AI 工作站：20.4L 机身，240 AIO 液冷",
+        "summary": "亿道 (Emdoor) 在英特尔技术创新与产业生态大会 (Intel Connection 2026) 上首发 JX200 双卡液冷 AI 工作站。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/356.htm"
+        "link": "https://www.ithome.com/1/007/519.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-26",
-        "title": "赛豆科技首款量产车 AIVA ME7 官宣 9 月 28 日亮相法国巴黎",
-        "summary": "赛豆 AIVA 汽车今日宣布，旗下首款量产车 AIVA ME7 将于今年 9 月 28 日在法国巴黎・尚普拉特勒城堡亮相。",
+        "date": "2026-09-27",
+        "title": "问界强调仍是鸿蒙智行成员：新 M8 标配面向 L3 级自动驾驶架构设计，9 月 30 日预售",
+        "summary": "鸿蒙智行问界汽车今日宣布，问界新 M8 全系标配面向 L3 级自动驾驶的架构设计，搭载华为乾崑智驾 ADS 5、新一代全向立体融合感知系统。问界汽车还强调，其仍然是鸿蒙智行成员之一。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/351.htm"
+        "link": "https://www.ithome.com/1/007/518.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-26",
-        "title": "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB",
-        "summary": "微星 (MSI) 本月 23 日宣布推出 MS-C9ZA。这款边缘 AI 盒子可在端侧执行 AI 推理与计算机视觉处理，协助降低云端依赖、带宽使用与网络延迟，面向机器人、智能制造等场景。",
+        "date": "2026-09-27",
+        "title": "消息称 OpenAI 将推出常驻 AI 助手「O」，预计 9 月 29 日发布",
+        "summary": "OpenAI 即将推出一款常驻 AI 助手，其代号为「O」，预计将在 9 月 29 日的 OpenAI DevDay 推出。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/344.htm"
+        "link": "https://www.ithome.com/1/007/512.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-26",
-        "title": "联想 Googlebook 二合一平板电脑曝光：预估配联发科 Kompanio Ultra 910 芯片",
-        "summary": "源 Evan Blass 昨日（9 月 25 日）在 X 平台发布推文，分享了两张图片，展示了联想尚未发布的 Googlebook 二合一平板电脑。",
+        "date": "2026-09-27",
+        "title": "英飞凌泰国功率半导体工厂 10 月 1 日投产，总投资达 14.4 亿美元",
+        "summary": "英飞凌近日宣布其泰国功率半导体工厂将于 10 月 1 日正式投产。该项目总投资达 14.4 亿美元（IT之家注：现汇率约合 96.9 亿元人民币），定位一体化功率半导体节点，承接全球功率半导体器件订单。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/350.htm"
+        "link": "https://www.ithome.com/1/007/483.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-09-26",
-        "title": "KTC 推出“大师 25M5”白色版显示器：2K 260Hz Mini LED 配吸光植绒遮光板，1887 元",
-        "summary": "KTC 现已在京东上架“大师 25M5”白色版显示器，该机主打 2K 260Hz，定价为 1887 元，部分地区国补后低至 1671.3 元。",
+        "category": "ai",
+        "date": "2026-09-27",
+        "title": "传华为或于今年 11 月推出星耀子品牌，客服回应",
+        "summary": "9 月 27 日下午近日有华为手机板块正酝酿新一轮子品牌布局，传闻中的线上性价比品牌“星耀”最快有望在今年 11 月落地，同时 nova 系列正从产品线向独立子品牌方向演进。针对此事，截至发稿前，华为终端方面暂无回应。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/333.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-09-26",
-        "title": "微星推出 PRO MAX 271QPX14G 显示器：26.5\" WQHD 144Hz 雾面 QD-OLED",
-        "summary": "微星 (MSI) 现已推出 PRO MAX 271QPX14G 显示器。这一型号采用 26.5\" QD-OLED Penta Tandem 面板，表面为抗眩光雾面，分辨率 WQHD (2560×1440)，刷新率为 144Hz。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/327.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-09-26",
-        "title": "系列最快：Alinea 称《生化危机：安魂曲》游戏全球营收破 5 亿美元",
-        "summary": "市场调查机构 Alinea Analytics 昨日（9 月 25 日）发布博文，预估《生化危机：安魂曲》（Resident Evil Requiem）游戏全球营收已突破 5 亿美元（IT之家注：现汇率约合 33.62 亿元人民币），成为...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/342.htm"
+        "link": "https://www.ithome.com/1/007/517.htm"
     }
 ]
 };
