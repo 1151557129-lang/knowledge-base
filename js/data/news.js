@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-28 07:15:16
+// 自动生成于 2026-09-29 07:12:52
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-09-28",
-        "title": "《王者荣耀》第二金：中国队亚运会电子竞技卫冕夺金",
-        "summary": "今日，在爱知 · 名古屋亚运会电子竞技项目王者荣耀决赛中，中国队以 4 比 0 击败马来西亚队，夺得金牌。在本届赛事中，中国队状态火热，小组赛、淘汰赛均以 2‑0 横扫对手。",
+        "date": "2026-09-29",
+        "title": "249 元：小米充电宝磁吸自带线 10000 45W 开售，2026 新国标认证",
+        "summary": "小米充电宝磁吸自带线 10000 45W 现已在京东开售。新品主打 2026 新国标认证，配备全新安全电芯，支持智能管理，售价 249 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/833.htm"
+        "link": "https://www.ithome.com/1/008/298.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-09-28",
-        "title": "荣耀 Magic9 系列手机配色公布：银盐、影黑、苔青等",
-        "summary": "现场荣耀 Magic 盛典暨荣耀 Magic9 系列新品发布会正在举行，官方现已公布新品外观配色。",
+        "date": "2026-09-29",
+        "title": "vivo 更新考勤制度：最晚 9 点前打卡，每日工作时长需 8 小时，10 月 8 日开始执行",
+        "summary": "9 月 29 日中午有vivo 中国区近日发布全员邮件，更新了考勤管理制度。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/828.htm"
+        "link": "https://www.ithome.com/1/008/236.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-09-28",
-        "title": "vivo WATCH 6 轻户外智能手表开售：超轻薄表体 + 蓝宝石玻璃表镜，999 元起",
-        "summary": "vivo WATCH 6 轻户外智能手表今日正式开售，采用超轻薄表体 + 蓝宝石玻璃表镜设计，支持进阶跑骑指导、60s 一键体检、健康减脂助手等功能，999 元起。",
+        "date": "2026-09-29",
+        "title": "华为 WATCH GT 6 系列手表 HarmonyOS 7 公测版开推：系统界面焕新、新增光穹等表盘",
+        "summary": "华为 WATCH GT 6 系列智能手表已于昨日开启 HarmonyOS 7 公测版升级尝鲜招募。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/768.htm"
+        "link": "https://www.ithome.com/1/008/231.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-09-28",
-        "title": "华为余承东：智界 RX 提前迎接 L3 自动驾驶时代，正在公开城市快速路等复杂道路开展实测",
-        "summary": "在今天的智界 RX 及鸿蒙智行新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，智界 RX 提前迎接 L3 自动驾驶时代。",
+        "date": "2026-09-29",
+        "title": "OpenAI 提出前沿 AI 训练安全指导原则：高级管理人员应有否决权",
+        "summary": "OpenAI 今天通过官方新闻稿提出了一套指导原则，要求企业在开展前沿 AI 强化学习训练前提交结构化的安全论证文件。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/834.htm"
+        "link": "https://www.ithome.com/1/008/301.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-09-28",
-        "title": "英伟达黄仁勋反驳“AI 教父”辛顿：我爱他，但我恨他的末日论预测",
-        "summary": "英伟达 CEO 黄仁勋近日接受采访时驳斥诺贝尔物理学奖得主、图灵奖得主杰弗里 · 辛顿，称他的 AI 末日论预测毫无根据，只会给公众带来恐慌感。杰弗里 · 辛顿是 AI 神经网络和深度学习领域的先驱，被人们誉为“AI 教父”。",
+        "date": "2026-09-29",
+        "title": "集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周",
+        "summary": "市场调查机构集邦咨询（TrendForce）昨日（9 月 28 日）发布博文，报道称在 AI 智能体浪潮下，全球服务器 CPU 交付周期已拉长到 25~30 周，而常规情况下为 16~20 周。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/832.htm"
+        "link": "https://www.ithome.com/1/008/296.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-09-28",
-        "title": "米哈游创始人刘伟：希望在 2-3 年内进入国产大模型第一梯队",
-        "summary": "近期米哈游创始人、总裁刘伟（大伟哥）在 2027 校园招聘宣讲会上海交通大学专场上发表演讲，希望米哈游在 2-3 年内进入国产大模型第一梯队。我有很强的信心，未来 2 到 3 年内，米哈游都会是国产大模型团队里举足轻重的一员。",
+        "date": "2026-09-29",
+        "title": "OpenAI 明日重开 200 美元档 ChatGPT-Pro 订阅：API 支出减半，新增更多不计量功能",
+        "summary": "OpenAI 首席产品官 Tibo 宣布将于明天向新用户重新开放月费 200 美元的 ChatGPT Pro 订阅，同时调整该档位的用量计算方式。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/807.htm"
+        "link": "https://www.ithome.com/1/008/295.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-09-28",
-        "title": "石头推出 Z1 MiniPure 迷你洗衣机：2kg 洗涤容量、14L 内筒，2705 元（国补后 2299 元）",
-        "summary": "石头现已在京东上架 Z1 MiniPure 全自动滚筒式迷你洗衣机，专为日常贴身衣物与母婴洗护设计，定价为 2705 元，部分地区国补后低至 2299 元。外观方面，该机采用云霜白配色，正面配备悬浮玻璃面板与触控区。",
+        "date": "2026-09-29",
+        "title": "苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃",
+        "summary": "在 iOS 27.0.1 更新修复“同时打开通知中心和控制中心可能会导致触摸屏无响应”问题后，TechDroider 等海外科技指出，在 iPhone 18 Pro 和 iPhone 18 Pro Max 上，还存在另一个显示故障。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/773.htm"
+        "link": "https://www.ithome.com/1/008/249.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-09-28",
-        "title": "联想“Legion 27Q-20”27 英寸显示器发售：2K 320Hz，1379 元",
-        "summary": "联想旗下“Legion 27Q-20”27 英寸显示器现已在京东发售，该机主打 2K 320Hz，定价为 1379 元。",
+        "category": "ai",
+        "date": "2026-09-29",
+        "title": "雷克沙推出 Professional DIAMOND CFexpress 4.0 Type A 存储卡，640GB 单容量",
+        "summary": "雷克沙本月推出了 Lexar Professional DIAMOND CFexpress 4.0 Type A 存储卡。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/007/771.htm"
+        "link": "https://www.ithome.com/1/008/300.htm"
     }
 ]
 };
