@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-09-30 07:02:48
+// 自动生成于 2026-10-01 07:28:05
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -34,75 +34,75 @@ const NEWS_DATA = {
   news: [
     {
         "id": "news-001",
-        "category": "xiaomi",
-        "date": "2026-09-30",
-        "title": "闪促价 1399 元起，OPPO K15s/K15x 两款新机今日开售",
-        "summary": "OPPO K 系列两款新机 K15s 与 K15x 于今日正式开售。两款产品均主打长续航与耐用性，其中 K15s 定位“满电出击、硬核防水”，K15x 则强调“六年抗造、持久畅快”。",
+        "category": "ai",
+        "date": "2026-10-01",
+        "title": "美光科技 CEO 梅赫罗特拉：目前已锁定约 1500 亿美元长期订单，AI 存储需求紧张",
+        "summary": "美光科技董事长兼 CEO 桑杰 · 梅赫罗特拉（Sanjay Mehrotra）在财报电话会上表示，美光目前已签署 26 项长协，锁定约 1,500 亿美元（IT之家注：现汇率约合 1.01 万亿元人民币）长期订单，2027 和 2028...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/670.htm"
+        "link": "https://www.ithome.com/1/009/079.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-09-30",
-        "title": "小米门窗传感器 3 上架：升级隧道磁阻传感器、3 年长续航，众筹价 44 元",
-        "summary": "小米门窗传感器 3 已上架，将于 10 月 12 日 10 点开启众筹，众筹价为 44 元，建议零售价 49 元。新品主打“一次安装、3 年省心长续航”，围绕门窗、抽屉、柜门等开合状态感知，进一步强化家庭安防与智能联动体验。",
+        "category": "ai",
+        "date": "2026-10-01",
+        "title": "iPhone 18 标准版首秀：苹果 A20 芯片焊点图曝光，推测 5 核 GPU",
+        "summary": "IT之家家友 @白饭炒白米饭 昨日（9 月 30 日）发布动态，分享了苹果 A20 标准版芯片的焊点图，该芯片将会装备在 iPhone 18 标准版机型上。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/634.htm"
+        "link": "https://www.ithome.com/1/009/075.htm"
     },
     {
         "id": "news-003",
         "category": "ai",
-        "date": "2026-09-30",
-        "title": "微软推出实验性多模态 AI 研究系统 Project Quine，有望大幅加速药物发现",
-        "summary": "当地时间 29 日，微软研究院推出了实验性多模态 AI 研究系统 Project Quine。Project Quine 是一套用于生物学研究的“世界模型”，目标是把计算生物学建模与实际湿实验衔接起来。",
+        "date": "2026-10-01",
+        "title": "福特 CEO 法利：AI 将成为蓝领工人的“搭档”，帮其更快掌握技能",
+        "summary": "福特汽车 CEO 吉姆 · 法利认为，AI 不会绕过蓝领工人，但也未必会大规模取代他们。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/704.htm"
+        "link": "https://www.ithome.com/1/009/073.htm"
     },
     {
         "id": "news-004",
-        "category": "ai",
-        "date": "2026-09-30",
-        "title": "Fairphone 预告 TWS 耳机 Fairbuds 2，延续模块化可维修设计",
-        "summary": "模块化消费电子硬件品牌 Fairphone 近日正式启动新款 TWS 耳机的预热。根该产品就是 Fairphone (Gen. 6+) 新闻稿中提到的 Fairbuds 2，将于 10 月 14 日正式发布。",
+        "category": "display",
+        "date": "2026-10-01",
+        "title": "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片",
+        "summary": "HMD 现已在印度市场推出 Vibe2 Pro 智能手机。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/698.htm"
+        "link": "https://www.ithome.com/1/009/070.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-09-30",
-        "title": "戴森 AI 电动牙刷 CamaraJet 一度“下架”，官方承认早期批次产品存在渗水故障",
-        "summary": "戴森确认，新推出的 CameraJet 可视成像牙刷早期一个批次因渗水发生故障。这也是戴森首次说明 CameraJet 为何一度从零售渠道消失。",
+        "category": "display",
+        "date": "2026-10-01",
+        "title": "苹果 HomeHub 家庭中枢显示照片界面曝光，设计类似 iPhone Duo 折叠手机的待机模式",
+        "summary": "人士 pdfu 最近为我们带来了苹果 HomeHub 家庭中枢的界面爆料，显示该机将采用类似 iPhone Duo 折叠手机的 Standby 待机界面。从曝光图片来看，用户可以为待机 UI 选择不同照片集、回忆或共享相簿。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/697.htm"
+        "link": "https://www.ithome.com/1/009/062.htm"
     },
     {
         "id": "news-006",
         "category": "display",
-        "date": "2026-09-30",
-        "title": "INNOCN 发布 40C1R Max 显示器：40\" WQHD 200Hz，HDR400",
-        "summary": "INNOCN（联合创新）近日发布了显示器新品 40C1R Max。这一型号采用 40\" 哑光 IPS 面板，拥有 WQHD (3440×1440) 分辨率、200Hz 刷新率，获得 VESA DisplayHDR 400 认证。",
+        "date": "2026-10-01",
+        "title": "【一图知】华为 Mate 90 系列及全场景新品发布会：麒麟 τ 芯片旗舰登场，外挂“巨炮”相机",
+        "summary": "华为今日（10 月 1 日）举行了 Mate 90 系列及全场景新品发布会。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/735.htm"
+        "link": "https://www.ithome.com/1/009/057.htm"
     },
     {
         "id": "news-007",
-        "category": "display",
-        "date": "2026-09-30",
-        "title": "抖音终止收购联动优势，标的支付牌照此前已被中止续展",
-        "summary": "海联金汇今日发布公告称，收到天津同融《关于终止股权转让协议的函》，经双方友好协商，终止天津同融对海联金汇旗下支付牌照公司联动优势的收购。公开资料显示，天津同融为抖音体系内公司。",
+        "category": "ai",
+        "date": "2026-10-01",
+        "title": "鸿蒙智行 9 月交付 37490 台，全系累计交付突破 156 万台",
+        "summary": "今天（1 日）下午，鸿蒙智行公布了 9 月的交付成绩单：当月交付 37,490 台，全系累计交付突破 156 万台，持续刷新中国新势力品牌达成速度纪录。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/696.htm"
+        "link": "https://www.ithome.com/1/009/077.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-09-30",
-        "title": "首款鸿蒙 7+ 麒麟 9 系旗舰芯片电视：华为智慧屏 Mate TV 2 系列今日开售",
-        "summary": "华为首款搭载鸿蒙 7+ 麒麟 9 系旗舰芯片的电视 —— 华为智慧屏 Mate TV 2 系列今日正式开售，定价 7999 元起。",
+        "category": "ai",
+        "date": "2026-10-01",
+        "title": "WSBK 2027 官宣首次落地中国：10 月 29 日上海站成赛季收官战，张雪祝贺",
+        "summary": "国际摩托车运动联合会（FIM）和世界超级摩托车锦标赛（WorldSBK）今日公布了 2027 赛季赛历，官宣 WorldSBK 将于 2027 年首次来到中国办赛。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/008/612.htm"
+        "link": "https://www.ithome.com/1/009/076.htm"
     }
 ]
 };
