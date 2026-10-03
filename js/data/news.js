@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-02 07:15:02
+// 自动生成于 2026-10-03 06:47:46
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-02",
-        "title": "荣耀 WIN 小平板正面照疑曝光，有望支持 240Hz 刷新率",
-        "summary": "小红书账号 @荣耀WIN实验室 于 9 月 30 日分享了一款 WIN 系列小平板的正面照，支持超高刷新率，预计将于近期亮相。荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布。",
+        "date": "2026-10-03",
+        "title": "日本厂商推出华为 WATCH FIT 5 智能手表《超辉夜姬！》动画电影版：定制表带、表盘等，3.96 万日元",
+        "summary": "当地时间 9 月 29 日，日本腕表与动漫周边企划商 U-ENI 贸易宣布，旗下专注于角色联名的品牌“GARRACK”正式推出以动画电影《超辉夜姬。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/296.htm"
+        "link": "https://www.ithome.com/1/009/428.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-10-02",
-        "title": "富士 X-T6 无反相机设计草图曝光，配 X-Processor 6 图像处理器",
-        "summary": "科技媒体 dailycameranews 今天（10 月 2 日）发布博文，爆料称富士（Fujifilm）计划 2026 年年底或者 2027 年年初发布 X-T6 无反相机，并透露了相关规格参数。",
+        "category": "xiaomi",
+        "date": "2026-10-03",
+        "title": "荣耀关海涛回应 Magic9 系列手机为何不多备货：贫穷限制了我们想象",
+        "summary": "荣耀全球首席营销官关海涛于 10 月 1 日宣布，受版本缺货等因素，M9（Magic9）系列发布后第 3 天激活较上代增长 70% 多。IT之家注意到，评论区有网友提问：“为啥不提前多备点货呀，是不知道销量会这么好嘛。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/283.htm"
+        "link": "https://www.ithome.com/1/009/424.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-10-02",
-        "title": "AI 灌水稿激增：预印本平台 arXiv 出台新规，每人每月限投 2 篇",
-        "summary": "预印本开放获取平台 arXiv 发布博文，宣布于昨日（10 月 1 日）开始实施全新速率限制政策，将所有投稿者每月提交上限设为 2 篇、同时在审活跃稿件上限设为 3 篇。",
+        "category": "xiaomi",
+        "date": "2026-10-03",
+        "title": "小米 Civi 4 Pro、REDMI K70 手机新增电池升级服务，限时 8 折 151.2 元",
+        "summary": "小米此前宣布，小米 14 和 14 Pro 手机的电池升级服务于 10 月 1 日上线。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/279.htm"
+        "link": "https://www.ithome.com/1/009/414.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-02",
-        "title": "影目科技回应 INMO AIR3 智能眼镜海外版过热：与部分第三方应用有关、已全部下架，国内版不受相关影响",
-        "summary": "当地时间 9 月 24 日，美国消费品安全委员会和加拿大卫生部门发布召回信息，影目科技 INMO AIR3 智能眼镜因长时间使用时左侧镜腿可能出现过热，被要求停止使用。",
+        "date": "2026-10-03",
+        "title": "GOG 喜加一：Roguelike 铁路经营模拟游戏《Bounty Train》免费领",
+        "summary": "GOG 平台现已开启新一轮限时免费“喜加一”活动，玩家可以在北京时间 2026 年 10 月 5 日 21:00 前免费领取 Roguelike 铁路经营模拟游戏《Bounty Train（赏金列车）》，本作提供简体中文界面 / 字幕。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/277.htm"
+        "link": "https://www.ithome.com/1/009/448.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-10-02",
-        "title": "极狐阿尔法 T5 汽车迎 OTA：部分车型新增苹果 CarPlay / 华为 HiCar 手机互联、端到端 4.0 辅助驾驶模型",
-        "summary": "极狐汽车宣布为旗下阿尔法 T5 推送新一轮 OTA 升级包，本次更新包含 5 项新增功能与 1 项功能优化，围绕手机互联、高阶辅助驾驶、泊车能力、车辆安防、HUD 显示以及座舱音效进行迭代，不同版本车型可获得对应专属功能。",
+        "category": "ai",
+        "date": "2026-10-03",
+        "title": "HPE 获得其首笔 AMD \"Helios\" AI 机架订单，价值 12 亿美元",
+        "summary": "HPE（慧与）当地时间 9 月 30 日宣布获得该企业首笔 AMD \"Helios\" AI 机架系统订单。这笔价值 12 亿美元（IT之家注：现汇率约合 80.57 亿元人民币）的订单由私有云基础设施企业 Vultr 下达。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/288.htm"
+        "link": "https://www.ithome.com/1/009/446.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-10-02",
-        "title": "绿联推出彩色墨水屏手机壳：3.7 英寸面板，适配苹果 iPhone 17/18 Pro 及 Max 机型，278.8 元",
-        "summary": "绿联现已在京东上架一款 Magic 彩色墨水屏手机壳，适用于苹果 iPhone 17/18 Pro 及 Max 机型，兼具机身防护与自定义图案显示功能，首发价 278.8 元。",
+        "category": "ai",
+        "date": "2026-10-03",
+        "title": "佳能 EOS R7 V 曝光：专用视频 APS-C 画幅相机，预估 2027 年底发布",
+        "summary": "科技媒体 dailycameranews 昨日（10 月 2 日）发布博文，报道称佳能拟将旗舰 APS-C 产品线拆分为照片与视频两条路线，其中专用视频机型 EOS R7 V 预计于 2027 年底或 2028 年初发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/284.htm"
+        "link": "https://www.ithome.com/1/009/445.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-02",
-        "title": "宏碁发布 14 英寸 Aspire Lite 笔记本：高通骁龙 X1-26-101 芯片、16GB 内存",
-        "summary": "科技媒体 NotebookCheck 昨日（10 月 1 日）发布博文，报道称宏碁（Acer）推出 Aspire Lite 笔记本，配备 14 英寸屏幕，高通骁龙 X 芯片（型号 X1-26-101），售价为 749 美元（IT之家注：现...。",
+        "date": "2026-10-03",
+        "title": "“争气机”换更强“争气芯”：全系韬芯片之华为 Mate 90 发布，央视报道称走出世界半导体的新路",
+        "summary": "在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 ——Mate 90 系列手机正式发布，全系搭载了韬定律芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/259.htm"
+        "link": "https://www.ithome.com/1/009/451.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-10-02",
-        "title": "水月雨推出星野 III 双动圈系统 Hi-Fi 入耳式耳机：变色星光烤漆工艺，699 元",
-        "summary": "水月雨现已在天猫上架星野 III（Starfield 3）D.W.T.双动圈系统 Hi-Fi 入耳式耳机，定价为 699 元。",
+        "category": "display",
+        "date": "2026-10-03",
+        "title": "中国联通“eSIM 业务首次线上办理资格抽取”限时活动曝光，抽中用户可使用 App 办理相关业务",
+        "summary": "中国联通现已上线“eSIM 业务首次线上办理资格抽取”限时活动，暂未正式对外公开。IT之家测试发现，点击“立即抽奖”，页面显示为“活动太火爆了，请稍后再试 ~”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/297.htm"
+        "link": "https://www.ithome.com/1/009/442.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "display",
+        "date": "2026-10-03",
+        "title": "重塑智能眼镜光学方案：TDK 展示全球首款超构光学镜 DRP 显示屏",
+        "summary": "日本电子元器件厂商 TDK 昨日（10 月 2 日）发布公告，展示了全球首款采用超构光学镜（Meta-Optic Mirror）的直接视网膜投影（DRP）智能眼镜显示屏。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/009/434.htm"
     }
 ]
 };
