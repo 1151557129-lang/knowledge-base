@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-04 07:08:54
+// 自动生成于 2026-10-05 07:22:52
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-04",
-        "title": "小米 REDMI 电视 X RGB-Mini LED 2027 竞技版预售：纳米柔光屏，2705 元起",
-        "summary": "小米 REDMI 电视 X RGB-Mini LED 2027 竞技版今日开启预售，将于 10 月 12 日 20:00 正式开售，新品首销价 2705 元起：55 英寸（432 分区）：2705 元起，国补到手价 2299.25 元起6...。",
+        "date": "2026-10-05",
+        "title": "消息某厂商 2 亿像素三摄旗舰机被砍，预计为小米 18 Ultra",
+        "summary": "博主 @数码闲聊站 发文，曝光了一款未能量产的旗舰手机，该机计划采用 1mm 级四等边直屏、配备三颗 2 亿像素摄像头（包括 1/1.12 英寸 LOFIC 主摄、1/1.56 英寸超广角，以及 1/1.28 英寸 LOFIC 连续光学变...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/624.htm"
+        "link": "https://www.ithome.com/1/009/815.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-10-04",
-        "title": "OpenAI GPT-6 Astra 破解拿破仑 1809 年密信，揭示 217 年前军事部署",
-        "summary": "一名 AI 研究人员借助 OpenAI GPT-6 Astra 成功破解了一封拿破仑 · 波拿巴写于 1809 年的加密军事信件。这封信此前因密码本遗失，在过去 217 年里始终未能被完整解读。",
+        "category": "xiaomi",
+        "date": "2026-10-05",
+        "title": "华米 Amazfit 智能手表 T-Rex Dual Solar 上架：双面太阳能充电系统，4499 元",
+        "summary": "华米 Amazfit 智能手表 T-Rex Dual Solar 现已上架电商平台，标价 4499 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/643.htm"
+        "link": "https://www.ithome.com/1/009/794.htm"
     },
     {
         "id": "news-003",
         "category": "ai",
-        "date": "2026-10-04",
-        "title": "马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停",
-        "summary": "埃隆 · 马斯克旗下的 xAI 于当地时间本周五成功说服美国一家联邦上诉法院，叫停明尼苏达州的全美首个 AI 生成虚假裸照禁令。这家科技兼社交媒体企业正在提起诉讼，主张该项州立法律违宪。",
+        "date": "2026-10-05",
+        "title": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
+        "summary": "映众 (INNO3D) 今日宣布推出 GPU 服务器 AGS-6220V2。其采用机架式部署设计，高度达到 6U，支持 2 颗第五代英特尔至强处理器 \"Emeralds Rapid SP\"。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/631.htm"
+        "link": "https://www.ithome.com/1/009/824.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-04",
-        "title": "民众集体抵制数据中心，亚马逊 AWS 停止和政府签署保密协议",
-        "summary": "亚马逊云服务（AWS）首席执行官马特 · 加曼（Matt Garman）表示，在为新建数该公司已经停止与政府机构签署保密协议（NDA）。加曼的这句话出自一篇篇幅较长的官方博客。",
+        "date": "2026-10-05",
+        "title": "圆刚推出 AI 降噪麦克风 A113，工作温度范围达 -25℃ 至 +60℃",
+        "summary": "圆刚 (AVerMedia) 近日推出了 AIClear Mic (A113) 麦克风。这一型号面向工业应用，工作温度范围达 -25℃ 至 +60℃、存放温度范围达 -40℃ 至 +85℃。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/621.htm"
+        "link": "https://www.ithome.com/1/009/811.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-10-04",
-        "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片",
-        "summary": "在今年 5 月的 2026 国际电路与系统研讨会上，华为公司董事、半导体业务部总裁何庭波在主旨演讲中首次提出半导体全新演进路径 ——“韬（τ）定律”。",
+        "category": "ai",
+        "date": "2026-10-05",
+        "title": "台达将基于英伟达 Hyperion 平台开发下一代自动驾驶技术",
+        "summary": "台达 (Delta) 上月末宣布将与 NVIDIA（英伟达）合作，利用 NVIDIA Hyperion 平台加速下代智能、高效、安全自动驾驶系统的开发。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/638.htm"
+        "link": "https://www.ithome.com/1/009/808.htm"
     },
     {
         "id": "news-006",
         "category": "display",
-        "date": "2026-10-04",
-        "title": "华为四代 τ 芯片首次集体亮相，余承东详解麒麟 9050 系列首发逻辑折叠技术",
-        "summary": "在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 ——Mate 90 系列手机正式发布，全系搭载了韬定律芯片。",
+        "date": "2026-10-05",
+        "title": "台积电股价收涨 3% 创历史新高：市值换算人民币超 14 万亿元，台股加权指数逼近 5 万点大关",
+        "summary": "台积电今日在中国台湾股市创出历史新高。台积电早盘最高冲上 2580 新台币，13:30 收盘价定在 2575 新台币，涨幅 3%，市值升至约 66.78 万亿新台币（IT之家注：现汇率约合 14.06 万亿元人民币）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/633.htm"
+        "link": "https://www.ithome.com/1/009/822.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-04",
-        "title": "索尼相机新品 WW261362 通过 SRRC 认证，中高端定位或为 α7S IV",
-        "summary": "日本索尼公司有一款代号为“WW261362”的新机通过了 SRRC 认证，显示其支持 Wi-Fi 6 和蓝牙，至少为 BIONZ XR2 或更新平台。",
+        "date": "2026-10-05",
+        "title": "爱好者自制天气时钟：基于 Freenove FNK0103S 开发板、可选装人在传感器",
+        "summary": "一位爱好者 sudu1988 在 Reddit 发帖，展示了自己打造的天气时钟，该机可以从 Open-Meteo 获取天气数据，并显示当前时间、实时天气以及未来天气预报。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/603.htm"
+        "link": "https://www.ithome.com/1/009/819.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-10-04",
-        "title": "特斯拉悄然测试动态大灯水平调节功能：近光灯可根据车身姿态自动修正照射角度",
-        "summary": "特斯拉一项巧妙的全新灯光功能已经开始向用户车辆推送。在海外近期的软件更新（包括 2026.38 版本）当中，特斯拉悄然开启了一项尚未对外正式发布的功能测试：动态大灯水平调节（Dynamic Headlight Leveling）。",
+        "category": "display",
+        "date": "2026-10-05",
+        "title": "HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G",
+        "summary": "外媒 nokianews 现已曝光了 HMD Slate Tab 5G 平板电脑完整规格信息。该机使用 Fabula 设计，灵感来自于诺基亚 Lumia 2520 平板。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/653.htm"
+        "link": "https://www.ithome.com/1/009/816.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
+        "date": "2026-10-05",
+        "title": "日本大和证券内部数据外泄：官方通报称“外部服务提供商遭黑客入侵”，约 22 万条信息泄露",
+        "summary": "日本大和证券于今天通报公司内部数涉及约 22 万条信息，其中包括约 11 万名客户的姓名、电子邮箱地址、证券账户号码、咨询记录等内容。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/009/817.htm"
     }
 ]
 };
