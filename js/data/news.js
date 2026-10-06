@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-05 07:22:52
+// 自动生成于 2026-10-06 07:49:24
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-05",
-        "title": "消息某厂商 2 亿像素三摄旗舰机被砍，预计为小米 18 Ultra",
-        "summary": "博主 @数码闲聊站 发文，曝光了一款未能量产的旗舰手机，该机计划采用 1mm 级四等边直屏、配备三颗 2 亿像素摄像头（包括 1/1.12 英寸 LOFIC 主摄、1/1.56 英寸超广角，以及 1/1.28 英寸 LOFIC 连续光学变...。",
+        "date": "2026-10-06",
+        "title": "颂拓 Race 3S 智能手表曝光：2000 nit 亮度、满电 GPS 续航 45 小时、存储翻倍至 64GB",
+        "summary": "科技媒体 NotebookCheck 昨日（10 月 5 日）发布博文，分享了一组宣传物料，展示了颂拓（Suunto）Race 3S 智能手表。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/815.htm"
+        "link": "https://www.ithome.com/1/009/988.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-05",
-        "title": "华米 Amazfit 智能手表 T-Rex Dual Solar 上架：双面太阳能充电系统，4499 元",
-        "summary": "华米 Amazfit 智能手表 T-Rex Dual Solar 现已上架电商平台，标价 4499 元。",
+        "date": "2026-10-06",
+        "title": "消息称苹果 10 月推 2 波新品上市：M6 iMac、首款触控 MacBook 等",
+        "summary": "科技媒体 MacRumors 今天（10 月 6 日）发布博文，报道称苹果公司本月（2026 年 10 月）有望分 2 波推出诸多新产品，第一波聚焦智能家居产品，第二波主角是 Mac 系列，预估为 10 月最后 1 周。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/794.htm"
+        "link": "https://www.ithome.com/1/009/965.htm"
     },
     {
         "id": "news-003",
         "category": "ai",
-        "date": "2026-10-05",
-        "title": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
-        "summary": "映众 (INNO3D) 今日宣布推出 GPU 服务器 AGS-6220V2。其采用机架式部署设计，高度达到 6U，支持 2 颗第五代英特尔至强处理器 \"Emeralds Rapid SP\"。",
+        "date": "2026-10-06",
+        "title": "OpenAI 与 Anthropic 向澳大利亚表态：支持出台数据泄露相关监管法规",
+        "summary": "OpenAI 与 Anthropic 于周二向澳大利亚议会表态，支持出台相关法规，强制要求企业通报其 AI 智能体所造成的数两家机构同时坦承，目前是否通知监管当局完全由企业自主决定。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/824.htm"
+        "link": "https://www.ithome.com/1/010/003.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-05",
-        "title": "圆刚推出 AI 降噪麦克风 A113，工作温度范围达 -25℃ 至 +60℃",
-        "summary": "圆刚 (AVerMedia) 近日推出了 AIClear Mic (A113) 麦克风。这一型号面向工业应用，工作温度范围达 -25℃ 至 +60℃、存放温度范围达 -40℃ 至 +85℃。",
+        "date": "2026-10-06",
+        "title": "索尼音乐 9 月要求下架 26 万首 AI 伪造歌曲：阿黛尔等艺人被冒充，请求量较 3 月近乎翻倍",
+        "summary": "金融时报（FT）昨日（10 月 5 日）发布博文，报道称索尼音乐已要求各数字平台删除超过 26 万首冒充其旗下艺人的 AI 生成曲目。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/811.htm"
+        "link": "https://www.ithome.com/1/010/001.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-05",
-        "title": "台达将基于英伟达 Hyperion 平台开发下一代自动驾驶技术",
-        "summary": "台达 (Delta) 上月末宣布将与 NVIDIA（英伟达）合作，利用 NVIDIA Hyperion 平台加速下代智能、高效、安全自动驾驶系统的开发。",
+        "date": "2026-10-06",
+        "title": "韩国拟推 4.7 万亿韩元专项计划，明年 3 月起研发前沿 AI 大模型",
+        "summary": "韩国科学技术信息通信部表示，韩国拟推出一项总规模 4.7 万亿韩元（IT之家注：现汇率约合 233.03 亿元人民币）的专项计划，自 2027 年 3 月起研发前沿人工智能大模型。首尔方面希望借此在尖端 AI 的全球竞争当中争取一席之地。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/808.htm"
+        "link": "https://www.ithome.com/1/010/000.htm"
     },
     {
         "id": "news-006",
         "category": "display",
-        "date": "2026-10-05",
-        "title": "台积电股价收涨 3% 创历史新高：市值换算人民币超 14 万亿元，台股加权指数逼近 5 万点大关",
-        "summary": "台积电今日在中国台湾股市创出历史新高。台积电早盘最高冲上 2580 新台币，13:30 收盘价定在 2575 新台币，涨幅 3%，市值升至约 66.78 万亿新台币（IT之家注：现汇率约合 14.06 万亿元人民币）。",
+        "date": "2026-10-06",
+        "title": "AMD 苏姿丰落地中国台湾会见供应链和客户：今早见鸿海刘扬伟，下午再访台积电，私人飞机换成黄仁勋同品牌",
+        "summary": "AMD CEO 苏姿丰 10 月 5 日乘飞机落地中国台湾地区，并在今日（10 月 6 日）接受采访。谈及此行的目的，苏姿丰提到是见客户和供应链，也证实将会在今天下午拜访台积电。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/822.htm"
+        "link": "https://www.ithome.com/1/009/987.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-05",
-        "title": "爱好者自制天气时钟：基于 Freenove FNK0103S 开发板、可选装人在传感器",
-        "summary": "一位爱好者 sudu1988 在 Reddit 发帖，展示了自己打造的天气时钟，该机可以从 Open-Meteo 获取天气数据，并显示当前时间、实时天气以及未来天气预报。",
+        "date": "2026-10-06",
+        "title": "英特尔 Nova Lake 处理器首发策略曝光：大容量缓存 BFC 型号先上市",
+        "summary": "源 @jaykihn0 昨日（10 月 5 日）在 X 平台发布推文，称配备大容量末级缓存（bLLC）的 BFC 型号，将是 Nova Lake 产品线中最早发布的版本。根BFC 代表配备额外缓存的 Nova Lake 芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/819.htm"
+        "link": "https://www.ithome.com/1/009/982.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-05",
-        "title": "HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G",
-        "summary": "外媒 nokianews 现已曝光了 HMD Slate Tab 5G 平板电脑完整规格信息。该机使用 Fabula 设计，灵感来自于诺基亚 Lumia 2520 平板。",
+        "date": "2026-10-06",
+        "title": "华硕推出 XG32UQDS 显示器：31.5\" UHD 180Hz QD-OLED 面板",
+        "summary": "华硕 (ASUS) 近日推出了显示器新品 ROG Strix OLED XG32UQDS。这一型号基于 32\"(31.5\") 的 UHD (3840×2160) 180Hz QD-OLED 面板，覆盖 BlackShield 低反抗刮镀膜。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/816.htm"
+        "link": "https://www.ithome.com/1/009/963.htm"
     },
     {
         "id": "news-009",
         "category": "stock",
-        "date": "2026-10-05",
-        "title": "日本大和证券内部数据外泄：官方通报称“外部服务提供商遭黑客入侵”，约 22 万条信息泄露",
-        "summary": "日本大和证券于今天通报公司内部数涉及约 22 万条信息，其中包括约 11 万名客户的姓名、电子邮箱地址、证券账户号码、咨询记录等内容。",
+        "date": "2026-10-06",
+        "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+        "summary": "DeepSeek 新一轮融资即将敲定，募资规模至少可达 800 亿元人民币，大幅超出自身原定募资目标。此次融资也将为该公司计划在 2027 年初开展的里程碑式 IPO 铺路。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/817.htm"
+        "link": "https://www.ithome.com/1/009/990.htm"
     }
 ]
 };
