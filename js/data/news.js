@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-06 07:49:24
+// 自动生成于 2026-10-07 07:28:41
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,110 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-06",
-        "title": "颂拓 Race 3S 智能手表曝光：2000 nit 亮度、满电 GPS 续航 45 小时、存储翻倍至 64GB",
-        "summary": "科技媒体 NotebookCheck 昨日（10 月 5 日）发布博文，分享了一组宣传物料，展示了颂拓（Suunto）Race 3S 智能手表。",
+        "date": "2026-10-07",
+        "title": "打通 AirDrop：小米 18 Pro Max 手机上线“与 Apple 设备互传”功能",
+        "summary": "搭载澎湃 OS 4 系统的小米 18 Pro Max 已上线“与 Apple 设备互传”功能。从配图来看，新功能打通了苹果隔空投送 AirDrop。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/988.htm"
+        "link": "https://www.ithome.com/1/010/209.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-06",
-        "title": "消息称苹果 10 月推 2 波新品上市：M6 iMac、首款触控 MacBook 等",
-        "summary": "科技媒体 MacRumors 今天（10 月 6 日）发布博文，报道称苹果公司本月（2026 年 10 月）有望分 2 波推出诸多新产品，第一波聚焦智能家居产品，第二波主角是 Mac 系列，预估为 10 月最后 1 周。",
+        "date": "2026-10-07",
+        "title": "一加 Ace 7 手机曝光：6.78 英寸 185Hz 屏幕、9000mAh 电池、2 亿像素主摄",
+        "summary": "科技媒体 GSMArena 今天（10 月 7 日）发布博文，爆料分享了一加 Ace 7 手机的规格信息，该手机将会配备高通第五代骁龙 8 至尊版（SM8850 / SM8850Q）芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/965.htm"
+        "link": "https://www.ithome.com/1/010/208.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-10-06",
-        "title": "OpenAI 与 Anthropic 向澳大利亚表态：支持出台数据泄露相关监管法规",
-        "summary": "OpenAI 与 Anthropic 于周二向澳大利亚议会表态，支持出台相关法规，强制要求企业通报其 AI 智能体所造成的数两家机构同时坦承，目前是否通知监管当局完全由企业自主决定。",
+        "category": "xiaomi",
+        "date": "2026-10-07",
+        "title": "CounterPoint 报告 2026Q2 欧洲运营商渠道手机销量：苹果超三星荣登榜首，vivo 增速 90% 最快",
+        "summary": "市场调查机构 CounterPoint Research 今天（10 月 7 日）发布博文，报告称 2026 年第二季度欧洲智能手机总销量同比下降 8%，其中运营商渠道销量同比仅降 4%，自由市场智能手机销量则下降了 11%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/003.htm"
+        "link": "https://www.ithome.com/1/010/188.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-06",
-        "title": "索尼音乐 9 月要求下架 26 万首 AI 伪造歌曲：阿黛尔等艺人被冒充，请求量较 3 月近乎翻倍",
-        "summary": "金融时报（FT）昨日（10 月 5 日）发布博文，报道称索尼音乐已要求各数字平台删除超过 26 万首冒充其旗下艺人的 AI 生成曲目。",
+        "date": "2026-10-07",
+        "title": "改为 4 位数：英特尔 Nova Lake-S 处理器命名添新证据，AIDA64 列出 4xxx 系列",
+        "summary": "科技媒体 Wccftech 昨日（10 月 6 日）发布博文，报道称在 10 月 5 日发布的 8.40.8510 Beta 版 AIDA64 Extreme 更新中，新证在更新日志中，有一条写道：“识别英特尔酷睿 Ultra 5/7/9...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/001.htm"
+        "link": "https://www.ithome.com/1/010/210.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-06",
-        "title": "韩国拟推 4.7 万亿韩元专项计划，明年 3 月起研发前沿 AI 大模型",
-        "summary": "韩国科学技术信息通信部表示，韩国拟推出一项总规模 4.7 万亿韩元（IT之家注：现汇率约合 233.03 亿元人民币）的专项计划，自 2027 年 3 月起研发前沿人工智能大模型。首尔方面希望借此在尖端 AI 的全球竞争当中争取一席之地。",
+        "date": "2026-10-07",
+        "title": "OpenAI 为 ChatGPT 新增自动年龄检测，未满 18 岁用户将自动开启青少年模式",
+        "summary": "OpenAI 今日更新支持文档，宣布将自动检测年龄在 18 岁以下的用户，并为他们开启青少年版体验模式。IT之家了解到，ChatGPT 青少年体验版体验模式包含额外的防护措施。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/000.htm"
+        "link": "https://www.ithome.com/1/010/204.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-10-06",
-        "title": "AMD 苏姿丰落地中国台湾会见供应链和客户：今早见鸿海刘扬伟，下午再访台积电，私人飞机换成黄仁勋同品牌",
-        "summary": "AMD CEO 苏姿丰 10 月 5 日乘飞机落地中国台湾地区，并在今日（10 月 6 日）接受采访。谈及此行的目的，苏姿丰提到是见客户和供应链，也证实将会在今天下午拜访台积电。",
+        "category": "ai",
+        "date": "2026-10-07",
+        "title": "华为徐直军回应“美国同行呼吁放缓 AI 开发”：中国模型更弱反而需要加快，不然怎么体会到风险",
+        "summary": "华为官方 10 月 5 日发文，披露了在 9 月 17 日的华为全联接大会期间，华为轮值董事长徐直军、海思首席科学家廖恒博士与媒体记者进行的问答环节内容。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/987.htm"
+        "link": "https://www.ithome.com/1/010/198.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-06",
-        "title": "英特尔 Nova Lake 处理器首发策略曝光：大容量缓存 BFC 型号先上市",
-        "summary": "源 @jaykihn0 昨日（10 月 5 日）在 X 平台发布推文，称配备大容量末级缓存（bLLC）的 BFC 型号，将是 Nova Lake 产品线中最早发布的版本。根BFC 代表配备额外缓存的 Nova Lake 芯片。",
+        "date": "2026-10-07",
+        "title": "1110 元：雷神推出 ZQ25F280 显示器，24.5 英寸 2K 280Hz Fast IPS 面板",
+        "summary": "雷神 ZQ25F280 电竞显示器现已在京东开售，新品采用 24.5 英寸 Fast IPS 面板，最高刷新率可达 280Hz，售价 1110 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/982.htm"
+        "link": "https://www.ithome.com/1/010/206.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-06",
-        "title": "华硕推出 XG32UQDS 显示器：31.5\" UHD 180Hz QD-OLED 面板",
-        "summary": "华硕 (ASUS) 近日推出了显示器新品 ROG Strix OLED XG32UQDS。这一型号基于 32\"(31.5\") 的 UHD (3840×2160) 180Hz QD-OLED 面板，覆盖 BlackShield 低反抗刮镀膜。",
+        "date": "2026-10-07",
+        "title": "微软 Win11 快速设置面板新增“移动设备”磁贴，方便用户访问已连接手机",
+        "summary": "科技媒体 Windows Latest 今天（10 月 7 日）发布博文，报道称在 Windows 11 Build 26340.9596 预览版中，微软在快速设置（Quick Settings）新增“移动设备”磁贴，让用户更快从任务栏访...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/963.htm"
+        "link": "https://www.ithome.com/1/010/203.htm"
     },
     {
         "id": "news-009",
-        "category": "stock",
-        "date": "2026-10-06",
-        "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
-        "summary": "DeepSeek 新一轮融资即将敲定，募资规模至少可达 800 亿元人民币，大幅超出自身原定募资目标。此次融资也将为该公司计划在 2027 年初开展的里程碑式 IPO 铺路。",
+        "category": "display",
+        "date": "2026-10-07",
+        "title": "英特尔 CEO 陈立武：将继续参与马斯克 Terafab 芯片项目",
+        "summary": "英特尔首席执行官陈立武（Lip‑Bu Tan）表示，英特尔仍将继续与埃隆 · 马斯克合作推进 Terafab 项目。Terafab 是这位亿万富翁进军尖端芯片生产领域的一项大胆尝试。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/009/990.htm"
+        "link": "https://www.ithome.com/1/010/202.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-10-07",
+        "title": "保时捷公布全新战略：将推出定位高于 911 的中置引擎超跑",
+        "summary": "保时捷（Porsche AG）计划开发定位高于 911 的中置引擎跑车，以此进一步向上拓展高端市场，扭转当前利润疲软的局面。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/010/211.htm"
+    },
+    {
+        "id": "news-011",
+        "category": "stock",
+        "date": "2026-10-07",
+        "title": "LG 电子 2026 财年第三财季营收 238270 亿韩元，同比增长 8.9%",
+        "summary": "LG 电子今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）业绩快报报告：营业总收入：238,270 亿韩元（IT之家注：现汇率约合 1,181.34 亿元人民币...。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/010/163.htm"
+    },
+    {
+        "id": "news-012",
+        "category": "stock",
+        "date": "2026-10-07",
+        "title": "库克高位减持苹果股票，套现超 6000 万美元",
+        "summary": "苹果董事会执行主席蒂姆 · 库克于 10 月 2 日出售了总价约 6,380 万美元（IT之家注：现汇率约合 4.28 亿元人民币）的公司普通股。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/010/162.htm"
     }
 ]
 };
