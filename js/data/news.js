@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-07 07:28:41
+// 自动生成于 2026-10-08 07:44:53
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,110 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-07",
-        "title": "打通 AirDrop：小米 18 Pro Max 手机上线“与 Apple 设备互传”功能",
-        "summary": "搭载澎湃 OS 4 系统的小米 18 Pro Max 已上线“与 Apple 设备互传”功能。从配图来看，新功能打通了苹果隔空投送 AirDrop。",
+        "date": "2026-10-08",
+        "title": "消息称安卓阔直板手机排期是 2027 年底至 2028 年上半年，立项阶段有主打影像、中端、性能等机型",
+        "summary": "博主 @数码闲聊站 今日发文透露，安卓阵营的阔直板手机，O（预计指 OPPO）大概率第一个上，h（预计指荣耀）第二个上。他表示，剩下几家进度较缓慢，目前排期是 2027 年底至 2028 年上半年。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/209.htm"
+        "link": "https://www.ithome.com/1/010/558.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-10-07",
-        "title": "一加 Ace 7 手机曝光：6.78 英寸 185Hz 屏幕、9000mAh 电池、2 亿像素主摄",
-        "summary": "科技媒体 GSMArena 今天（10 月 7 日）发布博文，爆料分享了一加 Ace 7 手机的规格信息，该手机将会配备高通第五代骁龙 8 至尊版（SM8850 / SM8850Q）芯片。",
+        "category": "ai",
+        "date": "2026-10-08",
+        "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
+        "summary": "腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/208.htm"
+        "link": "https://www.ithome.com/1/010/562.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-10-07",
-        "title": "CounterPoint 报告 2026Q2 欧洲运营商渠道手机销量：苹果超三星荣登榜首，vivo 增速 90% 最快",
-        "summary": "市场调查机构 CounterPoint Research 今天（10 月 7 日）发布博文，报告称 2026 年第二季度欧洲智能手机总销量同比下降 8%，其中运营商渠道销量同比仅降 4%，自由市场智能手机销量则下降了 11%。",
+        "category": "ai",
+        "date": "2026-10-08",
+        "title": "OpenAI 奥尔特曼：世界应接受 AI 带来的部分“坏事”以换取巨大红利",
+        "summary": "在接受 Politico 新播客《Decoded》首期节目采访时，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）表示，世界应接受人工智能带来的部分“坏事”，以换取技术带来的巨大益处与用户自主权。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/188.htm"
+        "link": "https://www.ithome.com/1/010/561.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-07",
-        "title": "改为 4 位数：英特尔 Nova Lake-S 处理器命名添新证据，AIDA64 列出 4xxx 系列",
-        "summary": "科技媒体 Wccftech 昨日（10 月 6 日）发布博文，报道称在 10 月 5 日发布的 8.40.8510 Beta 版 AIDA64 Extreme 更新中，新证在更新日志中，有一条写道：“识别英特尔酷睿 Ultra 5/7/9...。",
+        "date": "2026-10-08",
+        "title": "微星尊爵 Prestige N16 Flip AI+ 发布：RTX Spark 翻转本，16 日开售",
+        "summary": "微星 (MSI) 今日正式发布了其基于 NVIDIA RTX Spark 超级芯片的尊爵 Prestige N16 Flip AI+ 可翻转笔记本电脑，该产品将于 16 日开售。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/210.htm"
+        "link": "https://www.ithome.com/1/010/547.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-10-07",
-        "title": "OpenAI 为 ChatGPT 新增自动年龄检测，未满 18 岁用户将自动开启青少年模式",
-        "summary": "OpenAI 今日更新支持文档，宣布将自动检测年龄在 18 岁以下的用户，并为他们开启青少年版体验模式。IT之家了解到，ChatGPT 青少年体验版体验模式包含额外的防护措施。",
+        "category": "display",
+        "date": "2026-10-08",
+        "title": "“芯片上车”不赚钱，消息称三星将退出车载应用处理器业务",
+        "summary": "当地时间 6 日，韩媒《文化日报》爆料称，三星负责芯片设计的系统 LSI 事业部启动大规模调整。该部门被视为三星半导体复兴的“最后一块拼图”，负责设计智能手机、汽车、机器人等设备的核心系统芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/204.htm"
+        "link": "https://www.ithome.com/1/010/555.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-10-07",
-        "title": "华为徐直军回应“美国同行呼吁放缓 AI 开发”：中国模型更弱反而需要加快，不然怎么体会到风险",
-        "summary": "华为官方 10 月 5 日发文，披露了在 9 月 17 日的华为全联接大会期间，华为轮值董事长徐直军、海思首席科学家廖恒博士与媒体记者进行的问答环节内容。",
+        "category": "display",
+        "date": "2026-10-08",
+        "title": "一加 x 京东方第四代东方屏技术沟通会明日举行",
+        "summary": "一加 x 京东方第四代东方屏技术沟通会宣布将于 10 月 9 日 10:00 线上直播，号称“把屏幕的「通透显示」、「画面流畅」、「动态清晰」同时推到新高度”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/198.htm"
+        "link": "https://www.ithome.com/1/010/554.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-07",
-        "title": "1110 元：雷神推出 ZQ25F280 显示器，24.5 英寸 2K 280Hz Fast IPS 面板",
-        "summary": "雷神 ZQ25F280 电竞显示器现已在京东开售，新品采用 24.5 英寸 Fast IPS 面板，最高刷新率可达 280Hz，售价 1110 元。",
+        "date": "2026-10-08",
+        "title": "台积电 9 月营收 5118.6 亿新台币，同比增长 54.6%",
+        "summary": "台积电今日发布公告，2026 年 9 月营收 5,118.6 亿元新台币（IT之家注：现汇率约合 1,077.47 亿元人民币），环比下降 0.6%，同比增长 54.6%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/206.htm"
+        "link": "https://www.ithome.com/1/010/463.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-10-07",
-        "title": "微软 Win11 快速设置面板新增“移动设备”磁贴，方便用户访问已连接手机",
-        "summary": "科技媒体 Windows Latest 今天（10 月 7 日）发布博文，报道称在 Windows 11 Build 26340.9596 预览版中，微软在快速设置（Quick Settings）新增“移动设备”磁贴，让用户更快从任务栏访...。",
+        "category": "stock",
+        "date": "2026-10-08",
+        "title": "江淮汽车股价跌停，投资者关系部门回应尊界 V800 测试称“出厂前都有品控流程”",
+        "summary": "今日稍早些时候，懂车帝实测 3 台尊界 V800，称在 100km/h-0 紧急制动时刹车踏板支架被踩断，引发网络热议。IT之家注意到，事件发酵后，江淮汽车今日上午股价跌停，收盘 24.72 元 / 股。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/203.htm"
+        "link": "https://www.ithome.com/1/010/560.htm"
     },
     {
         "id": "news-009",
-        "category": "display",
-        "date": "2026-10-07",
-        "title": "英特尔 CEO 陈立武：将继续参与马斯克 Terafab 芯片项目",
-        "summary": "英特尔首席执行官陈立武（Lip‑Bu Tan）表示，英特尔仍将继续与埃隆 · 马斯克合作推进 Terafab 项目。Terafab 是这位亿万富翁进军尖端芯片生产领域的一项大胆尝试。",
+        "category": "stock",
+        "date": "2026-10-08",
+        "title": "工信部：2026 年 1-8 月我国电子信息制造业营收 12.8 万亿元，同比增长 20.1% ，利润总额同比增 1.1 倍",
+        "summary": "工信部近日发布 2026 年 1—8 月份电子信息制造业运行情况，2026 年 1-8 月，我国电子信息制造业生产快速增长，出口持续上行，效益改善态势稳固，投资保持稳步增长，行业整体发展态势良好。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/202.htm"
+        "link": "https://www.ithome.com/1/010/546.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-10-07",
-        "title": "保时捷公布全新战略：将推出定位高于 911 的中置引擎超跑",
-        "summary": "保时捷（Porsche AG）计划开发定位高于 911 的中置引擎跑车，以此进一步向上拓展高端市场，扭转当前利润疲软的局面。",
+        "date": "2026-10-08",
+        "title": "工信部：今年 1—8 月，我国规模以上互联网企业利润总额同比增长 12.7%",
+        "summary": "工信部今日发布 2026 年 1—8 月份互联网和相关服务业运行情况，1—8 月份，互联网业务收入保持平稳增长，利润总额增速加快，研发经费投入保持高速增长。一、总体运行情况互联网业务收入保持平稳增长。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/211.htm"
-    },
-    {
-        "id": "news-011",
-        "category": "stock",
-        "date": "2026-10-07",
-        "title": "LG 电子 2026 财年第三财季营收 238270 亿韩元，同比增长 8.9%",
-        "summary": "LG 电子今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）业绩快报报告：营业总收入：238,270 亿韩元（IT之家注：现汇率约合 1,181.34 亿元人民币...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/163.htm"
-    },
-    {
-        "id": "news-012",
-        "category": "stock",
-        "date": "2026-10-07",
-        "title": "库克高位减持苹果股票，套现超 6000 万美元",
-        "summary": "苹果董事会执行主席蒂姆 · 库克于 10 月 2 日出售了总价约 6,380 万美元（IT之家注：现汇率约合 4.28 亿元人民币）的公司普通股。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/162.htm"
+        "link": "https://www.ithome.com/1/010/471.htm"
     }
 ]
 };
