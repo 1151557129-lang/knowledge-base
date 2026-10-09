@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-08 07:44:53
+// 自动生成于 2026-10-09 07:41:22
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-08",
-        "title": "消息称安卓阔直板手机排期是 2027 年底至 2028 年上半年，立项阶段有主打影像、中端、性能等机型",
-        "summary": "博主 @数码闲聊站 今日发文透露，安卓阵营的阔直板手机，O（预计指 OPPO）大概率第一个上，h（预计指荣耀）第二个上。他表示，剩下几家进度较缓慢，目前排期是 2027 年底至 2028 年上半年。",
+        "date": "2026-10-09",
+        "title": "小米智能摄像机 3 开售：500 万像素、6 种 AI 灵敏检测，首销 179 元",
+        "summary": "小米智能摄像机 3 今日开售，500 万像素，升级 3K 超清画质，支持红外夜视，首销 179 元。IT之家从商品页面获悉，该产品搭载 F1.6 大光圈镜头，高进光量可有效抑制画面噪点，画面通透锐利，呈现 3K 超清影像。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/558.htm"
+        "link": "https://www.ithome.com/1/010/994.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-10-08",
-        "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
-        "summary": "腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。",
+        "category": "xiaomi",
+        "date": "2026-10-09",
+        "title": "消息称某子系旗舰线开案 7 英寸 2K 大直屏，预计归属小米 REDMI K200 系列",
+        "summary": "博主 @数码闲聊站 发文，透露某神秘“子系旗舰线”开案一块 7 英寸 2K 大直屏，支持超高刷，支持 LIPO 四等边技术，该机定位为“七英寸大旗舰”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/562.htm"
+        "link": "https://www.ithome.com/1/010/984.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-10-08",
-        "title": "OpenAI 奥尔特曼：世界应接受 AI 带来的部分“坏事”以换取巨大红利",
-        "summary": "在接受 Politico 新播客《Decoded》首期节目采访时，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）表示，世界应接受人工智能带来的部分“坏事”，以换取技术带来的巨大益处与用户自主权。",
+        "category": "xiaomi",
+        "date": "2026-10-09",
+        "title": "小米米家智能洗碗机独嵌两用 18 套开售，新品首发价 3599 元",
+        "summary": "小米米家智能洗碗机独嵌两用 18 套今日开售，新品首发价 3599 元。IT之家从商品页面获悉，该产品搭载三重传感智能感知，智能识污、智能感温、智能控湿，精准调控洗烘全流程，整机性能优于国家新一级水效基准。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/561.htm"
+        "link": "https://www.ithome.com/1/010/959.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-08",
-        "title": "微星尊爵 Prestige N16 Flip AI+ 发布：RTX Spark 翻转本，16 日开售",
-        "summary": "微星 (MSI) 今日正式发布了其基于 NVIDIA RTX Spark 超级芯片的尊爵 Prestige N16 Flip AI+ 可翻转笔记本电脑，该产品将于 16 日开售。",
+        "date": "2026-10-09",
+        "title": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
+        "summary": "极米今日宣布记得 AI 显示眼镜 MemoMind One 超前预约正式开启，搭载蔡司定制光学镜片、哈曼联合调音、Memo 记忆等。IT之家从官方海报获悉，该产品搭载蔡司显示系列翎思镜片，采用黄金比例配重，提供三种框型可选。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/547.htm"
+        "link": "https://www.ithome.com/1/010/967.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-10-08",
-        "title": "“芯片上车”不赚钱，消息称三星将退出车载应用处理器业务",
-        "summary": "当地时间 6 日，韩媒《文化日报》爆料称，三星负责芯片设计的系统 LSI 事业部启动大规模调整。该部门被视为三星半导体复兴的“最后一块拼图”，负责设计智能手机、汽车、机器人等设备的核心系统芯片。",
+        "category": "ai",
+        "date": "2026-10-09",
+        "title": "Anthropic Claude 现已支持数据仪表板与解释性动画功能",
+        "summary": "Anthropic 当地时间昨日宣布 Claude 人工智能现已支持 Dashboards 数Claude Dashboards：连接至公司的数用户仅需用自然语言提出问题，Claude 便会构建会自动更新的数Claude Motion：C...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/555.htm"
+        "link": "https://www.ithome.com/1/010/962.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-10-08",
-        "title": "一加 x 京东方第四代东方屏技术沟通会明日举行",
-        "summary": "一加 x 京东方第四代东方屏技术沟通会宣布将于 10 月 9 日 10:00 线上直播，号称“把屏幕的「通透显示」、「画面流畅」、「动态清晰」同时推到新高度”。",
+        "category": "ai",
+        "date": "2026-10-09",
+        "title": "66.1 分登顶：Odyssey-3 基础世界模型登场，AI 开始理解真实世界",
+        "summary": "Odyssey 昨日（10 月 8 日）发布博文，宣布推出 Odyssey-3 系列基础世界模型，其 Odyssey-3 Pro 在 Physics-IQ Verified 视频到视频基准测试中取得 66.1 分，创该榜单最高纪录。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/554.htm"
+        "link": "https://www.ithome.com/1/010/954.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-08",
-        "title": "台积电 9 月营收 5118.6 亿新台币，同比增长 54.6%",
-        "summary": "台积电今日发布公告，2026 年 9 月营收 5,118.6 亿元新台币（IT之家注：现汇率约合 1,077.47 亿元人民币），环比下降 0.6%，同比增长 54.6%。",
+        "date": "2026-10-09",
+        "title": "雷神黑武士“JQ24F260L-GT”23.8 英寸显示器发售：2K 260Hz，支持硬件圆偏光护眼，1110 元",
+        "summary": "雷神黑武士“JQ24F260L-GT”23.8 英寸显示器现已在京东发售，该机为 2K 260Hz 规格，相对于先前“JQ24F260L”型号主要升级硬件圆偏光和全向支架，定价为 1110 元，部分地区国补后低至 999 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/463.htm"
+        "link": "https://www.ithome.com/1/010/988.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-10-08",
-        "title": "江淮汽车股价跌停，投资者关系部门回应尊界 V800 测试称“出厂前都有品控流程”",
-        "summary": "今日稍早些时候，懂车帝实测 3 台尊界 V800，称在 100km/h-0 紧急制动时刹车踏板支架被踩断，引发网络热议。IT之家注意到，事件发酵后，江淮汽车今日上午股价跌停，收盘 24.72 元 / 股。",
+        "category": "display",
+        "date": "2026-10-09",
+        "title": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
+        "summary": "ViewSonic（优派）今年 7 月推出的“VG2782Z-4K”26.5 英寸显示器国行现已在京东发售，该产品主打 4K 120Hz QD-OLED，定价为 5262 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/560.htm"
+        "link": "https://www.ithome.com/1/010/983.htm"
     },
     {
         "id": "news-009",
-        "category": "stock",
-        "date": "2026-10-08",
-        "title": "工信部：2026 年 1-8 月我国电子信息制造业营收 12.8 万亿元，同比增长 20.1% ，利润总额同比增 1.1 倍",
-        "summary": "工信部近日发布 2026 年 1—8 月份电子信息制造业运行情况，2026 年 1-8 月，我国电子信息制造业生产快速增长，出口持续上行，效益改善态势稳固，投资保持稳步增长，行业整体发展态势良好。",
+        "category": "display",
+        "date": "2026-10-09",
+        "title": "泰坦军团“P326MV Ultra”31.5 英寸 4K 200Hz / FHD 400Hz 双模显示器首销：2200 尼特亮度 + 双扬，3888 元",
+        "summary": "泰坦军团旗下“P326MV Ultra”31.5 英寸显示器现已在京东首销，该机主打 4K 200Hz / 1080P 400Hz 双模 QD-Mini LED，定价为 4410 元，首发价 3888 元，部分地区国补后低至 3499.2...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/546.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-10-08",
-        "title": "工信部：今年 1—8 月，我国规模以上互联网企业利润总额同比增长 12.7%",
-        "summary": "工信部今日发布 2026 年 1—8 月份互联网和相关服务业运行情况，1—8 月份，互联网业务收入保持平稳增长，利润总额增速加快，研发经费投入保持高速增长。一、总体运行情况互联网业务收入保持平稳增长。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/471.htm"
+        "link": "https://www.ithome.com/1/010/956.htm"
     }
 ]
 };
