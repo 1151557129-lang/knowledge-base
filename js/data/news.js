@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-09 07:41:22
+// 自动生成于 2026-10-10 07:27:56
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-09",
-        "title": "小米智能摄像机 3 开售：500 万像素、6 种 AI 灵敏检测，首销 179 元",
-        "summary": "小米智能摄像机 3 今日开售，500 万像素，升级 3K 超清画质，支持红外夜视，首销 179 元。IT之家从商品页面获悉，该产品搭载 F1.6 大光圈镜头，高进光量可有效抑制画面噪点，画面通透锐利，呈现 3K 超清影像。",
+        "date": "2026-10-10",
+        "title": "一加 16 旗舰配置公布：首次支持三频 GPS + 四频北斗，一加最多信号频段",
+        "summary": "一加 16 手机将于 10 月 12 日 19:00 发布，官方今日公布新品的部分旗舰配置。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/994.htm"
+        "link": "https://www.ithome.com/1/011/386.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-09",
-        "title": "消息称某子系旗舰线开案 7 英寸 2K 大直屏，预计归属小米 REDMI K200 系列",
-        "summary": "博主 @数码闲聊站 发文，透露某神秘“子系旗舰线”开案一块 7 英寸 2K 大直屏，支持超高刷，支持 LIPO 四等边技术，该机定位为“七英寸大旗舰”。",
+        "date": "2026-10-10",
+        "title": "荣耀 Earbuds X10 蓝牙耳机上架：12.4mm 动圈、41 小时综合续航",
+        "summary": "荣耀现已在京东上架 Earbuds X10 蓝牙耳机，不过尚未公布该耳机具体价格信息。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/984.htm"
+        "link": "https://www.ithome.com/1/011/354.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-10-09",
-        "title": "小米米家智能洗碗机独嵌两用 18 套开售，新品首发价 3599 元",
-        "summary": "小米米家智能洗碗机独嵌两用 18 套今日开售，新品首发价 3599 元。IT之家从商品页面获悉，该产品搭载三重传感智能感知，智能识污、智能感温、智能控湿，精准调控洗烘全流程，整机性能优于国家新一级水效基准。",
+        "date": "2026-10-10",
+        "title": "小米米家空调速冷静 2027 大 1.5 匹预售：APF 5.3、双排蒸发器，1899 元",
+        "summary": "小米米家空调速冷静 2027 大 1.5 匹现已开启预售，售价 1899 元，国补到手价 1614.15 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/959.htm"
+        "link": "https://www.ithome.com/1/011/328.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-09",
-        "title": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
-        "summary": "极米今日宣布记得 AI 显示眼镜 MemoMind One 超前预约正式开启，搭载蔡司定制光学镜片、哈曼联合调音、Memo 记忆等。IT之家从官方海报获悉，该产品搭载蔡司显示系列翎思镜片，采用黄金比例配重，提供三种框型可选。",
+        "date": "2026-10-10",
+        "title": "中国企业首次：小鹏集团当选联合国自动驾驶工作组秘书长",
+        "summary": "小鹏汽车官微今天（10 日）下午宣布，近日，小鹏集团当选联合国欧洲经济委员会（UNECE）GRVA / WP.29 框架下，新设“自动驾驶场景相关信息交换工作组”（TF-ESRI）秘书长。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/967.htm"
+        "link": "https://www.ithome.com/1/011/388.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-09",
-        "title": "Anthropic Claude 现已支持数据仪表板与解释性动画功能",
-        "summary": "Anthropic 当地时间昨日宣布 Claude 人工智能现已支持 Dashboards 数Claude Dashboards：连接至公司的数用户仅需用自然语言提出问题，Claude 便会构建会自动更新的数Claude Motion：C...。",
+        "date": "2026-10-10",
+        "title": "北京：增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给",
+        "summary": "北京市人民政府现已印发《北京市“十五五”时期深化国际消费中心城市建设规划》。IT之家注意到，文件中提到，有关部门将深入推进“人工智能 + 消费”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/962.htm"
+        "link": "https://www.ithome.com/1/011/376.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-10-09",
-        "title": "66.1 分登顶：Odyssey-3 基础世界模型登场，AI 开始理解真实世界",
-        "summary": "Odyssey 昨日（10 月 8 日）发布博文，宣布推出 Odyssey-3 系列基础世界模型，其 Odyssey-3 Pro 在 Physics-IQ Verified 视频到视频基准测试中取得 66.1 分，创该榜单最高纪录。",
+        "date": "2026-10-10",
+        "title": "网文实体书籍内曝出“AI 回复内容”，出版社回应“将回收销毁已发出书籍，重新修订”",
+        "summary": "近日，有网友称，自己在阅读《终焉路独行》这本网络文学作品实体版书籍时，发现正文里竟横插了一句“需要我再微调部分语句，让整体文风更贴合悬疑灵异的氛围吗。”典型 AI 回复内容。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/954.htm"
+        "link": "https://www.ithome.com/1/011/352.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-09",
-        "title": "雷神黑武士“JQ24F260L-GT”23.8 英寸显示器发售：2K 260Hz，支持硬件圆偏光护眼，1110 元",
-        "summary": "雷神黑武士“JQ24F260L-GT”23.8 英寸显示器现已在京东发售，该机为 2K 260Hz 规格，相对于先前“JQ24F260L”型号主要升级硬件圆偏光和全向支架，定价为 1110 元，部分地区国补后低至 999 元。",
+        "date": "2026-10-10",
+        "title": "飞利浦“25M3N3240P”24 英寸显示器发售：1080P 280Hz，599 元",
+        "summary": "飞利浦现已在京东上架型号为“25M3N3240P”的 24 英寸显示器，该机主打 1080P 280Hz，定价为 599 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/988.htm"
+        "link": "https://www.ithome.com/1/011/387.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-09",
-        "title": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
-        "summary": "ViewSonic（优派）今年 7 月推出的“VG2782Z-4K”26.5 英寸显示器国行现已在京东发售，该产品主打 4K 120Hz QD-OLED，定价为 5262 元。",
+        "date": "2026-10-10",
+        "title": "泰坦军团“P276MS PRO”27 英寸显示器发售：2K 345Hz 超频 QD-Mini LED，1888 元",
+        "summary": "泰坦军团旗下“P276MS PRO”27 英寸显示器现已在京东发售，该机主打 2K 345Hz，定价为 1888 元，部分地区国补后低至 1587.6 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/983.htm"
+        "link": "https://www.ithome.com/1/011/385.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-10-09",
-        "title": "泰坦军团“P326MV Ultra”31.5 英寸 4K 200Hz / FHD 400Hz 双模显示器首销：2200 尼特亮度 + 双扬，3888 元",
-        "summary": "泰坦军团旗下“P326MV Ultra”31.5 英寸显示器现已在京东首销，该机主打 4K 200Hz / 1080P 400Hz 双模 QD-Mini LED，定价为 4410 元，首发价 3888 元，部分地区国补后低至 3499.2...。",
+        "date": "2026-10-10",
+        "title": "外媒调查显示消费者普遍认为苹果 iPhone Duo 偏贵，摄像头表现仍有改进空间",
+        "summary": "外媒 Android Authority 近期就苹果 iPhone Duo 发起一场投票活动，共收集了 1000 多名海外读者的投票结果。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/010/956.htm"
+        "link": "https://www.ithome.com/1/011/360.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-10-10",
+        "title": "Marvell 大胆预测： 2031 财年营收可达 2026 财年 10 倍左右",
+        "summary": "Marvell（美满）当地时间本月 6 日在其年度投资者日活动上发布强劲预测，认为其营收水平有望在 2031 财年（2030 年 2 月 ~ 2031 年 1 月）达到 700~900 亿美元（IT之家注：现汇率约合 4,694.53 ~...。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/011/364.htm"
     }
 ]
 };
