@@ -7,7 +7,7 @@ const INTERESTS_DATA = {
     id: 'sports',
     title: '运动',
     icon: '🏃',
-    desc: '热爱运动，篮球与拳击，在汗水中感受成长与快乐',
+    desc: '热爱运动，在汗水中感受成长与快乐',
     banner: 'linear-gradient(135deg, #f97316, #ea580c)',
     articles: [
       { title: 'NBA 2026-27 赛季观赛指南', date: '2026-10', link: 'https://www.espn.com/nba/story/_/id/49869446/nba-preview-2026-27-tiering-30-teams-where-knicks-spurs-lakers-warriors-76ers-celtics-check-in', desc: '新赛季30队实力分层与各队阵容变化前瞻' },
@@ -16,17 +16,14 @@ const INTERESTS_DATA = {
       { title: '后卫基本功训练清单', date: '2026-03', link: '#', desc: '运球、传球、投篮每日训练计划' }
     ]
   },
-  boxing: {
-    id: 'boxing',
-    title: '拳击',
-    icon: '🥊',
-    desc: '拳击不仅是运动，更是一种意志力的磨练',
-    banner: 'linear-gradient(135deg, #ef4444, #b91c1c)',
+  reading: {
+    id: 'reading',
+    title: '阅读',
+    icon: '📚',
+    desc: '阅读，与文字对话，在书中遇见更广阔的世界',
+    banner: 'linear-gradient(135deg, #10b981, #059669)',
     articles: [
-      { title: '拳击入门：从零开始学拳击', date: '2026-06', link: 'https://tyfw.jschina.com.cn/zt/jstisgyxl/mzyl/202112/t20211229_2921196.shtml', desc: '全运会冠军陈大祥带你走进拳击世界' },
-      { title: '拳击训练对工作压力的缓解', date: '2026-05', link: '#', desc: '为什么打拳是最好的解压方式' },
-      { title: '拳击基础拳法组合详解', date: '2026-04', link: '#', desc: '直拳、摆拳、勾拳的基本组合' },
-      { title: '拳击体能训练计划', date: '2026-03', link: '#', desc: '跳绳、空击、沙袋训练安排' }
+      { title: '你终究要改变 | 韩寒2016上海演讲', date: '2026-10', link: 'https://mp.weixin.qq.com/s/5_hCgX94MyrKLlGhH4Hu8g', desc: '关于改变、成长与坚持' }
     ]
   },
   music: {
