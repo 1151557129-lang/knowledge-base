@@ -252,20 +252,23 @@ class PersonalSite {
 
     document.getElementById('modalIcon').textContent = interest.icon;
     document.getElementById('modalTitle').textContent = interest.title + ' - 文章合集';
+    const articleListHtml = interest.articles.length === 0
+      ? `<p style="color:var(--text-secondary);text-align:center;padding:2rem 0;">暂无文章，敬请期待</p>`
+      : `<div class="article-list">
+          ${interest.articles.map(article => `
+            <a href="${article.link}" class="article-item" target="_blank">
+              <span class="article-icon">📄</span>
+              <div class="article-info">
+                <div class="article-title">${article.title}</div>
+                <div class="article-meta">${article.date} · ${article.desc}</div>
+              </div>
+              <span class="article-arrow">↗</span>
+            </a>
+          `).join('')}
+        </div>`;
     document.getElementById('modalBody').innerHTML = `
       <p style="color:var(--text-secondary);margin-bottom:1rem;">${interest.desc}</p>
-      <div class="article-list">
-        ${interest.articles.map(article => `
-          <a href="${article.link}" class="article-item" target="_blank">
-            <span class="article-icon">📄</span>
-            <div class="article-info">
-              <div class="article-title">${article.title}</div>
-              <div class="article-meta">${article.date} · ${article.desc}</div>
-            </div>
-            <span class="article-arrow">↗</span>
-          </a>
-        `).join('')}
-      </div>
+      ${articleListHtml}
     `;
 
     this.showModal();
