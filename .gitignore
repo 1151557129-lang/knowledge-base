@@ -3,3 +3,10 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# 日志文件
+scripts/*.log
+
+# Python
+__pycache__/
+*.pyc
