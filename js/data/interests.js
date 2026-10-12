@@ -10,7 +10,7 @@ const INTERESTS_DATA = {
     desc: '热爱运动，在汗水中感受成长与快乐',
     banner: 'linear-gradient(135deg, #f97316, #ea580c)',
     articles: [
-      { title: 'NBA 2026-27 赛季观赛指南', date: '2026-10', link: 'https://www.espn.com/nba/story/_/id/49869446/nba-preview-2026-27-tiering-30-teams-where-knicks-spurs-lakers-warriors-76ers-celtics-check-in', desc: '新赛季30队实力分层与各队阵容变化前瞻' }
+      { title: '旧时代的残党新时代的船，NBA26-27赛季观赛指南', date: '2026-10', link: 'https://mp.weixin.qq.com/s/AvnFNU6Z6wkFzLAAeUY1xg', desc: '新老交替的赛季，各队阵容与看点前瞻' }
     ]
   },
   reading: {
