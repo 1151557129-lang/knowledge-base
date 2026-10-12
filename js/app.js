@@ -5,6 +5,7 @@
 class PersonalSite {
   constructor() {
     this.modalStack = [];
+    this.lastFocused = null;
     this.init();
   }
 
@@ -41,6 +42,7 @@ class PersonalSite {
 
     grid.querySelectorAll('.knowledge-card').forEach(card => {
       card.addEventListener('click', () => this.openKnowledgeModule(card.dataset.module));
+      this.makeCardAccessible(card);
     });
   }
 
@@ -67,6 +69,7 @@ class PersonalSite {
 
     document.getElementById('modalBody').querySelectorAll('.modal-category-item').forEach(item => {
       item.addEventListener('click', () => this.openKnowledgeCategory(moduleId, item.dataset.category));
+      this.makeCardAccessible(item);
     });
 
     this.showModal();
@@ -99,6 +102,7 @@ class PersonalSite {
 
     document.getElementById('modalBody').querySelectorAll('.modal-topic-item').forEach(item => {
       item.addEventListener('click', () => this.openKnowledgeTopic(moduleId, categoryId, item.dataset.topic));
+      this.makeCardAccessible(item);
     });
 
     this.scrollToModalTop();
@@ -178,6 +182,7 @@ class PersonalSite {
 
     listEl.querySelectorAll('.news-group').forEach(group => {
       group.addEventListener('click', () => this.openNewsCategory(group.dataset.category));
+      this.makeCardAccessible(group);
     });
 
     const toggleBtn = document.getElementById('toggleNews');
@@ -234,6 +239,7 @@ class PersonalSite {
 
     grid.querySelectorAll('.interest-mini').forEach(card => {
       card.addEventListener('click', () => this.openInterestDetail(card.dataset.interest));
+      this.makeCardAccessible(card);
     });
   }
 
@@ -286,6 +292,7 @@ class PersonalSite {
 
     grid.querySelectorAll('.project-mini').forEach(card => {
       card.addEventListener('click', () => this.openProjectDetail(card.dataset.project));
+      this.makeCardAccessible(card);
     });
   }
 
@@ -308,6 +315,7 @@ class PersonalSite {
   // ============================================
   setupModal() {
     const overlay = document.getElementById('modalOverlay');
+    const modal = document.getElementById('modal');
     const closeBtn = document.getElementById('modalClose');
 
     closeBtn.addEventListener('click', () => this.hideModal());
@@ -316,25 +324,58 @@ class PersonalSite {
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && overlay.classList.contains('active')) {
+      if (!overlay.classList.contains('active')) return;
+
+      // Esc 关闭（多层时返回上一层）
+      if (e.key === 'Escape') {
         if (this.modalStack.length > 1) {
           this.modalGoBack();
         } else {
           this.hideModal();
         }
       }
+
+      // 焦点陷阱：Tab 在模态框内循环
+      if (e.key === 'Tab') {
+        const focusable = modal.querySelectorAll(
+          'button, a[href], a[tabindex], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
   }
 
   showModal() {
+    // 记录触发元素，关闭时恢复焦点
+    this.lastFocused = document.activeElement;
     document.getElementById('modalOverlay').classList.add('active');
     document.body.style.overflow = 'hidden';
+    // 焦点移到关闭按钮
+    setTimeout(() => {
+      const closeBtn = document.getElementById('modalClose');
+      if (closeBtn) closeBtn.focus();
+    }, 50);
   }
 
   hideModal() {
     document.getElementById('modalOverlay').classList.remove('active');
     document.body.style.overflow = '';
     this.modalStack = [];
+    // 焦点返回到触发元素
+    if (this.lastFocused && typeof this.lastFocused.focus === 'function') {
+      this.lastFocused.focus();
+      this.lastFocused = null;
+    }
   }
 
   scrollToModalTop() {
@@ -370,7 +411,7 @@ class PersonalSite {
       }
 
       if (index < this.modalStack.length - 1) {
-        return `<a data-index="${index}">${label}</a><span class="sep">›</span>`;
+        return `<a data-index="${index}" role="button" tabindex="0">${label}</a><span class="sep">›</span>`;
       }
       return `<span>${label}</span>`;
     });
@@ -378,8 +419,14 @@ class PersonalSite {
     breadcrumb.innerHTML = labels.join('');
 
     breadcrumb.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        this.modalNavigateTo(parseInt(link.dataset.index));
+      const navigate = () => this.modalNavigateTo(parseInt(link.dataset.index));
+      link.addEventListener('click', navigate);
+      // 键盘访问（Enter/Space）
+      link.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          navigate();
+        }
       });
     });
   }
@@ -480,6 +527,20 @@ class PersonalSite {
         toggle.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
         toggle.setAttribute('aria-label', '打开菜单');
+      }
+    });
+  }
+
+  // ============================================
+  // 无障碍：让可点击卡片支持键盘操作
+  // ============================================
+  makeCardAccessible(el) {
+    el.setAttribute('role', 'button');
+    el.setAttribute('tabindex', '0');
+    el.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        el.click();
       }
     });
   }

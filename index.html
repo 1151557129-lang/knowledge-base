@@ -231,13 +231,13 @@
 
   <!-- 模态框 -->
   <div class="modal-overlay" id="modalOverlay">
-    <div class="modal" id="modal">
-      <button class="modal-close" id="modalClose">&times;</button>
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <button class="modal-close" id="modalClose" aria-label="关闭弹窗">&times;</button>
       <div class="modal-header">
-        <span class="modal-icon" id="modalIcon"></span>
+        <span class="modal-icon" id="modalIcon" aria-hidden="true"></span>
         <h2 class="modal-title" id="modalTitle"></h2>
       </div>
-      <div class="modal-breadcrumb" id="modalBreadcrumb"></div>
+      <div class="modal-breadcrumb" id="modalBreadcrumb" aria-label="面包屑导航"></div>
       <div class="modal-body" id="modalBody"></div>
     </div>
   </div>
