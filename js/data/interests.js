@@ -3,14 +3,14 @@
 // ============================================
 
 const INTERESTS_DATA = {
-  basketball: {
-    id: 'basketball',
-    title: '篮球',
-    icon: '🏀',
-    desc: '热爱篮球，享受运动带来的快乐和团队精神',
+  sports: {
+    id: 'sports',
+    title: '运动',
+    icon: '🏃',
+    desc: '热爱运动，篮球与拳击，在汗水中感受成长与快乐',
     banner: 'linear-gradient(135deg, #f97316, #ea580c)',
     articles: [
-      { title: 'NBA 2025-26 赛季观赛指南', date: '2026-06', link: '#', desc: '新赛季各队阵容变化和值得关注的球员' },
+      { title: 'NBA 2026-27 赛季观赛指南', date: '2026-10', link: 'https://www.espn.com/nba/story/_/id/49869446/nba-preview-2026-27-tiering-30-teams-where-knicks-spurs-lakers-warriors-76ers-celtics-check-in', desc: '新赛季30队实力分层与各队阵容变化前瞻' },
       { title: '投篮姿势矫正心得', date: '2026-05', link: '#', desc: '从二段式到一段式的转变过程' },
       { title: '野球场打球的礼仪与潜规则', date: '2026-04', link: '#', desc: '那些老球皮才知道的事' },
       { title: '后卫基本功训练清单', date: '2026-03', link: '#', desc: '运球、传球、投篮每日训练计划' }
@@ -23,7 +23,7 @@ const INTERESTS_DATA = {
     desc: '拳击不仅是运动，更是一种意志力的磨练',
     banner: 'linear-gradient(135deg, #ef4444, #b91c1c)',
     articles: [
-      { title: '拳击入门：从零开始学拳击', date: '2026-06', link: '#', desc: '新手拳击入门完全指南' },
+      { title: '拳击入门：从零开始学拳击', date: '2026-06', link: 'https://tyfw.jschina.com.cn/zt/jstisgyxl/mzyl/202112/t20211229_2921196.shtml', desc: '全运会冠军陈大祥带你走进拳击世界' },
       { title: '拳击训练对工作压力的缓解', date: '2026-05', link: '#', desc: '为什么打拳是最好的解压方式' },
       { title: '拳击基础拳法组合详解', date: '2026-04', link: '#', desc: '直拳、摆拳、勾拳的基本组合' },
       { title: '拳击体能训练计划', date: '2026-03', link: '#', desc: '跳绳、空击、沙袋训练安排' }
