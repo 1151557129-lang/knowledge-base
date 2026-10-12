@@ -15,6 +15,7 @@ class PersonalSite {
     this.renderProjects();
     this.setupModal();
     this.setupNavScroll();
+    this.setupMobileMenu();
   }
 
   // ============================================
@@ -441,6 +442,44 @@ class PersonalSite {
           if (activeLink) activeLink.classList.add('active');
           break;
         }
+      }
+    });
+  }
+
+  // ============================================
+  // 移动端汉堡菜单
+  // ============================================
+  setupMobileMenu() {
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('heroNavLinks');
+    if (!toggle || !links) return;
+
+    // 切换菜单开合
+    toggle.addEventListener('click', () => {
+      const isOpen = links.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggle.setAttribute('aria-label', isOpen ? '关闭菜单' : '打开菜单');
+    });
+
+    // 点击菜单项后关闭
+    links.querySelectorAll('.hero-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', '打开菜单');
+      });
+    });
+
+    // 点击菜单外区域关闭
+    document.addEventListener('click', (e) => {
+      if (!links.classList.contains('open')) return;
+      if (!toggle.contains(e.target) && !links.contains(e.target)) {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', '打开菜单');
       }
     });
   }

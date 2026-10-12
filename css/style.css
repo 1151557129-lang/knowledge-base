@@ -162,6 +162,46 @@ body {
   border-radius: 1px;
 }
 
+/* 汉堡菜单按钮（移动端，默认隐藏） */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.nav-toggle:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: white;
+  border-radius: 1px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* 汉堡按钮展开时变成 X */
+.nav-toggle.open .nav-toggle-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.nav-toggle.open .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.open .nav-toggle-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
 /* Hero 主内容（窄屏隐藏） */
 .hero-content {
   display: none;
@@ -1080,8 +1120,24 @@ body {
   .knowledge-grid { grid-template-columns: 1fr 1fr; }
 
   .hero { height: 56px; }
-  .hero-nav-links { gap: 0; }
-  .hero-nav-link { font-size: 0.7rem; padding: 0.25rem 0.4rem; }
+  .nav-toggle { display: flex; }
+  .hero-nav-links {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 1.5rem;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(11, 15, 26, 0.97);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 0.4rem;
+    min-width: 150px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+    display: none;
+    z-index: 100;
+  }
+  .hero-nav-links.open { display: flex; }
+  .hero-nav-link { font-size: 0.85rem; padding: 0.6rem 0.75rem; border-radius: 6px; }
   .hero-nav-tagline { display: none; }
 
   .about-exp-header { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
