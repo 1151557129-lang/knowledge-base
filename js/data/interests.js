@@ -26,19 +26,6 @@ const INTERESTS_DATA = {
       { title: '你终究要改变 | 韩寒2016上海演讲', date: '2026-10', link: 'https://mp.weixin.qq.com/s/5_hCgX94MyrKLlGhH4Hu8g', desc: '关于改变、成长与坚持' }
     ]
   },
-  music: {
-    id: 'music',
-    title: '音乐',
-    icon: '🎵',
-    desc: '用音乐治愈生活，从听众到创作者的探索',
-    banner: 'linear-gradient(135deg, #8b5cf6, #6d28d9)',
-    articles: [
-      { title: '2026 上半年最值得听的专辑', date: '2026-06', link: '#', desc: '个人年度专辑推荐' },
-      { title: '自学吉他半年的收获与心得', date: '2026-05', link: '#', desc: '从零基础到能弹唱的历程' },
-      { title: '通勤路上的播客与歌单推荐', date: '2026-04', link: '#', desc: '那些让通勤变得有趣的音频' },
-      { title: '独立音乐人推荐：宝藏歌手合集', date: '2026-03', link: '#', desc: '那些你可能没听过但很棒的音乐人' }
-    ]
-  },
   movie: {
     id: 'movie',
     title: '电影',
@@ -46,6 +33,7 @@ const INTERESTS_DATA = {
     desc: '光影之间，看尽人生百态',
     banner: 'linear-gradient(135deg, #0ea5e9, #0369a1)',
     articles: [
+      { title: '不只讲述爱情 | 《日出日落三部曲》', date: '2026-10', link: 'https://mp.weixin.qq.com/s/J1NItsnoJnLtP62NTp1QqA', desc: '爱在三部曲：爱情之外，关于时间与人生' },
       { title: '2026 上半年观影报告', date: '2026-06', link: '#', desc: '半年看了50部电影，这10部最推荐' },
       { title: '产品经理必看的10部电影', date: '2026-05', link: '#', desc: '从电影中学产品思维' },
       { title: '那些改变我世界观的电影', date: '2026-04', link: '#', desc: '关于人生、选择和意义' },
