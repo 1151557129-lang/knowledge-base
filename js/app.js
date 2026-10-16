@@ -308,7 +308,10 @@ class PersonalSite {
 
     document.getElementById('modalIcon').textContent = project.icon;
     document.getElementById('modalTitle').textContent = project.title;
-    document.getElementById('modalBody').innerHTML = project.details;
+    const linkHtml = project.link
+      ? `<a href="${project.link}" target="_blank" rel="noopener" class="project-detail-link">立即体验 ↗</a>`
+      : '';
+    document.getElementById('modalBody').innerHTML = linkHtml + project.details;
 
     this.showModal();
   }

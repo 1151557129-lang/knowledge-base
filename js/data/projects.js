@@ -38,11 +38,45 @@ const PROJECTS_DATA = [
       </ul>
       <h3>游戏列表</h3>
       <ol>
-        <li><strong>水果忍者</strong>：锻炼反应力和手眼协调 ✅ 已完成</li>
-        <li><strong>英文气泡</strong>：点击气泡学习英文字母</li>
-        <li><strong>颜色配对</strong>：翻牌配对游戏</li>
-        <li><strong>数字农场</strong>：通过农场主题学习数字</li>
+        <li><strong>宁宁切水果</strong>：锻炼反应力和手眼协调 ✅ 已上线 · <a href="https://1151557129-lang.github.io/fruit-ninja/" target="_blank" rel="noopener">立即体验 ↗</a></li>
+        <li><strong>英文气泡</strong>：点击气泡学习英文字母（待上线）</li>
+        <li><strong>颜色配对</strong>：翻牌配对游戏（待上线）</li>
+        <li><strong>数字农场</strong>：通过农场主题学习数字（待上线）</li>
       </ol>
+    `
+  },
+  {
+    id: 'fitness-guide',
+    icon: '💪',
+    title: '健身动作指导',
+    desc: '收录1324个健身动作，提供中文操作步骤，按身体部位和器械类型筛选，支持收藏和历史记录。',
+    features: [
+      '1324个动作，覆盖10个身体部位',
+      '28种器械类型筛选',
+      '中文操作步骤说明',
+      '收藏 + 浏览历史记录'
+    ],
+    status: 'online',
+    statusText: '已上线',
+    color: '#3b82f6',
+    bg: 'linear-gradient(135deg, #dbeafe, #bfdbfe)',
+    link: 'https://1151557129-lang.github.io/fitness-guide/',
+    details: `
+      <h3>项目简介</h3>
+      <p>基于开源数据集打造的健身动作指导工具，收录1324个健身动作，提供中文操作步骤，支持按身体部位和器械类型筛选。</p>
+      <h3>功能特点</h3>
+      <ul>
+        <li><strong>1324个动作</strong>：覆盖全身10个身体部位</li>
+        <li><strong>28种器械</strong>：按器械类型筛选动作</li>
+        <li><strong>中文指导</strong>：每个动作均有中文操作步骤</li>
+        <li><strong>收藏与历史</strong>：本地记录常用动作和浏览历史</li>
+      </ul>
+      <h3>技术栈</h3>
+      <ul>
+        <li>纯原生 HTML/CSS/JS，无构建工具</li>
+        <li>PWA：可添加到主屏幕、离线可用</li>
+        <li>数据源：hasaneyldrm/exercises-dataset（MIT协议）</li>
+      </ul>
     `
   },
   {
