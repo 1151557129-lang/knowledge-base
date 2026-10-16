@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-15 06:08:18
+// 自动生成于 2026-10-16 06:04:59
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-14",
-        "title": "小米手机 11.11 开启：17 Pro / Max 立减 1500 元，MIX Flip2 折叠屏 5999 → 2719 元新低",
-        "summary": "小米 17 系列京东 11.11 狂促今日开启，至高享 12 期分期免息，折后均为好价。京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次：点此抽取。",
+        "date": "2026-10-16",
+        "title": "小米米家空调速冷静 2027 大 1.5 匹开售：APF 5.3、双排蒸发器，1799 元",
+        "summary": "小米米家空调速冷静 2027 大 1.5 匹现已开售，售价 1799 元，国补到手价 1529.15 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/123.htm"
+        "link": "https://www.ithome.com/1/013/867.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-15",
-        "title": "苹果首款智能家居中枢 HomeView 自带温 / 湿度传感器，能与 LG / 施耐德恒温器同步环境数据",
-        "summary": "科技媒体 MacRumors 今天（10 月 15 日）发布博文，报道称苹果首款智能家居中枢 HomeView 内置温度和湿度传感器，可以监测室内状况，并将读数共享给 LG 电子和施耐德电气的新型恒温器。",
+        "date": "2026-10-16",
+        "title": "小米 REDMI Turbo 6/Max 手机曝光：内部代号 sofia / denver，有望 2027Q1 发布",
+        "summary": "科技媒体 ximitime 昨日（10 月 15 日）发布博文，通过挖掘 Mi Code 代码，发现了 REDMI Turbo 6 及 REDMI Turbo 6 Max 两款手机的踪迹。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/265.htm"
+        "link": "https://www.ithome.com/1/013/862.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-10-15",
-        "title": "小米澎湃 OS 4 首批正式版开启推送，覆盖小米 17 系列、REDMI K100/K90 系列等",
-        "summary": "小米澎湃 OS 4 正式版今日开启首批推送，覆盖小米 17 系列、REDMI K100/K90 系列、小米平板 8 系列。",
+        "date": "2026-10-16",
+        "title": "卢伟冰晒小米 REDMI K100 真机，称将把旗舰的起点再往上提高一大步",
+        "summary": "今天（16 日）上午，小米集团合伙人、总裁，手机部总裁、小米品牌总经理卢伟冰在B站发视频进一步预告 REDMI K100 标准版新机，并放出了绿色的真机外观。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/261.htm"
+        "link": "https://www.ithome.com/1/013/847.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-15",
-        "title": "苹果首款折叠 iPhone Duo 跑分曝光：iPhone 18 Pro 同款 6 核 4.93GHz CPU",
-        "summary": "型号为“iPhone19,4”的苹果手机昨日（10 月 14 日）现身 GeekBench 跑分库，目前显示关于 CPU、GPU 和 AI 的多条跑分记录。基于苹果型号列表等信息，该手机关联苹果首款折叠 iPhone Duo。",
+        "date": "2026-10-16",
+        "title": "Ternary Bonsai 2 系列 AI 模型登场：苹果 iPhone 18 Pro Max 上本地吞吐最高每秒 120 个词元",
+        "summary": "AI 公司 PrismML 昨日（10 月 15 日）发布博文，宣布推出 Ternary Bonsai 2 系列模型，共有 2B、4B 和 9B 三种规模，目标在手机、PC 以及可穿戴设备上本地运行 AI 智能体，执行推理、识图、调用工具...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/360.htm"
+        "link": "https://www.ithome.com/1/013/894.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-15",
-        "title": "三星电子首席设计官波尔奇尼：AI 时代，人的创造力才是产品设计核心竞争力",
-        "summary": "三星电子设备体验（DX）事业部总裁兼首席设计官毛罗 · 波尔奇尼称，三星坚持以人为本的设计理念，将 AI 与人的情感智能、想象力相结合。",
+        "date": "2026-10-16",
+        "title": "东风风神 L8+ 将于 10 月 23 日上市，搭载 Momenta R7 世界模型",
+        "summary": "东风风神 L8+ 将于 10 月 23 日正式上市。新车搭载天元智驾 T800，采用 Momenta R7 世界模型，配备英伟达 Thor-U 芯片，算力可达 700TOPS，支持城市和高速 NOA。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/359.htm"
+        "link": "https://www.ithome.com/1/013/846.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-10-15",
-        "title": "微软办公 AI 智能体技术突破：不换模型响应提速 400%，词元消耗减 30%",
-        "summary": "科技媒体 NeoWin 今天（10 月 15 日）发布博文，报道称在企业内部知识密集型场景下，微软为 Copilot 等 AI 智能体带来技术突破，不升级底层大模型的前提下，AI 智能体响应速度提升至原来的 4 倍，同时词元（Token）...。",
+        "date": "2026-10-16",
+        "title": "本季度上市：比亚迪第三代唐将首搭全新巨幕 UI 交互系统，还有 AI 萌宠桌面",
+        "summary": "今天（16 日）上午，比亚迪王朝网销售事业部总经理路天在微博发文预告第三代唐将首发搭载的全新巨幕 UI 交互系统。根该车将拥有“非常有生命感”的 AI 萌宠桌面，官方命名为“小面包”，会看、会听、会迎宾、会撒娇、能卖萌，有呼必应。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/357.htm"
+        "link": "https://www.ithome.com/1/013/844.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-15",
-        "title": "台积电 2026 年第三季度净利润 7630.6 亿元新台币，同比增长 68.7%",
-        "summary": "台积电今日发布公告，截至 2026 年 9 月 30 日的第三季度：合并收入 14,942.4 亿元新台币（IT之家注：现汇率约合 3,109.51 亿元人民币），同比增长 50.9%，环比增长 17.6%；净利润 7,630.6 亿元新...。",
+        "date": "2026-10-16",
+        "title": "三星验证阶段高通新旗舰芯片“发烧”：时隔 5 年 Galaxy S27 Ultra 手机有望回归使用 Exynos 2700",
+        "summary": "数码博主 @i冰宇宙 今天（10 月 16 日）援引《首尔经济日报》报道，称三星在为 Galaxy S27 Ultra 旗舰手机做最终性能验证时，发现高通第六代骁龙 8 超级至尊版（Snapdragon 8 Elite Extreme 6...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/358.htm"
+        "link": "https://www.ithome.com/1/013/868.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-15",
-        "title": "DeepSeek 网页 / API 服务恢复正常，中断近 5 个小时",
-        "summary": "DeepSeek 今日（10 月 15 日）早间出现服务问题，官方状态页面显示网页 / API 部分中断。经过近 5 个小时的修复，目前服务已恢复正常。",
+        "date": "2026-10-16",
+        "title": "台积电已量产 5 倍光罩尺寸先进封装且良率优异，随时可为竞争对手客户“救场”",
+        "summary": "科技媒体 TechNews 昨日（10 月 15 日）报道，在台积电第三财季（2026 年 7 月～2026 年 9 月）财报电话会上，董事长兼 CEO 魏哲家宣布已量产 5 倍光罩尺寸先进封装，且良率“非常优秀”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/352.htm"
+        "link": "https://www.ithome.com/1/013/827.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-10-15",
-        "title": "AOC 推出 23.8\" 小尺寸圆偏振光显示器 Q24G4ZL/WS，支持 QHD 260Hz",
-        "summary": "AOC 本月 13 日在官网上线了 Q24G4ZL/WS 显示器。",
+        "date": "2026-10-16",
+        "title": "长鑫科技重返 A 股第一，市值重回 3 万亿",
+        "summary": "存储芯片概念股今日早盘大涨。截至IT之家发文，长鑫科技涨超 5%，市值重回 3 万亿，再次超越工商银行成为 A 股市值第一。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/281.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-10-15",
-        "title": "微软砍掉 Publisher 别慌：开源办公套件 LibreOffice 解忧，官宣适配 .pub 格式",
-        "summary": "在微软宣布将逐步停用桌面排版软件 Microsoft Publisher 之后，文档基金会昨日（10 月 14 日）发布博文，称开源办公套件 LibreOffice 可以为受影响用户解忧，完整适配 .pub 格式文件。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/254.htm"
+        "link": "https://www.ithome.com/1/013/756.htm"
     }
 ]
 };
