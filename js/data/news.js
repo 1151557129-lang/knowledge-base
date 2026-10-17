@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-16 06:04:59
+// 自动生成于 2026-10-17 05:51:21
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-16",
-        "title": "小米米家空调速冷静 2027 大 1.5 匹开售：APF 5.3、双排蒸发器，1799 元",
-        "summary": "小米米家空调速冷静 2027 大 1.5 匹现已开售，售价 1799 元，国补到手价 1529.15 元。",
+        "date": "2026-10-17",
+        "title": "小米准备 REDMI Book 16 2027 笔电，可选英特尔酷睿 5 处理器 320",
+        "summary": "根小米正在准备 REDMI Book 16 2027 笔记本电脑。该机型的参测示例均基于英特尔 \"Wildcat Lake\" 酷睿 5 处理器 320，配备 16GB DDR5-4800 内存。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/867.htm"
+        "link": "https://www.ithome.com/1/014/251.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-16",
-        "title": "小米 REDMI Turbo 6/Max 手机曝光：内部代号 sofia / denver，有望 2027Q1 发布",
-        "summary": "科技媒体 ximitime 昨日（10 月 15 日）发布博文，通过挖掘 Mi Code 代码，发现了 REDMI Turbo 6 及 REDMI Turbo 6 Max 两款手机的踪迹。",
+        "date": "2026-10-17",
+        "title": "小米推出米家高速吹风机 Mini：11 万转 / 分钟高速电机，到手价 199 元起",
+        "summary": "小米现已推出米家高速吹风机 Mini，售价 299 元，商品页面显示新品到手价 199 元起，将于 10 月 20 日 10 点在小米有品开始预售（点此购买）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/862.htm"
+        "link": "https://www.ithome.com/1/014/231.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-10-16",
-        "title": "卢伟冰晒小米 REDMI K100 真机，称将把旗舰的起点再往上提高一大步",
-        "summary": "今天（16 日）上午，小米集团合伙人、总裁，手机部总裁、小米品牌总经理卢伟冰在B站发视频进一步预告 REDMI K100 标准版新机，并放出了绿色的真机外观。",
+        "date": "2026-10-17",
+        "title": "小米米家除螨仪 3 预售：升级 16kPa 吸力、双尘杯设计，券后 224 元",
+        "summary": "小米推出米家除螨仪 3，现已开始全款预售，券后到手价 224 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/847.htm"
+        "link": "https://www.ithome.com/1/014/219.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-16",
-        "title": "Ternary Bonsai 2 系列 AI 模型登场：苹果 iPhone 18 Pro Max 上本地吞吐最高每秒 120 个词元",
-        "summary": "AI 公司 PrismML 昨日（10 月 15 日）发布博文，宣布推出 Ternary Bonsai 2 系列模型，共有 2B、4B 和 9B 三种规模，目标在手机、PC 以及可穿戴设备上本地运行 AI 智能体，执行推理、识图、调用工具...。",
+        "date": "2026-10-17",
+        "title": "英伟达黄仁勋称 AI 现在不是泡沫，安全不应成为减速理由",
+        "summary": "英国当地时间 10 月 14 日在伦敦接受彭博记者 Emily Chang 采访时，英伟达首席执行官黄仁勋表示当前 AI 需求远大于供给，不认为现阶段处于“AI 泡沫”阶段，不过他也承认未来供给可能超过需求。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/894.htm"
+        "link": "https://www.ithome.com/1/014/274.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-16",
-        "title": "东风风神 L8+ 将于 10 月 23 日上市，搭载 Momenta R7 世界模型",
-        "summary": "东风风神 L8+ 将于 10 月 23 日正式上市。新车搭载天元智驾 T800，采用 Momenta R7 世界模型，配备英伟达 Thor-U 芯片，算力可达 700TOPS，支持城市和高速 NOA。",
+        "date": "2026-10-17",
+        "title": "谷歌 DeepMind 哈萨比斯预警：若不对 AI 采取安全措施，未来恐发生严重事故",
+        "summary": "谷歌 DeepMind 联合创始人兼董事长德米斯 · 哈萨比斯（Demis Hassabis）于本周三表示，近期由 AI 智能体发起的网络攻击事件是“前哨预警”；如果各方不进一步提升系统安全性，全球可能很快会面临严重的网络安全事件。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/846.htm"
+        "link": "https://www.ithome.com/1/014/264.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-10-16",
-        "title": "本季度上市：比亚迪第三代唐将首搭全新巨幕 UI 交互系统，还有 AI 萌宠桌面",
-        "summary": "今天（16 日）上午，比亚迪王朝网销售事业部总经理路天在微博发文预告第三代唐将首发搭载的全新巨幕 UI 交互系统。根该车将拥有“非常有生命感”的 AI 萌宠桌面，官方命名为“小面包”，会看、会听、会迎宾、会撒娇、能卖萌，有呼必应。",
+        "date": "2026-10-17",
+        "title": "前高管喊话微软修 Win11 26H2 任务栏：侧边贴靠后无法自动隐藏 / 调整大小",
+        "summary": "科技媒体 Windows Latest 发布博文，报道称曾任微软 Windows 与 Bing 负责人的米哈伊尔 · 帕拉欣（Mikhail Parakhin）今天（10 月 17 日）在 X 平台发布推文，公开批评 Windows 11...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/844.htm"
+        "link": "https://www.ithome.com/1/014/261.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-16",
-        "title": "三星验证阶段高通新旗舰芯片“发烧”：时隔 5 年 Galaxy S27 Ultra 手机有望回归使用 Exynos 2700",
-        "summary": "数码博主 @i冰宇宙 今天（10 月 16 日）援引《首尔经济日报》报道，称三星在为 Galaxy S27 Ultra 旗舰手机做最终性能验证时，发现高通第六代骁龙 8 超级至尊版（Snapdragon 8 Elite Extreme 6...。",
+        "date": "2026-10-17",
+        "title": "工信部公布新准入车辆生产企业名单，岚图汽车在列",
+        "summary": "工信部昨日公布《道路机动车辆生产企业及产品公告》（第 412 批）拟发布的新准入车辆生产企业及已准入企业变更信息清单，岚图汽车科技股份有限公司在列，备注显示为东风集团成员企业。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/868.htm"
+        "link": "https://www.ithome.com/1/014/262.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-16",
-        "title": "台积电已量产 5 倍光罩尺寸先进封装且良率优异，随时可为竞争对手客户“救场”",
-        "summary": "科技媒体 TechNews 昨日（10 月 15 日）报道，在台积电第三财季（2026 年 7 月～2026 年 9 月）财报电话会上，董事长兼 CEO 魏哲家宣布已量产 5 倍光罩尺寸先进封装，且良率“非常优秀”。",
+        "date": "2026-10-17",
+        "title": "美半导体股遭遇 2006 年以来最长抛售潮，做空者却获利 320 亿美元",
+        "summary": "美国半导体股遭遇历史性暴跌，此前逆势做空芯片股的投资者因此获得巨额账面浮盈。过去一年的大部分时间里，半导体一直是美股表现最强劲的板块之一。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/827.htm"
+        "link": "https://www.ithome.com/1/014/234.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-10-16",
-        "title": "长鑫科技重返 A 股第一，市值重回 3 万亿",
-        "summary": "存储芯片概念股今日早盘大涨。截至IT之家发文，长鑫科技涨超 5%，市值重回 3 万亿，再次超越工商银行成为 A 股市值第一。",
+        "date": "2026-10-17",
+        "title": "YUNZII 预告 C21 数字小键盘：支持三模连接，具备计算器模式",
+        "summary": "YUNZII（键设宇宙）本月 15 日预告了数字小键盘新品 C21。这一型号支持三模连接，配备可自定义显示屏，支持计算器模式，还内置小游戏。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/013/756.htm"
+        "link": "https://www.ithome.com/1/014/225.htm"
     }
 ]
 };
