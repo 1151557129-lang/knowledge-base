@@ -39,7 +39,7 @@ const PROJECTS_DATA = [
       <h3>游戏列表</h3>
       <ol>
         <li><strong>宁宁切水果</strong>：锻炼反应力和手眼协调 ✅ 已上线 · <a href="https://1151557129-lang.github.io/fruit-ninja/" target="_blank" rel="noopener">立即体验 ↗</a></li>
-        <li><strong>英文气泡</strong>：点击气泡学习英文字母（待上线）</li>
+        <li><strong>泡泡英语</strong>：点击气泡学英文单词，132词英文发音、听音找词闯关、家长中心，支持离线PWA ✅ 已上线 · <a href="https://1151557129-lang.github.io/bubble-english/" target="_blank" rel="noopener">立即体验 ↗</a></li>
         <li><strong>颜色配对</strong>：翻牌配对游戏（待上线）</li>
         <li><strong>数字农场</strong>：通过农场主题学习数字（待上线）</li>
       </ol>
