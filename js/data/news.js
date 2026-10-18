@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-17 05:51:21
+// 自动生成于 2026-10-18 06:17:25
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-17",
-        "title": "小米准备 REDMI Book 16 2027 笔电，可选英特尔酷睿 5 处理器 320",
-        "summary": "根小米正在准备 REDMI Book 16 2027 笔记本电脑。该机型的参测示例均基于英特尔 \"Wildcat Lake\" 酷睿 5 处理器 320，配备 16GB DDR5-4800 内存。",
+        "date": "2026-10-18",
+        "title": "荣耀 WIN 2 系列手机官宣搭载荣耀鸿燕通信，配备全新自研射频增强芯片 HONOR C3",
+        "summary": "荣耀手机官方微博今日正持续预热 WIN 系列新机。系列新机将搭载荣耀鸿燕通信，配备全新自研射频增强芯片 HONOR C3，可强化复杂网络环境通信性能。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/251.htm"
+        "link": "https://www.ithome.com/1/014/458.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-17",
-        "title": "小米推出米家高速吹风机 Mini：11 万转 / 分钟高速电机，到手价 199 元起",
-        "summary": "小米现已推出米家高速吹风机 Mini，售价 299 元，商品页面显示新品到手价 199 元起，将于 10 月 20 日 10 点在小米有品开始预售（点此购买）。",
+        "date": "2026-10-18",
+        "title": "荣耀 WIN2 手机搭载电竞 WIN 键：3 档可调震动、响应灵敏度，支持游戏内自由映射键位",
+        "summary": "荣耀 WIN2 系列手机将于 10 月 21 日在荣耀 WIN 电竞宇宙嘉年华发布，官方对新机进行预热，宣布新机搭载全新电竞 WIN 键。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/231.htm"
+        "link": "https://www.ithome.com/1/014/449.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-10-17",
-        "title": "小米米家除螨仪 3 预售：升级 16kPa 吸力、双尘杯设计，券后 224 元",
-        "summary": "小米推出米家除螨仪 3，现已开始全款预售，券后到手价 224 元。",
+        "date": "2026-10-18",
+        "title": "华为 WATCH FIT 5 系列智能手表 HarmonyOS 7 版本 7.0.0.107SP10 发布，支持同步手机地震预警等",
+        "summary": "华为官方宣布，HUAWEI WATCH FIT 5 系列智能手表的鸿蒙 HarmonyOS 7 版本 7.0.0.107SP10 已开始分批推送给公测版升级尝鲜报名入选成功的用户。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/219.htm"
+        "link": "https://www.ithome.com/1/014/447.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-17",
-        "title": "英伟达黄仁勋称 AI 现在不是泡沫，安全不应成为减速理由",
-        "summary": "英国当地时间 10 月 14 日在伦敦接受彭博记者 Emily Chang 采访时，英伟达首席执行官黄仁勋表示当前 AI 需求远大于供给，不认为现阶段处于“AI 泡沫”阶段，不过他也承认未来供给可能超过需求。",
+        "date": "2026-10-18",
+        "title": "华为鸿蒙星河互联 AirPods 适配型号公布，覆盖初代至 Max 等主流机型",
+        "summary": "在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，华为终端 BG CEO 何刚宣布，华为鸿蒙星河互联升级，支持连接苹果 AirPods 无线耳机。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/274.htm"
+        "link": "https://www.ithome.com/1/014/489.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-17",
-        "title": "谷歌 DeepMind 哈萨比斯预警：若不对 AI 采取安全措施，未来恐发生严重事故",
-        "summary": "谷歌 DeepMind 联合创始人兼董事长德米斯 · 哈萨比斯（Demis Hassabis）于本周三表示，近期由 AI 智能体发起的网络攻击事件是“前哨预警”；如果各方不进一步提升系统安全性，全球可能很快会面临严重的网络安全事件。",
+        "date": "2026-10-18",
+        "title": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+        "summary": "亚马逊云科技（AWS）首席财务官约翰 · 费尔顿（John Felton）表示，人工智能基础设施与服务支出的繁荣是可持续的，因为它正在推动有意义的创新。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/264.htm"
+        "link": "https://www.ithome.com/1/014/488.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-10-17",
-        "title": "前高管喊话微软修 Win11 26H2 任务栏：侧边贴靠后无法自动隐藏 / 调整大小",
-        "summary": "科技媒体 Windows Latest 发布博文，报道称曾任微软 Windows 与 Bing 负责人的米哈伊尔 · 帕拉欣（Mikhail Parakhin）今天（10 月 17 日）在 X 平台发布推文，公开批评 Windows 11...。",
+        "date": "2026-10-18",
+        "title": "Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%",
+        "summary": "Anthropic 联合创始人杰克 · 克拉克（Jack Clark）于当地时间周六表示，人工智能能力的快速进步，将推动各行各业发生更迅猛的变革。该公司内部模型预测，在特定条件下，到 2030 年 AI 能让美国经济产出提升近 50%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/261.htm"
+        "link": "https://www.ithome.com/1/014/483.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-17",
-        "title": "工信部公布新准入车辆生产企业名单，岚图汽车在列",
-        "summary": "工信部昨日公布《道路机动车辆生产企业及产品公告》（第 412 批）拟发布的新准入车辆生产企业及已准入企业变更信息清单，岚图汽车科技股份有限公司在列，备注显示为东风集团成员企业。",
+        "date": "2026-10-18",
+        "title": "山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元",
+        "summary": "山灵流媒体解码前级耳放一体机 SM50 今日正式开售，零售价 2698 元，首发价 2598 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/262.htm"
+        "link": "https://www.ithome.com/1/014/465.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-17",
-        "title": "美半导体股遭遇 2006 年以来最长抛售潮，做空者却获利 320 亿美元",
-        "summary": "美国半导体股遭遇历史性暴跌，此前逆势做空芯片股的投资者因此获得巨额账面浮盈。过去一年的大部分时间里，半导体一直是美股表现最强劲的板块之一。",
+        "date": "2026-10-18",
+        "title": "陈立武：美国政府不会干预英特尔经营，公司重组工作已完成 80%",
+        "summary": "英特尔首席执行官陈立武（Lip-Bu Tan）在接受《日经新闻》专访时表示，美国总统唐纳德・特朗普的政府没有任何政策打算借助所持英特尔少数股权干预这家芯片厂商的经营战略。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/234.htm"
+        "link": "https://www.ithome.com/1/014/463.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-10-17",
-        "title": "YUNZII 预告 C21 数字小键盘：支持三模连接，具备计算器模式",
-        "summary": "YUNZII（键设宇宙）本月 15 日预告了数字小键盘新品 C21。这一型号支持三模连接，配备可自定义显示屏，支持计算器模式，还内置小游戏。",
+        "date": "2026-10-18",
+        "title": "iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率",
+        "summary": "在 10 月 14 日的维信诺 × iQOO × 清华大学屏幕技术沟通会上，iQOO 产品副总裁罗峰现场宣布，iQOO Neo12“十月底见”（PPT 显示十月见）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/014/225.htm"
+        "link": "https://www.ithome.com/1/014/461.htm"
     }
 ]
 };
