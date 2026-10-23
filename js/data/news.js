@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-22 06:20:01
+// 自动生成于 2026-10-23 06:14:32
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-22",
-        "title": "小米米家智能腰背按摩仪开售：450mm 加长柔性导轨，首销价 599 元",
-        "summary": "小米米家智能腰背按摩仪已开售，新品主打 450mm 加长柔性导轨、石墨烯热敷及米家 App 智能控制，首销价 599 元，建议零售价 699 元。",
+        "date": "2026-10-23",
+        "title": "小米王晓雁：友商近日发布新机后，REDMI K100 手机的预约量猛增",
+        "summary": "小米 REDMI K100 手机将于 10 月 27 日晚 7 点发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/344.htm"
+        "link": "https://www.ithome.com/1/016/967.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-10-22",
-        "title": "谷歌 Google Cloud 计划部署至多 96 万块 GPU 的英伟达 Vera Rubin 平台",
-        "summary": "Google（谷歌）云服务业务 Google Cloud 当地时间 21 日宣布，其计划将基于 NVIDIA（英伟达）Vera Rubin 平台的基础设施扩展到多个算力站点，最多可部署 96 万个 Rubin GPU。",
+        "category": "xiaomi",
+        "date": "2026-10-23",
+        "title": "破风而行淬火而生：一加 Ace 7 系列设计IT之家实拍图赏",
+        "summary": "今天上午，一加 Ace 7 系列外观已经正式公布，冷暖两套全新配色，将力量感与工业美学融于机身。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/367.htm"
+        "link": "https://www.ithome.com/1/016/959.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-10-22",
-        "title": "海盗船扩展 2026 款 RMe 电源至 1200W，支持 12V-2×6 逐针过流保护",
-        "summary": "CORSAIR（海盗船）当地时间昨日正式推出了 1200W 版本的 2026 款 RMe 电源。该型号率先配备支持 PinProtect 逐供电针脚过流保护的 12V-2×6 接口，可保护显卡免受意外电源波动的冲击。",
+        "category": "xiaomi",
+        "date": "2026-10-23",
+        "title": "一加 Ace 7 系列手机“破风”“淬火”配色官图公布，李杰称实物质感真的比图片更出色",
+        "summary": "一加 Ace 7 系列手机将于 10 月 29 日 19 时正式发布。一加今日正式公布了“破风”“淬火”配色官图，一加中国区总裁李杰随后进行了详细介绍：破风：让 Ace 字符破风而出，也定格了风的形状。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/361.htm"
+        "link": "https://www.ithome.com/1/016/855.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-22",
-        "title": "工信部郭守刚：L3 级自动驾驶产品第二批准入试点工作正在进行",
-        "summary": "工业和信息化部装备工业一司司长郭守刚在今天（22 日）的 2026 世界智能网联汽车大会上指出，全球驾驶辅助已经实现规模化应用，自动驾驶即将进入商业化推广阶段。",
+        "date": "2026-10-23",
+        "title": "微星首款带屏风冷 MPG COREFROZR AP15 上市：三路数显，549 元",
+        "summary": "微星 (MSI) 首款带屏处理器风冷散热器 MPG COREFROZR AP15 现已上市。其支持三路数显，可同时监控 CPU、GPU、DRAM 温度，售价 549 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/347.htm"
+        "link": "https://www.ithome.com/1/016/974.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-10-22",
-        "title": "3999 → 2561 元：海信 3A 原画显示器 G7 Ultra 27 款国补直降，2304 背光分区",
-        "summary": "海信 G7 Ultra 27 款开售于 2026 年 5 月，首发价 3999 元。京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 2561.12 元：领 1500-180 元券：点此查看。",
+        "category": "ai",
+        "date": "2026-10-23",
+        "title": "2027 款极狐阿尔法 S5 纯电宽体轿跑预售：标配激光雷达，12.18 万元起",
+        "summary": "2027 款极狐阿尔法 S5 车型今日宣布开启预售，定位“AI 高性能宽体轿跑”可选三个版本，预售价 12.18 万元起。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/364.htm"
+        "link": "https://www.ithome.com/1/016/969.htm"
     },
     {
         "id": "news-006",
-        "category": "stock",
-        "date": "2026-10-22",
-        "title": "5 年内产量翻番：马斯克称特斯拉目标 2030 实现年产量破 500 万辆",
-        "summary": "科技媒体 breakingthenews 今天（10 月 22 日）发布博文，报道称在最新财报电话会议上，特斯拉首席执行官埃隆 · 马斯克（Elon Musk）表示，公司有望在 2030 年实现年产量突破 500 万辆。",
+        "category": "ai",
+        "date": "2026-10-23",
+        "title": "Counterpoint：2026 年 Q3 印度智能手机出货量跌至十年来最低水平，印度国产品牌 Ai+ 异军突起销量飙升 306%",
+        "summary": "根2026 年第三季度（7-9 月）印度智能手机出货量同比下降 20%，跌至十年来最低水平。报告称，创纪录的内存价格推高了设备成本，导致大多数品牌出货量下滑。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/366.htm"
+        "link": "https://www.ithome.com/1/016/961.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-10-22",
-        "title": "LG Display 今年 Q3 归母净利润 7467.47 亿韩元，单季同比扭亏为盈",
-        "summary": "LG Display 今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）业绩快报报告：营业总收入：6.28 万亿韩元，同比下降 10%，环比增长 12%归母净利润...。",
+        "category": "display",
+        "date": "2026-10-23",
+        "title": "微信率先适配苹果 iPhone Duo 折叠屏手机，内屏支持分栏显示等功能",
+        "summary": "现场苹果首款折叠屏手机 iPhone Duo 于今天发售，国行定价 15,999 元起。为了配合线下门店取货，今天多地 Apple Store 提早到 8 点开业供用户取货。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/339.htm"
+        "link": "https://www.ithome.com/1/016/859.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-10-22",
-        "title": "马斯克：特斯拉正显著扩产，FSD 是拉动汽车需求的最大驱动力",
-        "summary": "特斯拉 CEO 马斯克在北京时间今天（22 日）的特斯拉财报电话会上披露，特斯拉汽车产品的市场需求正在快速增长，需求规模已经大幅超出产能。马斯克表示，特斯拉“毫无疑问”会提升产量，目前正显著扩产。",
+        "category": "display",
+        "date": "2026-10-23",
+        "title": "何刚新晋华为公司董事，此前已任职终端 BG CEO",
+        "summary": "华为官网管理层信息最新显示，何刚现任华为公司董事、终端 BG CEO。何刚出生于 1973 年，毕业于西安电子科技大学，硕士。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/016/327.htm"
+        "link": "https://www.ithome.com/1/016/851.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
+        "date": "2026-10-23",
+        "title": "沃尔沃汽车宣布全球再裁约 2500 人，2026Q3 在中国交付量同比降 40%",
+        "summary": "彭博社今天（10 月 23 日）发布博文，报道称在发布 2026 年第三季度财报时，沃尔沃汽车宣布将在全球范围内结构性裁减约 2,500 个岗位，约占其全球员工总数的 6%。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/016/976.htm"
     }
 ]
 };
