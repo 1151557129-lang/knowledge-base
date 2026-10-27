@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-26 06:39:22
+// 自动生成于 2026-10-27 06:34:08
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-26",
-        "title": "一加 Ace 7 系列手机官宣影像配置跨代升级：全系 2 亿像素主摄、Pro 升级 3.5 倍潜望长焦",
-        "summary": "一加手机官方今日宣布，Ace 7 系列影像配置跨代升级。系列新机搭载 2 亿像素超清主摄，Pro 版还有 3.5 倍潜望长焦。",
+        "date": "2026-10-27",
+        "title": "小米官宣 21 自由度仿生灵巧手：26 电机混合驱动、1500 点高密度全掌触觉",
+        "summary": "小米今天（27 日）正式披露面向工业场景的仿生灵巧手探索成果，挖掘了高自由度仿生手在制造场景通用性的价值与收益。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/895.htm"
+        "link": "https://www.ithome.com/1/018/345.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-26",
-        "title": "原生桌面级应用 WPS  for Pad 正式上线小米应用商城，支持 18 Fold、平板设备下载使用",
-        "summary": "金山办公 WPS 官方微博刚刚宣布，专为平板量身打造的原生桌面级应用 WPS for Pad，已正式上线小米应用商城。",
+        "date": "2026-10-27",
+        "title": "小米米家高速吹风机 Mini 开售：11 万转 / 分钟高速电机，首销 199.7 元",
+        "summary": "今天（27 日）上午，小米米家高速吹风机 Mini 正式开售，建议零售价 299 元，首销到手价 199.7 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/815.htm"
+        "link": "https://www.ithome.com/1/018/256.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-10-26",
-        "title": "vivo Y600 手机开启预售：搭载 10000mAh 大电池，国补到手价 1699 元起",
-        "summary": "vivo 旗下主打长续航与户外可靠性的 Y 系列新机 vivo Y600 已开启预售，该机以“万级长续航”为核心卖点，搭载标称 10000mAh 超大容量电池，并围绕低温、跌落、防水、信号、护眼与家庭适老场景做了系统级强化，试图把千元档手...。",
+        "category": "ai",
+        "date": "2026-10-27",
+        "title": "雷鸟 iO+ 正式官宣：第四代双目全彩 AI 眼镜，搭载超小型全彩光机",
+        "summary": "10 月 27 日，消费级 AR 品牌雷鸟创新正式公布旗下第四代双目全彩 AI 眼镜 —— 雷鸟 iO+。官方同步释出了演员蒋奇明佩戴该款新品的实拍图，展示了产品的外观设计与形态细节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/810.htm"
+        "link": "https://www.ithome.com/1/018/346.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-26",
-        "title": "AI 交易热情降温，两只挂钩 SK 海力士的美股杠杆 ETF 将退市清算",
-        "summary": "两只挂钩 SK 海力士（SK Hynix）的杠杆 ETF，在美国上市仅仅数月后就要清盘，背后原因是市场对 AI 交易行情的投资热情降温。",
+        "date": "2026-10-27",
+        "title": "全国首个、推动跨品牌互联互通，海尔承建的国家人工智能应用中试基地（家居家电方向）在青岛启动",
+        "summary": "海尔集团发文宣布，家居家电方向的国家人工智能应用中试基地（以下简称“中试基地”），于今日（10 月 27 日）在青岛举行建设启动仪式。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/896.htm"
+        "link": "https://www.ithome.com/1/018/341.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-26",
-        "title": "全国多所财经高校布局“AI + 财经”",
-        "summary": "为推动财经教育数智化转型，全国多所财经高校积极布局“AI+ 财经”，探索 AI 赋能财经教育和研究转型升级。在首都经济贸易大学，新成立的智能经济研究院正在对“融创智谷”平台进行升级。",
+        "date": "2026-10-27",
+        "title": "佛罗里达理工大学喜提“飞行警车”：极速 102km/h 的 eVTOL 飞行器",
+        "summary": "佛罗里达理工大学接收了一架电动垂直起降飞行器（eVTOL） Jetson ONE，外形类似大型四旋翼无人机，可搭载一名驾驶员。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/877.htm"
+        "link": "https://www.ithome.com/1/018/338.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-10-26",
-        "title": "Gartner 调研显示：44% 的 CEO 难以证明 AI 的财务回报",
-        "summary": "商业与技术洞察公司 Gartner 调研显示，44% 的首席执行官（CEO）难以向利益相关方证明 AI 带来的财务回报。但他们并未因此放弃技术投资，而是希望借助 AI 与技术，重新设计企业机构的运营、竞争与增长方式。",
+        "category": "display",
+        "date": "2026-10-27",
+        "title": "Acoustune 推出 AS2200 便携耳放：基于 AK4493SEQ，支持 3.5mm 与 4.4mm 输出",
+        "summary": "日本音频设备品牌 Acoustune 当地时间 23 日发布了便携式 USB 耳机放大器 AS2200。这一型号基于旭化成的 AK4493SEQ 音频 DAC 芯片，提供 3.5mm 单端与 4.4mm 平衡输出。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/843.htm"
+        "link": "https://www.ithome.com/1/018/410.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-10-26",
-        "title": "消息称美团计划通过债券发行募资 10 亿美元",
-        "summary": "知情人士透露，中国外卖巨头美团计划通过离岸人民币债券募资约合 10 亿美元（IT之家注：现汇率约合 66.77 亿元人民币），发行方案为美团离岸人民币 Reg S 双档高级无抵押债券，美团也由此加入了越来越多发行点心债的企业行列。",
+        "category": "display",
+        "date": "2026-10-27",
+        "title": "曝台积电先进封装拟涨价最高 20%，因 AI 需求急剧攀升、产能持续吃紧",
+        "summary": "台积电正考虑将其先进封装工艺价格上调 10% 至 20%，原因是 AI 需求急剧攀升，导致半导体供应链产能持续吃紧。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/898.htm"
+        "link": "https://www.ithome.com/1/018/409.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-10-26",
-        "title": "遭网络攻击后，多家日本企业开始向用户支付补偿金",
-        "summary": "接连多轮网络攻击扰乱网络服务、引发市场对经济稳定的担忧后，多家日本企业开始向用户支付补偿金。GMO 互联网集团宣布，将对旗下外汇交易服务遭非法入侵给客户造成的损失予以赔付。",
+        "category": "display",
+        "date": "2026-10-27",
+        "title": "Counterpoint：苹果 iPhone 18 Pro 系列上市三周全球销量同比增长 3.1%，主要由中国市场拉动",
+        "summary": "市场研究机构 Counterpoint Research 的《智能手机周度销量追踪报告》显示，苹果 iPhone 18 Pro 系列 9 月上市三周，全球销量较去年同期的 iPhone 17 Pro 系列增长 3.1%。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/017/817.htm"
+        "link": "https://www.ithome.com/1/018/373.htm"
     }
 ]
 };
