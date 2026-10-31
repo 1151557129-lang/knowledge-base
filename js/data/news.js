@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-10-30 07:28:40
+// 自动生成于 2026-10-31 07:16:54
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,101 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-10-30",
-        "title": "799 元小米 REDMI 投影仪 3C 今晚发售：300 CVIA 流明，晶晨 T950S 配 1+32GB 存储",
-        "summary": "小米 REDMI 投影仪 3C 将于今日 20:00 正式开抢，首发到手价为 799 元。",
+        "date": "2026-10-31",
+        "title": "消息称 2027 年华为、小米、苹果阔折叠大概率正常迭代，OPPO、荣耀上新",
+        "summary": "博主 @数码闲聊站 今日曝光 2027 阔折叠阵容，OPPO、荣耀上新，vivo 待定。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/134.htm"
+        "link": "https://www.ithome.com/1/020/486.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-10-30",
-        "title": "曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与",
-        "summary": "《The Information》今日曝光了 DeepSeek 第二轮融资规模及部分投资方名单。",
+        "date": "2026-10-31",
+        "title": "小米 120W 快充：酷态科 10 号超级电能棒 Plus 京东 149 元限时国补",
+        "summary": "酷态科 10 号超级电能棒 Plus 发布于 2024 年 12 月 24 日，官方定价 229 元。京东 11.11 期间，叠加以下多重优惠，到手仅需 149.35 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/121.htm"
+        "link": "https://www.ithome.com/1/020/482.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-10-30",
-        "title": "ColorOS 17 十一月升级适配计划公布，覆盖 OPPO、一加、真我产品",
-        "summary": "ColorOS 官方今日公布了 ColorOS 17 2026 年 11 月升级适配计划。",
+        "date": "2026-10-31",
+        "title": "85 英寸 10499 → 4934 元、98 英寸 13999 → 8399 元：小米电视 S Pro Mini LED 2026 再降价",
+        "summary": "小米电视 S Pro Mini LED 2026 系列去年 9 月开售，今日 11.11 再次开启京东自营探底大促，各款直降至：京东无门槛红包至高 26888 元，支持即领即用：点此抽取。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/110.htm"
+        "link": "https://www.ithome.com/1/020/473.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-10-30",
-        "title": "前特斯拉 Autopilot 负责人抨击纯视觉方案：无视物理规律的技术执念",
-        "summary": "通用汽车首席产品官斯特林 · 安德森（Sterling Anderson）曾在 2015、2016 年负责特斯拉 Autopilot 项目，他认为，舍弃雷达、只依靠摄像头的自动驾驶方案，是“一种无视物理规律的奇怪执念”。",
+        "date": "2026-10-31",
+        "title": "OpenAI 奥尔特曼谈内存短缺：全球 DRAM 应优先供给数据中心，闲置在玩家 PC 里是浪费",
+        "summary": "OpenAI CEO 萨姆・奥尔特曼昨日在接受 YouTube 播客节目 Cheeky Pint 采访时论证了降低计算成本的必要性。他表示，在 DRAM 存储芯片供应紧张的情况下，将内存集中部署在数才能够更有效地利用有限的资源。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/137.htm"
+        "link": "https://www.ithome.com/1/020/483.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-10-30",
-        "title": "乌克兰战场 AI 机枪炮塔投入实战，可精准拦截高速无人机",
-        "summary": "乌克兰正在战场上使用由人工智能控制的机枪炮塔，实战效果良好，基辅方面希望加快部署速度。乌克兰去年就对外展示过这类系统的原型装备，该国国防创新平台 Brave1 周四表示，它们如今已经成为乌军“防空体系中不可或缺的组成部分”。",
+        "date": "2026-10-31",
+        "title": "AI 热潮降温？消息称 OpenAI 最新融资目标缩水 100 亿美元，降幅 33%",
+        "summary": "金融时报（FT）今天（10 月 31 日）发布博文，报道称 ChatGPT 开发商 OpenAI 已下调最新一轮融资目标，将原先的 300 亿美元（IT之家注：现汇率约合 2,000.87 亿元人民币）目标下调约 100 亿美元（现汇率约...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/131.htm"
+        "link": "https://www.ithome.com/1/020/478.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-10-30",
-        "title": "全球规模最大的编程问答网站 Stack Overflow 每月提问数暴跌，从 20 万个到现在不足 1000 个",
-        "summary": "本周 Hacker News 的一条讨论帖称，全球规模最大的编程问答网站 Stack Overflow 在 AI 工具面世后访问量持续下跌，现在每月新增提问不足 1000 条。",
+        "date": "2026-10-31",
+        "title": "OpenCode 启动 Cheepseek 第四阶段：10 美元订阅享 100 美元 DeepSeek V4.1 Flash 额度",
+        "summary": "AI 编程工具 OpenCode 今天（10 月 31 日）在 X 平台发布推文，宣布启动 Operation Cheepseek 第四阶段，订阅用户可使用价值 100 美元（现汇率约合 667 元人民币）的 DeepSeek V4.1 ...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/114.htm"
+        "link": "https://www.ithome.com/1/020/474.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-10-30",
-        "title": "海信大圣“G5 PRO AI 款”27 英寸显示器上架：2K 200Hz，1299 元",
-        "summary": "海信现已在京东上架“海信大圣 G5 PRO AI 款”显示器，该机主打 2K 200Hz，定价为 1299 元，部分地区国补后低至 999 元。",
+        "date": "2026-10-31",
+        "title": "市场监管总局批准发布 2 项生物芯片国家标准，时隔 15 年更新、行业术语有了“普通话”",
+        "summary": "市场监管总局（国家标准委）批准发布《生物芯片基本术语》《人体疾病易感 DNA 多态性检测微阵列芯片》2 项新版推荐性国家标准，将自 2027 年 2 月 1 日起实施。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/115.htm"
+        "link": "https://www.ithome.com/1/020/458.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-10-30",
-        "title": "微星推出 MAG 276QE34 / 276QR42 显示器：27\" QHD Rapid IPS",
-        "summary": "微星 (MSI) 现已推出显示器新品 MAG 276QE34 / 276QR42。这两款产品均采用 27\" WQHD Rapid IPS 显示面板，灰阶 (GtG) 响应时间 0.5ms，分别具有 340Hz 和 425Hz 的超频刷新率。",
+        "date": "2026-10-31",
+        "title": "奇瑞执行副总裁戚士龙回应智界独立造车：希望更像新势力，而非“大一号”传统车企",
+        "summary": "本月早些时候，工信部《道路机动车辆生产企业及产品公告》（第 412 批）显示，安徽智界新能源汽车有限公司被列入“拟发布新准入车辆生产企业”清单，也就是将获批独立造车资质。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/084.htm"
+        "link": "https://www.ithome.com/1/020/449.htm"
     },
     {
         "id": "news-009",
-        "category": "display",
-        "date": "2026-10-30",
-        "title": "认证显示三星 Galaxy S27 标准版有线充电功率仍为 25W，连续七代未升级",
-        "summary": "可能不少人会觉得难以接受：三星即将推出的 Galaxy S27 标准版充电速度不会提升。多项监管认证信息证实，这款机型的有线充电功率依旧为 25W，与三星 2020 年 Galaxy S20 的充电速度相同。",
+        "category": "stock",
+        "date": "2026-10-31",
+        "title": "奇瑞金弋波：假如奇瑞没有燃油车也是新能源汽车大厂，奇瑞新能源已经排中国前三、全球前五",
+        "summary": "10 月 31 日下午发布第三季度财报后，奇瑞汽车股份有限公司执行副总裁戚士龙，奇瑞控股集团新闻发言人金弋波与媒体对话。奇瑞控股集团新闻发言人金弋波坦言，很多人都批评奇瑞，认为奇瑞只会做，不会讲。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/056.htm"
+        "link": "https://www.ithome.com/1/020/472.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-10-30",
-        "title": "TEL 2027 财年上半年营收 1.67 万亿日元，同比增长 41.3%",
-        "summary": "TEL 今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年度（2026 年 4 月 1 日～2026 年 9 月 30 日）业绩数同比增长 41.3%营业利润：5067.76 亿日元，同比增长 6...。",
+        "date": "2026-10-31",
+        "title": "奇瑞戚士龙：不希望简单做价格竞争，预计 2027 年补足国内新能源业务盈利短板",
+        "summary": "10 月 31 日中午发布第三季度财报后，奇瑞汽车股份有限公司执行副总裁戚士龙、奇瑞控股集团新闻发言人金弋波与媒体对话。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/081.htm"
+        "link": "https://www.ithome.com/1/020/461.htm"
+    },
+    {
+        "id": "news-011",
+        "category": "stock",
+        "date": "2026-10-31",
+        "title": "工信部：2026 年前三季度我国软件业务收入 118031 亿元，同比增长 8.4%",
+        "summary": "工信部今日发布数据，2026 年前三季度，我国软件和信息技术服务业（以下简称“软件业”）运行态势良好，软件业务收入稳健增长，利润总额增势平稳，软件业务出口保持较快增长。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/020/450.htm"
     }
 ]
 };
