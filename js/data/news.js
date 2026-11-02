@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-01 07:48:56
+// 自动生成于 2026-11-02 07:54:58
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-01",
-        "title": "上市 2 月京东再降：小米 NAS 智能存储 2699 → 2190 元 4 年质保",
-        "summary": "小米首款 NAS 产品“Xiaomi 智能存储”今年 8 月 27 日开售，今日京东直降再加码。京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次：点此抽取。",
+        "date": "2026-11-02",
+        "title": "消息称某厂子系测试 4 台 7 英寸 + 万级大电池新机，预计小米 REDMI 旗下",
+        "summary": "某厂子系测试了 4 台 7 英寸大屏 + 万级大电池，包含有 2nm 旗舰机，预计明年上半年都能见到。结合该博主此前的爆料习惯，预计该机为小米 REDMI 旗下。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/744.htm"
+        "link": "https://www.ithome.com/1/021/070.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-01",
-        "title": "小米上线双十一 8 折手机电池换新服务：小米 9 等 102 款机型参与",
-        "summary": "小米今日宣布 11.11 超级服务周上线，102 款电池服务 47.2 元起，家电以旧换新享官方补贴至高 500 元。",
+        "date": "2026-11-02",
+        "title": "OPPO Watch 5 小方表真机外观曝光：9.2mm 同档最薄、航天级铝合金中框",
+        "summary": "近日，有网友分享了宋雨琦在演唱会时的照片，随后她手上佩戴的手表被认出是即将发布的 OPPO Watch 5。OPPO Watch 5 智能手表目前已现身官网开启预约。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/742.htm"
+        "link": "https://www.ithome.com/1/021/057.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-11-01",
-        "title": "上市两月 2068 → 1288 元：小米米家扫拖机器人 7C 新低，支持滚筒活水增压拖地",
-        "summary": "小米米家扫拖机器人 7C 今年 8 月 27 日开售，京东首发国补到手价 2068 元。",
+        "date": "2026-11-02",
+        "title": "开发者成功在任天堂 Switch 游戏机上运行苹果 iPadOS 17",
+        "summary": "继小米手机、微软 Lumia 后，如今开发者们不再局限于“手机运行 iOS”，将眼光投到了其他设备，例如目前便有一位开发者 brunostjohn 便发文，称自己成功在任天堂 Switch 上运行了苹果 iPadOS 17.7.11。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/740.htm"
+        "link": "https://www.ithome.com/1/021/046.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-01",
-        "title": "AI 简历泛滥之下，Z 世代求职者开始担心自己“看起来像 AI”过不了初筛",
-        "summary": "如今求职正变得越来越困难。应聘者不仅要应对 AI 初筛，还要努力让自己的遣词看起来更像真人，同时具备吸引人的特质。",
+        "date": "2026-11-02",
+        "title": "阿里云 Memory 服务升级，面向 Personal Agent 增强长期记忆与个性化能力",
+        "summary": "阿里云今日宣布，近日，阿里云 Memory 服务升级：面向 Personal Agent 场景，增强对用户偏好、计划和历史约定的记忆能力，并提供 MCP、CLI 等接入方式。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/747.htm"
+        "link": "https://www.ithome.com/1/021/073.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-01",
-        "title": "网传“新疆禾木景区野生猴群下山抢手机”，官方回应“系 AI 生成，当地不存在猴群栖息活动”",
-        "summary": "近期网传所谓新疆“禾木野生猴群下山抢手机”图文、视频，引发公众关注，经新疆布尔津县委网信办联合当地林业和草原局野生动植物保护站核实确认，该内容是虚假谣言。",
+        "date": "2026-11-02",
+        "title": "给专业投资者配上“AI 研究员”，阿里云发布 AI 投研工作台 Qovest",
+        "summary": "阿里云今日发布面向专业机构投资者的 AI 投研工作台 Qovest。用户可以一句话提出研究需求，让 Qovest 自动查数并按设定的频率持续跟踪研究对象。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/739.htm"
+        "link": "https://www.ithome.com/1/021/071.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-11-01",
-        "title": "GOG 喜加一：点击式冒险游戏《A New Beginning: Final Cut》免费领",
-        "summary": "开发商 Daedalic Entertainment 宣布联合 GOG 平台开启新一期游戏免费领取“喜加一”活动，玩家可以在北京时间 11 月 2 日 22:00 前免费领取点击式冒险游戏《A New Beginning: Final C...。",
+        "date": "2026-11-02",
+        "title": "阿布扎比与 OpenAI 签署四项协议，在政府、能源及投资领域进行合作",
+        "summary": "阿布扎比媒体办公室官方发文宣布，阿布扎比王储哈立德会见 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman），双方就深化人工智能领域的战略合作进行了深入探讨。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/738.htm"
+        "link": "https://www.ithome.com/1/021/066.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-01",
-        "title": "里程碑时刻：长城汽车旗下坦克品牌全球销量达 100 万辆",
-        "summary": "长城汽车旗下坦克品牌今日宣布，坦克品牌全球销量 100 万辆。公开信息显示，2020 年 7 月，长城汽车在成都车展上正式发布了“坦克 · WEY”平台，并亮相了该平台首款车型 ——WEY 坦克 300。",
+        "date": "2026-11-02",
+        "title": "山灵 Regal 八单元耳机“周年版”发售：全新紫辉银钛冰花面板，首发价 3897 元",
+        "summary": "山灵旗下 Regal 八单元耳机“周年版”现已在京东发售，定价为 4298 元，首发价 3897 元。京东山灵 Regal 周年版耳机券后 3897 元领 400 元券在光影交错的瞬间，听见时间的纹理。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/719.htm"
+        "link": "https://www.ithome.com/1/021/075.htm"
     },
     {
         "id": "news-008",
         "category": "stock",
-        "date": "2026-11-01",
-        "title": "微软 XBOX CEO 夏尔马新目标：2030 年利润率超越索尼 PlayStation 和任天堂",
-        "summary": "微软 XBOX CEO 阿莎 · 夏尔马近期定下目标，计划 2030 财年让 XBOX 利润率超过竞争对手（索尼 PlayStation 和任天堂）。",
+        "date": "2026-11-02",
+        "title": "兰博基尼 2026 财年前三季度营收 25.3 亿欧元，同比增长约 5%",
+        "summary": "兰博基尼今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）报告：营业总收入 25.3 亿欧元（IT之家注：现汇率约合 188.01 亿元人民币），同比增长约 5...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/020/700.htm"
+        "link": "https://www.ithome.com/1/021/056.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
+        "date": "2026-11-02",
+        "title": "《生化危机》系列 2026 年商业表现亮眼：《安魂曲》销量破 700 万份，带动系列近作营收达 8.5 亿美元",
+        "summary": "对《生化危机》系列而言，2026 年至今是值得铭记的一年。系列第九部正传作品《安魂曲》为卡普空带来了巨大的商业成功，自发售以来销量突破 700 万份，也是 2026 年 Steam 平台营收最高的新作之一。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/021/044.htm"
     }
 ]
 };
