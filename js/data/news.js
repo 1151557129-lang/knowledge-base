@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-02 07:54:58
+// 自动生成于 2026-11-03 08:14:58
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,101 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-02",
-        "title": "消息称某厂子系测试 4 台 7 英寸 + 万级大电池新机，预计小米 REDMI 旗下",
-        "summary": "某厂子系测试了 4 台 7 英寸大屏 + 万级大电池，包含有 2nm 旗舰机，预计明年上半年都能见到。结合该博主此前的爆料习惯，预计该机为小米 REDMI 旗下。",
+        "date": "2026-11-03",
+        "title": "腾讯《王者荣耀》开放苹果 iPhone Duo 机型 120 帧模式，Air 苦等一年仍被“遗忘”",
+        "summary": "腾讯《王者荣耀》手游终于开放了苹果 iPhone Duo 机型的 120 帧游玩模式，但内屏游玩时的“大黑边”问题仍未解决。另外，还有一款机型至今仍未适配《王者荣耀》的 120 帧模式 —— iPhone Air。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/070.htm"
+        "link": "https://www.ithome.com/1/021/621.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-02",
-        "title": "OPPO Watch 5 小方表真机外观曝光：9.2mm 同档最薄、航天级铝合金中框",
-        "summary": "近日，有网友分享了宋雨琦在演唱会时的照片，随后她手上佩戴的手表被认出是即将发布的 OPPO Watch 5。OPPO Watch 5 智能手表目前已现身官网开启预约。",
+        "date": "2026-11-03",
+        "title": "真“全面屏 iPhone”：开发者放出小米 REDMI K20 Pro 刷苹果 iOS 16 测试固件包",
+        "summary": "随着 AI 技术突飞猛进，许多开发者在大模型辅助加持之下对各种老旧机型进行折腾，例如目前就有开发者“你说喜欢是装的”放出了小米 REDMI K20 Pro 手机刷苹果 iOS 16.5 的测试包。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/057.htm"
+        "link": "https://www.ithome.com/1/021/617.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-11-02",
-        "title": "开发者成功在任天堂 Switch 游戏机上运行苹果 iPadOS 17",
-        "summary": "继小米手机、微软 Lumia 后，如今开发者们不再局限于“手机运行 iOS”，将眼光投到了其他设备，例如目前便有一位开发者 brunostjohn 便发文，称自己成功在任天堂 Switch 上运行了苹果 iPadOS 17.7.11。",
+        "date": "2026-11-03",
+        "title": "Xiaomi-Robotics-1 具身基座模型在小米青年公寓启动“试运营”，可自主规划并完成桌面整理、垃圾清扫等任务",
+        "summary": "小米技术官方今日发布视频，介绍了 Xiaomi-Robotics-1 具身基座模型的应用。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/046.htm"
+        "link": "https://www.ithome.com/1/021/602.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-02",
-        "title": "阿里云 Memory 服务升级，面向 Personal Agent 增强长期记忆与个性化能力",
-        "summary": "阿里云今日宣布，近日，阿里云 Memory 服务升级：面向 Personal Agent 场景，增强对用户偏好、计划和历史约定的记忆能力，并提供 MCP、CLI 等接入方式。",
+        "date": "2026-11-03",
+        "title": "《纽约时报》等媒体起诉浏览器公司 Brave，指控其未经授权抓取版权内容并转售给 AI 公司",
+        "summary": "《纽约时报》于当地时间周一起诉了成立已有十一年、主打隐私保护的浏览器厂商 Brave，指控该公司抓取这家媒体受版权保护的内容，并非法把内容提供给 Anthropic、Perplexity、Mistral、xAI 以及 Cohere 这些客...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/073.htm"
+        "link": "https://www.ithome.com/1/021/629.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-02",
-        "title": "给专业投资者配上“AI 研究员”，阿里云发布 AI 投研工作台 Qovest",
-        "summary": "阿里云今日发布面向专业机构投资者的 AI 投研工作台 Qovest。用户可以一句话提出研究需求，让 Qovest 自动查数并按设定的频率持续跟踪研究对象。",
+        "date": "2026-11-03",
+        "title": "Anthropic 警示：AI 递归自我改进（RSI）近在眼前",
+        "summary": "外界的目光大多集中在 Anthropic 周一更新的 S-1/A 招股补充文件披露的最新财务数支出同样激增），但这家人工智能实验室在文件小字部分抛出了另一枚重磅信息。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/071.htm"
+        "link": "https://www.ithome.com/1/021/626.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-11-02",
-        "title": "阿布扎比与 OpenAI 签署四项协议，在政府、能源及投资领域进行合作",
-        "summary": "阿布扎比媒体办公室官方发文宣布，阿布扎比王储哈立德会见 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman），双方就深化人工智能领域的战略合作进行了深入探讨。",
+        "date": "2026-11-03",
+        "title": "新型“郊狼”反无人机系统问世：升级固体火箭发动机，可提升飞行速度",
+        "summary": "制造商雷神公司（Raytheon）宣布推出新型“郊狼（Coyote）”反无人机系统“ Coyote Block 2C+RM”，与此前采用涡轮喷气发动机的型号不同，新型号改用固体火箭发动机，并升级了导引头和战斗部分，以提高拦截速度和作战能力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/066.htm"
+        "link": "https://www.ithome.com/1/021/622.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-02",
-        "title": "山灵 Regal 八单元耳机“周年版”发售：全新紫辉银钛冰花面板，首发价 3897 元",
-        "summary": "山灵旗下 Regal 八单元耳机“周年版”现已在京东发售，定价为 4298 元，首发价 3897 元。京东山灵 Regal 周年版耳机券后 3897 元领 400 元券在光影交错的瞬间，听见时间的纹理。",
+        "date": "2026-11-03",
+        "title": "华硕海外推出 ProArt PA329CDV 显示器：32 英寸 4K 120Hz QD-OLED 面板，899 欧元",
+        "summary": "华硕现已在海外市场推出 ProArt PA329CDV 显示器。新品采用 32 英寸 QD-OLED 面板，支持 4K 120Hz 高刷，定价 899 欧元（IT之家注：现汇率约合 6,700 元人民币）。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/075.htm"
+        "link": "https://www.ithome.com/1/021/624.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-11-02",
-        "title": "兰博基尼 2026 财年前三季度营收 25.3 亿欧元，同比增长约 5%",
-        "summary": "兰博基尼今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）报告：营业总收入 25.3 亿欧元（IT之家注：现汇率约合 188.01 亿元人民币），同比增长约 5...。",
+        "category": "display",
+        "date": "2026-11-03",
+        "title": "曝汽车芯片大厂恩智浦再发调价函，明年 1 月起涨价",
+        "summary": "受原材料、能源、人力、物流及上游供应商成本上涨影响，恩智浦（NXP）已向经销商发函，计划对部分分销及直供产品线调价，新规自 2027 年 1 月 1 日生效。有经销商表示，建议有确定需求的项目提前下单，锁定成本，规避调价带来的影响。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/056.htm"
+        "link": "https://www.ithome.com/1/021/596.htm"
     },
     {
         "id": "news-009",
-        "category": "stock",
-        "date": "2026-11-02",
-        "title": "《生化危机》系列 2026 年商业表现亮眼：《安魂曲》销量破 700 万份，带动系列近作营收达 8.5 亿美元",
-        "summary": "对《生化危机》系列而言，2026 年至今是值得铭记的一年。系列第九部正传作品《安魂曲》为卡普空带来了巨大的商业成功，自发售以来销量突破 700 万份，也是 2026 年 Steam 平台营收最高的新作之一。",
+        "category": "display",
+        "date": "2026-11-03",
+        "title": "华为 Pura 100 系列影像旗舰阔直板机被曝测试 BOE 新开屏，Pro Max 有望采用双层 OLED 技术",
+        "summary": "博主 @数码闲聊站 今日发文透露，某厂影像旗舰阔直板机 BOE 新开屏测试中，配备 6.39 英寸 1.5K 2.5D 直屏，支持 8T LTPO、Lipo 极窄封装工艺、BT.2020 色域，主打高亮特性。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/021/044.htm"
+        "link": "https://www.ithome.com/1/021/589.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-11-03",
+        "title": "百度否认昆仑芯 IPO 推迟言论：相关市场传闻及相关报道不属实",
+        "summary": "就近日有关昆仑芯上市时间可能推迟的市场传闻，百度方面回应表示：相关市场传闻及相关报道不属实。百度方面表示，昆仑芯目前处于保密申报阶段。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/021/619.htm"
+    },
+    {
+        "id": "news-011",
+        "category": "stock",
+        "date": "2026-11-03",
+        "title": "Counterpoint：Q3 全球智能手机出货同比下降 19%，苹果创同期营收纪录",
+        "summary": "根2026 年第三季度全球智能手机出货量同比大幅下滑 19%，但受平均售价提升支撑，全球智能手机营收同比增长 3%，达到 1,140 亿美元（IT之家注：现汇率约合 7,598.55 亿元人民币），价格与高端化趋势完全对冲了出货量的暴跌。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/021/592.htm"
     }
 ]
 };
