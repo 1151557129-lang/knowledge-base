@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-05 08:09:00
+// 自动生成于 2026-11-06 08:13:05
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-05",
-        "title": "钛合金表圈 + AMOLED 彩色触屏：佳明 Forerunner 965 智能手表 4980 → 2704 元新低",
-        "summary": "【京东活动可能随时变更，需以实付款为准】Garmin 佳明 Forerunner 965 运动智能手表 2023 年 3 月开售，官方定价 4980 元。",
+        "date": "2026-11-06",
+        "title": "荣耀预告：MagicOS 11 新版本今日率先向 Magic V6 等机型推送",
+        "summary": "荣耀产品维护与升级 @荣耀小芳哥 发布预告，今天 16 点开始，MagicOS 11 新版本将率先向 Magic V6、Magic8 RSR 保时捷设计、Magic8 Pro、Magic8 Pro Air、Magic8 推送；明天推送 M...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/675.htm"
+        "link": "https://www.ithome.com/1/023/341.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-11-05",
-        "title": "中国长安汽车首例涂装视觉 AI 刷胶机器人上线，风险识别检出率与报送准确率均超 99.5%",
-        "summary": "长安汽车今日宣布，近日，中国长安汽车首例涂装视觉 AI 刷胶机器人在长安汽车两江工厂正式上线。IT之家获悉，涂装车间底涂工位的空间结构紧凑，车型差异大且工艺刷涂点复杂，机器人刷胶刷头点位校准、作业轨迹修正难度极大。",
+        "category": "xiaomi",
+        "date": "2026-11-06",
+        "title": "荣耀 CEO 李健：AI 入口之争并非存量零和博弈，行业应让入口主权回归用户",
+        "summary": "现场荣耀 CEO 李健在今日（11 月 6 日）的 2026 移动网络大会发表主题演讲，围绕“以用户为中心，共建入口、共筑信任、共创未来”分享对智能经济时代产业演进的思考。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/779.htm"
+        "link": "https://www.ithome.com/1/023/323.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-11-05",
-        "title": "原生应用 +1：豆包工作鸿蒙电脑版本完成开发，已上架 AppGallery 应用市场",
-        "summary": "豆包工作鸿蒙电脑版本已经完成开发，现已上架鸿蒙电脑平台的 AppGallery 应用市场。豆包工作是字节跳动的一款 Agent 产品，能够与飞书深度打通，让 Agent 基于企业上下文更准确地完成工作。",
+        "category": "xiaomi",
+        "date": "2026-11-06",
+        "title": "雷军：小米汽车无忧服务包上线两年，订单量超 75 万份",
+        "summary": "小米创办人，董事长兼 CEO 雷军今日发文宣布，小米汽车无忧服务包上线两年，订单量超 75 万份。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/778.htm"
+        "link": "https://www.ithome.com/1/023/319.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-05",
-        "title": "学校不用 Gemini 就不能用搜索？谷歌新规引发美国政界人士批评",
-        "summary": "谷歌当地时间周二宣布，使用其 K-12 教育软件的学校，除非选择启用 AI 工具，否则将无法使用谷歌搜索（Google Search）。这一决定随即引发强烈反对。",
+        "date": "2026-11-06",
+        "title": "宇树与中石油昆仑制造等拟新设合营企业，从事工业具身智能机器人解决方案业务",
+        "summary": "北京市市场监督管理局公示信息显示，中国石油集团昆仑制造有限公司（“昆仑制造”）及其一致行动人昆仑资本，拟与宇树科技股份有限公司（“宇树科技”）、北京泛界智能科技有限公司（“泛界智能”）签署协议，共同新设一家合营企业。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/773.htm"
+        "link": "https://www.ithome.com/1/023/394.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-11-05",
-        "title": "Enough Phone 手机开启众筹：5.3 英寸 LCD 屏幕、3500mAh 可拆卸电池、5 年安卓更新",
-        "summary": "科技媒体 NotebookCheck 昨日（11 月 4 日）发布博文，报道称 Enough Phone 已在 Kickstarter 开启众筹预购，该手机面向小屏手机用户，支持 3500mAh 可拆卸更换电池，承诺提供 5 年系统更新。",
+        "category": "ai",
+        "date": "2026-11-06",
+        "title": "利用 AI 生成涉军虚假信息等，国家网信办发布违法违规涉军“自媒体”账号典型案例",
+        "summary": "“网信中国”微信公众号今日发布通报，公开了一批违法违规涉军“自媒体”账号典型案例。网络平台近期出现多类涉军领域违法违规有害信息，扰乱网络传播秩序，损害军队军人形象。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/698.htm"
+        "link": "https://www.ithome.com/1/023/393.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-11-05",
-        "title": "Counterpoint：三季度全球 DRAM 营收逼近 2000 亿美元，同比大增 369% 实现超级周期",
-        "summary": "市场研究机构 Counterpoint Research 今日发布的《全球内存市场追踪》报告显示，2026 年第三季度全球 DRAM 市场营收接近 2,000 亿美元（IT之家注：现汇率约合 1.34 万亿元人民币），同比增长 369%，...。",
+        "category": "ai",
+        "date": "2026-11-06",
+        "title": "微软 GitHub 副总裁开源“GPU 任务管理器”工具，让显卡占用一目了然",
+        "summary": "微软资深开发者、微软与 GitHub 副总裁斯科特 · 汉塞尔曼（Scott Hanselman）最新发布名为 gputaskman 的开源 GPU 监控工具，帮助用户看清究竟是哪个程序在“吃”显卡资源。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/677.htm"
+        "link": "https://www.ithome.com/1/023/392.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-11-05",
-        "title": "华擎 2026 财年前三季度报归母净利润 16.85 亿新台币",
-        "summary": "华擎今日发布 2026 财年（2026年1月～2026年12月）前三季度报（2026年1月～2026年9月）报告： 营业总收入：404.14 亿新台币（IT之家注：现汇率约合 82 亿元人民币） 毛利润：74.81 亿新台币（现汇率约合 ...。",
+        "category": "display",
+        "date": "2026-11-06",
+        "title": "瀚铠 AMD Radeon RX 9070 XT 超合金 PRO 显卡新增红色版",
+        "summary": "瀚铠 (VASTARMOR) 今日宣布推出红色版本的 Radeon RX 9070 XT 超合金 PRO 显卡。这一型号的面板、背板、挡板均换上了新颜色，不过扇叶、散热模组没有发生变化。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/775.htm"
+        "link": "https://www.ithome.com/1/023/371.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-11-05",
-        "title": "索尼 2026 财年半年报归母净利润 7917.64 亿日元，同比增长 38.8%",
-        "summary": "索尼今日发布 2026 财年（2026 年 4 月～2027 年 3 月）上半财年（2026 年 4 月～2026 年 9 月）及第二财季（2026 年 7 月～2026 年 9 月）业绩数同比增长 9.4%毛利润：2.31 万亿日元毛利...。",
+        "category": "ai",
+        "date": "2026-11-06",
+        "title": "消息称徕卡 Q3 43 Monochrom 相机下月推出，仅支持拍摄黑白照片",
+        "summary": "源 Leica Rumors 昨日发文称，徕卡 Q3 43 Monochrom 相机将于下个月发布。这款相机的 CMOS 传感器移除了拜耳滤色镜，只能拍摄黑白照片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/689.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "stock",
-        "date": "2026-11-05",
-        "title": "任天堂 2027 财年半年报归母净利润 2209.17 亿日元，同比增长 11%",
-        "summary": "任天堂今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年报（2026 年 4 月 1 日～2026 年 9 月 30 日）业绩快报报告：营业总收入：9660.41 亿日元（IT之家注：现汇率约合 ...。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/022/690.htm"
+        "link": "https://www.ithome.com/1/023/395.htm"
     }
 ]
 };
