@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-13 08:25:57
+// 自动生成于 2026-11-14 07:48:19
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,83 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-13",
-        "title": "OPPO：手表形成 X、S、数字系列三条产品线，数字系列重点承担潮流轻薄使命",
-        "summary": "OPPO Watch 5 智能手表将于 11 月 16 日 19:00 发布，时隔三年方形设计再度回归。",
+        "date": "2026-11-14",
+        "title": "OPPO Reno17 系列参数曝光：2 亿像素主摄，11 月 16 日发布",
+        "summary": "博主 @数码闲聊站 今日对 OPPO Reno17 系列手机参数进行了爆料汇总，新机将于 11 月 16 日 19:00 正式发布。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/760.htm"
+        "link": "https://www.ithome.com/1/027/143.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-13",
-        "title": "小米米家智能腰部按摩仪 2 开售：支持双面热敷、升级 4 个按摩头，429 元",
-        "summary": "此前在小米有品众筹的米家智能腰部按摩仪 2 今日在各大电商平台开售，新品首销价 429 元。",
+        "date": "2026-11-14",
+        "title": "荣耀被曝测试多款豪威影像传感器，“最顶”主摄为 2 亿像素 OVB0D",
+        "summary": "荣耀手机正在测试多款豪威旗下的影像传感器。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/733.htm"
+        "link": "https://www.ithome.com/1/027/067.htm"
     },
     {
         "id": "news-003",
         "category": "xiaomi",
-        "date": "2026-11-13",
-        "title": "OPPO Reno17 系列智能手机联动洛天依，主题曲《点亮奇遇时刻》上线",
-        "summary": "OPPO 与虚拟歌手洛天依今日宣布围绕 Reno17 系列智能手机展开联动，主题曲《点亮奇遇时刻》现已上线。",
+        "date": "2026-11-14",
+        "title": "“苹果最暗产品”：苹果首款智能家居中枢 HomeView 屏幕最低仅 0.3 尼特",
+        "summary": "昨日（11 月 13 日）在接受 TechRadar 采访时，苹果硬件工程副总裁 Matthew Costello 表示，苹果首款智能家居中枢 HomeView 屏幕最低仅 0.3 尼特，高管笑称是“最暗的苹果产品”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/728.htm"
+        "link": "https://www.ithome.com/1/027/066.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-13",
-        "title": "国际中文教育垂直大模型亮相，为全球中文学习者等群体提供智能化服务",
-        "summary": "11 月 13 日，2026 世界中文大会在北京开幕，会上发布语飞国际中文教育垂直大模型，为全球中文学习者、教师和教育机构提供智能化服务。",
+        "date": "2026-11-14",
+        "title": "新西兰最大零售商 The Warehouse 爆发员工抗议：如厕时间都用 AI 管",
+        "summary": "当地时间 13 日，新西兰最大零售商 The Warehouse 集团的员工指控，公司利用 AI 监控如厕时间，导致部分员工不得不在配送中心的通道里大小便。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/801.htm"
+        "link": "https://www.ithome.com/1/027/150.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-13",
-        "title": "鸿蒙智行问界新 M8 正式上市，37.98 万-46.98 万元",
-        "summary": "现场今天（13 日）下午，鸿蒙智行问界新 M8 正式上市。新车定位家庭智慧旗舰 SUV，面向 L3 级自动驾驶架构设计，搭载华为乾崑智驾 ADS 5、新一代全向立体融合感知系统，号称研发投入 15 亿元，拥有 126 项创新技术。",
+        "date": "2026-11-14",
+        "title": "《巫师 3》新 DLC 杰洛特波兰语配音演员中风后声音沙哑，CDPR 利用 AI 技术还原其早期声线",
+        "summary": "CD Projekt Red 确认，《巫师 3：狂猎》新剧情扩展包《Songs of the Past》杰洛特的波兰语配音将采用 Respeecher 的 AI 语音转换技术进行处理。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/799.htm"
+        "link": "https://www.ithome.com/1/027/147.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-11-13",
-        "title": "演示时连续 2 次撞墙：亚马逊 Ring 安防无人机取消手动控制，让 AI 全权接管",
-        "summary": "科技媒体 Android Headline 昨日（11 月 12 日）发布博文，报道称由于在演示过程中连续出现 2 次撞墙故障，亚马逊旗下智能家居品牌 Ring 确认其首款安防无人机摄像头 Drone Cam 不再开放手动操控功能。",
+        "date": "2026-11-14",
+        "title": "小特朗普支持的公司称未来 5~10 年大多数战争将由机器人来打",
+        "summary": "由埃里克 · 特朗普（Eric Trump）投资支持机器人公司 Foundation 的联合创始人迈克 · 勒布朗（Mike LeBlanc）表示，未来 5~10 年内，全球大部分主要战斗将由机器完成。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/791.htm"
+        "link": "https://www.ithome.com/1/027/144.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-13",
-        "title": "泰坦军团推出“C49SHC”49 英寸带鱼屏显示器：1080P 144Hz HVA 面板，配双扬及 RJ45 网口，3788 元",
-        "summary": "泰坦军团现已在京东上架“C49SHC”49 英寸带鱼屏显示器，该机主打 1080P 144Hz，定价为 3788 元，国补后 3598 元。",
+        "date": "2026-11-14",
+        "title": "TCL 华星赵军：武汉 t12 产线产能已提升至 9K 大板，首款印刷 OLED 产品良率超 70%",
+        "summary": "2026 年 TCL 华星全球显示生态大会（DTC2026）昨日（13 日）举行，推出印刷 OLED 氧化物内补 QHD 500Hz 电竞显示 (27\")。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/798.htm"
+        "link": "https://www.ithome.com/1/027/142.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-11-13",
-        "title": "长安汽车拟挂牌转让阿维塔 10% 股权，阿维塔回应称与 IPO 无关",
-        "summary": "上海联合产权交易所显示，重庆长安汽车股份有限公司 11 月 12 日挂牌转让持有的阿维塔科技（重庆）股份有限公司 10% 股权，交易价格为 31.828 亿元。交易完成后，长安汽车仍为阿维塔科技第一大股东。",
+        "date": "2026-11-14",
+        "title": "预计到 2030 年，我国新增清洁能源电量将覆盖新增用电量",
+        "summary": "中国宏观经济研究院昨天（13 日）发布《中国能源转型展望 2026》。报告显示，目前，我国风电、光伏等清洁能源发电已成为新增装机的主体，并正在逐步成为发电主力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/797.htm"
+        "link": "https://www.ithome.com/1/027/074.htm"
     },
     {
         "id": "news-009",
         "category": "display",
-        "date": "2026-11-13",
-        "title": "群创 2026 财年前三季度归母净利润 138.52 亿新台币，同比增长 5063.01%",
-        "summary": "群创今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度营业总收入：1879.2...。",
+        "date": "2026-11-14",
+        "title": "配 A20 芯片：古尔曼重申苹果 iPhone 18/18e 明年春季将登场",
+        "summary": "在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）再次透露，苹果将会在 2027 年春季发布 iPhone 18 和 iPhone 18e 两款手机，将会搭载 A20 芯片。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/026/761.htm"
+        "link": "https://www.ithome.com/1/027/057.htm"
     }
 ]
 };
