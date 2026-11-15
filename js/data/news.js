@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-14 07:48:19
+// 自动生成于 2026-11-15 08:06:48
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-14",
-        "title": "OPPO Reno17 系列参数曝光：2 亿像素主摄，11 月 16 日发布",
-        "summary": "博主 @数码闲聊站 今日对 OPPO Reno17 系列手机参数进行了爆料汇总，新机将于 11 月 16 日 19:00 正式发布。",
+        "date": "2026-11-15",
+        "title": "华为 WATCH 5 智能手表从鸿蒙 HarmonyOS 7 适配清单暂时移除",
+        "summary": "华为官网最新信息显示，鸿蒙 HarmonyOS 7 系统更多机型从公测转为正式版，覆盖 nova 12 / 13 系列、畅享 70X 等手机。MatePad Pro 13.2 英寸 2023 系列平板等产品仍处于公测阶段。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/143.htm"
+        "link": "https://www.ithome.com/1/027/336.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-11-14",
-        "title": "荣耀被曝测试多款豪威影像传感器，“最顶”主摄为 2 亿像素 OVB0D",
-        "summary": "荣耀手机正在测试多款豪威旗下的影像传感器。",
+        "category": "ai",
+        "date": "2026-11-15",
+        "title": "大众 ID.Buzz 变身自动驾驶出租车，May Mobility 计划到 2031 年投放 1 万辆",
+        "summary": "当地时间周四，自动驾驶技术公司 May Mobility 宣布，计划将自家的自动驾驶系统整合到大众 ID. Buzz 上，让这款电动面包车进入允许无人驾驶出租车运营的市场。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/067.htm"
+        "link": "https://www.ithome.com/1/027/358.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-11-14",
-        "title": "“苹果最暗产品”：苹果首款智能家居中枢 HomeView 屏幕最低仅 0.3 尼特",
-        "summary": "昨日（11 月 13 日）在接受 TechRadar 采访时，苹果硬件工程副总裁 Matthew Costello 表示，苹果首款智能家居中枢 HomeView 屏幕最低仅 0.3 尼特，高管笑称是“最暗的苹果产品”。",
+        "category": "ai",
+        "date": "2026-11-15",
+        "title": "韩国税务师“状元”考生 160 题仅错 1 题，利用 AI 作弊惊动青瓦台",
+        "summary": "韩国总统秘书室长（幕僚长）林光铉 15 日表示，针对今年税务师考试第一名利用微型摄像头和人工智能（AI）作弊一事，青瓦台将于当天下午召开由政策室长主持的会议，商讨应对措施。这名考生此前因成绩异常突出受到质疑。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/066.htm"
+        "link": "https://www.ithome.com/1/027/357.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-14",
-        "title": "新西兰最大零售商 The Warehouse 爆发员工抗议：如厕时间都用 AI 管",
-        "summary": "当地时间 13 日，新西兰最大零售商 The Warehouse 集团的员工指控，公司利用 AI 监控如厕时间，导致部分员工不得不在配送中心的通道里大小便。",
+        "date": "2026-11-15",
+        "title": "消息称三星 One UI 9.5 系统将为多数自带应用带来智能体 AI 功能",
+        "summary": "三星 One UI 9.5 系统将为高端 Galaxy 手机和平板电脑带来系统级 AI 智能体，进一步拓展 Galaxy AI 的能力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/150.htm"
+        "link": "https://www.ithome.com/1/027/349.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-11-14",
-        "title": "《巫师 3》新 DLC 杰洛特波兰语配音演员中风后声音沙哑，CDPR 利用 AI 技术还原其早期声线",
-        "summary": "CD Projekt Red 确认，《巫师 3：狂猎》新剧情扩展包《Songs of the Past》杰洛特的波兰语配音将采用 Respeecher 的 AI 语音转换技术进行处理。",
+        "category": "display",
+        "date": "2026-11-15",
+        "title": "飞利浦推出 100 英寸 The One QLED 电视：支持 Ambilight 灯光系统、三面配备 LED 氛围灯带",
+        "summary": "飞利浦宣布扩展旗下 The One QLED 系列产品线，新增 100 英寸版本（具体型号为 100PQS9001），该机采用 4K 分辨率面板、直下式 LED 背光，支持最高 144Hz 刷新率，并配备 Ambilight 灯光系统和四...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/147.htm"
+        "link": "https://www.ithome.com/1/027/334.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-11-14",
-        "title": "小特朗普支持的公司称未来 5~10 年大多数战争将由机器人来打",
-        "summary": "由埃里克 · 特朗普（Eric Trump）投资支持机器人公司 Foundation 的联合创始人迈克 · 勒布朗（Mike LeBlanc）表示，未来 5~10 年内，全球大部分主要战斗将由机器完成。",
+        "category": "display",
+        "date": "2026-11-15",
+        "title": "华为星芒 OSTA O1 Pro 新机包装盒曝光，新品牌 11 月 20 日首秀",
+        "summary": "博主 @宁静的哲理 今日曝光了华为星芒 OSTA O1 Pro 新机的包装盒。画面显示，包装盒印有 OSTA 的英文标识和华为图形 LOGO，并揭示新机预装了鸿蒙 HarmonyOS 系统。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/144.htm"
+        "link": "https://www.ithome.com/1/027/317.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-14",
-        "title": "TCL 华星赵军：武汉 t12 产线产能已提升至 9K 大板，首款印刷 OLED 产品良率超 70%",
-        "summary": "2026 年 TCL 华星全球显示生态大会（DTC2026）昨日（13 日）举行，推出印刷 OLED 氧化物内补 QHD 500Hz 电竞显示 (27\")。",
+        "date": "2026-11-15",
+        "title": "谷歌 Pixel 系列手机 11 月更新后出问题：屏保无法进入低亮度模式",
+        "summary": "谷歌为 Pixel 系列手机推出的 11 月大型更新似乎出现多项故障，他们的手机充电时显示的屏保不再自动调暗。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/142.htm"
+        "link": "https://www.ithome.com/1/027/316.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-11-14",
-        "title": "预计到 2030 年，我国新增清洁能源电量将覆盖新增用电量",
-        "summary": "中国宏观经济研究院昨天（13 日）发布《中国能源转型展望 2026》。报告显示，目前，我国风电、光伏等清洁能源发电已成为新增装机的主体，并正在逐步成为发电主力。",
+        "category": "ai",
+        "date": "2026-11-15",
+        "title": "美国电商平台新蛋补货 RTX 5090 显卡：起售价 6599 美元，是官方建议零售价的三倍多",
+        "summary": "美国电商平台 Newegg（新蛋）近期补充了 GeForce RTX 5090 显卡库存。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/074.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "display",
-        "date": "2026-11-14",
-        "title": "配 A20 芯片：古尔曼重申苹果 iPhone 18/18e 明年春季将登场",
-        "summary": "在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）再次透露，苹果将会在 2027 年春季发布 iPhone 18 和 iPhone 18e 两款手机，将会搭载 A20 芯片。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/027/057.htm"
+        "link": "https://www.ithome.com/1/027/360.htm"
     }
 ]
 };
