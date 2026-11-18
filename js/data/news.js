@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-17 09:29:43
+// 自动生成于 2026-11-18 08:49:32
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-17",
-        "title": "小米雷军：AI 是一个全新的时代，一定会带来非常多的商业机会",
-        "summary": "2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。小米集团创始人、董事长兼首席执行官雷军表示，过去四年，AI 大模型技术突飞猛进，给我们的生活和工作带来了巨大的变化。",
+        "date": "2026-11-18",
+        "title": "同档位首款：荣耀 700 系列支持长焦增距镜 G200",
+        "summary": "荣耀官方今天宣布，荣耀 700 系列手机将支持荣耀长焦增距镜 G200，号称同档位首款。荣耀 700 系列搭配增距镜使用时，可使用 15 倍舞台 Live 模式拍摄，号称“看台也能出神图”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/322.htm"
+        "link": "https://www.ithome.com/1/028/837.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-11-17",
-        "title": "孟菲斯利用 SpaceXSI 数据中心房产税资助社区，全财年预算 326 万美元",
-        "summary": "美国田纳西州孟菲斯市政府近日启动了一项援助项目，将 SpaceXSI 在当地运营 Colossus I 数孟菲斯市政府计划在本财年内向 Colossus I 周围 5 英里范围内投资约 326 万美元（IT之家注：现汇率约合 2,177....。",
+        "category": "xiaomi",
+        "date": "2026-11-18",
+        "title": "一加 Turbo7 Pro 手机疑似入网：支持 100W 闪充，电池不低于 9000mAh",
+        "summary": "一款型号为 PYP110 的 OPPO 新机近日通过工信部 3C 认证，微博博主 @数码闲聊站 称该机疑似一加 Turbo 7 Pro，支持 100W 闪充。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/388.htm"
+        "link": "https://www.ithome.com/1/028/799.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-11-17",
-        "title": "谷歌 DeepMind 核心高管再出走，首席战略官跳槽 Anthropic",
-        "summary": "谷歌 DeepMind 首席战略官贾斯吉特・塞孔（Jasjit Sekhon）已离职并加入 Anthropic。",
+        "category": "xiaomi",
+        "date": "2026-11-18",
+        "title": "比亚迪王传福、美团王兴、小米雷军 APEC 2026 并排就坐，拒绝透露聊天内容",
+        "summary": "2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办。中国新闻网今日晒出采访视频，比亚迪股份有限公司董事长兼总裁王传福、美团 CEO 王兴、小米创办人兼董事长兼 CEO 雷军并排就坐。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/360.htm"
+        "link": "https://www.ithome.com/1/028/704.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-17",
-        "title": "理想汽车 CEO 李想：会逐步开放马赫 M100 芯片的外供",
-        "summary": "理想汽车 CEO 李想今日发文称，不少机器人企业问马赫 M100 能不能提供给他们。李想表示，会逐步开放马赫 M100 芯片的外供。",
+        "date": "2026-11-18",
+        "title": "英伟达非上市股权投资价值飙升至 655 亿美元，黄仁勋不再掌舵后投资策略成谜",
+        "summary": "英伟达持有的非上市公司股权价值持续攀升。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/357.htm"
+        "link": "https://www.ithome.com/1/028/888.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-11-17",
-        "title": "消息称苹果破例与三星洽谈 DRAM 长期供货协议，已启动最后磋商",
-        "summary": "三星电子与苹果即将达成 DRAM 内存芯片长期供货协议。苹果是全球最大的消费电子企业，也是大型科技公司中唯一尚未与三星电子签订长期供货协议的企业。",
+        "category": "ai",
+        "date": "2026-11-18",
+        "title": "瑞芯微 RK1860 规格曝光：64TOPS 稠密 INT8 算力，集成至多 10GB DRAM",
+        "summary": "开源硬件制造商 Radxa 此前分享了瑞芯微 (Rockchip) 端侧 AI 协处理器 RK1860 的规格信息。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/325.htm"
+        "link": "https://www.ithome.com/1/028/874.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-11-17",
-        "title": "曜越推出 SWAFAN ULTRA 120 EX RGB 风扇，侧面配备 4\" IPS LCD 屏",
-        "summary": "曜越 (Thermaltake, Tt) 现已在官网上线耀影 SWAFAN ULTRA 120 EX RGB 风扇。",
+        "category": "ai",
+        "date": "2026-11-18",
+        "title": "Uber 联合 Momenta 在德国慕尼黑启动 Robotaxi 试运营，向乘客免费开放",
+        "summary": "Uber 今日与 Momenta 联合宣布，正式在德国慕尼黑启动 Robotaxi 试运营。如今德国乘客可在 Uber App 上首次体验到自动驾驶出行服务。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/317.htm"
+        "link": "https://www.ithome.com/1/028/847.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-17",
-        "title": "影目发布 INMO Future 智能眼镜：125g 重量、120Hz Micro OLED 面板，首发价 5999 元",
-        "summary": "影目宣布推出一款 INMO Future 智能眼镜，该产品采用光波导技术，首发价 5999 元，部分地区国补后低至 5499 元。",
+        "date": "2026-11-18",
+        "title": "TrendForce：2026 年第三季度全球 OLED 显示器出货量同比翻倍，华硕、微星、三星前三",
+        "summary": "2026 年第三季度全球 OLED 显示器出货势头强劲，单季出货量环比增长 13%，较 2025 年同期更是实现了翻倍增长。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/270.htm"
+        "link": "https://www.ithome.com/1/028/824.htm"
     },
     {
         "id": "news-008",
-        "category": "stock",
-        "date": "2026-11-17",
-        "title": "京东物流 2026 财年第三财季归母净利润 17.05 亿元，同比下降 16.03%",
-        "summary": "京东物流今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告：营业总收入：639.53 亿元，同比增长 16.1%毛利润：59.77 亿元，同比增长 19.4%...。",
+        "category": "display",
+        "date": "2026-11-18",
+        "title": "TrendForce 预测：NAND 价格 2027Q2 有望下跌，通用 DRAM 价格仍维持上行",
+        "summary": "研调机构 TrendForce 当地时间今日在韩国首尔举行的活动上发布了对 2027 年存储半导体市场的展望。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/419.htm"
+        "link": "https://www.ithome.com/1/028/814.htm"
     },
     {
         "id": "news-009",
         "category": "stock",
-        "date": "2026-11-17",
-        "title": "腾讯音乐 2026 财年前三季度归母净利润 67.16 亿元，同比下降 24.14%",
-        "summary": "腾讯音乐今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度营业总收入：257....。",
+        "date": "2026-11-18",
+        "title": "长鑫科技：DRAM 供给紧缺格局将在四季度延续，长协锁单与债务优化推进中",
+        "summary": "国产 DRAM 龙头长鑫科技 11 月 17 日举办第三季度业绩说明会，公司高管预计 DRAM 供给紧缺格局将在四季度延续，毛利率有望保持稳定，公司已与多家头部客户协商长期供货协议，锁定中长期确定性需求，持续推动产品高端化升级。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/417.htm"
+        "link": "https://www.ithome.com/1/028/819.htm"
     },
     {
         "id": "news-010",
         "category": "stock",
-        "date": "2026-11-17",
-        "title": "虎牙 2026 年第三季度净利润 2930 万元，营业利润四年来首次转正",
-        "summary": "虎牙今日公布了 2026 年第三季度未经审计财务业绩：2026 年第三季度营收 17.528 亿元人民币（2.614 亿美元），同比增长 3.8%；游戏相关服务、广告及其他收入 6.447 亿元人民币（9620 万美元），同比增长 21....。",
+        "date": "2026-11-18",
+        "title": "微软宕机引发全球混乱后 LibreOffice 犀利拷问：看清单一供应商风险了吗？",
+        "summary": "科技媒体 NeoWin 昨日（11 月 17 日）发布博文，针对微软 2026 最大宕机事件，LibreOffice 维护方“文档基金会”（TDF）向各国政府及依赖 Microsoft 365 的机构发出公开询问，主张规避单一供应商风险。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/411.htm"
+        "link": "https://www.ithome.com/1/028/816.htm"
     }
 ]
 };
