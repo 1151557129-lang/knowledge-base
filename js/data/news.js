@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-18 08:49:32
+// 自动生成于 2026-11-19 09:03:56
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,92 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-18",
-        "title": "同档位首款：荣耀 700 系列支持长焦增距镜 G200",
-        "summary": "荣耀官方今天宣布，荣耀 700 系列手机将支持荣耀长焦增距镜 G200，号称同档位首款。荣耀 700 系列搭配增距镜使用时，可使用 15 倍舞台 Live 模式拍摄，号称“看台也能出神图”。",
+        "date": "2026-11-19",
+        "title": "消息称某厂 Pocket 云台工程机搭载骁龙 8 Gen5 芯片 + 2 亿主摄，预计 vivo 旗下",
+        "summary": "某厂 Pocket 云台工程机搭载骁龙 8 Gen 5（SM8845）芯片与 200Mp 1/1.12\" 云台超级主摄，目前规划明年 3-4 月与 Ultra 一同登场。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/837.htm"
+        "link": "https://www.ithome.com/1/029/488.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-18",
-        "title": "一加 Turbo7 Pro 手机疑似入网：支持 100W 闪充，电池不低于 9000mAh",
-        "summary": "一款型号为 PYP110 的 OPPO 新机近日通过工信部 3C 认证，微博博主 @数码闲聊站 称该机疑似一加 Turbo 7 Pro，支持 100W 闪充。",
+        "date": "2026-11-19",
+        "title": "小米推出米家扫振电动牙刷 2：4 区漏刷识别 +180 天续航，国补后 148.75 元",
+        "summary": "小米新推出了一款米家扫振电动牙刷 2（Pro 版此前已推出），建议零售价 199 元，首发 175 元，叠加国补后 149 元，下单享 2 年质保、评价晒单返 10 元京豆。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/799.htm"
+        "link": "https://www.ithome.com/1/029/277.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-11-18",
-        "title": "比亚迪王传福、美团王兴、小米雷军 APEC 2026 并排就坐，拒绝透露聊天内容",
-        "summary": "2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办。中国新闻网今日晒出采访视频，比亚迪股份有限公司董事长兼总裁王传福、美团 CEO 王兴、小米创办人兼董事长兼 CEO 雷军并排就坐。",
+        "category": "ai",
+        "date": "2026-11-19",
+        "title": "黄仁勋女儿现身全员会、看起来“状态不错”，英伟达要提前发钱",
+        "summary": "英伟达的全员大会快结束时，现场响起了汤姆 · 佩蒂的《I Won’t Back Down》，中文通常译作《我绝不退缩》。临时 CEO 科莱特 · 克雷斯刚刚讲完一个故事。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/704.htm"
+        "link": "https://www.ithome.com/1/029/526.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-18",
-        "title": "英伟达非上市股权投资价值飙升至 655 亿美元，黄仁勋不再掌舵后投资策略成谜",
-        "summary": "英伟达持有的非上市公司股权价值持续攀升。",
+        "date": "2026-11-19",
+        "title": "微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜",
+        "summary": "微软表示，企业客户之所以选择旗下 Copilot 人工智能助手，而不是 Anthropic 的 Claude 和 OpenAI 的 ChatGPT，一个重要原因是 Copilot 的使用成本更低。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/888.htm"
+        "link": "https://www.ithome.com/1/029/520.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-18",
-        "title": "瑞芯微 RK1860 规格曝光：64TOPS 稠密 INT8 算力，集成至多 10GB DRAM",
-        "summary": "开源硬件制造商 Radxa 此前分享了瑞芯微 (Rockchip) 端侧 AI 协处理器 RK1860 的规格信息。",
+        "date": "2026-11-19",
+        "title": "英伟达确认：黄仁勋时代“T5T 邮件”企业文化将继续保留",
+        "summary": "英伟达员工早已习惯每天收到大量邮件，而前 CEO 黄仁勋更是以每天阅读数千封邮件闻名，一旦发现问题，还会直接参与邮件讨论。根黄仁勋离任后，公司将保留这一传统。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/874.htm"
+        "link": "https://www.ithome.com/1/029/519.htm"
     },
     {
         "id": "news-006",
-        "category": "ai",
-        "date": "2026-11-18",
-        "title": "Uber 联合 Momenta 在德国慕尼黑启动 Robotaxi 试运营，向乘客免费开放",
-        "summary": "Uber 今日与 Momenta 联合宣布，正式在德国慕尼黑启动 Robotaxi 试运营。如今德国乘客可在 Uber App 上首次体验到自动驾驶出行服务。",
+        "category": "display",
+        "date": "2026-11-19",
+        "title": "近 3 万名电动汽车车主调查：超七成认为各种误解阻碍电车普及",
+        "summary": "当地时间 18 日，非营利组织“全球电动汽车联盟”发布的《2026 年全球电动汽车车主调查》显示，74% 的受访者认为，外界对电动汽车的错误认知是阻碍本国市场普及电动汽车的主要因素之一。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/847.htm"
+        "link": "https://www.ithome.com/1/029/483.htm"
     },
     {
         "id": "news-007",
         "category": "display",
-        "date": "2026-11-18",
-        "title": "TrendForce：2026 年第三季度全球 OLED 显示器出货量同比翻倍，华硕、微星、三星前三",
-        "summary": "2026 年第三季度全球 OLED 显示器出货势头强劲，单季出货量环比增长 13%，较 2025 年同期更是实现了翻倍增长。",
+        "date": "2026-11-19",
+        "title": "消息称 TCL 华星将推出无损防窥 OLED 平板屏，支持 360° 全角度主动防窥",
+        "summary": "博主 @数码闲聊站 今日发文询问：“10.95 英寸 OLED 防窥平板想要吗。TCL 华星将推出无损防窥 OLED 平板屏，支持 360° 全角度主动防窥，采用超窄边设计，技术更进一步。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/824.htm"
+        "link": "https://www.ithome.com/1/029/288.htm"
     },
     {
         "id": "news-008",
         "category": "display",
-        "date": "2026-11-18",
-        "title": "TrendForce 预测：NAND 价格 2027Q2 有望下跌，通用 DRAM 价格仍维持上行",
-        "summary": "研调机构 TrendForce 当地时间今日在韩国首尔举行的活动上发布了对 2027 年存储半导体市场的展望。",
+        "date": "2026-11-19",
+        "title": "苹果登顶 2026 零售化学品安全榜，击败沃尔玛、亚马逊成唯一获 A 级企业",
+        "summary": "环保组织 Toxic-Free Future 于 2026 年 11 月 18 日发布的《零售商成绩单》显示，苹果在产品、包装及供应链中有害化学品和塑料管理方面获得最高分，也是 50 家被评估的美加大型零售商中唯一拿到 A 级的企业。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/814.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "stock",
-        "date": "2026-11-18",
-        "title": "长鑫科技：DRAM 供给紧缺格局将在四季度延续，长协锁单与债务优化推进中",
-        "summary": "国产 DRAM 龙头长鑫科技 11 月 17 日举办第三季度业绩说明会，公司高管预计 DRAM 供给紧缺格局将在四季度延续，毛利率有望保持稳定，公司已与多家头部客户协商长期供货协议，锁定中长期确定性需求，持续推动产品高端化升级。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/819.htm"
-    },
-    {
-        "id": "news-010",
-        "category": "stock",
-        "date": "2026-11-18",
-        "title": "微软宕机引发全球混乱后 LibreOffice 犀利拷问：看清单一供应商风险了吗？",
-        "summary": "科技媒体 NeoWin 昨日（11 月 17 日）发布博文，针对微软 2026 最大宕机事件，LibreOffice 维护方“文档基金会”（TDF）向各国政府及依赖 Microsoft 365 的机构发出公开询问，主张规避单一供应商风险。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/028/816.htm"
+        "link": "https://www.ithome.com/1/029/281.htm"
     }
 ]
 };
