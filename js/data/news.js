@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-19 09:03:56
+// 自动生成于 2026-11-20 08:50:22
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -34,75 +34,75 @@ const NEWS_DATA = {
   news: [
     {
         "id": "news-001",
-        "category": "xiaomi",
-        "date": "2026-11-19",
-        "title": "消息称某厂 Pocket 云台工程机搭载骁龙 8 Gen5 芯片 + 2 亿主摄，预计 vivo 旗下",
-        "summary": "某厂 Pocket 云台工程机搭载骁龙 8 Gen 5（SM8845）芯片与 200Mp 1/1.12\" 云台超级主摄，目前规划明年 3-4 月与 Ultra 一同登场。",
+        "category": "ai",
+        "date": "2026-11-20",
+        "title": "18:08 开抢：华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机首发加赠 1588 元无忧礼包",
+        "summary": "华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机京东现已开启预约，今天 18:08 截止预约后立即开抢。支持 12 期免息，教育优惠 100 元，预约下单加赠官方礼盒 + 1588 元无忧礼包。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/488.htm"
+        "link": "https://www.ithome.com/1/030/116.htm"
     },
     {
         "id": "news-002",
-        "category": "xiaomi",
-        "date": "2026-11-19",
-        "title": "小米推出米家扫振电动牙刷 2：4 区漏刷识别 +180 天续航，国补后 148.75 元",
-        "summary": "小米新推出了一款米家扫振电动牙刷 2（Pro 版此前已推出），建议零售价 199 元，首发 175 元，叠加国补后 149 元，下单享 2 年质保、评价晒单返 10 元京豆。",
+        "category": "ai",
+        "date": "2026-11-20",
+        "title": "鸿蒙全新版本来袭！华为星芒 OSTA O1 Pro 官宣首搭 HarmonyOS 7 AI 先锋版系统",
+        "summary": "现场在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，华为官方宣布，星芒开山之作 —— OSTA O1 Pro 是首款为 AI 而生的鸿蒙手机。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/277.htm"
+        "link": "https://www.ithome.com/1/030/101.htm"
     },
     {
         "id": "news-003",
         "category": "ai",
-        "date": "2026-11-19",
-        "title": "黄仁勋女儿现身全员会、看起来“状态不错”，英伟达要提前发钱",
-        "summary": "英伟达的全员大会快结束时，现场响起了汤姆 · 佩蒂的《I Won’t Back Down》，中文通常译作《我绝不退缩》。临时 CEO 科莱特 · 克雷斯刚刚讲完一个故事。",
+        "date": "2026-11-20",
+        "title": "微软公布 USB4 多 Win11 电脑协同 AI 方案，搭积木式叠加内存 / 显卡算力跑本地模型",
+        "summary": "微软昨日（11 月 19 日）发布博文，宣布以开发者预览方式，推出基于 USB4 的远程直接内存访问（RDMA）体验，实现多台 Windows 11 电脑合力跑 AI 模型体验。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/526.htm"
+        "link": "https://www.ithome.com/1/030/081.htm"
     },
     {
         "id": "news-004",
-        "category": "ai",
-        "date": "2026-11-19",
-        "title": "微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜",
-        "summary": "微软表示，企业客户之所以选择旗下 Copilot 人工智能助手，而不是 Anthropic 的 Claude 和 OpenAI 的 ChatGPT，一个重要原因是 Copilot 的使用成本更低。",
+        "category": "display",
+        "date": "2026-11-20",
+        "title": "华为星芒刘赫：得麒麟芯者得天下，OSTA O1 Pro 搭载麒麟 9030S 旗舰 τ 芯片",
+        "summary": "现场在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，华为 OSTA 星芒品牌总经理刘赫登台，介绍了华为星芒开山之作 —— OSTA O1 Pro 的详细信息。刘赫表示，江湖上有句古话，得麒麟芯者得天下。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/520.htm"
+        "link": "https://www.ithome.com/1/030/085.htm"
     },
     {
         "id": "news-005",
-        "category": "ai",
-        "date": "2026-11-19",
-        "title": "英伟达确认：黄仁勋时代“T5T 邮件”企业文化将继续保留",
-        "summary": "英伟达员工早已习惯每天收到大量邮件，而前 CEO 黄仁勋更是以每天阅读数千封邮件闻名，一旦发现问题，还会直接参与邮件讨论。根黄仁勋离任后，公司将保留这一传统。",
+        "category": "display",
+        "date": "2026-11-20",
+        "title": "技嘉钛金雕 GP-AP1600TM 钛金电源国行上架：配 4.3 英寸 case4599 元",
+        "summary": "技嘉旗下钛金雕 GP-AP1600TM 钛金电源现已在京东上架，揭晓了该机国行价格，定价为 4599 元（部分地区可能显示无货），提供 10 年质保。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/519.htm"
+        "link": "https://www.ithome.com/1/030/073.htm"
     },
     {
         "id": "news-006",
-        "category": "display",
-        "date": "2026-11-19",
-        "title": "近 3 万名电动汽车车主调查：超七成认为各种误解阻碍电车普及",
-        "summary": "当地时间 18 日，非营利组织“全球电动汽车联盟”发布的《2026 年全球电动汽车车主调查》显示，74% 的受访者认为，外界对电动汽车的错误认知是阻碍本国市场普及电动汽车的主要因素之一。",
+        "category": "stock",
+        "date": "2026-11-20",
+        "title": "SK 海力士将可转债转为股票，间接持有铠侠 14.1% 股份成第一大股东",
+        "summary": "SK 海力士今日发布公告称，将把特殊目的公司 SPC2 发行的 1,290 亿日元（IT之家注：现汇率约合 54.03 亿元人民币）可转换债券转换为 12.9 万股普通股。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/483.htm"
+        "link": "https://www.ithome.com/1/030/096.htm"
     },
     {
         "id": "news-007",
-        "category": "display",
-        "date": "2026-11-19",
-        "title": "消息称 TCL 华星将推出无损防窥 OLED 平板屏，支持 360° 全角度主动防窥",
-        "summary": "博主 @数码闲聊站 今日发文询问：“10.95 英寸 OLED 防窥平板想要吗。TCL 华星将推出无损防窥 OLED 平板屏，支持 360° 全角度主动防窥，采用超窄边设计，技术更进一步。",
+        "category": "stock",
+        "date": "2026-11-20",
+        "title": "网易丁磊谈游戏业务罕见下滑：短剧今年呈现爆炸式发展，短期内确实会对游戏产生影响",
+        "summary": "11 月 19 日晚，在网易 2026 年第三季度业绩电话会上，网易创始人、董事局主席兼 CEO 丁磊被问及短剧对游戏行业的影响时表示，短剧今年呈现爆炸式发展，对用户注意力的吸引力巨大，短期内确实会对游戏产生影响。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/288.htm"
+        "link": "https://www.ithome.com/1/029/977.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-11-19",
-        "title": "苹果登顶 2026 零售化学品安全榜，击败沃尔玛、亚马逊成唯一获 A 级企业",
-        "summary": "环保组织 Toxic-Free Future 于 2026 年 11 月 18 日发布的《零售商成绩单》显示，苹果在产品、包装及供应链中有害化学品和塑料管理方面获得最高分，也是 50 家被评估的美加大型零售商中唯一拿到 A 级的企业。",
+        "category": "ai",
+        "date": "2026-11-20",
+        "title": "银昕推出 HELA 1350Rz 电源：3 组 CPU 供电，满足 Nova Lake S 需求",
+        "summary": "SilverStone（银欣 / 银昕）现已在其官网上线 PC 电源新品 HELA 1350Rz。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/281.htm"
+        "link": "https://www.ithome.com/1/030/098.htm"
     }
 ]
 };
