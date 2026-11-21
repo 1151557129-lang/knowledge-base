@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-20 08:50:22
+// 自动生成于 2026-11-21 08:31:37
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -34,75 +34,84 @@ const NEWS_DATA = {
   news: [
     {
         "id": "news-001",
-        "category": "ai",
-        "date": "2026-11-20",
-        "title": "18:08 开抢：华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机首发加赠 1588 元无忧礼包",
-        "summary": "华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机京东现已开启预约，今天 18:08 截止预约后立即开抢。支持 12 期免息，教育优惠 100 元，预约下单加赠官方礼盒 + 1588 元无忧礼包。",
+        "category": "xiaomi",
+        "date": "2026-11-21",
+        "title": "荣耀 3D 打印机曝光，主打“快速”“智能”两大特性",
+        "summary": "荣耀全场景产品线总裁 @荣耀潇哥 在微博发布视频，展示一款主打“快速”和“智能”的 3D 打印机，对此博主 @旺仔百事通 透露这是荣耀自家的 3D 打印机产品，但目前尚不知悉具体发布时间。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/116.htm"
+        "link": "https://www.ithome.com/1/030/376.htm"
     },
     {
         "id": "news-002",
-        "category": "ai",
-        "date": "2026-11-20",
-        "title": "鸿蒙全新版本来袭！华为星芒 OSTA O1 Pro 官宣首搭 HarmonyOS 7 AI 先锋版系统",
-        "summary": "现场在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，华为官方宣布，星芒开山之作 —— OSTA O1 Pro 是首款为 AI 而生的鸿蒙手机。",
+        "category": "xiaomi",
+        "date": "2026-11-21",
+        "title": "冲刺 2027 年出海，消息称前小鹏汽车西欧及南欧董事总经理强顺强加入小米汽车",
+        "summary": "知情人士透露，前小鹏汽车西欧及南欧董事总经理强顺强已于今年 9 月加入小米汽车，出任国际业务部欧洲区董事总经理（Managing Director of Europe），常驻德国。截至目前，小米方面尚未对外官宣这一任命。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/101.htm"
+        "link": "https://www.ithome.com/1/030/349.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-11-20",
-        "title": "微软公布 USB4 多 Win11 电脑协同 AI 方案，搭积木式叠加内存 / 显卡算力跑本地模型",
-        "summary": "微软昨日（11 月 19 日）发布博文，宣布以开发者预览方式，推出基于 USB4 的远程直接内存访问（RDMA）体验，实现多台 Windows 11 电脑合力跑 AI 模型体验。",
+        "category": "xiaomi",
+        "date": "2026-11-21",
+        "title": "荣耀 700/700 Pro 核心配置汇总：骁龙 8s Gen4 / 骁龙 8 Gen5，11 月 23 日发布",
+        "summary": "荣耀 700/700 Pro 手机将于 11 月 23 日 14:30 发布，博主 @数码闲聊站 今日对新机的核心配置进行了曝光汇总。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/081.htm"
+        "link": "https://www.ithome.com/1/030/331.htm"
     },
     {
         "id": "news-004",
-        "category": "display",
-        "date": "2026-11-20",
-        "title": "华为星芒刘赫：得麒麟芯者得天下，OSTA O1 Pro 搭载麒麟 9030S 旗舰 τ 芯片",
-        "summary": "现场在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，华为 OSTA 星芒品牌总经理刘赫登台，介绍了华为星芒开山之作 —— OSTA O1 Pro 的详细信息。刘赫表示，江湖上有句古话，得麒麟芯者得天下。",
+        "category": "ai",
+        "date": "2026-11-21",
+        "title": "韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生",
+        "summary": "韩国教育部在 2027 学年度大学修学能力考试（韩国高考）中，首次利用紧急灾难通知“0 级短信”协助打击考试作弊行为，以此成功抓获 54 名违规考生。连同其他检查手段在内，累计有 111 名考生被查出携带违禁设备。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/085.htm"
+        "link": "https://www.ithome.com/1/030/387.htm"
     },
     {
         "id": "news-005",
-        "category": "display",
-        "date": "2026-11-20",
-        "title": "技嘉钛金雕 GP-AP1600TM 钛金电源国行上架：配 4.3 英寸 case4599 元",
-        "summary": "技嘉旗下钛金雕 GP-AP1600TM 钛金电源现已在京东上架，揭晓了该机国行价格，定价为 4599 元（部分地区可能显示无货），提供 10 年质保。",
+        "category": "ai",
+        "date": "2026-11-21",
+        "title": "微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”",
+        "summary": "科技媒体 NeoWin 今天（11 月 21 日）刊发来自微软 AI 和智能体产品总监霍华德 · 克劳（Howard Crow），回应旗下任务管理应用 Microsoft To Do 停运事件。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/073.htm"
+        "link": "https://www.ithome.com/1/030/385.htm"
     },
     {
         "id": "news-006",
-        "category": "stock",
-        "date": "2026-11-20",
-        "title": "SK 海力士将可转债转为股票，间接持有铠侠 14.1% 股份成第一大股东",
-        "summary": "SK 海力士今日发布公告称，将把特殊目的公司 SPC2 发行的 1,290 亿日元（IT之家注：现汇率约合 54.03 亿元人民币）可转换债券转换为 12.9 万股普通股。",
+        "category": "ai",
+        "date": "2026-11-21",
+        "title": "谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动",
+        "summary": "谷歌宣布为 Gemini 上线 GIF 生成功能，相应功能由视频模型 Gemini Omni 1.2 Flash 驱动，可生成循环动态图效和搞笑表情包。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/096.htm"
+        "link": "https://www.ithome.com/1/030/381.htm"
     },
     {
         "id": "news-007",
-        "category": "stock",
-        "date": "2026-11-20",
-        "title": "网易丁磊谈游戏业务罕见下滑：短剧今年呈现爆炸式发展，短期内确实会对游戏产生影响",
-        "summary": "11 月 19 日晚，在网易 2026 年第三季度业绩电话会上，网易创始人、董事局主席兼 CEO 丁磊被问及短剧对游戏行业的影响时表示，短剧今年呈现爆炸式发展，对用户注意力的吸引力巨大，短期内确实会对游戏产生影响。",
+        "category": "display",
+        "date": "2026-11-21",
+        "title": "Blackview 推出 Zeno 3 平板电脑：120Hz 800P 面板、展锐 T7250 处理器",
+        "summary": "制造商 Blackview 宣布推出一款 Zeno 3 平板电脑，该机将于近期在海外上市。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/029/977.htm"
+        "link": "https://www.ithome.com/1/030/383.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-11-20",
-        "title": "银昕推出 HELA 1350Rz 电源：3 组 CPU 供电，满足 Nova Lake S 需求",
-        "summary": "SilverStone（银欣 / 银昕）现已在其官网上线 PC 电源新品 HELA 1350Rz。",
+        "category": "display",
+        "date": "2026-11-21",
+        "title": "安卓手机有望变身 Win11 PC 副屏，微软“连接至 Windows”新功能曝光",
+        "summary": "科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称微软正酝酿升级安卓版“连接至 Windows”（Link to Windows）应用，开发“扩展显示”（Extend display）功能，有望让安卓手机变...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/098.htm"
+        "link": "https://www.ithome.com/1/030/330.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "stock",
+        "date": "2026-11-21",
+        "title": "零跑汽车：明年将是产品大年，C、D 系列都会有重磅产品",
+        "summary": "在 20 日晚间的零跑 2026 年第三季度业绩电话会上，零跑汽车 CFO 李腾飞披露，2027 年是零跑的产品大年，D 系列与 C 系列都会有重磅产品推出，B 系列与 A 系列也会有大改款的产品推出，零跑世界模型将在全系产品和大家见面。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/030/388.htm"
     }
 ]
 };
