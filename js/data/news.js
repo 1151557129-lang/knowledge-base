@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-21 08:31:37
+// 自动生成于 2026-11-22 08:27:07
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,83 +35,74 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-21",
-        "title": "荣耀 3D 打印机曝光，主打“快速”“智能”两大特性",
-        "summary": "荣耀全场景产品线总裁 @荣耀潇哥 在微博发布视频，展示一款主打“快速”和“智能”的 3D 打印机，对此博主 @旺仔百事通 透露这是荣耀自家的 3D 打印机产品，但目前尚不知悉具体发布时间。",
+        "date": "2026-11-22",
+        "title": "vivo Y21s/Y11s/Y05s 三款 5G 手机规格曝光：6.74 英寸 120Hz LCD 屏、6500mAh 电池",
+        "summary": "源 Sudhanshu1414 现已曝光了 vivo 旗下 Y21s/Y11s/Y05s 三款 5G 手机规格信息，IT之家整理价格信息如下：vivo Y21s该机正面配备一块 6.74 英寸 1600x720 分辨率 120Hz LCD...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/376.htm"
+        "link": "https://www.ithome.com/1/030/588.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-21",
-        "title": "冲刺 2027 年出海，消息称前小鹏汽车西欧及南欧董事总经理强顺强加入小米汽车",
-        "summary": "知情人士透露，前小鹏汽车西欧及南欧董事总经理强顺强已于今年 9 月加入小米汽车，出任国际业务部欧洲区董事总经理（Managing Director of Europe），常驻德国。截至目前，小米方面尚未对外官宣这一任命。",
+        "date": "2026-11-22",
+        "title": "智能手环销量全球 No.1：小米手环官宣累计出货超 2.4 亿只，连续 35 个季度拿下第一",
+        "summary": "小米官方昨晚宣布，小米智能手环销量位居世界第一，截至目前全球出货量已超过 2.4 亿只。市场调研机构 Omdia 数从 2017 年第四季度至 2026 年第二季度，小米及 REDMI 在全球基础手环市场连续 35 个季度位居出货量榜首。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/349.htm"
+        "link": "https://www.ithome.com/1/030/568.htm"
     },
     {
         "id": "news-003",
-        "category": "xiaomi",
-        "date": "2026-11-21",
-        "title": "荣耀 700/700 Pro 核心配置汇总：骁龙 8s Gen4 / 骁龙 8 Gen5，11 月 23 日发布",
-        "summary": "荣耀 700/700 Pro 手机将于 11 月 23 日 14:30 发布，博主 @数码闲聊站 今日对新机的核心配置进行了曝光汇总。",
+        "category": "ai",
+        "date": "2026-11-22",
+        "title": "华为星芒 OSTA O1 Pro 新机星闪 E2.0 规格确认，支持电竞专链、精确查找等功能",
+        "summary": "在 20 日下午发布的首款为 AI 而生的鸿蒙手机 —— 星芒 OSTA O1 Pro，华为官网确认其支持星闪 E2.0 技术。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/331.htm"
+        "link": "https://www.ithome.com/1/030/600.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-21",
-        "title": "韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生",
-        "summary": "韩国教育部在 2027 学年度大学修学能力考试（韩国高考）中，首次利用紧急灾难通知“0 级短信”协助打击考试作弊行为，以此成功抓获 54 名违规考生。连同其他检查手段在内，累计有 111 名考生被查出携带违禁设备。",
+        "date": "2026-11-22",
+        "title": "蚂蚁集团 CEO 韩歆毅：人工智能已走到临床很多环节，相信 AI 可以成为连接医患延续照顾的可靠纽带",
+        "summary": "蚂蚁集团 CEO 韩歆毅今日在 2026 蚂蚁阿福医疗健康生态大会表示，AI 这几年已经走到了临床的很多环节。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/387.htm"
+        "link": "https://www.ithome.com/1/030/594.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-21",
-        "title": "微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”",
-        "summary": "科技媒体 NeoWin 今天（11 月 21 日）刊发来自微软 AI 和智能体产品总监霍华德 · 克劳（Howard Crow），回应旗下任务管理应用 Microsoft To Do 停运事件。",
+        "date": "2026-11-22",
+        "title": "《以撒的结合：忏悔 +》最新“罪恶城”更新引争议，玩家称游戏音乐系 AI 工具生成",
+        "summary": "《以撒的结合：忏悔 +（The Binding of Isaac: Repentance+）》最新的“罪恶城”免费更新疑似使用了 AI 生成的背景音乐，引发 Steam 玩家集中差评。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/385.htm"
+        "link": "https://www.ithome.com/1/030/591.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-11-21",
-        "title": "谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动",
-        "summary": "谷歌宣布为 Gemini 上线 GIF 生成功能，相应功能由视频模型 Gemini Omni 1.2 Flash 驱动，可生成循环动态图效和搞笑表情包。",
+        "date": "2026-11-22",
+        "title": "全新一代比亚迪汉新款配色实车曝光",
+        "summary": "“迪粉之家”公众号昨日曝光了一组比亚迪全新一代汉的实车照片。11 月 2 日，比亚迪王朝网销售事业部总经理路天宣布，11 月广州车展将推出一款“用户呼声很高的车型”，预计为全新一代比亚迪汉。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/381.htm"
+        "link": "https://www.ithome.com/1/030/617.htm"
     },
     {
         "id": "news-007",
-        "category": "display",
-        "date": "2026-11-21",
-        "title": "Blackview 推出 Zeno 3 平板电脑：120Hz 800P 面板、展锐 T7250 处理器",
-        "summary": "制造商 Blackview 宣布推出一款 Zeno 3 平板电脑，该机将于近期在海外上市。",
+        "category": "ai",
+        "date": "2026-11-22",
+        "title": "Clicks Communicator 实体键盘手机因零部件供应短缺推迟交付，2027 年 1 月下旬发货",
+        "summary": "Clicks 宣布，受“全球特种玻璃纤维织物供应短缺”影响，旗下配备实体键盘的 Communicator 手机交付时间将从原定的 2026 年 12 月推迟至 2027 年 1 月下旬至 2 月。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/383.htm"
+        "link": "https://www.ithome.com/1/030/616.htm"
     },
     {
         "id": "news-008",
-        "category": "display",
-        "date": "2026-11-21",
-        "title": "安卓手机有望变身 Win11 PC 副屏，微软“连接至 Windows”新功能曝光",
-        "summary": "科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称微软正酝酿升级安卓版“连接至 Windows”（Link to Windows）应用，开发“扩展显示”（Extend display）功能，有望让安卓手机变...。",
+        "category": "ai",
+        "date": "2026-11-22",
+        "title": "即将停产的特斯拉 Cybertruck 迎来 OTA 更新：2027 款转弯半径缩小",
+        "summary": "特斯拉 Cybertruck 现在可以更轻松地通过狭窄空间了。特斯拉官方 Cybertruck 账号在 X 平台宣布，车辆正在通过 OTA 方式获得一项新升级，进一步缩小转弯半径，让车辆能够完成“更小半径的转弯”。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/330.htm"
-    },
-    {
-        "id": "news-009",
-        "category": "stock",
-        "date": "2026-11-21",
-        "title": "零跑汽车：明年将是产品大年，C、D 系列都会有重磅产品",
-        "summary": "在 20 日晚间的零跑 2026 年第三季度业绩电话会上，零跑汽车 CFO 李腾飞披露，2027 年是零跑的产品大年，D 系列与 C 系列都会有重磅产品推出，B 系列与 A 系列也会有大改款的产品推出，零跑世界模型将在全系产品和大家见面。",
-        "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/388.htm"
+        "link": "https://www.ithome.com/1/030/615.htm"
     }
 ]
 };
