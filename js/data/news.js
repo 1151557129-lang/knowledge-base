@@ -1,6 +1,6 @@
 // ============================================
 // 资讯新闻 - 四板块数据
-// 自动生成于 2026-11-22 08:27:07
+// 自动生成于 2026-11-23 09:25:52
 // 运行 python3 scripts/fetch_news.py 更新
 // ============================================
 
@@ -35,74 +35,92 @@ const NEWS_DATA = {
     {
         "id": "news-001",
         "category": "xiaomi",
-        "date": "2026-11-22",
-        "title": "vivo Y21s/Y11s/Y05s 三款 5G 手机规格曝光：6.74 英寸 120Hz LCD 屏、6500mAh 电池",
-        "summary": "源 Sudhanshu1414 现已曝光了 vivo 旗下 Y21s/Y11s/Y05s 三款 5G 手机规格信息，IT之家整理价格信息如下：vivo Y21s该机正面配备一块 6.74 英寸 1600x720 分辨率 120Hz LCD...。",
+        "date": "2026-11-23",
+        "title": "雷军：小米澎程系列车主提车后，纯电行驶里程占比大约 9 成",
+        "summary": "小米创办人、董事长兼 CEO 雷军今日分享了一组数据。他透露，小米澎程系列大电池增程车型，车主提车后纯电行驶里程占比大约 9 成，相比以前用油非常划算。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/588.htm"
+        "link": "https://www.ithome.com/1/030/944.htm"
     },
     {
         "id": "news-002",
         "category": "xiaomi",
-        "date": "2026-11-22",
-        "title": "智能手环销量全球 No.1：小米手环官宣累计出货超 2.4 亿只，连续 35 个季度拿下第一",
-        "summary": "小米官方昨晚宣布，小米智能手环销量位居世界第一，截至目前全球出货量已超过 2.4 亿只。市场调研机构 Omdia 数从 2017 年第四季度至 2026 年第二季度，小米及 REDMI 在全球基础手环市场连续 35 个季度位居出货量榜首。",
+        "date": "2026-11-23",
+        "title": "荣耀 YOYO · 豆包手机助手曝光，支持语音唤醒、连续对话、全局记忆等能力",
+        "summary": "博主 @阿兴XZai 今日发布视频，分享了荣耀的 YOYO · 豆包手机助手的功能页面。画面显示，荣耀 YOYO · 豆包手机助手支持语音唤醒、连续对话、全局记忆等能力。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/568.htm"
+        "link": "https://www.ithome.com/1/030/942.htm"
     },
     {
         "id": "news-003",
-        "category": "ai",
-        "date": "2026-11-22",
-        "title": "华为星芒 OSTA O1 Pro 新机星闪 E2.0 规格确认，支持电竞专链、精确查找等功能",
-        "summary": "在 20 日下午发布的首款为 AI 而生的鸿蒙手机 —— 星芒 OSTA O1 Pro，华为官网确认其支持星闪 E2.0 技术。",
+        "category": "xiaomi",
+        "date": "2026-11-23",
+        "title": "荣耀推出 HONOR LIFE FlyPods X10 Pro 半入耳降噪耳机，国补价 179.1 元",
+        "summary": "在今天的荣耀 700 系列追光之旅暨全场景新品发布会上，荣耀官宣推出 HONOR LIFE FlyPods X10 Pro 半入耳式降噪耳机，建议零售价 199 元、国补价 179.1 元。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/600.htm"
+        "link": "https://www.ithome.com/1/030/937.htm"
     },
     {
         "id": "news-004",
         "category": "ai",
-        "date": "2026-11-22",
-        "title": "蚂蚁集团 CEO 韩歆毅：人工智能已走到临床很多环节，相信 AI 可以成为连接医患延续照顾的可靠纽带",
-        "summary": "蚂蚁集团 CEO 韩歆毅今日在 2026 蚂蚁阿福医疗健康生态大会表示，AI 这几年已经走到了临床的很多环节。",
+        "date": "2026-11-23",
+        "title": "日本工业机器人制造商安川电机：AI 人形机器人将在 2030 年正式推出",
+        "summary": "日本工业机器人制造商安川电机 (YASAKAWA) 人工智能机器人统括部长久保田由美惠当地时间本月 20 日接受日本共同社采访时表示，该企业计划在人形机器人领域追赶当前领先的美中企业。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/594.htm"
+        "link": "https://www.ithome.com/1/030/954.htm"
     },
     {
         "id": "news-005",
         "category": "ai",
-        "date": "2026-11-22",
-        "title": "《以撒的结合：忏悔 +》最新“罪恶城”更新引争议，玩家称游戏音乐系 AI 工具生成",
-        "summary": "《以撒的结合：忏悔 +（The Binding of Isaac: Repentance+）》最新的“罪恶城”免费更新疑似使用了 AI 生成的背景音乐，引发 Steam 玩家集中差评。",
+        "date": "2026-11-23",
+        "title": "LG U+ 围绕 AI 调整企业业务架构，新设基础设施 / 平台部门",
+        "summary": "LG U+ 正围绕人工智能（AI）基础设施和平台业务调整企业业务架构，计划将相关业务划分为 AI 基础设施部门和 AI 平台部门，分别负责 AI 数以及 AI 客户联络中心和智能体服务。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/591.htm"
+        "link": "https://www.ithome.com/1/030/938.htm"
     },
     {
         "id": "news-006",
         "category": "ai",
-        "date": "2026-11-22",
-        "title": "全新一代比亚迪汉新款配色实车曝光",
-        "summary": "“迪粉之家”公众号昨日曝光了一组比亚迪全新一代汉的实车照片。11 月 2 日，比亚迪王朝网销售事业部总经理路天宣布，11 月广州车展将推出一款“用户呼声很高的车型”，预计为全新一代比亚迪汉。",
+        "date": "2026-11-23",
+        "title": "AI 大模型周榜：谷歌 Gemini 4 Neon 新登综合第 3，阿里 Qwen4-Max 智能体首秀第 18",
+        "summary": "Arena（arena.ai）现已发布第 47 周（2026 年 11 月 16 日至 22 日）周榜。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/617.htm"
+        "link": "https://www.ithome.com/1/030/935.htm"
     },
     {
         "id": "news-007",
-        "category": "ai",
-        "date": "2026-11-22",
-        "title": "Clicks Communicator 实体键盘手机因零部件供应短缺推迟交付，2027 年 1 月下旬发货",
-        "summary": "Clicks 宣布，受“全球特种玻璃纤维织物供应短缺”影响，旗下配备实体键盘的 Communicator 手机交付时间将从原定的 2026 年 12 月推迟至 2027 年 1 月下旬至 2 月。",
+        "category": "display",
+        "date": "2026-11-23",
+        "title": "开源工具 OLEDTextFix 公布，可改善 Windows 系统在 OLED 面板下文字清晰度不足、彩边等问题",
+        "summary": "近期有开发者推出一款免费开源 Windows 工具 OLEDTextFix，尝试通过 GPU 图像处理技术改善 Windows 系统在 OLED 面板下出现文字清晰度不足、彩边等问题，IT之家附项目地址（https://github.co...。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/616.htm"
+        "link": "https://www.ithome.com/1/030/964.htm"
     },
     {
         "id": "news-008",
-        "category": "ai",
-        "date": "2026-11-22",
-        "title": "即将停产的特斯拉 Cybertruck 迎来 OTA 更新：2027 款转弯半径缩小",
-        "summary": "特斯拉 Cybertruck 现在可以更轻松地通过狭窄空间了。特斯拉官方 Cybertruck 账号在 X 平台宣布，车辆正在通过 OTA 方式获得一项新升级，进一步缩小转弯半径，让车辆能够完成“更小半径的转弯”。",
+        "category": "display",
+        "date": "2026-11-23",
+        "title": "华为预告鸿蒙智家智能开关“都灵”，11 月 24 日发布",
+        "summary": "华为官方今日预热鸿蒙智家智能开关新品“都灵”，11 月 24 日正式发布，预计 2026 年第四季度上市。IT 智家注意到，这款智能开关主打意式美学，采用三段式等分设计，提供四种配色，中间带有一块屏幕，可显示灯光主题等。",
         "source": "IT之家",
-        "link": "https://www.ithome.com/1/030/615.htm"
+        "link": "https://www.ithome.com/1/030/924.htm"
+    },
+    {
+        "id": "news-009",
+        "category": "display",
+        "date": "2026-11-23",
+        "title": "周增近十万：曝华为 Pura X View 阔直板手机最新销量约 106.12 万台",
+        "summary": "此前爆料显示，华为 Pura X View 阔直板手机上市 66 天，激活销量突破 100 万台。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/030/923.htm"
+    },
+    {
+        "id": "news-010",
+        "category": "stock",
+        "date": "2026-11-23",
+        "title": "宇树科技午后触及 20% 涨停，股价升至 708 元",
+        "summary": "今日午后，宇树科技股价持续拉升并触及 20% 涨停。截至发稿报 708 元，较前一交易日上涨 118 元。",
+        "source": "IT之家",
+        "link": "https://www.ithome.com/1/030/914.htm"
     }
 ]
 };
